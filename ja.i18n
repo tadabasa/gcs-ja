@@ -1665,7 +1665,7 @@ k:"Depth"
 v:"奥行き"
 
 k:"Description"
-v:"キャラクターの描写"
+v:"キャラクターの外見"
 
 k:"Desert"
 v:"砂漠"
@@ -2641,10 +2641,10 @@ k:"Hours Spent"
 v:"費やした時間"
 
 k:"How many decimal places the character's weight in the Description block on the sheet is rounded to for display"
-v:"シートの描写ブロックに表示するキャラクターの体重を、小数点以下何桁に丸めるか"
+v:"シートの外見ブロックに表示するキャラクターの体重を、小数点以下何桁に丸めるか"
 
 k:"How many decimal places the height in the Description block on the sheet is rounded to for display. \"As Needed\" shows every decimal place the value has."
-v:"シートの描写ブロックに表示する身長を、小数点以下何桁に丸めるか。「必要に応じて」は値が持つすべての桁を表示します。"
+v:"シートの外見ブロックに表示する身長を、小数点以下何桁に丸めるか。「必要に応じて」は値が持つすべての桁を表示します。"
 
 k:"How many decimal places the value columns and the carried & other equipment totals on the sheet are rounded to for display"
 v:"シートの価格列と、持ち運び・その他の装備の合計を、小数点以下何桁に丸めて表示するか"
@@ -2686,7 +2686,7 @@ k:"ID: "
 v:"ID: "
 
 k:"Identity"
-v:"身元"
+v:"個人情報"
 
 k:"If your PDF is opening up to the wrong page when opening page references, enter an offset here to compensate."
 v:"PDFでページリファレンスを開いたときに誤ったページが開く場合は、補正するためのオフセットをここに入力してください。"
@@ -4156,13 +4156,13 @@ k:"Point Cost"
 v:"ポイントコスト"
 
 k:"Point Pool Current"
-v:"ポイントプールの現在値"
+v:"HP/FPの現在値"
 
 k:"Point Pool Maximum"
-v:"ポイントプールの最大値"
+v:"HP/FPの最大値"
 
 k:"Point Pools"
-v:"ポイントプール"
+v:"HP/FP"
 
 k:"Point Record Changes"
 v:"ポイント記録の変更"
@@ -4875,7 +4875,7 @@ k:"Secondary"
 v:"サブ"
 
 k:"Secondary Attributes"
-v:"副次能力値"
+v:"副能力値"
 
 k:"Secondary Fields"
 v:"サブフィールド"
@@ -5647,16 +5647,16 @@ k:"The output file may not be an empty path."
 v:"出力ファイルのパスは空にできません。"
 
 k:"The possible eye descriptions. A gender with an empty list uses the common options; when both are empty, Brown is used."
-v:"目の描写の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
+v:"目の見た目の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
 
 k:"The possible hair descriptions. A gender with an empty list uses the common options; when both are empty, Brown is used."
-v:"髪の描写の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
+v:"髪の見た目の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
 
 k:"The possible handedness descriptions. A gender with an empty list uses the common options; when both are empty, Right is used."
-v:"利き手の描写の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「右」になります。"
+v:"利き手の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「右」になります。"
 
 k:"The possible skin descriptions. A gender with an empty list uses the common options; when both are empty, Brown is used."
-v:"肌の描写の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
+v:"肌の見た目の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
 
 k:"The previous copy of %s did not finish quitting, so nothing was changed. Try the update again."
 v:"%s の以前のコピーが終了しきれなかったため、何も変更されませんでした。もう一度アップデートしてください。"
@@ -6571,22 +6571,22 @@ k:"WEBP"
 v:"WEBP"
 
 k:"Weight"
-v:"重量"
+v:"体重"
 
 k:"Weight Adjustment"
-v:"重量調整"
+v:"体重調整"
 
 k:"Weight Modifier"
-v:"重量修正"
+v:"体重修正"
 
 k:"Weight Qualifier"
-v:"重量の条件"
+v:"体重の条件"
 
 k:"Weight Script"
-v:"重量スクリプト"
+v:"体重コメント"
 
 k:"Weight Units"
-v:"重量の単位"
+v:"体重の単位"
 
 k:"When"
 v:"条件"
@@ -6769,3 +6769,6 @@ v:"†: 両手が必要。ST %v 以上なら片手で使えるが、攻撃後は
 
 k:"‡: Requires two hands and becomes unready after you attack with it. If you have at least ST %v, you can used it two-handed without it becoming unready. If you have at least ST %v, you can use it one-handed with no readiness penalty."
 v:"‡: 両手が必要で、攻撃後は構えなし状態になる。ST %v 以上なら、構えなしにならずに両手で使える。ST %v 以上なら、構えなしのペナルティなしに片手で使える。"
+
+k:"New Container"
+v:"新規コンテナ"

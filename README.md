@@ -1,5 +1,5 @@
-# gcs-ja
-GURPS Character Sheet の日本語化ファイル
+# gcs-ja for v5
+GURPS Character Sheet の日本語化ファイル（v5対応）
 
 
 # 日本語化の手順
@@ -7,7 +7,7 @@ GURPS Character Sheet の日本語化ファイル
 Windows 10 64-bit の C:\Program Files\ に CGSをインストールした場合を例に説明。
 
 - https://github.com/richardwilkes/gcs/blob/master/README.md の手順に従ってGCS をインストールする
-- ja.i18n ファイルを C:\Program Files\GCS\app\i18n にコピーする (管理者権限必要)
+- ja.i18n ファイルを C:\Program Files\GCS\i18n にコピーする (管理者権限必要)
 - C:\Users\{Windowsユーザー名}\GCS\User Library に User Library の内容をすべてコピーする
 
 上記の手順を実施後にGCS を再起動すると反映される。

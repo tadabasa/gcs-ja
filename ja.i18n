@@ -1044,13 +1044,13 @@ k:"Basic Set"
 v:"ベーシック・セット"
 
 k:"Basic Swing"
-v:"基本スイング"
+v:"基本致傷力（振り）"
 
 k:"Basic Thrust"
-v:"基本スラスト"
+v:"基本致傷力（突き）"
 
 k:"Being at least two sizes bigger, %s overruns %s and inflicts thrust damage for ST %s as well (BX432)."
-v:"%s は2サイズ以上大きいため、%s を轢き、ST %s のスラストダメージも与える (BX432)。"
+v:"%s は2サイズ以上大きいため、%s を轢き、ST %s の突きダメージも与える (BX432)。"
 
 k:"Being Very Fit, the hiker loses FP at half that rate (B55)."
 v:"非常に頑健なため、ハイカーはその半分の割合でFPを失う (B55)。"
@@ -1674,7 +1674,7 @@ k:"Desert, Hard-packed"
 v:"砂漠 (固く締まった砂)"
 
 k:"Determines the method used to calculate thrust and swing damage"
-v:"スラストとスイングのダメージの計算方法を決定します"
+v:"突きと振りのダメージの計算方法を決定します"
 
 k:"Development builds can't be updated automatically."
 v:"開発版は自動アップデートできません。"
@@ -2884,10 +2884,10 @@ k:"iq thr"
 v:"iq thr"
 
 k:"IQ-based Swing"
-v:"IQ基準のスイング"
+v:"IQ基準の振り"
 
 k:"IQ-based Thrust"
-v:"IQ基準のスラスト"
+v:"IQ基準の突き"
 
 k:"is"
 v:"次のものである"
@@ -3114,16 +3114,16 @@ k:"Lifting ST"
 v:"持ち上げ用ST"
 
 k:"lifting sw"
-v:"持ち上げスイング"
+v:"持ち上げ振り"
 
 k:"Lifting Swing"
-v:"持ち上げスイング"
+v:"持ち上げ振り"
 
 k:"lifting thr"
-v:"持ち上げスラスト"
+v:"持ち上げ突き"
 
 k:"Lifting Thrust"
-v:"持ち上げスラスト"
+v:"持ち上げ突き"
 
 k:"Light"
 v:"軽荷"
@@ -5364,7 +5364,7 @@ k:"Swimming skill level"
 v:"「水泳」技能レベル"
 
 k:"Swing = Thrust+2"
-v:"スイング = スラスト+2"
+v:"振り = 突き+2"
 
 k:"Switch"
 v:"切り替え"
@@ -5442,16 +5442,16 @@ k:"Technique Default Skill Name"
 v:"テクニックの技能なし値の技能名"
 
 k:"telekinetic sw"
-v:"念動スイング"
+v:"念動振り"
 
 k:"Telekinetic Swing"
-v:"念動スイング"
+v:"念動振り"
 
 k:"telekinetic thr"
-v:"念動スラスト"
+v:"念動突き"
 
 k:"Telekinetic Thrust"
-v:"念動スラスト"
+v:"念動突き"
 
 k:"Temperate"
 v:"温帯"
@@ -5873,7 +5873,7 @@ k:"Thrown Weapon"
 v:"投擲武器"
 
 k:"Thrust = Swing-2"
-v:"スラスト = スイング-2"
+v:"突き = 振り-2"
 
 k:"Time"
 v:"時間"

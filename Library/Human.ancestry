@@ -1,0 +1,122 @@
+{
+	"version": 5,
+	"name": "人間",
+	"common_options": {
+		"height_script": "entity.randomHeightInInches($st)",
+		"weight_script": "entity.randomWeightInPounds($st)",
+		"age_script": "dice.roll(\"1d12+14\")",
+		"hair_options": [
+			{
+				"weight": 14,
+				"value": "黒"
+			},
+			{
+				"weight": 8,
+				"value": "茶色"
+			},
+			{
+				"weight": 5,
+				"value": "金髪"
+			},
+			{
+				"weight": 3,
+				"value": "赤毛"
+			},
+			{
+				"weight": 1,
+				"value": "禿頭"
+			}
+		],
+		"eye_options": [
+			{
+				"weight": 52,
+				"value": "茶色"
+			},
+			{
+				"weight": 18,
+				"value": "青"
+			},
+			{
+				"weight": 10,
+				"value": "琥珀色"
+			},
+			{
+				"weight": 10,
+				"value": "ヘーゼル"
+			},
+			{
+				"weight": 6,
+				"value": "灰色"
+			},
+			{
+				"weight": 4,
+				"value": "緑"
+			}
+		],
+		"skin_options": [
+			{
+				"weight": 3,
+				"value": "濃い褐色"
+			},
+			{
+				"weight": 3,
+				"value": "褐色"
+			},
+			{
+				"weight": 3,
+				"value": "オリーブ色"
+			},
+			{
+				"weight": 3,
+				"value": "薄い褐色"
+			},
+			{
+				"weight": 3,
+				"value": "日焼け色"
+			},
+			{
+				"weight": 3,
+				"value": "そばかす"
+			},
+			{
+				"weight": 1,
+				"value": "青白い"
+			}
+		],
+		"handedness_options": [
+			{
+				"weight": 1,
+				"value": "左"
+			},
+			{
+				"weight": 9,
+				"value": "右"
+			}
+		],
+		"name_generators": [
+			"Human Last"
+		]
+	},
+	"gender_options": [
+		{
+			"weight": 1,
+			"value": {
+				"name": "男性",
+				"name_generators": [
+					"Human First - Male",
+					"Human Last"
+				]
+			}
+		},
+		{
+			"weight": 1,
+			"value": {
+				"name": "女性",
+				"name_generators": [
+					"Human First - Female",
+					"Human Last"
+				]
+			}
+		}
+	]
+}

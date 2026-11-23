@@ -1,4 +1,4 @@
-# Generated on Wed, 09 Sep 2026 20:57:39 UTC
+# Generated on Sun, 22 Nov 2026 00:19:56 UTC
 #
 # Key-value pairs are defined as one or more lines prefixed with "k:" for the
 # key, followed by one or more lines prefixed with "v:" for the value. These
@@ -10,6 +10,9 @@
 #
 # Replace the 'v' values with the appropriate translation.
 
+k:""
+v:""
+
 k:"0-100%"
 v:"0-100%"
 
@@ -19,8 +22,20 @@ v:"0-255 または 0-100%"
 k:"0-359"
 v:"0-359"
 
+k:"1 choice to make"
+v:"選択肢が1つあります"
+
 k:"1 day"
 v:"1日"
+
+k:"1 file"
+v:"1個のファイル"
+
+k:"1 file couldn't be read"
+v:"1個のファイルを読み込めませんでした"
+
+k:"1 filter"
+v:"1個のフィルタ"
 
 k:"1 foot"
 v:"1フィート"
@@ -40,8 +55,23 @@ v:"頑健なので通常の2倍の速さで、%d分ごとにFP 1 (B55)"
 k:"1 inch"
 v:"1インチ"
 
+k:"1 item was not found."
+v:"1個の項目が見つかりませんでした。"
+
 k:"1 meter"
 v:"1メートル"
+
+k:"1 of %d rows matches"
+v:"%d行中1行が一致"
+
+k:"1 pick still depends on choices below. Choose it now to fix its cost, or Override to answer it when the template is applied."
+v:"選択肢に依存する選択が1つ残っています。今すぐ選んでコストを確定するか、「上書き」してテンプレート適用時に回答してください。"
+
+k:"1 row"
+v:"1行"
+
+k:"1 source can't be found"
+v:"1個のソースが見つかりません"
 
 k:"1 yard"
 v:"1ヤード"
@@ -75,15 +105,6 @@ v:"500%スケール"
 
 k:"600% Scale"
 v:"600%スケール"
-
-k:""
-k:""
-k:"Requires these tags:"
-k:"● "
-v:""
-v:""
-v:"次のタグが必要:"
-v:"● "
 
 k:""
 k:""
@@ -135,6 +156,11 @@ v:"%s キーを押しながら"
 v:"マウスホイールを回すと倍率が変わります。"
 
 k:""
+k:"Level cap of %s"
+v:""
+v:"レベル上限 %s"
+
+k:""
 k:"This key is normally mapped to a PDF named:"
 k:"%s"
 v:""
@@ -156,50 +182,71 @@ v:" (レベルあり)"
 k:" (limited to half the distance)"
 v:" (距離は半分まで)"
 
-k:" a contained quantity which "
-v:" 含有数量が "
+k:" (only when TL %s)"
+v:" (TL %s のときのみ)"
 
-k:" a contained weight which "
-v:" 含有重量が "
+k:" (the rest are preconfigured)"
+v:" (残りは事前設定済み)"
 
-k:" a skill whose name "
-v:" 名前が次の技能 "
+k:" a contained quantity"
+v:" 含有数量"
 
-k:" a trait whose name "
-v:" 名前が次の特徴 "
+k:" a contained weight"
+v:" 含有重量"
+
+k:" against %s attacks"
+v:" %s 攻撃に対して"
 
 k:" and "
 v:" かつ "
 
-k:" and level "
-v:" かつレベルが "
-
-k:" and tech level matches"
-v:" かつテックレベルが一致"
-
 k:" and whose power source "
 v:" かつ動力源が "
+
+k:" and with at least one tag"
+v:" かつ少なくとも1つのタグを持つ"
+
+k:" and without a specialization"
+v:" かつ専門化がない"
+
+k:" and without tags"
+v:" かつタグがない"
+
+k:" as a conditional modifier"
+v:" 条件付き修正として"
+
+k:" at level "
+v:" レベル "
 
 k:" Block"
 v:" 止め"
 
 k:" by "
-v:" by "
+v:" "
 
-k:" Dodge"
-v:" よけ"
+k:" college"
+v:" 系統"
 
-k:" Files"
-v:" ファイル"
+k:" colleges"
+v:" 系統"
 
-k:" level "
-v:" レベル "
+k:" DR to "
+v:" DR対象: "
+
+k:" named "
+v:" 名前が "
+
+k:" of "
+v:" の "
 
 k:" or "
 v:" または "
 
 k:" Parry"
 v:" 受け"
+
+k:" per die"
+v:" ダイスごと"
 
 k:" per die)"
 v:" /ダイス)"
@@ -210,32 +257,134 @@ v:" ／レベル"
 k:" per pound"
 v:" ／ポンド"
 
+k:" point"
+v:" ポイント"
+
+k:" points"
+v:" ポイント"
+
 k:" pts]"
 v:" CP]"
 
 k:" pt]"
 v:" CP]"
 
-k:" spell "
-v:" 呪文 "
+k:" skill "
+v:" 技能 "
 
-k:" spells "
-v:" 呪文 "
+k:" spell"
+v:" 呪文"
+
+k:" spells"
+v:" 呪文"
+
+k:" spells from"
+v:" 呪文 (対象: "
+
+k:" tagged "
+v:" タグが "
 
 k:" to "
-v:" to "
+v:" へ "
+
+k:" to reactions"
+v:" 反応へ"
 
 k:" to skill level due to minimum ST requirement"
 v:" 最小ST要件による技能レベルへの"
 
-k:" which "
-v:" その値が "
+k:" to the level of "
+v:" のレベルへ "
+
+k:" trait "
+v:" 特徴 "
+
+k:" whose college "
+v:" 系統が "
+
+k:" whose name "
+v:" 名前が "
+
+k:" whose notes "
+v:" ノートが "
+
+k:" whose owner has at least one title note"
+v:" 所有者が少なくとも1つのタイトルノートを持つ"
+
+k:" whose owner has no title notes"
+v:" 所有者がタイトルノートを持たない"
+
+k:" whose owner has the title note "
+v:" 所有者のタイトルノートが "
+
+k:" whose owner's level "
+v:" 所有者のレベルが "
+
+k:" whose point total is "
+v:" ポイント合計が "
 
 k:" whose power source "
 v:" 動力源が "
 
+k:" whose relative skill level "
+v:" 関連技能レベルが "
+
+k:" whose tag "
+v:" タグが "
+
+k:" whose tech level is "
+v:" テックレベルが "
+
+k:" whose title note "
+v:" タイトルノートが "
+
+k:" with a matching tech level"
+v:" テックレベルが一致"
+
+k:" with a modifier "
+v:" 修正が "
+
+k:" with a specialization that "
+v:" 専門化が "
+
+k:" with an optional specialization that "
+v:" 任意の専門化が "
+
+k:" with at least one college"
+v:" 少なくとも1つの系統を持つ"
+
+k:" with at least one tag"
+v:" 少なくとも1つのタグを持つ"
+
+k:" with at least one title note"
+v:" 少なくとも1つのタイトルノートを持つ"
+
+k:" with the title note "
+v:" タイトルノートが "
+
+k:" without a specialization"
+v:" 専門化なし"
+
+k:" without an optional specialization"
+v:" 任意の専門化なし"
+
+k:" without colleges"
+v:" 系統なし"
+
+k:" without tags"
+v:" タグなし"
+
+k:" without title notes"
+v:" タイトルノートなし"
+
 k:" [options]"
 v:" [オプション]"
+
+k:" · "
+v:" · "
+
+k:" › "
+v:" › "
 
 k:"!: This weapon can only fire on full automatic. Minimum RoF is %v."
 v:"!: この武器はフルオートでのみ射撃できます。最小RoFは %v です。"
@@ -258,14 +407,16 @@ v:"#"
 k:"# Treasure Generation"
 k:""
 k:"This will generate a new Loot Sheet with items from the contents of this one."
-k:"Each top-level item in this sheet will be treated as a potential item to select from."
-k:"The quantity of that top-level item will be used to determine the likelihood of it"
+k:"Each top-level item in this sheet will be treated as a potential item to select from,"
+k:"as will each item in a top-level group."
+k:"The quantity of that item will be used to determine the likelihood of it"
 k:"being selected, with larger numbers increasing the chance it is chosen."
 v:"# 財宝の生成"
 v:""
 v:"このシートの内容から、アイテムを含む新しい戦利品シートを生成します。"
 v:"このシートの最上位の各アイテムが、選択候補として扱われます。"
-v:"最上位アイテムの数量が選ばれる確率の決定に使われ、"
+v:"最上位グループ内の各アイテムも同様です。"
+v:"そのアイテムの数量が選ばれる確率の決定に使われ、"
 v:"数値が大きいほど選ばれやすくなります。"
 
 k:"### Version "
@@ -273,6 +424,21 @@ v:"### バージョン "
 
 k:"#: This weapon can fire in high cyclic controlled bursts, reducing Recoil to 1."
 v:"#: この武器は高速連射のコントロールされたバーストで射撃でき、反動が1に下がります。"
+
+k:"$%s"
+v:"$%s"
+
+k:"$%s (%s)"
+v:"$%s (%s)"
+
+k:"$%s each"
+v:"各 $%s"
+
+k:"$%s of change can't be returned from the money paid, and the sheet has no sell money. Add some in Sheet Settings to receive change."
+v:"支払った金額から $%s のお釣りを返せず、このシートには売却代金が設定されていません。お釣りを受け取るには、シート設定で追加してください。"
+
+k:"$%s of change can't be returned with the sheet's sell money or the money paid."
+v:"このシートの売却代金と支払った金額では、$%s のお釣りを返せません。"
 
 k:"%"
 v:"%"
@@ -286,11 +452,23 @@ v:"%d (広範囲負傷)"
 k:"%d Action Penalty"
 v:"%d 行動へのペナルティ"
 
+k:"%d choices to make"
+v:"%d個の選択肢があります"
+
 k:"%d editors will be opened."
 v:"%d個のエディタが開かれます。"
 
+k:"%d files"
+v:"%d個のファイル"
+
+k:"%d files couldn't be read"
+v:"%d個のファイルを読み込めませんでした"
+
 k:"%d files will be opened."
 v:"%d個のファイルが開かれます。"
+
+k:"%d filters"
+v:"%d個のフィルタ"
 
 k:"%d Fright Check Penalty"
 v:"%d 恐怖判定ペナルティ"
@@ -298,14 +476,61 @@ v:"%d 恐怖判定ペナルティ"
 k:"%d from Lend Energy, potions, etc."
 v:"%d (エネルギー付与、ポーションなどによる)"
 
-k:"%d of %d"
-v:"%d / %d"
+k:"%d items were not found."
+v:"%d個の項目が見つかりませんでした。"
+
+k:"%d locations"
+v:"%d個の部位"
+
+k:"%d modifiers"
+v:"%d個の修正"
+
+k:"%d notes"
+v:"%d個のノート"
+
+k:"%d of 1 row matches"
+v:"1行中%d行が一致"
+
+k:"%d of %d rows match"
+v:"%d行中%d行が一致"
+
+k:"%d picks still depend on choices below. Choose them now to fix the cost, or Override to answer them when the template is applied."
+v:"選択肢に依存する選択が%d個残っています。今すぐ選んでコストを確定するか、「上書き」してテンプレート適用時に回答してください。"
+
+k:"%d pieces of equipment"
+v:"%d個の装備品"
 
 k:"%d Reaction Penalty"
 v:"%d 反応へのペナルティ"
 
+k:"%d rows"
+v:"%d行"
+
+k:"%d skills"
+v:"%d個の技能"
+
+k:"%d sources can't be found"
+v:"%d個のソースが見つかりません"
+
+k:"%d spells"
+v:"%d個の呪文"
+
+k:"%d traits"
+v:"%d個の特徴"
+
 k:"%d yards (%d dice)"
 v:"%dヤード (%dダイス)"
+
+k:"%s"
+k:"%s"
+v:"%s"
+v:"%s"
+
+k:"%s %s carried but not equipped"
+v:"%s %s 携帯しているが装備していない"
+
+k:"%s %s equipped"
+v:"%s %s 装備中"
 
 k:"%s %s is available!"
 v:"%s %s が利用可能です！"
@@ -328,8 +553,80 @@ v:"%s (レベルごとに%s)"
 k:"%s (%s yards, underwater)"
 v:"%s (%sヤード、水中)"
 
+k:"%s (%s)"
+v:"%s (%s)"
+
+k:"%s (%s, disabled)"
+v:"%s (%s、無効)"
+
 k:"%s (%s; $%s)"
 v:"%s (%s; $%s)"
+
+k:"%s (couldn't run):"
+v:"%s (実行できませんでした):"
+
+k:"%s (couldn't run: %s)"
+v:"%s (実行できませんでした: %s)"
+
+k:"%s (Dark Mode)"
+v:"%s (ダークモード)"
+
+k:"%s (disabled)"
+v:"%s (無効)"
+
+k:"%s (from %v)"
+v:"%s (%v から)"
+
+k:"%s (in %s)"
+v:"%s (%s 内)"
+
+k:"%s (Light Mode)"
+v:"%s (ライトモード)"
+
+k:"%s and %s"
+v:"%s と %s"
+
+k:"%s any equipment carried but not equipped"
+v:"%s 携帯しているが装備していない装備すべて"
+
+k:"%s any equipment equipped"
+v:"%s 装備中の装備すべて"
+
+k:"%s are capped at %s"
+v:"%s の上限は %s"
+
+k:"%s asks for %s as any text"
+v:"%s が %s を任意のテキストとして求める"
+
+k:"%s asks for %s as any text, which can't be blank"
+v:"%s が %s を任意のテキストとして求めますが、空欄にできません"
+
+k:"%s asks for %s, one of %s"
+v:"%s が %s (%s のいずれか) を求める"
+
+k:"%s asks for %s, one of %s, and can't be blank"
+v:"%s が %s (%s のいずれか) を求めますが、空欄にできません"
+
+k:"%s asks for %s, suggesting %s"
+v:"%s が %s を求める (候補: %s)"
+
+k:"%s asks for %s, suggesting %s, and can't be blank"
+v:"%s が %s を求めます (候補: %s)。空欄にできません"
+
+k:"%s asks for %s, with nothing to choose from"
+v:"%s が %s を求める (選択肢なし)"
+
+k:"%s at %s"
+v:"%s (%s)"
+
+k:"%s at level %s"
+v:"%s (レベル %s)"
+
+k:"%s at skill level %s"
+v:"%s (技能レベル %s)"
+
+k:"%s can't be paid with the configured sell money. Receiving %s, the closest amount not over the total."
+v:"%s は設定された売却代金では支払えません。合計を超えない最も近い金額の %s を受け取ります。"
 
 k:"%s can't install this update automatically."
 v:"%s はこのアップデートを自動でインストールできません。"
@@ -340,6 +637,9 @@ v:"%s はインストール先フォルダに書き込めないため、自動�
 k:"%s Changes"
 v:"%s の変更点"
 
+k:"%s Comparison"
+v:"%s の比較"
+
 k:"%s could not quit, so the update was discarded. It will be offered again the next time you check for updates."
 v:"%s を終了できなかったため、アップデートは破棄されました。次回のアップデート確認時に再度提示されます。"
 
@@ -349,14 +649,35 @@ v:"%s 斬撃、破片ごと"
 k:"%s days"
 v:"%s日"
 
+k:"%s defines itself"
+v:"%s は自己定義"
+
 k:"%s Editor for %s"
 v:"%s のエディタ: %s"
+
+k:"%s equipped equipment"
+v:"%s 装備中の装備"
+
+k:"%s equipped equipment whose name %s"
+v:"%s 装備中の装備 (名前が %s)"
 
 k:"%s feet"
 v:"%sフィート"
 
+k:"%s Files"
+v:"%s ファイル"
+
+k:"%s flag"
+v:"%s フラグ"
+
 k:"%s FP"
 v:"%s FP"
+
+k:"%s holds no saved filters this version of GCS can use."
+v:"%s には、このバージョンのGCSで使える保存済みフィルタがありません。"
+
+k:"%s in %s"
+v:"%s (%s 内)"
 
 k:"%s inches"
 v:"%sインチ"
@@ -364,14 +685,38 @@ v:"%sインチ"
 k:"%s is copyrighted ©%s by %s"
 v:"%s は ©%s %s の著作物です"
 
+k:"%s is defined by a granted item"
+v:"%s は付与された項目によって定義されている"
+
+k:"%s is defined by an item granted by the item the modifier belongs to"
+v:"%s は、修正が属する項目が付与した項目によって定義されている"
+
+k:"%s is defined by an item the modifier %s grants"
+v:"%s は、修正 %s が付与する項目によって定義されている"
+
+k:"%s is defined by the item the modifier belongs to"
+v:"%s は、修正が属する項目によって定義されている"
+
+k:"%s is defined by the modifier %s"
+v:"%s は修正 %s によって定義されている"
+
 k:"%s is running from a temporary copy. Move it to your Applications folder and open it from there to enable automatic updates."
 v:"%s は一時コピーから実行されています。アプリケーションフォルダに移動し、そこから開くと自動アップデートが有効になります。"
+
+k:"%s isn't defined"
+v:"%s は定義されていません"
 
 k:"%s Level"
 v:"%s レベル"
 
+k:"%s level"
+v:"%s レベル"
+
 k:"%s Level (max %s)"
 v:"%s レベル (最大 %s)"
+
+k:"%s levels"
+v:"%s レベル"
 
 k:"%s meters"
 v:"%sメートル"
@@ -379,8 +724,62 @@ v:"%sメートル"
 k:"%s of %s uses left"
 v:"%s / %s 回使用可能"
 
+k:"%s on %s"
+v:"%s (%s 上)"
+
+k:"%s on %s is asked for under its own code"
+v:"%s (%s 上) は独自のコードで求められる"
+
+k:"%s on %s is asked for under its own code, though the modifier doesn't define it"
+v:"%s (%s 上) は独自のコードで求められる (修正は定義していないが)"
+
+k:"%s on %s shares the item's answer"
+v:"%s (%s 上) は項目の回答を共有する"
+
+k:"%s on %s shares the item's answer, though the modifier doesn't define it"
+v:"%s (%s 上) は項目の回答を共有する (修正は定義していないが)"
+
+k:"%s on %s takes the answer to %s"
+v:"%s (%s 上) は %s への回答を使う"
+
+k:"%s on %s takes the answer to %s, though the modifier doesn't define it"
+v:"%s (%s 上) は %s への回答を使う (修正は定義していないが)"
+
+k:"%s or %d more"
+v:"%s または他に %d"
+
+k:"%s or %s"
+v:"%s または %s"
+
+k:"%s picked, but this asks for %s."
+v:"%s が選ばれましたが、ここでは %s が求められています。"
+
+k:"%s plus 1 other item"
+v:"%s とほか1項目"
+
+k:"%s plus %d other items"
+v:"%s とほか%d項目"
+
+k:"%s point"
+v:"%s ポイント"
+
 k:"%s Points"
 v:"%s CP"
+
+k:"%s points"
+v:"%s ポイント"
+
+k:"%s Qualifier"
+v:"%s の条件値"
+
+k:"%s Quantity"
+v:"%s の数量"
+
+k:"%s quantity to buy"
+v:"購入する%sの数量"
+
+k:"%s quantity to sell"
+v:"売却する%sの数量"
 
 k:"%s Release Notes"
 v:"%s リリースノート"
@@ -388,8 +787,20 @@ v:"%s リリースノート"
 k:"%s running start"
 v:"%s 助走あり"
 
+k:"%s short."
+v:"%s 足りません。"
+
+k:"%s to spend"
+v:"使える%s"
+
 k:"%s to travel"
 v:"移動にかかる時間 %s"
+
+k:"%s unequipped carried equipment"
+v:"%s 装備していない携帯品"
+
+k:"%s unequipped carried equipment whose name %s"
+v:"%s 装備していない携帯品 (名前が %s)"
 
 k:"%s was installed by a package manager, which should be used to update it."
 v:"%s はパッケージマネージャーでインストールされています。アップデートにはパッケージマネージャーを使用してください。"
@@ -397,20 +808,56 @@ v:"%s はパッケージマネージャーでインストールされていま�
 k:"%s was not updated"
 v:"%s は更新されませんでした"
 
+k:"%s with %s"
+v:"%s と %s"
+
 k:"%s yards"
 v:"%sヤード"
 
 k:"%s yards/second (%s mph)"
 v:"%sヤード/秒 (%s mph)"
 
+k:"%s ×%d"
+v:"%s ×%d"
+
+k:"%s ×%s"
+v:"%s ×%s"
+
 k:"%s ÷ %s, rounded down"
 v:"%s ÷ %s (端数切り捨て)"
+
+k:"%s › %s"
+v:"%s › %s"
+
+k:"%s, %s"
+v:"%s, %s"
+
+k:"%s, adjusted from %s"
+v:"%s (%s から調整)"
+
+k:"%s, adjusted to %s"
+v:"%s (%s に調整)"
 
 k:"%s, Build %s"
 v:"%s、ビルド %s"
 
+k:"%s, Busy"
+v:"%s、使用中"
+
+k:"%s, Modified"
+v:"%s、変更あり"
+
+k:"%s, within %s"
+v:"%s (%s 以内)"
+
+k:"%s."
+v:"%s."
+
 k:"%s:"
 v:"%s:"
+
+k:"%s: %s"
+v:"%s: %s"
 
 k:"%s: %s, %s (%s)"
 v:"%s: %s, %s (%s)"
@@ -418,8 +865,35 @@ v:"%s: %s, %s (%s)"
 k:"%s; $%s"
 v:"%s; $%s"
 
-k:"%sHas equipment which is equipped and whose name %s %s"
-v:"%s装備中で、名前が %s %s の装備を持つ"
+k:"%s; a pool threshold ignores it"
+v:"%s。プールのしきい値は無視する"
+
+k:"%s; not used yet"
+v:"%s。未使用"
+
+k:"%s; used %d times"
+v:"%s。%d回使用"
+
+k:"%s; used %d times in modifiers"
+v:"%s。修正で%d回使用"
+
+k:"%s; used %d times, and %d times in modifiers"
+v:"%s。%d回使用、修正で%d回使用"
+
+k:"%s; used %d times, and once in a modifier"
+v:"%s。%d回使用、修正で1回使用"
+
+k:"%s; used once"
+v:"%s。1回使用"
+
+k:"%s; used once in a modifier"
+v:"%s。修正で1回使用"
+
+k:"%s; used once, and %d times in modifiers"
+v:"%s。1回使用、修正で%d回使用"
+
+k:"%s; used once, and once in a modifier"
+v:"%s。1回使用、修正で1回使用"
 
 k:"%v set to %v"
 v:"%v を %v に設定しました"
@@ -427,8 +901,8 @@ v:"%v を %v に設定しました"
 k:"%v%v or %v%v"
 v:"%v%v または %v%v"
 
-k:"(Alpha channel > 0 enables the tint, while 0 turns it off)"
-v:"(アルファチャンネルが0より大きいと色合いが有効、0で無効)"
+k:"%[1]s %[2]s"
+v:"%[1]s %[2]s"
 
 k:"(base only)"
 v:"(基本値のみ)"
@@ -466,14 +940,125 @@ v:"*[代替ダメージ体系 (Thr = Sw-2)](https://github.com/richardwilkes/gcs
 k:"*From [Pyramid 3-83, pages 16-19](PY83:16)*"
 v:"*出典: [Pyramid 3-83、16-19ページ](PY83:16)*"
 
-k:"*From [T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)*"
-v:"*[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)より*"
+k:"*Option 1 with 2d-2 replaced by 1d+1 and 1d+3 by 2d-1, and likewise for more dice. From [T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)*"
+v:"*オプション1の 2d-2 を 1d+1 に、1d+3 を 2d-1 に置き換え、ダイスが増える場合も同様。[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)より*"
+
+k:"*Option 2 with 2d-2 replaced by 1d+1 and 1d+3 by 2d-1, and likewise for more dice. From [T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)*"
+v:"*オプション2の 2d-2 を 1d+1 に、1d+3 を 2d-1 に置き換え、ダイスが増える場合も同様。[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)より*"
 
 k:"*The standard damage progression*"
 v:"*標準のダメージ進行*"
 
+k:"*Thrust is 1d per 10 ST and swing is 3d per 20 ST (1d and 1d+2 at ST 10), the Medium and Large columns from [T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)*"
+v:"*スラストはST10ごとに1d、スイングはST20ごとに3d (ST10で1dと1d+2)。[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)の中・大の列*"
+
+k:"*Thrust is 1d per 15 ST and swing is 1d per 10 ST (1d-2 and 1d at ST 10), the Small and Medium columns from [T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)*"
+v:"*スラストはST15ごとに1d、スイングはST10ごとに1d (ST10で1d-2と1d)。[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)の小・中の列*"
+
 k:"+"
 v:"+"
+
+k:"+ against"
+v:"+ 対象攻撃"
+
+k:"+ any text"
+v:"+ 任意のテキスト"
+
+k:"+ before built-in notes"
+v:"+ 組み込みノートの前"
+
+k:"+ check prerequisites"
+v:"+ 前提条件を確認"
+
+k:"+ college"
+v:"+ 系統"
+
+k:"+ combined with"
+v:"+ 組み合わせ"
+
+k:"+ damage type"
+v:"+ ダメージタイプ"
+
+k:"+ description"
+v:"+ 説明"
+
+k:"+ disabled modifiers"
+v:"+ 無効な修正"
+
+k:"+ group"
+v:"+ グループ"
+
+k:"+ level"
+v:"+ レベル"
+
+k:"+ limitation"
+v:"+ 制限"
+
+k:"+ modifier name"
+v:"+ 修正名"
+
+k:"+ modifier notes"
+v:"+ 修正のノート"
+
+k:"+ modifier tag"
+v:"+ 修正のタグ"
+
+k:"+ not blank"
+v:"+ 空欄不可"
+
+k:"+ notes"
+v:"+ ノート"
+
+k:"+ option"
+v:"+ 選択肢"
+
+k:"+ optional specialization"
+v:"+ 任意の専門化"
+
+k:"+ owner level"
+v:"+ 所有者のレベル"
+
+k:"+ owner optional specialization"
+v:"+ 所有者の任意の専門化"
+
+k:"+ owner specialization"
+v:"+ 所有者の専門化"
+
+k:"+ owner tech level"
+v:"+ 所有者のテックレベル"
+
+k:"+ owner title note"
+v:"+ 所有者のタイトルノート"
+
+k:"+ points"
+v:"+ ポイント"
+
+k:"+ power source"
+v:"+ 動力源"
+
+k:"+ relative skill level"
+v:"+ 関連技能レベル"
+
+k:"+ skill specialization"
+v:"+ 技能の専門化"
+
+k:"+ specialization"
+v:"+ 専門化"
+
+k:"+ switchable"
+v:"+ 切り替え可能"
+
+k:"+ tag"
+v:"+ タグ"
+
+k:"+ tech level"
+v:"+ テックレベル"
+
+k:"+ title note"
+v:"+ タイトルノート"
+
+k:"+ usage"
+v:"+ 使用法"
 
 k:"+%d Fright Check Bonus"
 v:"+%d 恐怖判定ボーナス"
@@ -484,14 +1069,35 @@ v:"生活費+%d%%"
 k:"+%s"
 v:"+%s"
 
-k:", notes "
-v:"、ノート "
+k:"+%s %s"
+v:"+%s %s"
 
-k:", optional specialization "
-v:"、任意の専門化 "
+k:", "
+v:", "
 
-k:", specialization "
-v:"、専門化 "
+k:", checking its prerequisites"
+v:"、前提条件を確認する"
+
+k:", only when TL %s"
+v:"、TL %s のときのみ"
+
+k:", only while switched on"
+v:"、スイッチがオンのときのみ"
+
+k:", or adds %s to it when already present"
+v:"、すでにある場合はそれに %s を加える"
+
+k:", or keeps the higher of the two levels when already present"
+v:"、またはすでにある場合は2つのレベルの高い方を保つ"
+
+k:", or keeps the lower of the two levels when already present"
+v:"、またはすでにある場合は2つのレベルの低い方を保つ"
+
+k:", unless already present"
+v:"、すでにある場合を除く"
+
+k:", when the tech level "
+v:"、テックレベルが "
 
 k:"- hsl(), e.g. \"hsl(120, 100%, 50%)\""
 v:"- hsl()、例: \"hsl(120, 100%, 50%)\""
@@ -501,9 +1107,6 @@ v:"- hsla()、例: \"hsla(120, 100%, 50%, 0.3)\""
 
 k:"- long hexadecimal colors, e.g. \"#FFFF00\""
 v:"- 長い16進数カラー、例: \"#FFFF00\""
-
-k:"- of %d"
-v:"- / %d"
 
 k:"- predefined color name, e.g. \"Yellow\""
 v:"- 定義済みの色名、例: \"Yellow\""
@@ -520,6 +1123,9 @@ v:"- 短い16進数カラー、例: \"#FF0\""
 k:". All rights reserved."
 v:". All rights reserved."
 
+k:"; "
+v:"; "
+
 k:"; non-standard"
 v:"; 非標準"
 
@@ -532,8 +1138,14 @@ v:"> このバージョンが現在ディスク上にあるものです。"
 k:"A built-in set of training names. Choose None to provide your own list below."
 v:"組み込みの訓練名セット。独自のリストを下に入力するには「なし」を選択してください。"
 
+k:"A choice can't hold the following, so it will be removed:"
+v:"選択肢には次のものを含められないため、削除されます:"
+
 k:"a compound name generator needs at least one name generator to combine"
 v:"複合名前ジェネレータには、組み合わせる名前ジェネレータが少なくとも1つ必要です"
+
+k:"a condition"
+v:"条件"
 
 k:"A cone spreads out from its apex, so anything that would block a normal attack from the attacker screens the target from it."
 v:"円錐は頂点から広がるため、攻撃者からの通常の攻撃を遮るものは、円錐から目標を守ります。"
@@ -544,14 +1156,41 @@ v:"含有された数量"
 k:"a contained weight"
 v:"含有された重量"
 
+k:"A copy of %s was still running when the update was to be installed, so nothing was changed. Try the update again, and wait for %s to restart on its own."
+v:"アップデートをインストールする際に %s のコピーがまだ実行中だったため、何も変更されませんでした。もう一度アップデートし、%s が自動で再起動するのを待ってください。"
+
+k:"A custom check"
+v:"独自の判定"
+
 k:"A description of any special effects for hits to this location"
 v:"この部位への命中に対する特殊効果の説明"
 
-k:"A explanation of the effects of the threshold state. This field will be interpreted as markdown and may have scripts embedded in it by wrapping each script in <script>your script goes here</script> tags."
-v:"しきい値状態の効果の説明。このフィールドはMarkdownとして解釈され、各スクリプトを <script>ここにスクリプトを書く</script> タグで囲むことで埋め込めます。"
+k:"A filter with this name is already saved, so a number will be added to this one"
+v:"この名前のフィルタはすでに保存されているため、このフィルタには番号が追加されます"
+
+k:"a fixed level"
+v:"固定レベル"
+
+k:"a group"
+v:"グループ"
+
+k:"A group can't hold the following, so it will be removed:"
+v:"グループには次のものを含められないため、削除されます:"
+
+k:"A group is bought just once"
+v:"グループは1度だけ購入する"
 
 k:"a list"
 v:"リスト"
+
+k:"A mandatory choice must be made before the modifiers can be used, and is often what sets the price. An optional one makes its modifiers mutually exclusive."
+v:"必須の選択は、修正を使う前に行う必要があり、価格を決めることが多い。任意の選択は、その修正を互いに排他的にする。"
+
+k:"A modifier defines this, so the player is asked for it as that modifier asks."
+v:"修正がこれを定義しているため、プレイヤーはその修正が求めるとおりに尋ねられます。"
+
+k:"A modifier must be picked for each of these choices: "
+v:"次の各選択について、修正を1つ選ぶ必要があります: "
 
 k:"A name for the generator to learn from"
 v:"ジェネレータが学習する元となる名前"
@@ -569,6 +1208,9 @@ v:"範囲が重ならないようにしてください"
 k:"A reference to the book and page the item appears on e.g. B22 would refer to \"Basic Set\", page 22"
 v:"項目が載っている書籍とページへの参照。例: B22 は「ベーシック・セット」の22ページを指します"
 
+k:"a script"
+v:"スクリプト"
+
 k:"A script that produces a height in inches, such as entity.randomHeightInInches($st). A gender leaves this empty to use the common options; when neither provides a script, 64 inches is used."
 v:"身長 (インチ) を返すスクリプト。例: entity.randomHeightInInches($st)。性別側を空にすると共通オプションが使われ、どちらにもない場合は64インチになります。"
 
@@ -584,8 +1226,14 @@ v:"しきい値状態の短い説明"
 k:"a skill"
 v:"技能"
 
+k:"a skill's level"
+v:"技能のレベル"
+
 k:"A snippet of text to highlight on the page when opening the page reference; only needed if the default behavior isn't highlighting the expected area"
 v:"ページ参照を開いたときにページ上でハイライトするテキスト断片。デフォルトの動作で期待した箇所がハイライトされない場合にのみ必要です"
+
+k:"a spell's level"
+v:"呪文のレベル"
 
 k:"A successful %s at %d (effective skill %d) would be a clean dive that negates all damage (BX431)."
 v:"%s (%d、実効技能 %d) に成功すると、すべてのダメージを無効にするきれいな飛び込みになります (BX431)。"
@@ -599,8 +1247,17 @@ v:"区切り線に付けるタイトル"
 k:"a trait"
 v:"特徴"
 
+k:"A trait whose prerequisites are not met, or whose level exceeds its maximum, is treated as disabled: it contributes no points, features or weapons to the sheet until they are met. The trait keeps its own enabled state and comes back into play on its own once its prerequisites are satisfied. Where prerequisites contradict one another, such as two traits that each require the other's absence, no choice satisfies them all, so the traits caught in the contradiction are left enabled and flagged as such."
+v:"前提条件を満たしていない、またはレベルが最大を超えている特徴は無効として扱われ、満たされるまでポイント・特性・武器をシートに与えません。特徴自体の有効状態は保たれ、前提条件が満たされると自動的に再び有効になります。前提条件が互いに矛盾する場合 (例: 互いの不在を必要とする2つの特徴) は、すべてを満たす選択がないため、矛盾に巻き込まれた特徴は有効のまま、その旨のフラグが付きます。"
+
+k:"a trait's level"
+v:"特徴のレベル"
+
 k:"A unique ID for the attribute"
 v:"属性の一意なID"
+
+k:"A value of 0 uses the ppi your monitor reports."
+v:"0を指定すると、モニターが報告するppiを使用します。"
 
 k:"About %s"
 v:"%s について"
@@ -608,8 +1265,14 @@ v:"%s について"
 k:"Acc"
 v:"正確さ"
 
+k:"Accept the checked options whether or not they satisfy the choice, leaving any choices still to be made below them for when the template is applied"
+v:"チェックした選択肢を、選択を満たすかどうかにかかわらず受け入れ、まだ選んでいない選択はテンプレート適用時のために残す"
+
 k:"Accuracy"
 v:"正確さ"
+
+k:"accuracy"
+v:"命中"
 
 k:"Accuracy Bonus"
 v:"命中ボーナス"
@@ -620,8 +1283,53 @@ v:"軽業"
 k:"Acrobatics skill level"
 v:"「軽業」技能レベル"
 
+k:"Add %s"
+v:"%s を追加"
+
+k:"Add a default"
+v:"技能なし値を追加"
+
+k:"Add a description"
+v:"説明を追加"
+
+k:"Add a feature"
+v:"特性を追加"
+
+k:"Add a nameable"
+v:"入力項目を追加"
+
+k:"Add a skill level cap…"
+v:"技能レベル上限を追加…"
+
+k:"Add a study entry"
+v:"学習記録を追加"
+
+k:"Add as Grant"
+v:"付与として追加"
+
+k:"Add at least one cap value before saving."
+v:"保存する前に、上限値を1つ以上追加してください。"
+
+k:"Add at least one filter before saving."
+v:"保存する前に、フィルタを1つ以上追加してください。"
+
+k:"Add Attack Specialization"
+v:"攻撃の専門化を追加"
+
 k:"Add Attribute"
 v:"属性を追加"
+
+k:"Add Cap Value"
+v:"上限値を追加"
+
+k:"Add Combined Attribute"
+v:"複合属性を追加"
+
+k:"Add Default"
+v:"技能なし値を追加"
+
+k:"Add Description"
+v:"説明を追加"
 
 k:"Add Entry"
 v:"項目を追加"
@@ -631,6 +1339,12 @@ v:"目のオプションを追加"
 
 k:"Add eye option"
 v:"目のオプションを追加"
+
+k:"Add Feature"
+v:"特性を追加"
+
+k:"Add Filter"
+v:"フィルタを追加"
 
 k:"Add Gender"
 v:"性別を追加"
@@ -643,6 +1357,15 @@ v:"ジェネレータを追加"
 
 k:"Add generator"
 v:"ジェネレータを追加"
+
+k:"Add Grant"
+v:"付与を追加"
+
+k:"Add Grants"
+v:"付与を追加"
+
+k:"Add Group"
+v:"グループを追加"
 
 k:"Add Hair Option"
 v:"髪のオプションを追加"
@@ -662,8 +1385,14 @@ v:"命中部位を追加"
 k:"Add hit location"
 v:"命中部位を追加"
 
+k:"Add Levels"
+v:"レベルを追加"
+
 k:"Add Library"
 v:"ライブラリを追加"
+
+k:"Add Limitation"
+v:"制限を追加"
 
 k:"Add Name Generator"
 v:"名前ジェネレータを追加"
@@ -671,17 +1400,38 @@ v:"名前ジェネレータを追加"
 k:"Add name generator"
 v:"名前ジェネレータを追加"
 
+k:"Add Nameable"
+v:"入力項目を追加"
+
 k:"Add Natural Attacks"
 v:"素手攻撃を追加"
 
-k:"Add natural attacks to new sheets"
-v:"新規シートに素手攻撃を追加する"
+k:"Add natural attacks"
+v:"素手攻撃を追加"
+
+k:"Add Option"
+v:"選択肢を追加"
+
+k:"Add or Multiply"
+v:"加算または乗算"
+
+k:"Add Points"
+v:"ポイントを追加"
 
 k:"Add Pool Threshold"
 v:"プールのしきい値を追加"
 
 k:"Add pool threshold"
 v:"プールのしきい値を追加"
+
+k:"Add Prerequisite"
+v:"前提条件を追加"
+
+k:"Add Relative Skill Level"
+v:"関連技能レベルを追加"
+
+k:"Add Requirement"
+v:"要件を追加"
 
 k:"Add Skin Option"
 v:"肌のオプションを追加"
@@ -692,11 +1442,32 @@ v:"肌のオプションを追加"
 k:"Add Stop"
 v:"ストップを追加"
 
+k:"Add Structure"
+v:"構造を追加"
+
 k:"Add Sub-Table"
 v:"サブテーブルを追加"
 
 k:"Add sub-table"
 v:"サブテーブルを追加"
+
+k:"Add Switchable"
+v:"切り替え可能な特性を追加"
+
+k:"Add Tech Level"
+v:"テックレベルを追加"
+
+k:"Add Tech Level Condition"
+v:"テックレベルの条件を追加"
+
+k:"Add the money received to the quantity of any carried item that matches it exactly, rather than carrying it as a new item"
+v:"受け取った金銭を、完全に一致する携帯品の数量に加え、新しい項目として持たない"
+
+k:"Add the quantity of each item bought, and of the change, to a carried item that matches it, rather than carrying a separate copy"
+v:"購入した各項目 (およびお釣り) の数量を、一致する携帯品に加え、別のコピーとして持たない"
+
+k:"Add to this group"
+v:"このグループに追加"
 
 k:"Add Training Name"
 v:"訓練名を追加"
@@ -704,17 +1475,80 @@ v:"訓練名を追加"
 k:"Add training name"
 v:"訓練名を追加"
 
+k:"Adding %s to %s"
+v:"%s を %s に追加"
+
+k:"Adding a grant to the features of an item or pool threshold"
+v:"項目またはプールのしきい値の特性に付与を追加"
+
+k:"Adding grants to the features of an item or pool threshold"
+v:"項目またはプールのしきい値の特性に付与を追加"
+
+k:"Adding, removing & rearranging items is disabled while filtering"
+v:"フィルタ中は、項目の追加・削除・並べ替えができません"
+
+k:"Adding: %s"
+k:"Existing: %s"
+k:""
+k:"%s"
+v:"追加: %s"
+v:"既存: %s"
+v:""
+v:"%s"
+
 k:"Additional notes for your own reference. These only exist in character sheets and will be removed if transferred to a data list or template"
 v:"自分用の追加ノート。キャラクターシートにのみ存在し、データリストやテンプレートに移すと削除されます"
 
+k:"Adds %s to %s when already present, though too few to grant it"
+v:"%s を %s に加える (すでにあるが、付与するには足りない)"
+
+k:"Adds %s to %s, already present"
+v:"%s を %s に加える (すでにある)"
+
+k:"Adds an empty title note"
+v:"空のタイトルノートを追加"
+
+k:"Adds the title note"
+v:"タイトルノートを追加"
+
+k:"Adds the title note %s"
+v:"タイトルノート %s を追加"
+
+k:"Adds the title note %s before the built-in notes"
+v:"組み込みノートの前にタイトルノート %s を追加"
+
+k:"Adjust"
+v:"調整"
+
+k:"Adjusted by:"
+v:"調整内容:"
+
 k:"Adjusted Difficulty"
 v:"調整後の難易度"
+
+k:"Adjusted from %s"
+v:"%s から調整"
 
 k:"Adjusted Maximum Level"
 v:"調整後の最大レベル"
 
 k:"Adjusted Maximum Uses"
 v:"調整後の最大使用回数"
+
+k:"adjusting it in an unknown way"
+v:"不明な方法で調整"
+
+k:"adjusting its level by"
+v:"レベルを次の値だけ調整"
+
+k:"adjusting its points by"
+v:"ポイントを次の値だけ調整"
+
+k:"Adjustment"
+v:"調整"
+
+k:"Advanced"
+v:"詳細"
 
 k:"Advantages"
 v:"有利な特徴"
@@ -737,11 +1571,35 @@ v:"エアバッグ (DR 10)"
 k:"Airburst (posture does not protect against the fragments)"
 v:"空中爆発 (姿勢は破片に対する防御にならない)"
 
+k:"All %s"
+v:"すべての%s"
+
+k:"all %s"
+v:"すべての%s"
+
 k:"All Files"
 v:"すべてのファイル"
 
 k:"All locations"
 v:"すべての部位"
+
+k:"all locations"
+v:"すべての部位"
+
+k:"All of"
+v:"すべてを満たす"
+
+k:"All of (%s)"
+v:"すべてを満たす (%s)"
+
+k:"All of Group"
+v:"グループ内のすべて"
+
+k:"all of whose owner's title notes"
+v:"所有者のタイトルノートがすべて"
+
+k:"All of: everything in the group must match. Any of: at least one thing in it must match. None of: nothing in it may match. Not all of: at least one thing in it must not match. An empty group is left out, whichever it is."
+v:"すべてを満たす: グループ内のすべてが一致する。いずれか: 少なくとも1つが一致する。いずれも満たさない: どれも一致しない。すべてではない: 少なくとも1つが一致しない。空のグループは、どれであっても確認の対象外。"
 
 k:"All Readable Files"
 v:"読み込み可能なすべてのファイル"
@@ -749,8 +1607,17 @@ v:"読み込み可能なすべてのファイル"
 k:"All rights reserved"
 v:"All rights reserved"
 
+k:"all spells"
+v:"すべての呪文"
+
 k:"all tags"
 v:"すべてのタグ"
+
+k:"Allow a Blank Answer"
+v:"空欄の回答を許可"
+
+k:"Allow Any Text"
+v:"任意のテキストを許可"
 
 k:"Almost all the time"
 v:"ほぼ常に"
@@ -758,14 +1625,17 @@ v:"ほぼ常に"
 k:"Alpha"
 v:"アルファ"
 
-k:"Also show notes in weapon usage"
-v:"武器の使用法にもノートを表示する"
+k:"Alpha channel > 0 enables the tint, while 0 turns it off"
+v:"アルファチャンネルが0より大きいと色合いが有効、0で無効"
+
+k:"Already saved with the same conditions"
+v:"同じ条件ですでに保存されています"
+
+k:"Already used by %s. Set will remove it from there."
+v:"%s ですでに使われています。「設定」するとそこから外されます。"
 
 k:"Alternate"
 v:"代替"
-
-k:"Alternate x%d"
-v:"代替 x%d"
 
 k:"Alternative Abilities"
 v:"代替能力"
@@ -785,11 +1655,25 @@ v:"アメリカ男性名"
 k:"Amount"
 v:"量"
 
+k:"An ancestry is being added"
+v:"血統を追加中です"
+
+k:"An ancestry is being added. Randomizing replaces the character's name, gender,"
+k:"age, birthday, height, weight, eyes, hair, skin and handedness with new values."
+v:"血統を追加中です。ランダム化すると、キャラクターの名前、性別、"
+v:"年齢、誕生日、身長、体重、目、髪、肌、利き手が新しい値に置き換わります。"
+
 k:"An armor divisor on the explosive applies to neither its collateral damage nor its fragments."
 v:"爆薬の装甲除数は、巻き添えダメージにも破片にも適用されません。"
 
 k:"An attack that misses an area scatters; the Scatter calculator works out how far."
 v:"範囲攻撃が外れると散らばります。散布計算機でその距離を求められます。"
+
+k:"an attribute's value"
+v:"属性の値"
+
+k:"An explanation of the effects of the threshold state. This field will be interpreted as markdown and may have scripts embedded in it by wrapping each script in <script>your script goes here</script> tags."
+v:"しきい値状態の効果の説明。このフィールドはMarkdownとして解釈され、各スクリプトを <script>ここにスクリプトを書く</script> タグで囲むことで埋め込めます。"
 
 k:"An explosion set off inside the target is worked out as an attack on the vitals, with a ×3 wounding modifier and no DR at all."
 v:"目標の体内で起こした爆発は、傷害修正x3、DRなしの重要器官への攻撃として扱います。"
@@ -800,32 +1684,107 @@ v:"破片が記載されていない爆薬でも、置かれていたものは�
 k:"An ID for the hit location"
 v:"命中部位のID"
 
+k:"An item a grant gives defines this, so the player is asked for it as that item asks."
+v:"付与が与える項目がこれを定義しているため、プレイヤーはその項目が求めるとおりに尋ねられます。"
+
+k:"an option, then Return"
+v:"選択肢を選び、Returnキーを押す"
+
+k:"an unknown filter node type"
+v:"不明なフィルタノードの種類"
+
+k:"an unknown kind of level cap (\"%s\") that needs a newer version of GCS"
+v:"不明な種類のレベル上限 (\"%s\")。新しいバージョンのGCSが必要です"
+
+k:"an unknown level cap type"
+v:"不明なレベル上限の種類"
+
 k:"an unknown prerequisite type"
 v:"不明な前提条件の種類"
 
-k:"an unknown prerequisite type (%q) that requires a newer version of GCS to evaluate"
-v:"不明な前提条件の種類 (%q)。評価にはより新しいバージョンのGCSが必要です"
+k:"Ancestries are being added"
+v:"血統を追加中です"
 
 k:"Ancestry"
 v:"血統"
 
-k:"and"
-v:"かつ"
+k:"and %d more"
+v:"ほか%d件"
+
+k:"and all colleges"
+v:"かつすべての系統"
+
+k:"and all owner title notes"
+v:"かつ所有者のタイトルノートすべて"
 
 k:"and all tags"
 v:"かつすべてのタグ"
 
+k:"and all tags of its modifier"
+v:"かつその修正のすべてのタグ"
+
+k:"and all title notes"
+v:"かつすべてのタイトルノート"
+
+k:"and at least one college"
+v:"かつ少なくとも1つの系統"
+
+k:"and at least one owner title note"
+v:"かつ所有者の少なくとも1つのタイトルノート"
+
 k:"and at least one tag"
 v:"かつ少なくとも1つのタグ"
+
+k:"and at least one tag of its modifier"
+v:"かつその修正の少なくとも1つのタグ"
+
+k:"and at least one title note"
+v:"かつ少なくとも1つのタイトルノート"
+
+k:"and if already present"
+v:"かつすでにある場合"
+
+k:"and its damage type"
+v:"かつそのダメージタイプ"
+
+k:"and whose damage type"
+v:"かつダメージタイプが"
 
 k:"and whose level"
 v:"かつレベルが"
 
+k:"and whose modifier's name"
+v:"かつ修正の名前が"
+
+k:"and whose modifier's notes"
+v:"かつ修正のノートが"
+
 k:"and whose notes"
 v:"かつノートが"
 
+k:"and whose optional specialization"
+v:"かつ任意の専門化が"
+
+k:"and whose owner's level"
+v:"かつ所有者のレベルが"
+
+k:"and whose owner's optional specialization"
+v:"かつ所有者の任意の専門化が"
+
+k:"and whose owner's specialization"
+v:"かつ所有者の専門化が"
+
+k:"and whose owner's tech level"
+v:"かつ所有者のテックレベルが"
+
+k:"and whose point total"
+v:"かつポイント合計が"
+
 k:"and whose power source"
 v:"かつ動力源が"
+
+k:"and whose power source is the same as this spell's"
+v:"かつ動力源がこの呪文と同じ"
 
 k:"and whose relative skill level"
 v:"かつ関連技能レベルが"
@@ -839,14 +1798,35 @@ v:"かつ使用法が"
 k:"Angle"
 v:"角度"
 
+k:"Another copy of %s is already installing an update."
+v:"%s の別のコピーがすでにアップデートをインストール中です。"
+
 k:"Another library is already using %s/%s."
 v:"別のライブラリがすでに %s/%s を使用しています。"
+
+k:"Another saved filter already has this name."
+v:"この名前の保存済みフィルタがすでにあります。"
+
+k:"Another set of this type already has this name."
+v:"この種類の別のセットがすでにこの名前を使っています。"
 
 k:"Any armor worn counts as flexible against this damage: 1 HP of injury per 5 full points it stops, even if it stops all of it (BX431)."
 v:"着用している防具はすべて、このダメージに対して柔軟として扱う: 防いだ5ポイントごとにHP1の負傷 (すべて防いだ場合でも) (BX431)。"
 
 k:"Any notes for VTT use; see the instructions for your VTT to determine if/how these can be used"
 v:"VTTで使うノート。使用の可否や方法はお使いのVTTの説明を参照してください"
+
+k:"Any of"
+v:"いずれか"
+
+k:"Any of (%s)"
+v:"いずれか (%s)"
+
+k:"Any of Group"
+v:"グループ内のいずれか"
+
+k:"Any skill"
+v:"任意の技能"
 
 k:"any skill"
 v:"任意の技能"
@@ -860,6 +1840,12 @@ v:"開放型の乗り物に固定されていない者も投げ出される。�
 k:"anything"
 v:"何でも"
 
+k:"anything but %s"
+v:"%s 以外"
+
+k:"Applies To"
+v:"適用対象"
+
 k:"Apply Changes"
 v:"変更を適用"
 
@@ -868,11 +1854,26 @@ k:"%s?"
 v:"次の変更を適用しますか:"
 v:"%s?"
 
+k:"Apply Modifier"
+v:"修正を適用"
+
 k:"Apply Template"
 v:"テンプレートを適用"
 
 k:"Apply Template to Character Sheet"
 v:"キャラクターシートにテンプレートを適用"
+
+k:"Applying %s"
+v:"%s を適用中"
+
+k:"Applying template %s"
+v:"テンプレート %s を適用中"
+
+k:"Applying template %s to %s"
+v:"テンプレート %s を %s に適用中"
+
+k:"are capped at"
+v:"の上限は"
 
 k:"are not"
 v:"次のものではない"
@@ -885,8 +1886,16 @@ k:"%s (%s)?"
 v:"本当に削除しますか:"
 v:"%s (%s)?"
 
+k:"Are you sure you want to remove"
+k:"%s?"
+v:"次を本当に削除しますか:"
+v:"%s?"
+
 k:"Are you sure you want to remove %s?"
 v:"%s を本当に削除しますか？"
+
+k:"Are you sure you want to remove this skill level cap?"
+v:"この技能レベル上限を本当に削除しますか？"
 
 k:"Are you sure you want to reset %s?"
 v:"%s を本当にリセットしますか？"
@@ -932,6 +1941,9 @@ v:"速い方の物体である %s は、%s より多くのダイスのダメー�
 k:"As the struck object, %s cannot inflict more dice than %s (BX432)."
 v:"衝突される物体である %s は、%s より多くのダイスのダメージを与えられない (BX432)。"
 
+k:"asks for"
+v:"求めるもの"
+
 k:"At -%s FP the hiker falls unconscious, after %s hours, and the day ends there; any further FP cost comes off HP instead (B426)."
 v:"FPが -%s になるとハイカーは気絶し (%s 時間後)、その日は終わる。それ以上のFPコストはHPから引かれる (B426)。"
 
@@ -953,8 +1965,14 @@ v:"少なくとも1つのパスを指定してください。"
 k:"at least one tag"
 v:"少なくとも1つのタグ"
 
+k:"at level %s"
+v:"レベル %s で"
+
 k:"at most"
 v:"多くとも次の値まで"
+
+k:"at skill level %s"
+v:"技能レベル %s で"
 
 k:"atmospheres of pressure (0 in a vacuum)"
 v:"気圧 (真空では0)"
@@ -965,11 +1983,17 @@ v:"気圧"
 k:"Attack"
 v:"攻撃"
 
+k:"Attack Specialization"
+v:"攻撃の専門化"
+
 k:"Attack type:"
 v:"攻撃の種類:"
 
 k:"attacks"
 v:"攻撃"
+
+k:"Attacks use this modifier's level"
+v:"攻撃はこの修正のレベルを使う"
 
 k:"Attribute"
 v:"属性"
@@ -977,20 +2001,32 @@ v:"属性"
 k:"Attribute Definition Drag"
 v:"属性定義のドラッグ"
 
-k:"Attribute Qualifier"
-v:"属性の条件"
-
 k:"Attribute Type"
 v:"属性の種類"
 
+k:"Attribute Value"
+v:"属性の値"
+
 k:"Attributes"
 v:"能力値"
+
+k:"Attributes and Traits"
+v:"属性と特徴"
 
 k:"Attributes: %s"
 v:"属性: %s"
 
 k:"Attributes…"
 v:"属性…"
+
+k:"Auto"
+v:"自動"
+
+k:"Auto Pick"
+v:"自動選択"
+
+k:"Auto Pick All"
+v:"すべて自動選択"
 
 k:"Automatic"
 v:"自動"
@@ -1044,13 +2080,25 @@ k:"Basic Set"
 v:"ベーシック・セット"
 
 k:"Basic Swing"
-v:"基本致傷力（振り）"
+v:"基本スイング"
 
 k:"Basic Thrust"
-v:"基本致傷力（突き）"
+v:"基本スラスト"
+
+k:"be a container"
+v:"コンテナである"
+
+k:"be a technique"
+v:"テクニックである"
+
+k:"be ritual magic"
+v:"儀式魔術である"
+
+k:"before the built-in notes"
+v:"組み込みノートの前に"
 
 k:"Being at least two sizes bigger, %s overruns %s and inflicts thrust damage for ST %s as well (BX432)."
-v:"%s は2サイズ以上大きいため、%s を轢き、ST %s の突きダメージも与える (BX432)。"
+v:"%s は2サイズ以上大きいため、%s を轢き、ST %s のスラストダメージも与える (BX432)。"
 
 k:"Being Very Fit, the hiker loses FP at half that rate (B55)."
 v:"非常に頑健なため、ハイカーはその半分の割合でFPを失う (B55)。"
@@ -1091,6 +2139,15 @@ v:"ブロックレイアウトメニュー"
 k:"Block Modifier"
 v:"止め修正"
 
+k:"Block of any skill"
+v:"任意の技能の止め"
+
+k:"Block of skill %s"
+v:"技能 %s の止め"
+
+k:"Block Quote"
+v:"引用"
+
 k:"Blue"
 v:"青色"
 
@@ -1124,6 +2181,12 @@ v:"下"
 k:"Bottom Margin"
 v:"下余白"
 
+k:"Bought"
+v:"購入済み"
+
+k:"Bought %s"
+v:"%s を購入済み"
+
 k:"Brightness"
 v:"明るさ"
 
@@ -1148,11 +2211,47 @@ v:"かさ (bulk)"
 k:"Bullet-shaped"
 v:"弾丸形"
 
+k:"Busy"
+v:"使用中"
+
 k:"Butt"
 v:"尻"
 
-k:"by %d%%"
-v:"%d%% 分"
+k:"Button"
+v:"ボタン"
+
+k:"Buy"
+v:"購入"
+
+k:"Buy Equipment"
+v:"装備を購入"
+
+k:"Buy Equipment: %s"
+v:"装備を購入: %s"
+
+k:"Buy Equipment…"
+v:"装備を購入…"
+
+k:"Buy Percent"
+v:"購入価格の割合"
+
+k:"Buy Selected Equipment…"
+v:"選択した装備を購入…"
+
+k:"Buying %s"
+v:"%s を購入中"
+
+k:"Buying %s for $%s."
+v:"%s を $%s で購入中。"
+
+k:"Buying %s for %s"
+v:"%s を %s で購入中"
+
+k:"Buy…"
+v:"購入…"
+
+k:"by %s%%"
+v:"%s%%"
 
 k:"Calculators"
 v:"計算機"
@@ -1166,6 +2265,12 @@ v:"止め可能"
 k:"Can Parry"
 v:"受け可能"
 
+k:"Can't be found"
+v:"見つかりません"
+
+k:"Can't be found:"
+v:"見つかりません:"
+
 k:"Cancel"
 v:"キャンセル"
 
@@ -1178,8 +2283,8 @@ v:"技能なし値の技能レベルは次の値を超えてることはでき�
 k:"Cannot Redo"
 v:"やり直せません"
 
-k:"Cannot specify more than one of %s"
-v:"%s のうち複数は指定できません"
+k:"Cannot specify more than one of -%s"
+v:"-%s は複数指定できません"
 
 k:"Cannot Undo"
 v:"元に戻せません"
@@ -1187,14 +2292,29 @@ v:"元に戻せません"
 k:"Cannot update the file while it is open."
 v:"ファイルが開かれている間は更新できません。"
 
+k:"Cap Value"
+v:"上限値"
+
+k:"Cap Value Type"
+v:"上限値の種類"
+
 k:"Capitalize the first letter of each generated name"
 v:"生成した各名前の先頭文字を大文字にする"
 
 k:"CapsLock"
 v:"CapsLock"
 
+k:"Carried"
+v:"携帯中"
+
 k:"Carried Equipment"
 v:"持ち運び中の装備"
+
+k:"Carried Equipment Item"
+v:"携帯中の装備品"
+
+k:"Carried Equipment Items"
+v:"携帯中の装備品"
 
 k:"Carry On Back"
 v:"背負って運ぶ"
@@ -1217,6 +2337,9 @@ v:"外れた原因:"
 k:"Caution"
 v:"注意"
 
+k:"Cell"
+v:"セル"
+
 k:"Center"
 v:"中央"
 
@@ -1225,6 +2348,24 @@ v:"CF"
 
 k:"chamber shots"
 v:"装填弾数"
+
+k:"Change due: $%s"
+v:"お釣り: $%s"
+
+k:"Change Saved Filters"
+v:"保存済みフィルタを変更"
+
+k:"Change the modifiers for %s"
+v:"%s の修正を変更"
+
+k:"Change the picks in %s"
+v:"%s の選択を変更"
+
+k:"Change will be returned as %s ($%s). "
+v:"お釣りは %s ($%s) で返されます。"
+
+k:"Change will be returned as %s."
+v:"お釣りは %s で返されます。"
 
 k:"Changing fonts usually requires restarting the app to see content laid out correctly."
 v:"フォントを変更すると、内容が正しくレイアウトされるにはアプリの再起動が必要なことが多いです。"
@@ -1235,6 +2376,12 @@ v:"キャラクターシート"
 k:"Character Templates"
 v:"キャラクターテンプレート"
 
+k:"Check at least one library, folder or file."
+v:"ライブラリ、フォルダ、またはファイルを少なくとも1つチェックしてください。"
+
+k:"Check Box"
+v:"チェックボックス"
+
 k:"Check for %s Updates"
 v:"%s のアップデートを確認"
 
@@ -1244,29 +2391,77 @@ v:"%s のアップデートを確認"
 k:"Check for Library Updates"
 v:"ライブラリのアップデートを確認"
 
+k:"Check Prerequisites"
+v:"前提条件を確認"
+
+k:"Checked"
+v:"チェック済み"
+
 k:"Checking for %s updates…"
 v:"%s のアップデートを確認中…"
 
 k:"Checking for library updates…"
 v:"ライブラリのアップデートを確認中…"
 
+k:"checking its prerequisites"
+v:"前提条件を確認すること"
+
 k:"Checking…"
 v:"確認中…"
+
+k:"Choice"
+v:"選択肢"
 
 k:"Choice Name"
 v:"選択肢の名前"
 
-k:"Choice Quantifier"
-v:"選択肢の数量指定"
-
 k:"Choices"
 v:"選択肢"
+
+k:"Choose a destination:"
+v:"保存先を選択:"
+
+k:"Choose a folder"
+v:"フォルダを選択"
+
+k:"Choose a saved filter, or create, edit and delete them"
+v:"保存済みフィルタを選択、または作成・編集・削除します"
 
 k:"Choose an ink"
 v:"インクを選択"
 
+k:"Choose Automatically"
+v:"自動で選択"
+
+k:"Choose from %s"
+v:"%s から選択"
+
+k:"Choose Granted Item"
+v:"付与された項目を選択"
+
+k:"Choose modifiers for %s"
+v:"%s の修正を選択"
+
 k:"Choose one or more destinations:"
 v:"1つ以上の保存先を選択してください:"
+
+k:"Choose the equipment in %s that should receive the selected modifiers:"
+v:"選択した修正を受け取る %s 内の装備を選んでください:"
+
+k:"Choose the item or pool threshold to add to:"
+v:"追加先の項目またはプールのしきい値を選んでください:"
+
+k:"Choose the library files to show, or create, edit, save and delete sets of them"
+v:"表示するライブラリファイルを選択、またはそのセットを作成・編集・保存・削除します"
+
+k:"Choose the PDF for %s"
+v:"%s のPDFを選択"
+
+k:"Choose the traits in %s that should receive the selected modifiers:"
+v:"選択した修正を受け取る %s 内の特徴を選んでください:"
+
+k:"Choose within %s"
+v:"%s の中から選択"
 
 k:"Clamp"
 v:"クランプ"
@@ -1280,17 +2475,32 @@ v:"クリア"
 k:"Clear Portrait"
 v:"ポートレイトをクリア"
 
+k:"Clear Selections"
+v:"選択をクリア"
+
 k:"Clear Source"
 v:"ソースをクリア"
 
 k:"Clear the text selection"
 v:"テキスト選択を解除"
 
+k:"Click and drag this handle to copy this into the same section of another editor"
+v:"このハンドルをクリックしてドラッグすると、別のエディタの同じセクションにコピーします"
+
 k:"Click and drag this handle to rearrange"
 v:"このハンドルをドラッグして並べ替え"
 
+k:"Click and drag this handle to rearrange, or to copy this into the same section of another editor"
+v:"このハンドルをクリックしてドラッグすると、並べ替え、または別のエディタの同じセクションにコピーします"
+
+k:"Click to select the item that grants it."
+v:"クリックして、それを付与する項目を選択します。"
+
 k:"Click to select this row, shift-click to select every row from the last one clicked to this one, or %s-click to add this row to the selection or take it out. The selected rows are removed together by the button beside the list's title."
 v:"クリックでこの行を選択、Shift+クリックで最後にクリックした行からこの行までを選択、%s+クリックでこの行を選択に追加／除外します。選択した行は、リストのタイトル横のボタンでまとめて削除されます。"
+
+k:"Click to show the attribute settings, where the pool threshold that grants it is edited."
+v:"クリックすると、属性設定が表示されます。それを付与するプールのしきい値はそこで編集します。"
 
 k:"Click to toggle whether this item's switchable features are on. Features marked as switchable only take effect while the item's switch is on."
 v:"クリックして、この項目の切り替え可能な特性のオン／オフを切り替えます。切り替え可能とされた特性は、項目のスイッチがオンのときだけ有効になります。"
@@ -1316,10 +2526,19 @@ v:"接近戦"
 k:"Close Other Tabs"
 v:"他のタブを閉じる"
 
+k:"Code"
+v:"コード"
+
+k:"code"
+v:"コード"
+
 k:"Collateral damage radius:"
 v:"巻き添え被害の半径:"
 
 k:"College"
+v:"系統"
+
+k:"college(s)"
 v:"系統"
 
 k:"colleges"
@@ -1346,6 +2565,9 @@ v:"カラー"
 k:"Color Mode"
 v:"カラーモード"
 
+k:"Color Well"
+v:"カラーウェル"
+
 k:"Color-Burn"
 v:"焼き込みカラー"
 
@@ -1358,8 +2580,23 @@ v:"色"
 k:"Colors…"
 v:"色…"
 
+k:"Column Header"
+v:"列見出し"
+
+k:"Columns"
+v:"列"
+
+k:"Columns: %s"
+v:"列: %s"
+
+k:"Combined With"
+v:"組み合わせ先"
+
 k:"combined with"
 v:"と組み合わせ"
+
+k:"Combo Box"
+v:"コンボボックス"
 
 k:"Common Options"
 v:"共通オプション"
@@ -1378,6 +2615,9 @@ v:"状態"
 
 k:"Conditional Modifier"
 v:"条件付き修正"
+
+k:"Conditional Modifier Container"
+v:"条件付き修正コンテナ"
 
 k:"Conditional Modifiers"
 v:"条件付き修正"
@@ -1400,8 +2640,17 @@ v:"円錐形"
 k:"Constantly"
 v:"常に"
 
+k:"Contained Quantity"
+v:"含有数量"
+
+k:"Contained Weight"
+v:"含有重量"
+
 k:"Contained Weight Reduction"
 v:"含有重量の軽減"
+
+k:"Container"
+v:"コンテナ"
 
 k:"Container Type"
 v:"コンテナ・タイプ"
@@ -1409,17 +2658,35 @@ v:"コンテナ・タイプ"
 k:"contains"
 v:"次を含む"
 
-k:"Content Filter"
-v:"コンテンツフィルタ"
+k:"Contradictory prerequisite(s)"
+v:"矛盾する前提条件"
+
+k:"Convert"
+v:"変換"
 
 k:"Convert all files specified on the command line to the current data format. If a directory is specified, it will be traversed recursively and all files found will be converted. After all files have been processed, GCS will exit"
 v:"コマンドラインで指定したすべてのファイルを現在のデータ形式に変換します。ディレクトリを指定すると再帰的に走査し、見つかったすべてのファイルを変換します。すべての処理が終わるとGCSは終了します"
 
+k:"Convert to Choice"
+v:"選択肢に変換"
+
 k:"Convert to Container"
 v:"コンテナへコンバート"
 
+k:"Convert to Group"
+v:"グループに変換"
+
 k:"Convert to Non-Container"
 v:"非コンテナに変換"
+
+k:"Converting to a choice removes some data"
+v:"選択肢に変換すると、一部のデータが失われます"
+
+k:"Converting to a group removes some data"
+v:"グループに変換すると、一部のデータが失われます"
+
+k:"Converting to a group removes the choices"
+v:"グループに変換すると、選択肢が失われます"
 
 k:"Copies"
 v:"印刷部数"
@@ -1427,20 +2694,47 @@ v:"印刷部数"
 k:"Copy"
 v:"コピー"
 
+k:"Copy Default"
+v:"技能なし値をコピー"
+
+k:"Copy Feature"
+v:"特性をコピー"
+
+k:"Copy Points Record"
+v:"ポイント記録をコピー"
+
+k:"Copy Prerequisite"
+v:"前提条件をコピー"
+
 k:"Copy the log output to the console"
 v:"ログ出力をコンソールにコピーする"
 
+k:"Copy the log path to the clipboard"
+v:"ログのパスをクリップボードにコピー"
+
+k:"Copy the settings path to the clipboard"
+v:"設定のパスをクリップボードにコピー"
+
+k:"Copy the translations path to the clipboard"
+v:"翻訳のパスをクリップボードにコピー"
+
 k:"Copy to Character Sheet"
 v:"キャラクターシートへコピー"
-
-k:"Copy to clipboard"
-v:"クリップボードにコピー"
 
 k:"Copy to Other Character Sheet"
 v:"他のキャラクターシートへコピー"
 
 k:"Copy to Template"
 v:"テンプレートへコピー"
+
+k:"Copying %s"
+v:"%s をコピー中"
+
+k:"Copying %s to %s"
+v:"%s を %s にコピー中"
+
+k:"Copying a points record"
+v:"ポイント記録をコピー中"
 
 k:"Copyright ©"
 v:"Copyright ©"
@@ -1451,8 +2745,14 @@ v:"コスト"
 k:"Cost Adjustment"
 v:"コスト調整"
 
+k:"Cost Affects"
+v:"コストの影響先"
+
 k:"Cost Modifier"
 v:"コスト修正"
+
+k:"Cost Modifier Type"
+v:"コスト修正の種類"
 
 k:"Cost Per Level"
 v:"レベルごとのコスト"
@@ -1460,11 +2760,32 @@ v:"レベルごとのコスト"
 k:"Cost per Point"
 v:"ポイントごとのコスト"
 
+k:"Could still meet the rule once the choices below are made."
+v:"下の選択を行えば、まだ規則を満たせる可能性があります。"
+
+k:"Could still meet the rule."
+v:"まだ規則を満たせる可能性があります。"
+
+k:"couldn't be checked"
+v:"確認できませんでした"
+
+k:"Couldn't be read:"
+v:"読み込めませんでした:"
+
+k:"Couldn't run: %s"
+v:"実行できませんでした: %s"
+
+k:"couldn't run: %s"
+v:"実行できませんでした: %s"
+
 k:"Count"
 v:"数"
 
 k:"Counter-Clockwise"
 v:"反時計回り"
+
+k:"Covered exactly. Money you do not spend stays on the sheet."
+v:"ぴったり支払えます。使わなかった金銭はシートに残ります。"
 
 k:"CR%d"
 v:"CR%d"
@@ -1478,6 +2799,9 @@ v:"爆風が地面の高さにあるとき、這うか横たわっていると�
 k:"Created"
 v:"作成日"
 
+k:"Creating a sheet from template %s"
+v:"テンプレート %s からシートを作成中"
+
 k:"Crouching, kneeling or sitting (-2)"
 v:"しゃがむ・膝立ち・座る (-2)"
 
@@ -1486,6 +2810,18 @@ v:"CSS"
 
 k:"CSS can be one of:"
 v:"CSSには次のいずれかを指定できます:"
+
+k:"Current"
+v:"現在"
+
+k:"Current %s"
+v:"現在の %s"
+
+k:"Current Encumbrance Level %s"
+v:"現在の荷重レベル %s"
+
+k:"Current Encumbrance Level %s, carrying more than the maximum load"
+v:"現在の荷重レベル %s、最大荷重を超えて運んでいます"
 
 k:"Current Name"
 v:"現在の名前"
@@ -1526,8 +2862,14 @@ v:"ダイスごとのダメージ修正"
 k:"Damage Progression"
 v:"ダメージ進行"
 
+k:"Damage Progression Description"
+v:"ダメージ進行の説明"
+
 k:"Damage Resistance for the hit location"
 v:"この命中部位のダメージ減少 (DR)"
+
+k:"Damage Strength Basis"
+v:"ダメージの基準ST"
 
 k:"Damage taken:"
 v:"受けたダメージ:"
@@ -1559,8 +2901,14 @@ v:"暗くする"
 k:"Data does NOT match library source data"
 v:"データがライブラリのソースデータと一致しません"
 
+k:"Data is of a different kind than the library source data and can't be synced with it"
+v:"データがライブラリのソースデータと種類が異なるため、同期できません"
+
 k:"Data matches library source data"
 v:"データはライブラリのソースデータと一致しています"
+
+k:"Data never settles"
+v:"データは決して落ち着かない"
 
 k:"Decal"
 v:"デカール"
@@ -1598,6 +2946,9 @@ v:"CP減少"
 k:"Decrement Quantity"
 v:"数量減少"
 
+k:"Deep search"
+v:"詳細検索"
+
 k:"Deep Snow"
 v:"深い雪"
 
@@ -1631,6 +2982,9 @@ v:"デフォルトのシート設定…"
 k:"Default Tech Level"
 v:"デフォルトのテックレベル"
 
+k:"Default Type"
+v:"技能なし値の種類"
+
 k:"Default: "
 v:"技能なし値: "
 
@@ -1640,17 +2994,68 @@ v:"技能なし値"
 k:"Defaults To"
 v:"技能なし値"
 
+k:"Defense"
+v:"防御"
+
+k:"Define"
+v:"定義"
+
+k:"Define %s"
+v:"%s を定義"
+
+k:"Define Nameable"
+v:"入力項目を定義"
+
 k:"Delete"
 v:"削除"
 
 k:"Delete Attribute"
 v:"属性を削除"
 
+k:"Delete Cap Value"
+v:"上限値を削除"
+
+k:"Delete Default"
+v:"技能なし値を削除"
+
+k:"Delete Feature"
+v:"特性を削除"
+
+k:"Delete Filter"
+v:"フィルタを削除"
+
+k:"Delete Filter…"
+v:"フィルタを削除…"
+
+k:"Delete Group"
+v:"グループを削除"
+
+k:"Delete Nameable"
+v:"入力項目を削除"
+
 k:"Delete Pool Threshold"
 v:"プールのしきい値を削除"
 
+k:"Delete Prerequisite"
+v:"前提条件を削除"
+
 k:"Delete Selection"
 v:"選択項目を削除"
+
+k:"Delete Set…"
+v:"セットを削除…"
+
+k:"Delete the %d selected filters?"
+v:"選択した%d個のフィルタを削除しますか？"
+
+k:"Delete the filter '%s'?"
+v:"フィルタ '%s' を削除しますか？"
+
+k:"Delete the set '%s'?"
+v:"セット '%s' を削除しますか？"
+
+k:"Delete…"
+v:"削除…"
 
 k:"Deliberately attacking an area rather than a target standing in it is at %+d to hit. The area cannot defend, though anyone in it may dive for cover."
 v:"目標のいる範囲そのものではなく、範囲を意図的に攻撃する場合の命中修正は %+d。範囲は防御できないが、範囲内にいる者は物陰に飛び込める。"
@@ -1664,8 +3069,14 @@ v:"高密度または流線形の物体 (200)"
 k:"Depth"
 v:"奥行き"
 
+k:"Describe this requirement, like \"DX + Per totals at least 26\""
+v:"この要件を説明してください (例: \"DX + 知覚力の合計が26以上\")"
+
+k:"described as"
+v:"説明:"
+
 k:"Description"
-v:"キャラクターの外見"
+v:"キャラクターの描写"
 
 k:"Desert"
 v:"砂漠"
@@ -1673,14 +3084,20 @@ v:"砂漠"
 k:"Desert, Hard-packed"
 v:"砂漠 (固く締まった砂)"
 
+k:"Destination"
+v:"保存先"
+
 k:"Determines the method used to calculate thrust and swing damage"
-v:"突きと振りのダメージの計算方法を決定します"
+v:"スラストとスイングのダメージの計算方法を決定します"
 
 k:"Development builds can't be updated automatically."
 v:"開発版は自動アップデートできません。"
 
 k:"Development versions don't look for %s updates"
 v:"開発版は %s のアップデートを確認しません"
+
+k:"Dialog"
+v:"ダイアログ"
 
 k:"dice of damage (%s)"
 v:"ダメージダイス (%s)"
@@ -1694,14 +3111,61 @@ v:"差の絶対値"
 k:"Difficulty"
 v:"習得難易度"
 
+k:"Difficulty Level"
+v:"難易度レベル"
+
+k:"Disable all of the character's existing ancestries?"
+v:"キャラクターの既存の血統をすべて無効にしますか？"
+
+k:"Disable the character's existing ancestry?"
+v:"キャラクターの既存の血統を無効にしますか？"
+
 k:"Disable the global menu bar on platforms that support it"
 v:"対応するプラットフォームでグローバルメニューバーを無効にする"
+
+k:"Disable traits whose prerequisites are unsatisfied"
+v:"前提条件を満たさない特徴を無効にする"
+
+k:"disabled state"
+v:"無効状態"
 
 k:"Disadvantages"
 v:"不利な特徴"
 
+k:"Disallow a Blank Answer"
+v:"空欄の回答を許可しない"
+
+k:"Disallow Any Text"
+v:"任意のテキストを許可しない"
+
 k:"Discard Changes"
 v:"変更を破棄"
+
+k:"Discard changes made to"
+k:"%s?"
+v:"変更を破棄しますか:"
+v:"%s?"
+
+k:"Discard the purchase for"
+k:"%s?"
+v:"購入を破棄しますか:"
+v:"%s?"
+
+k:"Discarding the changes made to"
+k:"%s"
+k:"discards these as well."
+v:"変更を破棄すると:"
+v:"%s"
+v:"これらも破棄されます。"
+
+k:"Disclosure Triangle"
+v:"開閉トライアングル"
+
+k:"Discord Server"
+v:"Discordサーバー"
+
+k:"Display"
+v:"表示"
 
 k:"Distance"
 v:"距離"
@@ -1730,11 +3194,29 @@ v:"次で始まらない"
 k:"Dock Into Workspace"
 v:"ワークスペースにドッキング"
 
+k:"Document"
+v:"ドキュメント"
+
 k:"Document Workspace"
 v:"ドキュメントワークスペース"
 
 k:"Dodge"
 v:"よけ"
+
+k:"Does not change %s, already present, since %s"
+v:"%s を変更しません (すでにある、%s のため)"
+
+k:"Does not change %s, already present, since a level below 1 grants nothing"
+v:"%s を変更しません (すでにある、レベル1未満は何も付与しないため)"
+
+k:"Does not change %s, already present, since a skill level below 1 grants nothing"
+v:"%s を変更しません (すでにある、技能レベル1未満は何も付与しないため)"
+
+k:"Does not change %s, already present, since points too few to buy a level grant nothing"
+v:"%s を変更しません (すでにある、レベルを買うにはポイントが足りず何も付与しないため)"
+
+k:"Does not change %s, already present, since skill level %s is below %s"
+v:"%s を変更しません (すでにある、技能レベル %s が %s を下回るため)"
 
 k:"does not contain"
 v:"次のものを含まない"
@@ -1745,14 +3227,56 @@ v:"次の文字列で終わらない"
 k:"does not exist in the Markdown directory in any library."
 v:"は、どのライブラリのMarkdownディレクトリにも存在しません。"
 
+k:"Does not grant %s, since %s"
+v:"%s は付与されません (%s のため)"
+
+k:"Does not grant %s, since a container can't be granted"
+v:"%s は付与されません (コンテナは付与できないため)"
+
+k:"Does not grant %s, since a level below 1 grants nothing"
+v:"%s は付与されません (レベル1未満は何も付与しないため)"
+
+k:"Does not grant %s, since a skill level below 1 grants nothing"
+v:"%s は付与されません (技能レベル1未満は何も付与しないため)"
+
+k:"Does not grant %s, since it is already present"
+v:"%s は付与されません (すでにあるため)"
+
+k:"Does not grant %s, since points too few to buy a level grant nothing"
+v:"%s は付与されません (レベルを買うにはポイントが足りず何も付与しないため)"
+
+k:"Does not grant %s, since that is below %s"
+v:"%s は付与されません (%s を下回るため)"
+
+k:"Does not grant %s, since the prerequisites of what carries the grant are not met"
+v:"%s は付与されません (付与を持つものの前提条件を満たしていないため)"
+
 k:"Does not have"
 v:"次を持たない"
+
+k:"Does not know"
+v:"知らない"
 
 k:"does not start with"
 v:"次の文字列で始まらない"
 
-k:"doesn't have"
-v:"次のものを持たない"
+k:"Doesn't apply at this tech level"
+v:"このテックレベルでは適用されません"
+
+k:"doesn't apply at this tech level"
+v:"このテックレベルでは適用されません"
+
+k:"Doesn't have"
+v:"持たない"
+
+k:"Doesn't know"
+v:"知らない"
+
+k:"Done"
+v:"完了"
+
+k:"Doubled"
+v:"2倍"
 
 k:"Down"
 v:"下"
@@ -1802,8 +3326,26 @@ v:"壊れる表面のDR"
 k:"Drag"
 v:"ドラッグ (空気抵抗)"
 
-k:"Drop an image here or double-click to change the portrait"
-v:"ここに画像をドロップするか、ダブルクリックしてポートレイトを変更"
+k:"Drag blocks to rearrange them; press Escape to finish"
+v:"ブロックをドラッグして並べ替えます。終了するにはEscapeキーを押します"
+
+k:"Drag equipment tagged \"%s\" from any equipment list here."
+v:"\"%s\" のタグが付いた装備を、任意の装備リストからここにドラッグしてください。"
+
+k:"Drop a %s here from a library or sheet to replace the one chosen, or click to edit it."
+v:"%s をライブラリまたはシートからここにドロップすると、選んだものを置き換えます。クリックで編集します。"
+
+k:"Drop a %s here from a library or sheet, or click to start with a blank one."
+v:"%s をライブラリまたはシートからここにドロップするか、クリックして空の状態から始めます。"
+
+k:"Drop an image here, double-click, or press Space to change the portrait"
+v:"画像をここに\nドロップするか、\nダブルクリックまたは\nスペースキーで\nポートレイトを変更します"
+
+k:"Drop equipment here from any equipment list, or choose Buy from an equipment list's menu. Drop equipment modifiers onto an item to adjust it."
+v:"装備を任意の装備リストからここにドロップするか、装備リストのメニューから「購入」を選びます。装備修正を項目にドロップすると、その項目を調整します。"
+
+k:"Dropping %s into %s"
+v:"%s を %s にドロップ中"
 
 k:"Dst"
 v:"Dst"
@@ -1823,6 +3365,24 @@ v:"Dst-Over"
 k:"Duplicate"
 v:"複製"
 
+k:"Duplicate Cap Value"
+v:"上限値を複製"
+
+k:"Duplicate Default"
+v:"技能なし値を複製"
+
+k:"Duplicate Feature"
+v:"特性を複製"
+
+k:"Duplicate Filter"
+v:"フィルタを複製"
+
+k:"Duplicate Group"
+v:"グループを複製"
+
+k:"Duplicate Prerequisite"
+v:"前提条件を複製"
+
 k:"Duplicate Selection"
 v:"選択項目を複製"
 
@@ -1841,6 +3401,9 @@ v:"DX+1以上"
 k:"DX+2 or better"
 v:"DX+2以上"
 
+k:"Each cap holds the skills or spells it selects to at most the level it resolves to on the sheet. Where several caps select the same skill or spell, the lowest of them applies. Click a cap to edit it."
+v:"各上限は、選択した技能や呪文を、シート上で決まるレベル以下に抑えます。複数の上限が同じ技能や呪文を選ぶ場合は、最も低いものが適用されます。上限をクリックして編集します。"
+
 k:"Each generated name starts with an uppercase letter, whatever case the training names produce"
 v:"訓練名の大文字小文字に関係なく、生成された各名前は大文字で始まる"
 
@@ -1853,17 +3416,44 @@ v:"休息中にまともな食事をとる (+1 FP)"
 k:"Edit"
 v:"編集"
 
+k:"Edit Filter"
+v:"フィルタを編集"
+
+k:"Edit Filter…"
+v:"フィルタを編集…"
+
 k:"Edit Layout"
 v:"レイアウトを編集"
 
+k:"Edit level"
+v:"レベルを編集"
+
+k:"Edit points"
+v:"ポイントを編集"
+
+k:"Edit quantity"
+v:"数量を編集"
+
+k:"Edit Set"
+v:"セットを編集"
+
+k:"Edit Set…"
+v:"セットを編集…"
+
 k:"Edit Sheet Layout"
 v:"シートレイアウトを編集"
+
+k:"Edit Skill Level Cap"
+v:"技能レベル上限を編集"
 
 k:"Edit the sheet's block layout"
 v:"シートのブロックレイアウトを編集します"
 
 k:"Edit this name generator"
 v:"この名前ジェネレータを編集"
+
+k:"Editor"
+v:"エディタ"
 
 k:"Editors"
 v:"エディタ"
@@ -1876,6 +3466,21 @@ v:"実効ST"
 
 k:"Elastic DR"
 v:"弾性DR"
+
+k:"Empty group, left out of the check"
+v:"空のグループ。確認の対象外"
+
+k:"empty group, left out of the check"
+v:"空のグループ。確認の対象外"
+
+k:"Empty group. Add a cap value or drag one here."
+v:"空のグループです。上限値を追加するか、ここにドラッグしてください。"
+
+k:"Empty group. Add a filter or drag one here."
+v:"空のグループです。フィルタを追加するか、ここにドラッグしてください。"
+
+k:"Empty group. Add a requirement or drag one here."
+v:"空のグループです。要件を追加するか、ここにドラッグしてください。"
 
 k:"Enabled"
 v:"有効"
@@ -1904,6 +3509,9 @@ v:"強化移動力"
 k:"Enter a cost adjustment, such as +5, -5, +50%, -25%, x2, x2/3, x10%."
 v:"コスト調整を入力してください。例: +5、-5、+50%、-25%、x2、x2/3、x10%"
 
+k:"Enter a number or a dice specification, e.g. \"+2\", \"-1d\", \"+1d+2\" or \"2dx3\""
+v:"数値またはダイス指定を入力してください。例: \"+2\"、\"-1d\"、\"+1d+2\"、\"2dx3\""
+
 k:"Enter a number, percentage or multiplier, e.g. \"-1\", \"10%\" or \"x2\""
 v:"数値、パーセンテージ、または倍率を入力してください。例: \"-1\"、\"10%\"、\"x2\""
 
@@ -1919,20 +3527,29 @@ v:"環境:"
 k:"Equipment"
 v:"装備"
 
+k:"equipment"
+v:"装備品"
+
+k:"equipment %s"
+v:"装備品 %s"
+
+k:"Equipment Choice"
+v:"装備の選択肢"
+
 k:"Equipment Container"
 v:"装備コンテナ"
 
-k:"Equipment Item"
-v:"装備品"
-
-k:"Equipment Items"
-v:"装備品"
+k:"Equipment Group"
+v:"装備グループ"
 
 k:"Equipment Modifier"
 v:"装備修正"
 
-k:"Equipment Modifier Container"
-v:"装備修正コンテナ"
+k:"Equipment Modifier Choice"
+v:"装備修正の選択肢"
+
+k:"Equipment Modifier Group"
+v:"装備修正グループ"
 
 k:"Equipment Modifiers"
 v:"装備修正"
@@ -1949,6 +3566,12 @@ v:"定格STのある装備は、使用者のSTの代わりにこの値を使用�
 k:"Equipped"
 v:"装備中"
 
+k:"Equipped Equipment"
+v:"装備中の装備品"
+
+k:"equipped equipment"
+v:"装備中の装備品"
+
 k:"Error"
 v:"エラー"
 
@@ -1961,11 +3584,17 @@ v:"Escape"
 k:"Even-Odd"
 v:"偶奇"
 
+k:"Every pick has a fixed cost."
+v:"どの選択も固定コスト。"
+
 k:"Every training name is a row in the editor, which becomes slow to respond with more than %d of them. For a list this size, consider one of the built-in training sets instead."
 v:"訓練名は1つずつエディタの行になり、%d個を超えると反応が遅くなります。この規模のリストには、組み込みの訓練セットの利用を検討してください。"
 
 k:"exactly"
 v:"次の値と一致する"
+
+k:"Exclude Disabled Modifiers"
+v:"無効な修正を除外"
 
 k:"Exclude unspent points from total"
 v:"未使用ポイントを合計から除外する"
@@ -1989,6 +3618,9 @@ v:"特殊的"
 
 k:"Expanded"
 v:"拡張"
+
+k:"Expands/collapses all attribute definitions"
+v:"すべての属性定義を展開／折りたたむ"
 
 k:"Explanation"
 v:"説明"
@@ -2017,17 +3649,23 @@ v:"爆薬:"
 k:"Explosives normally do crushing damage with the Explosion modifier (B104), often with Fragmentation (B104)."
 v:"爆薬は通常、爆発修正 (B104) 付きの殴打 (crushing) ダメージを与え、多くは破片 (B104) も伴う。"
 
+k:"Export"
+v:"エクスポート"
+
+k:"Export All…"
+v:"すべてエクスポート…"
+
 k:"Export failed"
 v:"エクスポートに失敗しました"
 
 k:"Export Portrait"
 v:"ポートレイトをエクスポート"
 
+k:"Export Selected…"
+v:"選択項目をエクスポート…"
+
 k:"Export sheets using the specified text template `file`"
 v:"指定したテキストテンプレート `ファイル` を使ってシートをエクスポートします"
-
-k:"Export To…"
-v:"エクスポート先…"
 
 k:"Export…"
 v:"エクスポート…"
@@ -2080,11 +3718,23 @@ v:"目"
 k:"F: Fencing weapon. When retreating, your Parry is %v (instead of %v). You suffer a -2 cumulative penalty for multiple parries after the first on the same turn instead of the usual -4. Flails cannot be parried by this weapon."
 v:"F: フェンシング武器。後退中の受けは %v (通常は %v)。同じターンに2回目以降の受けを行うときの累積ペナルティは、通常の-4ではなく-2。この武器ではフレイルを受けられない。"
 
+k:"Factor"
+v:"係数"
+
+k:"Failed"
+v:"失敗"
+
 k:"Failed attack roll"
 v:"攻撃判定に失敗"
 
 k:"Failed attack roll, squared miss"
 v:"攻撃判定に失敗、外れ幅の2乗"
+
+k:"Failed: %s"
+v:"失敗: %s"
+
+k:"Failure"
+v:"失敗"
 
 k:"Fairly often"
 v:"かなり頻繁に"
@@ -2095,14 +3745,23 @@ v:"地面などへの落下"
 k:"Faller"
 v:"落下する者"
 
+k:"false"
+v:"false"
+
 k:"Fatigue Points"
 v:"疲労点"
 
 k:"Favorites"
 v:"お気に入り"
 
+k:"Feature Type"
+v:"特性の種類"
+
 k:"Features"
 v:"特色"
+
+k:"features"
+v:"特性"
 
 k:"Feet & Inches"
 v:"フィート&インチ"
@@ -2119,11 +3778,34 @@ v:"ファイル"
 k:"File already exists! Do you want to overwrite it?"
 v:"ファイルはすでに存在します！上書きしますか？"
 
+k:"File contents are still being indexed. Matches on contents will appear when that finishes."
+v:"ファイルの内容をまだインデックス化中です。完了すると、内容での一致も表示されます。"
+
 k:"Fill"
 v:"塗りつぶし"
 
 k:"Fill in initial description"
 v:"初期説明を入力"
+
+k:"Filter"
+v:"フィルタ"
+
+k:"Filter on unknown field %q; it can't be checked"
+v:"不明なフィールド %q のフィルタです。確認できません"
+
+k:"Finalize"
+v:"確定"
+
+k:"Finalize Purchase"
+v:"購入を確定"
+
+k:"Finalize Purchase…"
+v:"購入を確定…"
+
+k:"Finalize the purchase for"
+k:"%s?"
+v:"購入を確定しますか:"
+v:"%s?"
 
 k:"First mode:"
 k:""
@@ -2148,6 +3830,9 @@ v:"幅に合わせる"
 k:"Fitness:"
 v:"体力・持久力:"
 
+k:"Fixed Level"
+v:"固定レベル"
+
 k:"Focus"
 v:"フォーカス"
 
@@ -2156,6 +3841,21 @@ v:"フォルダ名"
 
 k:"Follow"
 v:"追従"
+
+k:"Font Family"
+v:"フォントファミリー"
+
+k:"Font Size"
+v:"フォントサイズ"
+
+k:"Font Slant"
+v:"フォントの傾き"
+
+k:"Font Spacing"
+v:"フォントの間隔"
+
+k:"Font Weight"
+v:"フォントの太さ"
 
 k:"Fonts"
 v:"フォント"
@@ -2241,20 +3941,29 @@ v:"命中した破片:"
 k:"Frequency of Appearance"
 v:"出現頻度"
 
+k:"frequency of appearance"
+v:"出現頻度"
+
 k:"Frequency Roll (FR): %s"
 v:"出現頻度判定 (FR): %s"
 
+k:"from"
+v:"から"
+
 k:"from "
 v:"次から: "
+
+k:"From %s"
+v:"%s から"
+
+k:"from %s (%s)"
+v:"%s から (%s)"
 
 k:"from different colleges"
 v:"異なる系統から"
 
 k:"from equipment "
 v:"次の装備から: "
-
-k:"from others"
-v:"他から"
 
 k:"from others when %s is triggered"
 v:"%s が発動したときの他から"
@@ -2268,8 +3977,8 @@ v:"次の呪文から: "
 k:"from trait "
 v:"次の特徴から: "
 
-k:"from/to target group"
-v:"対象グループから/へ"
+k:"from/to target"
+v:"目標からの/目標への"
 
 k:"Frozen Lake"
 v:"凍った湖"
@@ -2279,6 +3988,9 @@ v:"凍った川"
 
 k:"Full Name"
 v:"氏名"
+
+k:"Full Price Each"
+v:"各定価"
 
 k:"Fully Automatic (Mode 1)"
 v:"フルオート (モード1)"
@@ -2330,6 +4042,12 @@ v:"GitHubアクセストークン"
 
 k:"GitHub Account"
 v:"GitHubアカウント"
+
+k:"Give this filter a name, like \"Allowed in My Campaign\""
+v:"このフィルタに名前を付けてください (例: \"Allowed in My Campaign\")"
+
+k:"Give this set a name, like \"My Campaign\""
+v:"このセットに名前を付けてください (例: \"My Campaign\")"
 
 k:"Gives a conditional modifier of"
 v:"条件付き修正を与える:"
@@ -2433,6 +4151,9 @@ v:"属性修正を与える:"
 k:"Gives equipment a maximum uses modifier of"
 v:"装備に最大使用回数修正を与える:"
 
+k:"Go back to the money chosen automatically, which makes the smallest total that covers what is owed"
+v:"自動で選ばれた金額に戻します。支払うべき額をちょうど満たす最小の合計になります"
+
 k:"Go to first page"
 v:"最初のページへ"
 
@@ -2447,6 +4168,54 @@ v:"前のページへ"
 
 k:"Gradient"
 v:"グラデーション"
+
+k:"gradient"
+v:"グラデーション"
+
+k:"Gradient Stops"
+v:"グラデーションのストップ"
+
+k:"Gradient Type"
+v:"グラデーションの種類"
+
+k:"Granted by %s"
+v:"%s によって付与"
+
+k:"Granted by %s, standing in for %s, whose grant gives it nothing"
+v:"%s によって付与 (%s の代わり。その付与は何も与えない)"
+
+k:"Granted by %s, standing in for %s, whose grant is not in effect"
+v:"%s によって付与 (%s の代わり。その付与は有効ではない)"
+
+k:"Grants"
+v:"付与"
+
+k:"Grants %s"
+v:"%s を付与"
+
+k:"Grants %s, standing in for a grant of it that gives it nothing"
+v:"%s を付与 (その付与は何も与えない代わり)"
+
+k:"Grants %s, standing in for a grant of it that is not in effect"
+v:"%s を付与 (その付与は有効ではない代わり)"
+
+k:"Grants a skill, not yet chosen"
+v:"技能を付与 (未選択)"
+
+k:"Grants a spell, not yet chosen"
+v:"呪文を付与 (未選択)"
+
+k:"Grants a trait, not yet chosen"
+v:"特徴を付与 (未選択)"
+
+k:"Grants the skill"
+v:"技能を付与:"
+
+k:"Grants the spell"
+v:"呪文を付与:"
+
+k:"Grants the trait"
+v:"特徴を付与:"
 
 k:"Gravity"
 v:"重力"
@@ -2463,6 +4232,15 @@ v:"グループ"
 k:"Group containers when sorting"
 v:"並べ替え時にコンテナをまとめる"
 
+k:"Group Type"
+v:"グループの種類"
+
+k:"Grouping 1"
+v:"グルーピング1"
+
+k:"Grouping 2"
+v:"グルーピング2"
+
 k:"GURPS Character Sheet is an interactive character sheet editor for the GURPS Fourth Edition roleplaying game."
 v:"GURPS Character Sheet は、GURPS 第4版ロールプレイングゲーム用の対話式キャラクターシートエディタです。"
 
@@ -2475,23 +4253,8 @@ v:"髪のオプションのドラッグ"
 k:"half-damage range"
 v:"半減ダメージ射程"
 
-k:"Halve Dodge"
-v:"よけを半分にする"
-
-k:"Halve Dodge (round up)"
-v:"よけを半分にする (切り上げ)"
-
-k:"Halve Move"
-v:"移動力を半分にする"
-
-k:"Halve Move (round up)"
-v:"移動力を半分にする (切り上げ)"
-
-k:"Halve Strength"
-v:"体力を半分にする"
-
-k:"Halve Strength (round up; does not affect HP and damage)"
-v:"体力を半分にする (切り上げ。HPとダメージには影響しない)"
+k:"Half-Stat Defaults"
+v:"能力値半分の技能なし値"
 
 k:"Hand"
 v:"手"
@@ -2511,26 +4274,119 @@ v:"ハードライト"
 k:"Has"
 v:"次を持つ"
 
-k:"has"
-v:"次を持つ"
-
 k:"Has Bipod"
 v:"二脚架あり"
 
 k:"Has bipod"
 v:"二脚架あり"
 
-k:"has equipped equipment"
-v:"装備中の装備あり"
-
 k:"has script"
 v:"スクリプトあり"
+
+k:"have a casting cost"
+v:"エネルギー消費がある"
+
+k:"have a casting time"
+v:"準備時間がある"
+
+k:"have a class"
+v:"呪文タイプがある"
+
+k:"have a contained quantity"
+v:"含有数量がある"
+
+k:"have a contained weight"
+v:"含有重量がある"
+
+k:"have a container type"
+v:"コンテナの種類がある"
+
+k:"have a cost"
+v:"コストがある"
+
+k:"have a cost application"
+v:"コストの適用先がある"
+
+k:"have a difficulty"
+v:"難易度がある"
+
+k:"have a duration"
+v:"持続がある"
+
+k:"have a legality class"
+v:"合法レベルがある"
+
+k:"have a maintenance cost"
+v:"維持費がある"
+
+k:"have a name"
+v:"名前がある"
+
+k:"have a page reference"
+v:"ページ参照がある"
+
+k:"have a power source"
+v:"動力源がある"
+
+k:"have a quantity"
+v:"数量がある"
+
+k:"have a resistance"
+v:"抵抗がある"
+
+k:"have a self-control roll"
+v:"自制判定がある"
+
+k:"have a specialization"
+v:"専門化がある"
+
+k:"have a tech level"
+v:"テックレベルがある"
+
+k:"have a user description"
+v:"ユーザ説明がある"
+
+k:"have a weight"
+v:"重量がある"
+
+k:"have an optional specialization"
+v:"任意の専門化がある"
+
+k:"have colleges"
+v:"系統がある"
+
+k:"have levels"
+v:"レベルがある"
+
+k:"have modifier names"
+v:"修正名がある"
+
+k:"have modifier notes"
+v:"修正ノートがある"
+
+k:"have modifier tags"
+v:"修正タグがある"
+
+k:"have notes"
+v:"ノートがある"
+
+k:"have points"
+v:"ポイントがある"
+
+k:"have tags"
+v:"タグがある"
+
+k:"have text"
+v:"テキストがある"
 
 k:"Head-on"
 v:"正面衝突"
 
 k:"Header"
 v:"ヘッダー"
+
+k:"Heading"
+v:"見出し"
 
 k:"Heat:"
 v:"熱:"
@@ -2547,6 +4403,9 @@ v:"身長スクリプト"
 k:"Help"
 v:"ヘルプ"
 
+k:"help shown with the question"
+v:"質問に添えて表示されるヘルプ"
+
 k:"Hidden"
 v:"非表示"
 
@@ -2562,11 +4421,14 @@ v:"ブロックを非表示"
 k:"Hide conditional modifiers whose total is zero"
 v:"合計が0の条件付き修正を非表示にする"
 
+k:"Hide notes"
+v:"ノートを非表示"
+
 k:"Hide Others"
 v:"ほかを非表示"
 
-k:"Hide unused columns in the melee & ranged weapon tables"
-v:"白兵・長射程武器の表で未使用の列を非表示にする"
+k:"Hide unused columns in the melee & ranged attack tables"
+v:"白兵・長射程攻撃の表で未使用の列を非表示にする"
 
 k:"High Jump:"
 v:"高跳び:"
@@ -2579,6 +4441,12 @@ v:"高速連射のコントロールされたバースト (モード1)"
 
 k:"High-cyclic Controlled Bursts (Mode 2)"
 v:"高速連射のコントロールされたバースト (モード2)"
+
+k:"Highest of"
+v:"最大値"
+
+k:"Highest of Group"
+v:"グループ内の最大値"
 
 k:"Hiker"
 v:"ハイカー"
@@ -2609,6 +4477,12 @@ v:"ヒットポイント"
 
 k:"Hold down the Option/Alt key while clicking to also apply the change to everything contained within this item."
 v:"Option/Altキーを押しながらクリックすると、この項目に含まれるすべてにも変更を適用します。"
+
+k:"Holds nothing to check, left out of the check"
+v:"確認するものがなく、確認の対象外"
+
+k:"holds nothing to check, left out of the check"
+v:"確認するものがなく、確認の対象外"
 
 k:"Home"
 v:"Home"
@@ -2641,10 +4515,10 @@ k:"Hours Spent"
 v:"費やした時間"
 
 k:"How many decimal places the character's weight in the Description block on the sheet is rounded to for display"
-v:"シートの外見ブロックに表示するキャラクターの体重を、小数点以下何桁に丸めるか"
+v:"シートの描写ブロックに表示するキャラクターの体重を、小数点以下何桁に丸めるか"
 
 k:"How many decimal places the height in the Description block on the sheet is rounded to for display. \"As Needed\" shows every decimal place the value has."
-v:"シートの外見ブロックに表示する身長を、小数点以下何桁に丸めるか。「必要に応じて」は値が持つすべての桁を表示します。"
+v:"シートの描写ブロックに表示する身長を、小数点以下何桁に丸めるか。「必要に応じて」は値が持つすべての桁を表示します。"
 
 k:"How many decimal places the value columns and the carried & other equipment totals on the sheet are rounded to for display"
 v:"シートの価格列と、持ち運び・その他の装備の合計を、小数点以下何桁に丸めて表示するか"
@@ -2682,17 +4556,29 @@ v:"i: 再装填時間は1発ごと"
 k:"ID"
 v:"ID"
 
+k:"ID & Library Source"
+v:"IDとライブラリソース"
+
 k:"ID: "
 v:"ID: "
 
 k:"Identity"
-v:"個人情報"
+v:"身元"
 
 k:"If your PDF is opening up to the wrong page when opening page references, enter an offset here to compensate."
 v:"PDFでページリファレンスを開いたときに誤ったページが開く場合は、補正するためのオフセットをここに入力してください。"
 
+k:"Ignore"
+v:"無視"
+
 k:"Ignore weight for skills"
 v:"技能の重量を無視する"
+
+k:"ignore weight for skills"
+v:"技能の重量を無視する"
+
+k:"Image"
+v:"画像"
 
 k:"Image Export Resolution"
 v:"画像エクスポートの解像度"
@@ -2705,6 +4591,9 @@ v:"インポート"
 
 k:"Import %d names from %s?"
 v:"%d 件の名前を %s からインポートしますか？"
+
+k:"Import Filters"
+v:"フィルタをインポート"
 
 k:"Import Training Names"
 v:"訓練名をインポート"
@@ -2726,6 +4615,12 @@ v:"空中爆発では破片が上から来るため、姿勢は防御になら�
 
 k:"In Chamber"
 v:"薬室内"
+
+k:"in group"
+v:"グループ内"
+
+k:"Include Disabled Modifiers"
+v:"無効な修正を含める"
 
 k:"Includes a Major Cost of Living Increase and Merchant Skill Penalty"
 v:"生活費の大幅な増加と<商人>技能ペナルティを含む"
@@ -2750,6 +4645,12 @@ v:"次からの修正を含む"
 
 k:"Includes modifiers from:"
 v:"次からの修正を含む:"
+
+k:"Includes static text and disabled controls in the Tab order for screen readers. When enabled and a screen reader is in use, labels, other static text and disabled controls become Tab stops, as do the buttons a character sheet otherwise leaves out of the Tab order, such as its randomize buttons, so they can be reached by moving the keyboard focus alone. A disabled control reached this way is announced as unavailable and still cannot be changed. Nothing changes when no assistive technology is in use."
+v:"静的テキストと無効なコントロールを、スクリーンリーダー用のTab順に含めます。有効にしてスクリーンリーダーを使用している場合、ラベルなどの静的テキストと無効なコントロールがTabストップになります。キャラクターシートが通常Tab順から外しているボタン (ランダム化ボタンなど) も同様で、キーボードフォーカスの移動だけで到達できます。この方法で到達した無効なコントロールは「利用不可」と読み上げられ、変更はできません。支援技術を使っていない場合は何も変わりません。"
+
+k:"including disabled modifiers"
+v:"無効な修正を含む"
 
 k:"Increase Equipment Level"
 v:"装備レベルを上げる"
@@ -2802,6 +4703,9 @@ v:"初期CP"
 k:"Initial points"
 v:"初期CP"
 
+k:"Initial scale"
+v:"初期倍率"
+
 k:"Initial Sheet Scale"
 v:"シートの初期倍率"
 
@@ -2844,11 +4748,23 @@ v:"強度:"
 k:"Intensive Training"
 v:"集中訓練"
 
+k:"Interaction"
+v:"操作"
+
 k:"Interface Locale"
 v:"インターフェースのロケール"
 
 k:"Internal use only. Finish applying a previously prepared update, using the state in the specified `file`"
 v:"内部使用のみ。指定した `ファイル` の状態を使って、事前に準備されたアップデートの適用を完了します"
+
+k:"Internal use only. Logical height of the virtual screen the headless debug API renders to"
+v:"内部使用のみ。ヘッドレスのデバッグAPIが描画する仮想画面の論理的な高さ"
+
+k:"Internal use only. Logical width of the virtual screen the headless debug API renders to"
+v:"内部使用のみ。ヘッドレスのデバッグAPIが描画する仮想画面の論理的な幅"
+
+k:"Internal use only. Start the headless debug API on the given `address` (e.g. \"127.0.0.1:8642\") instead of the normal UI"
+v:"内部使用のみ。通常のUIの代わりに、指定した `アドレス` (例: \"127.0.0.1:8642\") でヘッドレスのデバッグAPIを起動します"
 
 k:"Intersect"
 v:"交差"
@@ -2878,16 +4794,16 @@ k:"Invisible"
 v:"不可視"
 
 k:"iq sw"
-v:"iq sw"
+v:"IQ基準スイング"
 
 k:"iq thr"
-v:"iq thr"
+v:"IQ基準スラスト"
 
 k:"IQ-based Swing"
-v:"IQ基準の振り"
+v:"IQ基準のスイング"
 
 k:"IQ-based Thrust"
-v:"IQ基準の突き"
+v:"IQ基準のスラスト"
 
 k:"is"
 v:"次のものである"
@@ -2898,6 +4814,9 @@ v:"不明な特性の種類です"
 k:"is anything"
 v:"任意である"
 
+k:"is asked for under its own code"
+v:"独自のコードで求められる"
+
 k:"is at least"
 v:"少なくとも次の値以上である"
 
@@ -2907,17 +4826,44 @@ v:"多くとも次の値である"
 k:"is not"
 v:"次のものではない"
 
+k:"is not a page of the User Guide."
+v:"はユーザーガイドのページではありません。"
+
 k:"is present, then"
 v:"が存在するとき、次を適用:"
 
 k:"is the same as this spell's"
 v:"この呪文と同じ"
 
+k:"it has no default for its level to rest on"
+v:"レベルの基準となる技能なし値がない"
+
 k:"Italic"
 v:"イタリック"
 
+k:"Italic names are filled in after the choices are made."
+v:"斜体の名前は、選択を行った後に決まります。"
+
 k:"Item"
 v:"アイテム"
+
+k:"Item name"
+v:"項目名"
+
+k:"Items"
+v:"項目"
+
+k:"Items of an unknown kind"
+v:"不明な種類の項目"
+
+k:"Its cost depends on choices within it still to be made; choose them now to fix it"
+v:"そのコストは、中でこれから行う選択に依存します。今すぐ選んで確定してください"
+
+k:"Its cost depends on modifier choices still to be made; choose them now to fix it"
+v:"そのコストは、これから行う修正の選択に依存します。今すぐ選んで確定してください"
+
+k:"Its picks are still to be made or miss its rule; choose them now to fix its cost"
+v:"その選択はまだ行われていないか、規則を満たしていません。今すぐ選んでコストを確定してください"
 
 k:"Jet"
 v:"ジェット"
@@ -2955,6 +4901,24 @@ v:"「ジャンプ」技能レベル (なしは0)"
 k:"Jungle"
 v:"ジャングル"
 
+k:"Keep Highest"
+v:"最高値を保持"
+
+k:"Keep Lowest"
+v:"最低値を保持"
+
+k:"Keep what is answered so far; the rest is asked when the template is applied"
+v:"これまでの回答を保持し、残りはテンプレート適用時に尋ねる"
+
+k:"Keeps the higher level of %s, as it is or %s"
+v:"%s の高い方のレベルを保つ (現状のまま、または %s)"
+
+k:"Keeps the lower level of %s, as it is or %s"
+v:"%s の低い方のレベルを保つ (現状のまま、または %s)"
+
+k:"Key"
+v:"キー"
+
 k:"Keyboard"
 v:"キーボード"
 
@@ -2972,6 +4936,12 @@ v:"キロメートル"
 
 k:"Knowing Your Own Strength"
 v:"自分の力を知る"
+
+k:"Knowing Your Own Strength (without Basic Lift adjustment)"
+v:"自分の力を知る (基本重量の調整なし)"
+
+k:"Knows"
+v:"知っている"
 
 k:"Label"
 v:"ラベル"
@@ -3029,6 +4999,9 @@ v:"LC4: 無制限"
 k:"Least protected: %s"
 v:"最も防護が弱い: %s"
 
+k:"Leave blank to use the standard text for the spell's level, enter \"-\" to leave this part out, or enter the text to show in its place at every level"
+v:"空欄にすると、呪文のレベルに応じた標準のテキストを使います。\"-\" を入力するとこの部分を省略し、テキストを入力するとすべてのレベルでそれを表示します"
+
 k:"Leave field blank to auto-populate with the character's TL when added to a character sheet."
 v:"空欄にすると、キャラクターシートに追加したときにキャラクターのTLで自動入力されます。"
 
@@ -3036,7 +5009,7 @@ k:"Leave the GitHub Account blank for local directories not on GitHub"
 v:"GitHub上にないローカルディレクトリの場合は、GitHubアカウントを空欄にしてください"
 
 k:"Left"
-v:"左利き"
+v:"左"
 
 k:"Left Margin"
 v:"左余白"
@@ -3056,20 +5029,29 @@ v:"左Shift"
 k:"Legality Class"
 v:"合法レベル"
 
+k:"legality class"
+v:"合法レベル"
+
+k:"Length"
+v:"長さ"
+
 k:"Length Units"
 v:"長さの単位"
 
 k:"Level"
 v:"レベル"
 
+k:"level"
+v:"レベル"
+
+k:"Level Adjustment"
+v:"レベル調整"
+
 k:"Level can be used with features and modifiers that have per-level effects"
 v:"レベルは、レベルごとの効果を持つ特性や修正で使用できます"
 
 k:"Level exceeds the maximum of "
 v:"レベルが上限を超えています: "
-
-k:"Level Qualifier"
-v:"レベルの条件"
 
 k:"Leveled"
 v:"レベルあり"
@@ -3092,11 +5074,14 @@ v:"ライブラリ"
 k:"Library Explorer"
 v:"ライブラリエクスプローラー"
 
-k:"Library Explorer Deep Search"
-v:"ライブラリエクスプローラーの詳細検索"
-
 k:"Library Settings: %s"
 v:"ライブラリ設定: %s"
+
+k:"Library Source"
+v:"ライブラリソース"
+
+k:"library source"
+v:"ライブラリソース"
 
 k:"Library: "
 v:"ライブラリ: "
@@ -3114,16 +5099,16 @@ k:"Lifting ST"
 v:"持ち上げ用ST"
 
 k:"lifting sw"
-v:"持ち上げ振り"
+v:"持ち上げスイング"
 
 k:"Lifting Swing"
-v:"持ち上げ振り"
+v:"持ち上げスイング"
 
 k:"lifting thr"
-v:"持ち上げ突き"
+v:"持ち上げスラスト"
 
 k:"Lifting Thrust"
-v:"持ち上げ突き"
+v:"持ち上げスラスト"
 
 k:"Light"
 v:"軽荷"
@@ -3140,14 +5125,42 @@ v:"明度"
 k:"Limit"
 v:"上限"
 
+k:"Limitation"
+v:"制限"
+
 k:"Linear"
 v:"線形"
 
 k:"Lines"
 v:"行"
 
+k:"Link"
+v:"リンク"
+
 k:"link"
 v:"リンク"
+
+k:"Link for %s"
+v:"%s のリンク"
+
+k:"List"
+v:"リスト"
+
+k:"List Item"
+v:"リスト項目"
+
+k:"Lists"
+v:"リスト"
+
+k:"Lists the matching pages and sections as you type"
+k:"Press RETURN to go to the highlighted one"
+v:"入力すると、一致するページとセクションを一覧表示します"
+v:"Returnキーで、ハイライトされたものへ移動します"
+
+k:"Lists the matching rows as you type"
+k:"Press RETURN to select the highlighted row"
+v:"入力すると、一致する行を一覧表示します"
+v:"Returnキーで、ハイライトされた行を選択します"
 
 k:"Load Attributes"
 v:"属性を読み込み"
@@ -3158,8 +5171,20 @@ v:"身体タイプを読み込み"
 k:"Loading %s…"
 v:"%s を読み込み中…"
 
+k:"Loading…"
+v:"読み込み中…"
+
 k:"Location"
 v:"場所"
+
+k:"Locations"
+v:"部位"
+
+k:"Lock against changes"
+v:"変更を禁止"
+
+k:"Lock list files when opened"
+v:"リストファイルを開いたときにロックする"
 
 k:"Log Path"
 v:"ログのパス"
@@ -3182,6 +5207,15 @@ v:"その日の終わりまでに失われる (1時間ごとに %s、全力に�
 k:"Lowercase training names before use"
 v:"使用前に訓練名を小文字にする"
 
+k:"Lowest of"
+v:"最小値"
+
+k:"Lowest of Group"
+v:"グループ内の最小値"
+
+k:"Lowest of: the cap is the lowest of the values in the group. Highest of: it is the highest of them. A value resting on something the sheet doesn't have counts that as 0, and an empty group caps nothing."
+v:"最小: 上限はグループ内の値のうち最小のもの。最大: 最大のもの。シートにないものに基づく値は0として数え、空のグループは何も制限しません。"
+
 k:"Luminosity"
 v:"輝度"
 
@@ -3203,9 +5237,6 @@ v:"「スキー」判定に成功した"
 k:"Made a successful Swimming roll at %d for a clean dive"
 v:"「水泳」判定 (%d) に成功し、きれいな飛び込みをした"
 
-k:"Mailing Lists"
-v:"メーリングリスト"
-
 k:"Maintain"
 v:"維持"
 
@@ -3218,10 +5249,22 @@ v:"%s の開発に1回限りの寄付をする"
 k:"Make Portrait Square"
 v:"ポートレイトを正方形にする"
 
+k:"Make what is still to be picked here at random, within its rule, and move on"
+v:"ここでこれから選ぶものを、規則の範囲内でランダムに選んで先へ進む"
+
+k:"Make what is still to be picked here, and every pick still to come, at random, each within its rule"
+v:"ここでこれから選ぶもの、およびこの先のすべての選択を、それぞれ規則の範囲内でランダムに選ぶ"
+
+k:"Mandatory: exactly one must be picked"
+v:"必須: ちょうど1つを選ぶ"
+
 k:"Manual"
 v:"手動"
 
 k:"Margin"
+v:"余白"
+
+k:"Margins"
 v:"余白"
 
 k:"Markdown"
@@ -3239,20 +5282,29 @@ v:"マルコフ文字"
 k:"Markov Run"
 v:"マルコフ連続"
 
+k:"Martial arts style"
+v:"武術の流派"
+
 k:"Master Library"
 v:"マスターライブラリ"
 
+k:"Match"
+v:"一致"
+
+k:"Max"
+v:"最大"
+
 k:"Max Auto Column Width"
 v:"自動列幅の最大値"
-
-k:"Max Execution Time"
-v:"最大実行時間"
 
 k:"Max Load"
 v:"荷物の最大重量"
 
 k:"Maximize"
 v:"最大化"
+
+k:"Maximum %s"
+v:"最大 %s"
 
 k:"Maximum Level"
 v:"最大レベル"
@@ -3317,14 +5369,17 @@ v:"メディア"
 k:"Medium"
 v:"並荷/中間"
 
-k:"Melee Weapon"
-v:"白兵武器"
+k:"Meets an unknown type of prerequisite (\"%s\") that needs a newer version of GCS"
+v:"不明な種類の前提条件 (\"%s\") があります。新しいバージョンのGCSが必要です"
 
-k:"Melee Weapon Usage"
-v:"白兵武器の使用法"
+k:"Melee Attack"
+v:"白兵攻撃"
 
-k:"Melee Weapons"
-v:"白兵武器"
+k:"Melee Attack Usage"
+v:"白兵攻撃の使用法"
+
+k:"Melee Attacks"
+v:"白兵攻撃"
 
 k:"Mental"
 v:"精神的"
@@ -3332,14 +5387,41 @@ v:"精神的"
 k:"Menu"
 v:"メニュー"
 
+k:"Menu Bar"
+v:"メニューバー"
+
+k:"Menu Item"
+v:"メニュー項目"
+
 k:"Menu Keys"
 v:"メニューキー"
 
 k:"Menu Keys…"
 v:"メニューキー…"
 
+k:"Merge"
+v:"マージ"
+
+k:"Merge Filters"
+v:"フィルタをマージ"
+
 k:"Merge the checked attribute definitions into the existing ones"
 v:"チェックした属性定義を既存のものにマージします"
+
+k:"Merge with matching items"
+v:"一致する項目とマージ"
+
+k:"Merge with matching money already carried"
+v:"すでに携帯している同じ種類の金銭とマージ"
+
+k:"Merge…"
+v:"マージ…"
+
+k:"Met"
+v:"満たしている"
+
+k:"met"
+v:"満たしている"
 
 k:"Meta"
 v:"Meta"
@@ -3361,6 +5443,9 @@ v:"マイル"
 
 k:"miles"
 v:"マイル"
+
+k:"Min"
+v:"最小"
 
 k:"Minimize"
 v:"最小化"
@@ -3410,6 +5495,12 @@ v:"混合"
 k:"Mode %d"
 v:"モード %d"
 
+k:"Mode %d Secondary Projectiles"
+v:"モード%d 二次投射物"
+
+k:"Mode %d Shots Per Attack"
+v:"モード%d 攻撃ごとの発射数"
+
 k:"Mode:"
 v:"モード:"
 
@@ -3422,17 +5513,53 @@ v:"%s の更新日"
 k:"Modifier"
 v:"修正"
 
+k:"Modifier choice required"
+v:"修正の選択が必要です"
+
+k:"Modifier Name"
+v:"修正名"
+
+k:"Modifier Notes"
+v:"修正ノート"
+
+k:"Modifier Tag"
+v:"修正タグ"
+
 k:"Modifiers"
 v:"修正"
 
+k:"modifiers"
+v:"修正"
+
+k:"Modifying Dice + Adds"
+v:"ダイス+加算の修正"
+
 k:"Modulate"
 v:"変調"
+
+k:"Money Exchanged"
+v:"やり取りした金額"
+
+k:"Money Item"
+v:"金銭項目"
 
 k:"Monitor Resolution"
 v:"モニターの解像度"
 
 k:"Monospaced"
 v:"等幅"
+
+k:"More actions"
+v:"その他の操作"
+
+k:"More actions for %s"
+v:"%s のその他の操作"
+
+k:"More actions for %s: %s"
+v:"%s のその他の操作: %s"
+
+k:"More Tabs"
+v:"その他のタブ"
 
 k:"More than 16 hours on the march cuts into the 8 hours of sleep the average human needs (B426)."
 v:"16時間を超える行軍は、平均的な人間に必要な8時間の睡眠を削る (B426)。"
@@ -3452,17 +5579,35 @@ v:"移動力"
 k:"Move Block"
 v:"ブロックを移動"
 
+k:"Move Cap Value"
+v:"上限値を移動"
+
+k:"Move Default"
+v:"技能なし値を移動"
+
 k:"Move Down"
 v:"下へ移動"
 
 k:"Move Equipment"
 v:"装備を移動"
 
+k:"Move Feature"
+v:"特性を移動"
+
+k:"Move Filter"
+v:"フィルタを移動"
+
+k:"Move Group"
+v:"グループを移動"
+
 k:"Move Into Container"
 v:"コンテナに移動"
 
 k:"Move Out of Container"
 v:"コンテナから出す"
+
+k:"Move Prerequisite"
+v:"前提条件を移動"
 
 k:"Move to Carried Equipment"
 v:"持ち運び中の装備へ移動"
@@ -3485,6 +5630,9 @@ v:"泥"
 k:"Multiple"
 v:"複数"
 
+k:"Multiplicative Modifiers"
+v:"乗算修正"
+
 k:"Multiply"
 v:"乗算"
 
@@ -3500,8 +5648,38 @@ v:"人力"
 k:"Muscle-powered"
 v:"人力"
 
+k:"Must"
+v:"必ず"
+
+k:"Must %s"
+v:"必ず%s"
+
+k:"Must %s %s"
+v:"必ず%s %s"
+
+k:"Must %s %s, including disabled modifiers"
+v:"必ず%s %s (無効な修正を含む)"
+
+k:"Must %s that %s"
+v:"必ず%s (条件: %s)"
+
 k:"Must be assigned to a college"
 v:"系統が割り当てられている必要がある"
+
+k:"Must not"
+v:"決して"
+
+k:"Must not %s"
+v:"決して%sしない"
+
+k:"Must not %s %s"
+v:"決して%s %sしない"
+
+k:"Must not %s %s, including disabled modifiers"
+v:"決して%s %sしない (無効な修正を含む)"
+
+k:"Must not %s that %s"
+v:"決して%s (条件: %s)"
 
 k:"n, where the blast is 6dxn"
 v:"n (爆風が6dxnのとき)"
@@ -3518,16 +5696,13 @@ v:"名前ジェネレータのドラッグ"
 k:"Name Generators"
 v:"名前ジェネレータ"
 
-k:"Name Qualifier"
-v:"名前の条件"
+k:"Nameables"
+v:"入力項目"
 
 k:"Names generated from the current definition,"
 k:"so changes can be checked as they are made"
 v:"現在の定義から生成された名前。"
 v:"変更をその場で確認できます"
-
-k:"Names Only"
-v:"名前のみ"
 
 k:"Natural Attacks"
 v:"素手攻撃"
@@ -3538,20 +5713,35 @@ v:"最近傍"
 k:"need both hands and feet free and must speak"
 v:"両手と両足が自由で、話せる必要がある"
 
+k:"Needs Attention"
+v:"要確認"
+
+k:"Needs attention below: %s."
+v:"次の項目を確認してください: %s。"
+
 k:"Never"
 v:"なし"
 
 k:"Never resist"
 v:"抵抗しない"
 
+k:"New"
+v:"新規"
+
 k:"New Ancestry"
 v:"新規血統"
+
+k:"New Blank Granted Item"
+v:"新規の空の付与項目"
 
 k:"New Carried Equipment"
 v:"新規持ち運び中の装備"
 
 k:"New Carried Equipment Container"
 v:"新規持ち運び中の装備コンテナ"
+
+k:"New Carried Equipment Group"
+v:"新規携帯中の装備グループ"
 
 k:"New Character Sheet"
 v:"新規キャラクターシート"
@@ -3562,20 +5752,47 @@ v:"テンプレートから新規キャラクターシート"
 k:"New Character Template"
 v:"新規キャラクターテンプレート"
 
+k:"New Choice"
+v:"新規選択肢"
+
+k:"New Container"
+v:"新規コンテナ"
+
+k:"New Equipment"
+v:"新規装備"
+
+k:"New Equipment Choice"
+v:"新規装備の選択肢"
+
 k:"New Equipment Library"
 v:"新規装備ライブラリ"
 
 k:"New Equipment Modifier"
 v:"新規装備修正"
 
-k:"New Equipment Modifier Container"
-v:"新規装備修正コンテナ"
+k:"New Equipment Modifier Choice"
+v:"新規装備修正の選択肢"
+
+k:"New Equipment Modifier Group"
+v:"新規装備修正グループ"
 
 k:"New Equipment Modifiers Library"
 v:"新規装備修正ライブラリ"
 
+k:"New Filter"
+v:"新規フィルタ"
+
+k:"New Filter…"
+v:"新規フィルタ…"
+
 k:"New Folder"
 v:"新規フォルダ"
+
+k:"New Group"
+v:"新規グループ"
+
+k:"New Library Filter"
+v:"新規ライブラリフィルタ"
 
 k:"New Loot Sheet"
 v:"新規戦利品シート"
@@ -3583,8 +5800,8 @@ v:"新規戦利品シート"
 k:"New Markdown File"
 v:"新規Markdownファイル"
 
-k:"New Melee Weapon"
-v:"新規白兵武器"
+k:"New Melee Attack"
+v:"新規白兵攻撃"
 
 k:"New Name"
 v:"新しい名前"
@@ -3607,23 +5824,47 @@ v:"新規その他の装備"
 k:"New Other Equipment Container"
 v:"新規その他の装備コンテナ"
 
-k:"New Ranged Weapon"
-v:"新規長射程武器"
+k:"New Other Equipment Group"
+v:"新規その他の装備グループ"
+
+k:"New Ranged Attack"
+v:"新規長射程攻撃"
 
 k:"New Ritual Magic Spell"
 v:"新規儀礼魔法呪文"
 
+k:"New Set"
+v:"新規セット"
+
+k:"New Set…"
+v:"新規セット…"
+
+k:"New Sheet"
+v:"新規シート"
+
+k:"New Sheets"
+v:"新規シート"
+
 k:"New Skill"
 v:"新規スキル"
 
+k:"New Skill Choice"
+v:"新規技能の選択肢"
+
 k:"New Skill Container"
 v:"新規スキルコンテナ"
+
+k:"New Skill Level Cap"
+v:"新規技能レベル上限"
 
 k:"New Skills Library"
 v:"新規スキルライブラリ"
 
 k:"New Spell"
 v:"新規呪文"
+
+k:"New Spell Choice"
+v:"新規呪文の選択肢"
 
 k:"New Spell Container"
 v:"新規呪文コンテナ"
@@ -3637,14 +5878,20 @@ v:"新規テクニック"
 k:"New Trait"
 v:"新規特徴"
 
+k:"New Trait Choice"
+v:"新規特徴の選択肢"
+
 k:"New Trait Container"
 v:"新規特徴コンテナ"
 
 k:"New Trait Modifier"
 v:"新規特徴修正"
 
-k:"New Trait Modifier Container"
-v:"新規特徴修正コンテナ"
+k:"New Trait Modifier Choice"
+v:"新規特徴修正の選択肢"
+
+k:"New Trait Modifier Group"
+v:"新規特徴修正グループ"
 
 k:"New Trait Modifiers Library"
 v:"新規特徴修正ライブラリ"
@@ -3652,14 +5899,14 @@ v:"新規特徴修正ライブラリ"
 k:"New Traits Library"
 v:"新規特徴ライブラリ"
 
-k:"Next Match"
-v:"次の一致"
-
 k:"Next Page"
 v:"次のページ"
 
 k:"No"
 v:"いいえ"
+
+k:"no %s"
+v:"%sなし"
 
 k:"No %s update check has run yet"
 v:"%s のアップデート確認はまだ実行されていません"
@@ -3673,8 +5920,23 @@ v:"追加の修正なし"
 k:"No Auto-Scaling"
 v:"自動拡大縮小なし"
 
+k:"no cap"
+v:"上限なし"
+
+k:"No cap values. Click here to add one."
+v:"上限値がありません。ここをクリックして追加します。"
+
+k:"No conditions"
+v:"条件なし"
+
 k:"No CR"
 v:"CRなし"
+
+k:"No defaults."
+v:"技能なし値がありません。"
+
+k:"No defaults. Click here to add one."
+v:"技能なし値がありません。ここをクリックして追加します。"
 
 k:"No export templates available"
 v:"利用できるエクスポートテンプレートがありません"
@@ -3682,14 +5944,50 @@ v:"利用できるエクスポートテンプレートがありません"
 k:"No exportable files were provided"
 v:"エクスポート可能なファイルが指定されていません"
 
+k:"No features."
+v:"特性がありません。"
+
+k:"No features. Click here to add one."
+v:"特性がありません。ここをクリックして追加します。"
+
 k:"No files to process."
 v:"処理するファイルがありません。"
+
+k:"No Filter"
+v:"フィルタなし"
+
+k:"No filters. Click here to add one."
+v:"フィルタがありません。ここをクリックして追加します。"
 
 k:"No FR"
 v:"FRなし"
 
+k:"no key"
+v:"キーなし"
+
+k:"No nameables."
+v:"入力項目がありません。"
+
+k:"No nameables. Click here to add one."
+v:"入力項目がありません。ここをクリックして追加します。"
+
 k:"No other character sheets are open!"
 v:"ほかに開いているキャラクターシートがありません！"
+
+k:"No PDF has been chosen. Choose one or remove the mapping."
+v:"PDFが選択されていません。PDFを選ぶか、マッピングを削除してください。"
+
+k:"No PDFs have been mapped yet. GCS asks which PDF to use for a key the first time a page reference with that key is opened, and keeps the answer here."
+v:"PDFがまだマッピングされていません。GCSは、キーを持つページ参照を初めて開くときにどのPDFを使うか尋ね、その答えをここに保持します。"
+
+k:"No prerequisites."
+v:"前提条件がありません。"
+
+k:"No prerequisites. Click here to add one."
+v:"前提条件がありません。ここをクリックして追加します。"
+
+k:"No random picks meet this rule."
+v:"この規則を満たすランダムな選択はありません。"
 
 k:"No recent files available"
 v:"最近使用したファイルはありません"
@@ -3697,11 +5995,26 @@ v:"最近使用したファイルはありません"
 k:"No releases are available for %s"
 v:"%s のリリースはありません"
 
+k:"No saved filters"
+v:"保存済みフィルタなし"
+
 k:"No School Grognard Damage"
 v:"ノー・スクール・グロナード・ダメージ"
 
+k:"No sell money is configured. Add money items to the Trading section of this sheet's settings."
+v:"売却代金が設定されていません。このシートの設定の「Trading」セクションに金銭項目を追加してください。"
+
+k:"No skill or spell levels are capped. Use the add button below to add a cap."
+v:"技能や呪文のレベルに上限はありません。下の追加ボタンで上限を追加してください。"
+
+k:"No state of this sheet satisfies all of its prerequisites, defaults, features and scripts at once, so it has been left in one of the states it cycles through. A trait caught in a contradiction among the prerequisites is flagged in the Traits table, but the cycle need not involve any trait, in which case this is the only sign of it. Look for prerequisites, defaults or scripts that depend on one another in a circle."
+v:"このシートには、前提条件・技能なし値・特性・スクリプトのすべてを同時に満たす状態がないため、循環する状態のいずれかで止めています。前提条件の矛盾に巻き込まれた特徴は特徴の表でフラグが付きますが、循環に特徴が関わっていない場合もあり、その場合はこれだけが手がかりです。前提条件・技能なし値・スクリプトが互いに循環して依存していないか探してください。"
+
 k:"no training data has been provided"
 v:"学習データが提供されていません"
+
+k:"No type"
+v:"種類なし"
 
 k:"non-chamber shots"
 v:"薬室外の弾"
@@ -3733,6 +6046,12 @@ v:"なし (爆薬が体内で爆発した)"
 k:"None (threw himself on the explosive)"
 v:"なし (爆薬に身を投げた)"
 
+k:"None of"
+v:"いずれも満たさない"
+
+k:"None of (%s)"
+v:"いずれも満たさない (%s)"
+
 k:"None required"
 v:"必要なし"
 
@@ -3748,8 +6067,17 @@ v:"標準"
 k:"Normal Bulk"
 v:"通常のかさ"
 
+k:"Normally the key for %s"
+v:"通常は %s のキー"
+
 k:"not"
 v:"ではない"
+
+k:"Not all of"
+v:"すべてを満たすわけではない"
+
+k:"Not all of (%s)"
+v:"すべてを満たすわけではない (%s)"
 
 k:"Not Applicable"
 v:"該当なし"
@@ -3757,11 +6085,26 @@ v:"該当なし"
 k:"not carried"
 v:"持ち運んでいない"
 
+k:"Not enough money carried: $%s needed, $%s carried."
+v:"携帯している金銭が足りません: $%s 必要、$%s 携帯。"
+
 k:"not equipped"
 v:"装備していない"
 
+k:"Not every outcome falls within the target of %s points."
+v:"すべての結果が目標 %s ポイントの範囲に収まるわけではありません。"
+
 k:"Not Found"
 v:"見つかりません"
+
+k:"not met"
+v:"満たしていない"
+
+k:"Not met:"
+v:"満たしていない:"
+
+k:"Not met: %s"
+v:"満たしていない: %s"
 
 k:"Not Shown"
 v:"非表示"
@@ -3781,14 +6124,32 @@ v:"注意: この操作はディスクからファイルを削除しません。
 k:"Notes"
 v:"ノート"
 
+k:"Notes for the %s hit location"
+v:"%s 命中部位のノート"
+
 k:"Notes for the **%s** hit location"
 v:"**%s** 命中部位のノート"
 
 k:"Notes for the hit location"
 v:"命中部位のノート"
 
-k:"Notes Qualifier"
-v:"ノートの条件"
+k:"nothing"
+v:"なし"
+
+k:"Nothing in it applies at this tech level, left out of the check"
+v:"このテックレベルで適用されるものがなく、確認の対象外"
+
+k:"nothing in it applies at this tech level, left out of the check"
+v:"このテックレベルで適用されるものがなく、確認の対象外"
+
+k:"Nothing to buy yet."
+v:"購入するものはまだありません。"
+
+k:"Nothing to import"
+v:"インポートするものがありません"
+
+k:"Number"
+v:"数"
 
 k:"Number of matches found"
 v:"見つかった一致数"
@@ -3868,8 +6229,17 @@ v:"搭乗者"
 k:"of"
 v:"/"
 
+k:"of %s"
+v:"%s の"
+
 k:"of any kind"
 v:"種類を問わない"
+
+k:"of any name"
+v:"任意の名前の"
+
+k:"of skill"
+v:"技能の"
 
 k:"of the explosive"
 v:"爆薬の"
@@ -3892,6 +6262,9 @@ v:"実地訓練"
 k:"Once configured, GitHub repositories will be scanned for release tags in the form \"v%d.x.y\" through \"v%d.x.y\", where x and y can be any numeric value"
 v:"設定すると、GitHubリポジトリから \"v%d.x.y\" ～ \"v%d.x.y\" (xとyは任意の数値) の形式のリリースタグを探します"
 
+k:"One of these modifiers must be picked."
+v:"これらの修正のうち1つを選ぶ必要があります。"
+
 k:"One or more fields contain invalid values."
 v:"1つ以上のフィールドに不正な値が含まれています。"
 
@@ -3900,6 +6273,15 @@ v:"片手で持ち上げる"
 
 k:"One-Sided"
 v:"片面"
+
+k:"Only the first %d matches are shown. Narrow the search to find the others."
+v:"最初の%d件の一致のみ表示しています。絞り込んで他を探してください。"
+
+k:"Only When TL…"
+v:"TLが次のときのみ…"
+
+k:"only while switched on"
+v:"スイッチがオンのときのみ"
 
 k:"Open"
 v:"開く"
@@ -3910,11 +6292,26 @@ v:"詳細エディタを開く"
 k:"Open Each Page Reference"
 v:"各ページリファレンスを開く"
 
+k:"Open in Library Filter"
+v:"ライブラリフィルタで開く"
+
+k:"Open in Library Filter:"
+v:"ライブラリフィルタで開く:"
+
+k:"Open in separate windows"
+v:"別ウィンドウで開く"
+
 k:"Open one or more other character sheets first."
 v:"先に他のキャラクターシートを1つ以上開いてください。"
 
 k:"Open Page Reference"
 v:"ページリファレンスを開く"
+
+k:"Open Recent"
+v:"最近使ったファイル"
+
+k:"Open the page reference"
+v:"ページ参照を開く"
 
 k:"Opening the link failed"
 v:"リンクを開けませんでした"
@@ -3931,8 +6328,14 @@ v:"…を開く"
 k:"Optimize For"
 v:"最適化の対象"
 
+k:"Option"
+v:"オプション"
+
 k:"Optional Specialization"
 v:"自発的専門化"
+
+k:"Optional: at most one may be picked"
+v:"任意: 最大1つまで選べる"
 
 k:"Options used when the chosen gender does not provide its own"
 v:"選択した性別が独自のオプションを持たない場合に使用するオプション"
@@ -3940,8 +6343,8 @@ v:"選択した性別が独自のオプションを持たない場合に使用�
 k:"Options:"
 v:"オプション:"
 
-k:"or"
-v:"または"
+k:"or any text"
+v:"または任意のテキスト"
 
 k:"Organization"
 v:"組織"
@@ -3955,8 +6358,17 @@ v:"印刷の向き"
 k:"Original"
 v:"オリジナル"
 
+k:"Other"
+v:"その他"
+
 k:"Other Equipment"
 v:"その他の装備"
+
+k:"Other Equipment Item"
+v:"その他の装備品"
+
+k:"Other Equipment Items"
+v:"その他の装備品"
 
 k:"Out of range"
 v:"射程外"
@@ -3967,11 +6379,20 @@ v:"射程外 (%dヤード超)"
 k:"Outer"
 v:"外側"
 
+k:"Over by %s."
+v:"%s 超過。"
+
+k:"Over: expected %s."
+v:"超過: 想定は %s。"
+
 k:"Overlay"
 v:"オーバーレイ"
 
 k:"Override"
 v:"上書き"
+
+k:"Override to keep it anyway."
+v:"それでも保持するには上書きしてください。"
 
 k:"Overrides:"
 k:""
@@ -3984,8 +6405,29 @@ v:"轢きダメージ:"
 k:"Overspent"
 v:"使いすぎ"
 
+k:"Owed: $%s"
+v:"未払い: $%s"
+
+k:"Owner Level"
+v:"所有者のレベル"
+
+k:"Owner Optional Specialization"
+v:"所有者の任意の専門化"
+
+k:"Owner Specialization"
+v:"所有者の専門化"
+
+k:"Owner Tech Level"
+v:"所有者のテックレベル"
+
+k:"Owner Title Note"
+v:"所有者のタイトルノート"
+
 k:"P#"
 v:"P#"
+
+k:"Pad %s with zeros"
+v:"%s をゼロで埋める"
 
 k:"Pad with zeros"
 v:"ゼロ埋め"
@@ -4001,6 +6443,9 @@ v:"ページのハイライト"
 
 k:"Page Offset"
 v:"ページオフセット"
+
+k:"Page offset for %s"
+v:"%s のページオフセット"
 
 k:"Page Primary Fields"
 v:"ページのメインフィールド"
@@ -4038,9 +6483,6 @@ v:"ページのサブフッター"
 k:"Page Secondary Labels"
 v:"ページのサブラベル"
 
-k:"Page Settings"
-v:"ページ設定"
-
 k:"PageDown"
 v:"PageDown"
 
@@ -4050,6 +6492,9 @@ v:"PageUp"
 k:"Paper Size"
 v:"用紙サイズ"
 
+k:"Paragraph"
+v:"段落"
+
 k:"Parry"
 v:"受け"
 
@@ -4058,6 +6503,15 @@ v:"受け"
 
 k:"Parry Modifier"
 v:"受け修正"
+
+k:"Parry of any skill"
+v:"任意の技能の受け"
+
+k:"Parry of skill %s"
+v:"技能 %s の受け"
+
+k:"Passed"
+v:"合格"
 
 k:"Paste"
 v:"ペースト"
@@ -4071,11 +6525,23 @@ v:"パス: "
 k:"Pattern"
 v:"パターン"
 
+k:"pattern"
+v:"パターン"
+
 k:"Pause"
 v:"Pause"
 
+k:"Pay with %s"
+v:"%s で支払う"
+
 k:"PDF"
 v:"PDF"
+
+k:"PDF Auto Scaling"
+v:"PDF自動倍率"
+
+k:"PDF Mappings"
+v:"PDFマッピング"
 
 k:"PDFs"
 v:"PDF"
@@ -4113,6 +6579,12 @@ v:"ポンドごと"
 k:"Per Shot"
 v:"1発ごと"
 
+k:"Percent of Full Price"
+v:"定価に対する割合"
+
+k:"Percent of full price"
+v:"定価に対する割合"
+
 k:"Perks"
 v:"パーク"
 
@@ -4127,6 +6599,27 @@ v:"%s を選択"
 
 k:"Pick %s %s worth"
 v:"%s を選択 (%s 相当)"
+
+k:"Pick %s in weight"
+v:"重量で %s 分を選ぶ"
+
+k:"Pick %s worth"
+v:"%s 相当を選ぶ"
+
+k:"Picked"
+v:"選択済み"
+
+k:"Picked as a Unit"
+v:"一括で選択"
+
+k:"Pixels"
+v:"ピクセル"
+
+k:"Place After Built-in Notes"
+v:"組み込みノートの後に置く"
+
+k:"Place Before Built-in Notes"
+v:"組み込みノートの前に置く"
 
 k:"Placed between the outputs of the combined generators, such as a space"
 v:"組み合わせたジェネレータの出力の間に入れる文字 (スペースなど)"
@@ -4143,6 +6636,9 @@ v:"平地 (平坦)"
 k:"Player"
 v:"プレイヤー"
 
+k:"Player Name"
+v:"プレイヤー名"
+
 k:"Plus"
 v:"プラス"
 
@@ -4152,17 +6648,20 @@ v:"PNG"
 k:"point"
 v:"ポイント"
 
+k:"Point Adjustment"
+v:"ポイント調整"
+
 k:"Point Cost"
 v:"ポイントコスト"
 
 k:"Point Pool Current"
-v:"HP/FPの現在値"
+v:"ポイントプールの現在値"
 
 k:"Point Pool Maximum"
-v:"HP/FPの最大値"
+v:"ポイントプールの最大値"
 
 k:"Point Pools"
-v:"HP/FP"
+v:"ポイントプール"
 
 k:"Point Record Changes"
 v:"ポイント記録の変更"
@@ -4200,6 +6699,9 @@ v:"プール区切り"
 k:"Pool Threshold Drag"
 v:"プールのしきい値のドラッグ"
 
+k:"Popup Button"
+v:"ポップアップボタン"
+
 k:"Portrait"
 v:"ポートレイト"
 
@@ -4215,17 +6717,14 @@ v:"姿勢:"
 k:"Power Source"
 v:"動力源 (Power Source)"
 
-k:"Power Source Qualifier"
-v:"動力源の条件"
-
 k:"ppi"
 v:"ppi"
 
-k:"ppi (A value of 0 will cause the ppi reported by your monitor to be used)"
-v:"ppi (0を指定すると、モニターが報告するppiを使用します)"
-
 k:"Preconfigured"
 v:"プリセット"
+
+k:"preconfigured mark"
+v:"事前設定済みのマーク"
 
 k:"Preferences…"
 v:"設定…"
@@ -4233,28 +6732,26 @@ v:"設定…"
 k:"Preparing to install…"
 v:"インストールの準備中…"
 
-k:"Prereq Script"
-v:"前提条件スクリプト"
-
 k:"Prerequisite Count"
 v:"前提条件の数"
 
+k:"Prerequisite Type"
+v:"前提条件の種類"
+
 k:"Prerequisites"
+v:"前提条件"
+
+k:"prerequisites"
 v:"前提条件"
 
 k:"Prerequisites have not been met:"
 v:"前提条件を満たしていません:"
 
-k:"Press RETURN to select the next match"
-k:"Press SHIFT-RETURN to select the previous match"
-v:"RETURNキーで次の一致を選択"
-v:"SHIFT-RETURNキーで前の一致を選択"
+k:"Press the new key combination for %s"
+v:"%s の新しいキーの組み合わせを押してください"
 
 k:"Preview"
 v:"プレビュー"
-
-k:"Previous Match"
-v:"前の一致"
 
 k:"Previous Page"
 v:"前のページ"
@@ -4299,6 +6796,12 @@ v:""
 k:"Professional Teacher"
 v:"専門教師"
 
+k:"Progress Bar"
+v:"プログレスバー"
+
+k:"Progression"
+v:"ダメージ進行"
+
 k:"projectile"
 v:"投射物"
 
@@ -4317,11 +6820,20 @@ v:"パンチ"
 k:"px"
 v:"px"
 
+k:"Qty"
+v:"数量"
+
 k:"Quantity"
 v:"数量"
 
-k:"Quantity Criteria"
-v:"数量の条件"
+k:"quantity"
+v:"数量"
+
+k:"Quantity to Buy"
+v:"購入数量"
+
+k:"Quick Filter"
+v:"クイックフィルタ"
 
 k:"Quirks"
 v:"くせ"
@@ -4341,17 +6853,26 @@ v:"R: マスケット銃の支え台を使用。静止して立った状態で�
 k:"Radial"
 v:"放射状"
 
+k:"Radio Button"
+v:"ラジオボタン"
+
 k:"Radius"
 v:"半径"
 
 k:"Rain"
 v:"雨"
 
+k:"Randomize"
+v:"ランダム化"
+
 k:"Randomize the age using the current ancestry"
 v:"現在の血統で年齢をランダム化"
 
 k:"Randomize the birthday using the current calendar"
 v:"現在のカレンダーで誕生日をランダム化"
+
+k:"Randomize the character's profile again?"
+v:"キャラクターの描写をもう一度ランダム化しますか？"
 
 k:"Randomize the eyes using the current ancestry"
 v:"現在の血統で目をランダム化"
@@ -4386,14 +6907,14 @@ v:"射程 %+d"
 k:"Range In Miles"
 v:"射程 (マイル)"
 
-k:"Ranged Weapon"
-v:"長射程武器"
+k:"Ranged Attack"
+v:"長射程攻撃"
 
-k:"Ranged Weapon Usage"
-v:"長射程武器の使用法"
+k:"Ranged Attack Usage"
+v:"長射程攻撃の使用法"
 
-k:"Ranged Weapons"
-v:"長射程武器"
+k:"Ranged Attacks"
+v:"長射程攻撃"
 
 k:"Ranges are in miles"
 v:"射程はマイル単位"
@@ -4402,6 +6923,9 @@ k:"Rate of Fire"
 v:"連射"
 
 k:"Rated ST"
+v:"定格ST"
+
+k:"rated ST"
 v:"定格ST"
 
 k:"Rated ST %s"
@@ -4416,6 +6940,9 @@ v:"攻撃範囲の変更には準備が必要"
 k:"Reaction"
 v:"反応"
 
+k:"Reaction Container"
+v:"反応コンテナ"
+
 k:"Reaction Modifier"
 v:"反応修正"
 
@@ -4425,17 +6952,20 @@ v:"反応修正"
 k:"Reactions"
 v:"反応"
 
+k:"Read-only view. Use Show in Source File to change an item."
+v:"読み取り専用の表示です。項目を変更するには「ソースファイルで表示」を使ってください。"
+
 k:"Readable Files (%s)"
 v:"読み込み可能なファイル (%s)"
+
+k:"Reads the library files again"
+v:"ライブラリファイルを再読み込みします"
 
 k:"Rear-end"
 v:"追突"
 
 k:"Reason"
 v:"理由"
-
-k:"Recent Files"
-v:"最近使用したファイル"
 
 k:"Recoil"
 v:"反動"
@@ -4452,17 +6982,29 @@ v:"エネルギー回復:"
 k:"Red"
 v:"赤"
 
+k:"Redo"
+v:"やり直し"
+
 k:"Redo %s"
 v:"%s をやり直し"
-
-k:"Reduces the attribute cost of"
-v:"次の能力値のコストを減らす"
 
 k:"Reduces the contained weight by"
 v:"次のものによって含有された重量を減らす"
 
+k:"Reduces the contained weight by %s"
+v:"含有重量を %s 減らす"
+
+k:"Reduces the cost of"
+v:"次のコストを減らす:"
+
+k:"Reduces the cost of %s by %s"
+v:"%s のコストを %s 減らす"
+
 k:"reduces the ST requirement to %v and "
 v:"ST必要値を %v に下げ、かつ "
+
+k:"Reduction"
+v:"軽減"
 
 k:"Reduction for Talent level 1"
 v:"才能レベル1による軽減"
@@ -4491,6 +7033,9 @@ v:"関連技能レベル"
 k:"Release Notes"
 v:"リリースノート"
 
+k:"Release Notes for %s %s"
+v:"%s %s のリリースノート"
+
 k:"Religion"
 v:"宗教"
 
@@ -4503,8 +7048,32 @@ v:"再装填時間"
 k:"Reload Time Is Per Shot"
 v:"再装填時間は1発ごと"
 
+k:"reloading…"
+v:"再読み込み中…"
+
+k:"Remove %s"
+v:"%s を削除"
+
+k:"Remove %s from %s"
+v:"%s を %s から削除"
+
+k:"Remove Attack Specialization"
+v:"攻撃の専門化を削除"
+
 k:"Remove attribute"
 v:"属性を削除"
+
+k:"Remove cap: %s"
+v:"上限を削除: %s"
+
+k:"Remove Choices"
+v:"選択肢を削除"
+
+k:"Remove Combined Attribute"
+v:"複合属性を削除"
+
+k:"Remove Description"
+v:"説明を削除"
 
 k:"Remove Entry"
 v:"項目を削除"
@@ -4518,6 +7087,9 @@ v:"目のオプションを削除"
 k:"Remove eye option"
 v:"目のオプションを削除"
 
+k:"Remove from the purchase"
+v:"購入から外す"
+
 k:"Remove Gender"
 v:"性別を削除"
 
@@ -4529,6 +7101,9 @@ v:"ジェネレータを削除"
 
 k:"Remove generator"
 v:"ジェネレータを削除"
+
+k:"Remove Group"
+v:"グループを削除"
 
 k:"Remove Hair Option"
 v:"髪のオプションを削除"
@@ -4548,14 +7123,23 @@ v:"命中部位を削除"
 k:"Remove hit location"
 v:"命中部位を削除"
 
+k:"Remove Limitation"
+v:"制限を削除"
+
 k:"Remove Name Generator"
 v:"名前ジェネレータを削除"
 
 k:"Remove name generator"
 v:"名前ジェネレータを削除"
 
+k:"Remove Option"
+v:"選択肢を削除"
+
 k:"Remove pool threshold"
 v:"プールのしきい値を削除"
+
+k:"Remove Relative Skill Level"
+v:"関連技能レベルを削除"
 
 k:"Remove Selected Eye Options"
 v:"選択した目のオプションを削除"
@@ -4572,6 +7156,12 @@ v:"選択した肌のオプションを削除"
 k:"Remove Selected Training Names"
 v:"選択した訓練名を削除"
 
+k:"Remove Shopping Record Entries"
+v:"購入記録の項目を削除"
+
+k:"Remove Shopping Record Entry"
+v:"購入記録の項目を削除"
+
 k:"Remove Skin Option"
 v:"肌のオプションを削除"
 
@@ -4586,6 +7176,21 @@ v:"サブテーブルを削除"
 
 k:"Remove sub-table"
 v:"サブテーブルを削除"
+
+k:"Remove Switchable"
+v:"切り替え可能な特性を削除"
+
+k:"Remove Tech Level"
+v:"テックレベルを削除"
+
+k:"Remove Tech Level Condition"
+v:"テックレベルの条件を削除"
+
+k:"Remove the mapping for %s"
+v:"%s のマッピングを削除"
+
+k:"Remove the modifier from the item"
+v:"項目から修正を外す"
 
 k:"Remove the selected eye options"
 v:"選択した目のオプションを削除"
@@ -4602,11 +7207,26 @@ v:"選択した肌のオプションを削除"
 k:"Remove the selected training names"
 v:"選択した訓練名を削除"
 
+k:"Remove this study entry"
+v:"この学習記録を削除"
+
 k:"Remove Training Name"
 v:"訓練名を削除"
 
 k:"Remove training name"
 v:"訓練名を削除"
+
+k:"Removes %s from %s when already present"
+v:"%s を %s から外す (すでにある場合)"
+
+k:"Removes %s from %s, already present"
+v:"%s を %s から外す (すでにある)"
+
+k:"Removes nothing from %s, since it has no level of its own"
+v:"%s からは何も削除しません (それ自体のレベルがないため)"
+
+k:"Removes nothing from %s, since it is not present"
+v:"%s からは何も削除しません (存在しないため)"
 
 k:"Rename"
 v:"名前の変更"
@@ -4614,17 +7234,29 @@ v:"名前の変更"
 k:"Rendering page %s…"
 v:"ページ %s を描画中…"
 
+k:"Reorder Options"
+v:"選択肢を並べ替え"
+
 k:"Repeat"
 v:"繰り返し"
 
+k:"Replace Granted Item"
+v:"付与項目を置き換え"
+
 k:"Repository"
 v:"リポジトリ"
+
+k:"require a tech level"
+v:"テックレベルが必要"
 
 k:"Required"
 v:"必須"
 
 k:"Required Specialization"
 v:"必須の専門化"
+
+k:"Requirement"
+v:"要件"
 
 k:"Requires "
 v:"必要: "
@@ -4635,9 +7267,6 @@ v:"次の名前の技能が必要: "
 k:"Requires all of:"
 v:"以下すべてを必須とする:"
 
-k:"requires all of:"
-v:"以下すべてが必要:"
-
 k:"Requires at least 1 point in "
 v:"次に最低1CPが必要: "
 
@@ -4647,8 +7276,14 @@ v:"次の名前の技能に最低1CPが必要: "
 k:"Requires at least one of:"
 v:"以下のうち少なくともひとつを必須とする:"
 
-k:"requires at least one of:"
-v:"以下のうち少なくとも1つが必要:"
+k:"Requires none of:"
+v:"いずれも不要:"
+
+k:"Requires not all of:"
+v:"すべてではなく:"
+
+k:"Requires these tags:"
+v:"次のタグが必要:"
 
 k:"Reset"
 v:"リセット"
@@ -4670,6 +7305,15 @@ v:"レイアウトをデフォルトに戻す"
 
 k:"Reset the Default Layout to Factory Settings"
 v:"デフォルトのレイアウトを工場出荷時の設定に戻す"
+
+k:"Reset this color"
+v:"この色をリセット"
+
+k:"Reset this font"
+v:"このフォントをリセット"
+
+k:"Reset this key binding"
+v:"このキー割り当てをリセット"
 
 k:"Reset Uses to Maximum"
 v:"使用回数を最大値に戻す"
@@ -4704,8 +7348,8 @@ v:"休息"
 k:"Restore"
 v:"復元"
 
-k:"Restore workspace arrangement on start"
-v:"起動時にワークスペースの配置を復元する"
+k:"Restore arrangement on start"
+v:"起動時に配置を復元する"
 
 k:"Restraint:"
 v:"拘束:"
@@ -4729,7 +7373,7 @@ k:"Reverse-Difference"
 v:"逆差分"
 
 k:"Right"
-v:"右利き"
+v:"右"
 
 k:"Right Margin"
 v:"右余白"
@@ -4749,8 +7393,20 @@ v:"右Shift"
 k:"Ritual"
 v:"儀式"
 
+k:"Ritual Cost"
+v:"儀式コスト"
+
 k:"Ritual Magic Spell"
 v:"儀礼魔法呪文"
+
+k:"Ritual Magic spell"
+v:"儀式魔術の呪文"
+
+k:"Ritual Time"
+v:"儀式時間"
+
+k:"Rituals"
+v:"儀式"
 
 k:"Road, Cobblestone"
 v:"道路 (石畳)"
@@ -4788,8 +7444,14 @@ v:"丸め"
 k:"Round Down"
 v:"端数切捨て"
 
+k:"Row"
+v:"行"
+
 k:"RSL"
 v:"RSL"
+
+k:"Rules"
+v:"ルール"
 
 k:"Running Shove & Knock Over"
 v:"助走付きで押して倒す"
@@ -4817,6 +7479,21 @@ k:"%s?"
 v:"変更を保存しますか:"
 v:"%s?"
 
+k:"Save Filter…"
+v:"フィルタを保存…"
+
+k:"Save Set As"
+v:"セットに名前を付けて保存"
+
+k:"Save Set As…"
+v:"セットに名前を付けて保存…"
+
+k:"Saved Filters"
+v:"保存済みフィルタ"
+
+k:"Saved Filters…"
+v:"保存済みフィルタ…"
+
 k:"Save…"
 v:"保存…"
 
@@ -4825,6 +7502,9 @@ v:"倍率"
 
 k:"Scale Down"
 v:"縮小"
+
+k:"Scale To"
+v:"倍率"
 
 k:"Scale Up"
 v:"拡大"
@@ -4853,8 +7533,20 @@ v:"スコープ命中"
 k:"Screen"
 v:"スクリーン"
 
+k:"Script"
+v:"スクリプト"
+
+k:"Script Execution Limit"
+v:"スクリプトの実行制限"
+
 k:"Scripting Guide"
 v:"スクリプトガイド"
+
+k:"Scroll Area"
+v:"スクロール領域"
+
+k:"Scroll Bar"
+v:"スクロールバー"
 
 k:"Scroll Wheel Multiplier"
 v:"スクロールホイールの倍率"
@@ -4875,7 +7567,7 @@ k:"Secondary"
 v:"サブ"
 
 k:"Secondary Attributes"
-v:"副能力値"
+v:"副次能力値"
 
 k:"Secondary Fields"
 v:"サブフィールド"
@@ -4885,6 +7577,12 @@ v:"二次投射物"
 
 k:"secondary projectiles"
 v:"二次投射物"
+
+k:"secondary projectiles (mode 1)"
+v:"二次投射物 (モード1)"
+
+k:"secondary projectiles (mode 2)"
+v:"二次投射物 (モード2)"
 
 k:"Secondary Separator"
 v:"サブ区切り"
@@ -4898,11 +7596,23 @@ v:"スクリプトあたりの秒数"
 k:"Select All"
 v:"すべて選択"
 
+k:"Select entries and press Delete to remove them."
+v:"項目を選択し、Deleteキーを押すと削除します。"
+
 k:"Select Image…"
 v:"画像を選択…"
 
+k:"Select Modifiers (%d of %d) for:"
+v:"次の修正を選択 (%d / %d):"
+
 k:"Select Modifiers for:"
 v:"次の修正を選択:"
+
+k:"Selected %s"
+v:"選択した %s"
+
+k:"Selection Type"
+v:"選択タイプ"
 
 k:"Self-Control"
 v:"自制"
@@ -4910,11 +7620,32 @@ v:"自制"
 k:"Self-Control Adjustment"
 v:"自制の調整"
 
+k:"self-control roll"
+v:"自制判定"
+
 k:"Self-Control Roll (CR): "
 v:"自制判定 (CR): "
 
 k:"Self-Taught"
 v:"独学"
+
+k:"Sell"
+v:"売却"
+
+k:"Sell Equipment"
+v:"装備を売却"
+
+k:"Sell Equipment…"
+v:"装備を売却…"
+
+k:"Sell Money"
+v:"売却代金"
+
+k:"Sell Percent"
+v:"売却価格の割合"
+
+k:"Sell…"
+v:"売却…"
 
 k:"Semi-Bold"
 v:"セミボールド"
@@ -4928,8 +7659,17 @@ v:"セミエキスパンデッド"
 k:"Separate multiple %s with commas"
 v:"複数の %s はカンマで区切ってください"
 
+k:"Separate multiple colleges with commas to match any one of them, e.g. \"Fire, Air\""
+v:"複数の系統はカンマで区切ると、どれか1つに一致します。例: \"Fire, Air\""
+
 k:"Separate multiple tags with commas to match any one of them, e.g. \"Sword, Axe\""
 v:"複数のタグはカンマで区切ると、どれか1つに一致します。例: \"Sword, Axe\""
+
+k:"Separate multiple types with commas to match any one of them, e.g. \"cut, imp\""
+v:"複数の種類はカンマで区切ると、どれか1つに一致します。例: \"cut, imp\""
+
+k:"Separate multiple values with commas to match any one of them, e.g. \"Sword, Axe\""
+v:"複数の値はカンマで区切ると、どれか1つに一致します。例: \"Sword, Axe\""
 
 k:"Separator"
 v:"区切り"
@@ -4946,8 +7686,11 @@ v:"設定する"
 k:"Set Block Height"
 v:"ブロックの高さを設定"
 
-k:"Set Body Type to"
-v:"身体タイプを次に設定: "
+k:"Set Body Type"
+v:"身体タイプを設定"
+
+k:"Set Level"
+v:"レベルを設定"
 
 k:"Set Portrait"
 v:"ポートレイトを設定"
@@ -4955,17 +7698,29 @@ v:"ポートレイトを設定"
 k:"Set Substitutions"
 v:"置換を設定"
 
-k:"Set the weapon flag"
-v:"武器フラグを設定する"
+k:"Set to"
+v:"次に設定:"
 
 k:"Set to **%q** by **%s**"
 v:"**%s** によって **%q** に設定されました"
 
+k:"Sets %s to %s"
+v:"%s を %s に設定"
+
+k:"Sets %s to %s on %s (priority %d)"
+v:"%s を %s に設定 (%s 上、優先度 %d)"
+
 k:"Sets the value of"
 v:"次の値を設定: "
 
+k:"Sets the weapon flag"
+v:"武器フラグを設定"
+
 k:"Sets the width of each column to fit its contents"
 v:"各列の幅を内容に合わせます"
+
+k:"setting its level to"
+v:"レベルを次に設定:"
 
 k:"Settings"
 v:"設定"
@@ -4973,14 +7728,26 @@ v:"設定"
 k:"Settings Path"
 v:"設定のパス"
 
+k:"Settle the money to pay with, then pay for the items and add them to the carried equipment"
+v:"支払う金銭を決めてから、品物の代金を支払って携帯装備に追加します"
+
 k:"Shape:"
 v:"形状:"
+
+k:"shares the item's answer"
+v:"項目の回答を共有する"
 
 k:"Sharp"
 v:"鋭い"
 
+k:"Sheet"
+v:"シート"
+
 k:"Sheet Block Tints"
 v:"シートブロックの色合い"
+
+k:"Sheet Layout Editor"
+v:"シートレイアウトエディタ"
 
 k:"Sheet Settings"
 v:"シート設定"
@@ -4994,8 +7761,17 @@ v:"シート設定…"
 k:"Shift Slightly"
 v:"わずかにずらす"
 
-k:"Shift-Click or %v-Click to select more than one"
-v:"Shift+クリックまたは %v+クリックで複数選択"
+k:"Shift-Click or %s-Click to select more than one"
+v:"Shiftクリックまたは %s クリックで複数選択"
+
+k:"Shopping Record"
+v:"購入記録"
+
+k:"Shopping Record: %s"
+v:"購入記録: %s"
+
+k:"Short by $%s."
+v:"$%s 不足。"
 
 k:"Short Name"
 v:"短縮名"
@@ -5021,8 +7797,11 @@ v:"発"
 k:"Shots Per Attack"
 v:"攻撃ごとの発射数"
 
-k:"shots per attack"
-v:"攻撃ごとの発射数"
+k:"shots per attack (mode 1)"
+v:"攻撃ごとの発射数 (モード1)"
+
+k:"shots per attack (mode 2)"
+v:"攻撃ごとの発射数 (モード2)"
 
 k:"Shove & Knock Over"
 v:"押して倒す"
@@ -5036,8 +7815,11 @@ v:"余裕があれば追加のページ参照を表示する"
 k:"Show All"
 v:"すべて表示"
 
-k:"Show all weapons"
-v:"すべての武器を表示"
+k:"Show all attacks"
+v:"すべての攻撃を表示"
+
+k:"Show as Pages"
+v:"ページとして表示"
 
 k:"Show Block"
 v:"ブロックを表示"
@@ -5045,38 +7827,77 @@ v:"ブロックを表示"
 k:"Show equipment modifier cost & weight adjustments"
 v:"装備修正のコスト・重量の調整を表示する"
 
+k:"Show in Source File"
+v:"ソースファイルで表示"
+
+k:"Show in title notes"
+v:"タイトルノートに表示"
+
 k:"Show IQ-based damage"
 v:"IQ基準のダメージを表示する"
 
-k:"Show legality class (LC) column"
-v:"合法レベル (LC) 列を表示する"
+k:"Show legality class (LC)"
+v:"合法レベル (LC) を表示"
 
-k:"Show library source column"
-v:"ライブラリソース列を表示する"
+k:"Show library source"
+v:"ライブラリソースを表示"
 
 k:"Show Lifting ST-based damage"
 v:"持ち上げST基準のダメージを表示する"
 
+k:"Show notes"
+v:"ノートを表示"
+
+k:"Show notes in attack usage"
+v:"攻撃の使用法にノートを表示"
+
+k:"Show notes in owner's notes"
+v:"所有者のノートにノートを表示"
+
 k:"Show on Disk"
 v:"ディスク上で表示"
 
-k:"Show page reference column"
-v:"ページ参照列を表示する"
+k:"Show or hide %s"
+v:"%s を表示／非表示"
+
+k:"Show or hide this section"
+v:"このセクションを表示／非表示"
+
+k:"Show page reference"
+v:"ページ参照を表示"
+
+k:"Show sheets as pages"
+v:"シートをページとして表示"
 
 k:"Show spell ritual, cost & time adjustments"
 v:"呪文の儀式・コスト・時間の調整を表示する"
 
-k:"Show tech level (TL) column"
-v:"テックレベル (TL) 列を表示する"
+k:"Show tech level (TL)"
+v:"テックレベル (TL) を表示"
 
 k:"Show the full version and exit"
 v:"完全なバージョンを表示して終了します"
+
+k:"Show the modifier in its owner's title notes instead of its owner's notes. A modifier with notes still shows them in its owner's notes, unless \"Show notes in owner's notes\" is cleared, as does one with a cost or weight adjustment while the sheet settings show those."
+v:"修正を、所有者のノートではなく所有者のタイトルノートに表示します。ノートのある修正は、「所有者のノートにノートを表示」がオフでない限り、所有者のノートにも表示されます。シート設定でコストや重量の調整を表示している場合の調整付き修正も同様です。"
+
+k:"Show the modifier's notes in its owner's notes. The modifier is listed there either way."
+v:"修正のノートを所有者のノートに表示します。修正はどちらの場合もそこに一覧表示されます。"
+
+k:"Show the modifier's notes in the usage notes of its owner's attacks."
+v:"修正のノートを、所有者の攻撃の使用法ノートに表示します。"
+
+k:"Show the sheet as pages"
+v:"シートをページとして表示する"
 
 k:"Show the short version and exit"
 v:"短いバージョンを表示して終了します"
 
 k:"Show the title instead of the name in the footer"
 v:"フッターに名前ではなくタイトルを表示する"
+
+k:"Show this title note before the item's built-in notes, such as a skill's specialization."
+v:"このタイトルノートを、技能の専門化などの項目の組み込みノートの前に表示します。"
 
 k:"Show trailing zeros out to the number of decimal places chosen, e.g. \"7.50\" rather than \"7.5\" at 2 decimal places. Has no effect when \"As Needed\" or \"0\" is chosen."
 v:"選択した小数点以下の桁数までゼロを表示する。例: 小数点以下2桁なら \"7.5\" ではなく \"7.50\"。「必要に応じて」や「0」を選んだ場合は効果がありません。"
@@ -5096,6 +7917,9 @@ v:"シンプル"
 k:"Simple picks one of the training names at random. Markov Letter builds new names letter by letter from patterns in the training names. Markov Run builds new names from the runs of vowels and consonants in the training names. Compound joins the output of several generators with a separator."
 v:"「シンプル」は訓練名の中から1つをランダムに選びます。「マルコフ文字」は訓練名のパターンから1文字ずつ新しい名前を作ります。「マルコフ連続」は訓練名の母音と子音の連なりから新しい名前を作ります。「複合」は複数のジェネレータの出力を区切り文字でつなぎます。"
 
+k:"Situation"
+v:"状況"
+
 k:"Situation:"
 v:"状況:"
 
@@ -5108,14 +7932,26 @@ v:"サイズ修正"
 k:"Skill"
 v:"技能"
 
+k:"skill"
+v:"技能"
+
 k:"Skill 15+ (1 FP per 5 minutes of rest)"
 v:"技能15以上 (休息5分ごとにFP1)"
 
 k:"Skill 20+ (1 FP per 2 minutes of rest)"
 v:"技能20以上 (休息2分ごとにFP1)"
 
+k:"Skill %s"
+v:"技能 %s"
+
+k:"skill %s"
+v:"技能 %s"
+
 k:"Skill / Technique"
 v:"技能／テクニック"
+
+k:"Skill Choice"
+v:"技能の選択肢"
 
 k:"Skill Container"
 v:"技能コンテナ"
@@ -5126,11 +7962,38 @@ v:"技能レベル"
 k:"Skill Level Adjustments"
 v:"技能レベルの調整"
 
+k:"Skill Level Caps"
+v:"技能レベル上限"
+
+k:"Skill Level Caps Menu"
+v:"技能レベル上限メニュー"
+
 k:"Skill Name"
 v:"技能名"
 
+k:"Skill name"
+v:"技能名"
+
+k:"Skill or spell name"
+v:"技能または呪文の名前"
+
+k:"skill or technique"
+v:"技能またはテクニック"
+
+k:"Skill Specialization"
+v:"技能の専門化"
+
 k:"Skills"
 v:"技能"
+
+k:"skills"
+v:"技能"
+
+k:"Skills and Spells"
+v:"技能と呪文"
+
+k:"Skills and spells"
+v:"技能と呪文"
 
 k:"Skin"
 v:"肌"
@@ -5143,6 +8006,9 @@ v:"SL"
 
 k:"Sleet"
 v:"みぞれ"
+
+k:"Slider"
+v:"スライダー"
 
 k:"Slots"
 v:"スロット"
@@ -5161,6 +8027,9 @@ v:"SM軽減"
 
 k:"Small"
 v:"小"
+
+k:"Snippets"
+v:"スニペット"
 
 k:"Snow"
 v:"雪"
@@ -5183,8 +8052,32 @@ v:"ソフトライト"
 k:"Software Update Available"
 v:"ソフトウェアのアップデートがあります"
 
+k:"Sold"
+v:"売却済み"
+
+k:"Sold %s"
+v:"%s を売却済み"
+
+k:"Sold with each one:"
+v:"それぞれに付けて売る:"
+
+k:"Sold with it:"
+v:"それに付けて売る:"
+
 k:"Solid"
 v:"ソリッド"
+
+k:"Some items could not be found in their files"
+v:"一部の項目がファイル内に見つかりませんでした"
+
+k:"Something picked below needs attention: %s."
+v:"下で選んだものに確認が必要です: %s。"
+
+k:"Sorted ascending"
+v:"昇順で並べ替え"
+
+k:"Sorted descending"
+v:"降順で並べ替え"
 
 k:"Source ID"
 v:"ソースID"
@@ -5194,6 +8087,9 @@ v:"ソースライブラリ"
 
 k:"Source Path"
 v:"ソースパス"
+
+k:"Source Set"
+v:"ソースセット"
 
 k:"Source:"
 v:"ソース:"
@@ -5210,17 +8106,32 @@ v:"小声で話し、身振りをする"
 k:"Specialization"
 v:"専門化"
 
-k:"Specialization Qualifier"
-v:"専門化の条件"
-
 k:"Spell"
 v:"呪文"
+
+k:"spell"
+v:"呪文"
+
+k:"spell %s"
+v:"呪文 %s"
+
+k:"Spell Choice"
+v:"呪文の選択肢"
 
 k:"Spell Container"
 v:"呪文コンテナ"
 
-k:"Spell Qualifier"
-v:"呪文の条件"
+k:"Spell Level"
+v:"呪文レベル"
+
+k:"Spell Match"
+v:"呪文の一致"
+
+k:"Spell Name"
+v:"呪文名"
+
+k:"Spell name"
+v:"呪文名"
 
 k:"spell(s)"
 v:"呪文"
@@ -5228,8 +8139,32 @@ v:"呪文"
 k:"Spells"
 v:"呪文"
 
+k:"spells"
+v:"呪文"
+
+k:"spells of the %s college"
+v:"%s 系統の呪文"
+
+k:"spells of the %s power source"
+v:"%s 動力源の呪文"
+
+k:"Spend"
+v:"使う"
+
+k:"Spending"
+v:"支出"
+
+k:"Spending: $%s"
+v:"支出: $%s"
+
 k:"Spiked"
 v:"スパイク"
+
+k:"Spin Button"
+v:"スピンボタン"
+
+k:"Sponsor %s"
+v:"%s を支援する"
 
 k:"Sponsor %s Development"
 v:"%s の開発を支援する"
@@ -5282,6 +8217,9 @@ v:"状態"
 k:"Stop"
 v:"停止"
 
+k:"Stop Checking Prerequisites"
+v:"前提条件の確認をやめる"
+
 k:"Strength"
 v:"体力"
 
@@ -5306,17 +8244,32 @@ v:"直撃"
 k:"Struck object"
 v:"衝突される物体"
 
+k:"Structure"
+v:"構造"
+
 k:"Studied %s of %s hours"
 v:"%s / %s 時間を学習済み"
 
 k:"Study"
 v:"学習"
 
+k:"Study Hours Needed per Point"
+v:"ポイントごとに必要な学習時間"
+
+k:"Study Type"
+v:"学習の種類"
+
 k:"Sub-Editors"
 v:"サブエディタ"
 
 k:"Sub-Roll"
 v:"サブ判定"
+
+k:"Substitutions"
+v:"置換"
+
+k:"Success"
+v:"成功"
 
 k:"Sudden stop of a vehicle, elevator, etc."
 v:"乗り物・エレベーターなどの急停止"
@@ -5364,22 +8317,34 @@ k:"Swimming skill level"
 v:"「水泳」技能レベル"
 
 k:"Swing = Thrust+2"
-v:"振り = 突き+2"
+v:"スイング = スラスト+2"
 
 k:"Switch"
 v:"切り替え"
 
-k:"switchable"
-v:"切り替え可能"
+k:"Switch Value"
+v:"スイッチの値"
 
 k:"Switched On"
 v:"オン"
+
+k:"switched on state"
+v:"スイッチがオンの状態"
+
+k:"Sync Granted Item with Source"
+v:"付与項目をソースと同期"
 
 k:"Sync with all sources in this sheet"
 v:"このシート内のすべてのソースと同期"
 
 k:"Sync with Source"
 v:"ソースと同期"
+
+k:"Syncing with the source replaces this item."
+v:"ソースと同期すると、この項目が置き換えられます。"
+
+k:"Syncing with the source replaces this weapon."
+v:"ソースと同期すると、この武器が置き換えられます。"
 
 k:"Syncs all character sheet (%s), template (%s), and loot (%s) files specified on the command line with their library sources. If a directory is specified, it will be traversed recursively and all files found will be converted. After all files have been processed, GCS will exit"
 v:"コマンドラインで指定したすべてのキャラクターシート (%s)、テンプレート (%s)、戦利品 (%s) のファイルを、ライブラリのソースと同期します。ディレクトリを指定すると再帰的に走査し、見つかったすべてのファイルを変換します。すべての処理が終わるとGCSは終了します"
@@ -5405,20 +8370,44 @@ v:"T Bone氏の新ダメージ表 (オプション2、整理版)"
 k:"Tab"
 v:"Tab"
 
+k:"Tab indents. Esc closes."
+v:"Tabでインデント、Escで閉じる。"
+
+k:"Tab List"
+v:"タブ一覧"
+
+k:"Tab Panel"
+v:"タブパネル"
+
+k:"Tab stops on static text for screen readers"
+v:"スクリーンリーダー用の静的テキストのタブストップ"
+
+k:"Table"
+v:"表"
+
+k:"Table Header"
+v:"表の見出し"
+
 k:"Table Name"
 v:"表名"
 
+k:"Table of Contents"
+v:"目次"
+
+k:"Tag"
+v:"タグ"
+
 k:"Tag Filter"
 v:"タグフィルタ"
-
-k:"Tag Qualifier"
-v:"タグの条件"
 
 k:"Tags"
 v:"タグ"
 
 k:"tags"
 v:"タグ"
+
+k:"takes the answer to %s"
+v:"%s への回答を使う"
 
 k:"Target"
 v:"目標"
@@ -5429,10 +8418,28 @@ v:"目標 (最小) 値"
 k:"Target dodged"
 v:"目標がよけた"
 
+k:"Target Points"
+v:"目標ポイント"
+
+k:"Target Points Maximum"
+v:"目標ポイントの最大値"
+
+k:"Target Points Minimum"
+v:"目標ポイントの最小値"
+
+k:"Targets"
+v:"対象"
+
 k:"Tech Level"
 v:"テックレベル"
 
+k:"tech level"
+v:"テックレベル"
+
 k:"Technique"
+v:"テクニック"
+
+k:"technique"
 v:"テクニック"
 
 k:"Technique Default Adjustment"
@@ -5442,19 +8449,25 @@ k:"Technique Default Skill Name"
 v:"テクニックの技能なし値の技能名"
 
 k:"telekinetic sw"
-v:"念動振り"
+v:"念動スイング"
 
 k:"Telekinetic Swing"
-v:"念動振り"
+v:"念動スイング"
 
 k:"telekinetic thr"
-v:"念動突き"
+v:"念動スラスト"
 
 k:"Telekinetic Thrust"
-v:"念動突き"
+v:"念動スラスト"
 
 k:"Temperate"
 v:"温帯"
+
+k:"Template"
+v:"テンプレート"
+
+k:"Template choices can only be kept in a template"
+v:"テンプレートの選択肢はテンプレート内にしか保持できません"
 
 k:"Terminal velocity:"
 v:"終端速度:"
@@ -5464,6 +8477,54 @@ v:"地形:"
 
 k:"Text"
 v:"テキスト"
+
+k:"Text Area"
+v:"テキストエリア"
+
+k:"Text Field"
+v:"テキストフィールド"
+
+k:"that"
+v:"その"
+
+k:"that are"
+v:"それが次である"
+
+k:"that are anything"
+v:"それが何でもよい"
+
+k:"that are at least"
+v:"それが少なくとも次である"
+
+k:"that are at most"
+v:"それが多くとも次である"
+
+k:"that are not"
+v:"それが次でない"
+
+k:"that contain"
+v:"それが次を含む"
+
+k:"that do not contain"
+v:"それが次を含まない"
+
+k:"that do not end with"
+v:"それが次で終わらない"
+
+k:"that do not start with"
+v:"それが次で始まらない"
+
+k:"that end with"
+v:"それが次で終わる"
+
+k:"that start with"
+v:"それが次で始まる"
+
+k:"the "
+v:""
+
+k:"the %s of %s"
+v:"%s (%s の)"
 
 k:"The amount of DR this hit location grants due to natural toughness"
 v:"生来の頑丈さによってこの命中部位が得るDR量"
@@ -5476,6 +8537,15 @@ v:"属性"
 
 k:"The base value, which may be a number or a script expression"
 v:"基本値。数値またはスクリプト式を指定できます"
+
+k:"The checked money-tagged items carried pay for it, chosen automatically unless you change the quantities to spend."
+v:"チェックした、金銭タグの付いた携帯品が代金に充てられます。使う数量を変えない限り、自動で選ばれます。"
+
+k:"The choices are removed, leaving the groups and their contents otherwise as they are."
+v:"選択肢は削除され、グループとその内容はそのまま残ります。"
+
+k:"The choices will be removed as well."
+v:"選択肢も削除されます。"
 
 k:"The clean dive negates all damage (BX431)."
 v:"きれいな飛び込みはすべてのダメージを無効にする (BX431)。"
@@ -5528,6 +8598,9 @@ v:"落下する者"
 k:"The falling object is at least as big as the victim, so on the victim's next turn he may move only one yard and his active defenses are at -3 (BX431)."
 v:"落下する物体は被害者と同じ大きさ以上のため、被害者は次のターンに1ヤードしか移動できず、積極的防御は-3となる (BX431)。"
 
+k:"The file holds %q data, but %q data was expected."
+v:"ファイルには %q のデータが入っていますが、%q のデータが想定されていました。"
+
 k:"The full name of this attribute (may be omitted, in which case the Short Name will be used instead)"
 v:"この属性の正式名称 (省略可。省略すると短縮名が使われます)"
 
@@ -5537,8 +8610,20 @@ v:"名前を作るために、順番に出力をつなぎ合わせるジェネ�
 k:"The GitHub Access Token is only needed for private repositories and only needs the read-only \"Content\" permission for access to this repo"
 v:"GitHubアクセストークンはプライベートリポジトリにのみ必要で、このリポジトリへのアクセスには読み取り専用の \"Content\" 権限だけが必要です"
 
+k:"The grant gives it nothing, since %s."
+v:"この付与は何も与えません (%s のため)。"
+
+k:"The grant gives it nothing, since the level it sets is below %s."
+v:"この付与は何も与えません (設定されるレベルが %s を下回るため)。"
+
+k:"The grant is not in effect."
+v:"この付与は有効ではありません。"
+
 k:"The ground movement rate for the %s encumbrance level"
 v:"荷重レベル %s での地上移動力"
+
+k:"the highest of %s"
+v:"%s のうち最大"
 
 k:"The hiker is out of FP after %s hours; going on takes a Will roll, which the hours below assume is made, and each further FP lost also costs 1 HP (B426)."
 v:"ハイカーは %s 時間後にFPが尽きる。続けるには意志力判定が必要で、以下の時間は成功したものとして計算している。失ったFP1ごとにHPも1失う (B426)。"
@@ -5558,13 +8643,40 @@ v:""
 v:"ほとんどの場合、$FILE と $TEXT は引用符で囲むのがよいでしょう。"
 v:"ただし、変数自体に引用符が含まれている場合などは、それでも失敗することがあります。"
 
+k:"The item has no nameables of its own for this to take the answer to."
+v:"この項目には、これが回答を使う入力項目がありません。"
+
+k:"The item has this code too, so this always shares the item's answer."
+v:"項目にもこのコードがあるため、これは常に項目の回答を共有します。"
+
+k:"The item the modifier belongs to defines this, so the player is asked for it as that item asks."
+v:"修正が属する項目がこれを定義しているため、プレイヤーはその項目が求めるとおりに尋ねられます。"
+
 k:"The level of logging to use. Valid values are: "
 v:"使用するログレベル。有効な値: "
+
+k:"The level the grant gives the trait. With Keep Highest or Keep Lowest, a trait already present is held to at least or at most that level. A level below 1 does neither."
+v:"付与が特徴に与えるレベル。「最高値を保持」または「最低値を保持」の場合、すでにある特徴は、そのレベル以上または以下に保たれます。1未満のレベルは、どちらも行いません。"
+
+k:"The levels added to a %s already present, or taken away when negative, never below level 0. On its own, the grant gives the %s that level when it is 1 or more, counted in steps of points: level 1 is what 1 point buys, level 2 what 2 points buy, level 3 what 4 points buy, and each level after that 4 points more, or three times those points for a wildcard."
+v:"すでにある %s に加えるレベル (負の値なら差し引き、レベル0を下回らない)。単独では、1以上のとき、その %s にポイント換算のレベルを与えます: レベル1は1ポイント、レベル2は2ポイント、レベル3は4ポイント分で、以降は1レベルごとに4ポイントずつ増え、ワイルドカードならその3倍です。"
+
+k:"The levels added to a %s already present, or taken away when negative, never below level 0. On its own, the grant gives the %s that many levels above its default when it is 1 or more, at 1 point a level, plus 1 point for a Hard %s."
+v:"すでにある %s に加えるレベル (負の値なら差し引き、レベル0を下回らない)。単独では、1以上のとき、その %s に、技能なし値を上回るそのレベルを与えます。1レベルにつき1ポイント、難しい %s なら1ポイント追加です。"
+
+k:"The levels added to a trait already present, or taken away when negative, never below level 0. On its own, the grant gives the trait that level when it is 1 or more. A positive level below 1 does nothing at all."
+v:"すでにある特徴に加えるレベル (負の値なら差し引き、レベル0を下回らない)。単独では、1以上のとき、その特徴にそのレベルを与えます。1未満の正のレベルは何もしません。"
 
 k:"The library cannot be updated while"
 k:"documents from the library are open."
 v:"ライブラリのドキュメントが開かれている間は、"
 v:"ライブラリを更新できません。"
+
+k:"The Library Explorer is still scanning the libraries, so there is nothing to choose from yet."
+v:"ライブラリエクスプローラーがまだライブラリをスキャン中のため、選べるものがありません。"
+
+k:"The library file the row is from"
+v:"その行が含まれるライブラリファイル"
 
 k:"The library's releases could not be retrieved. Check its settings and your network connection, then try again."
 v:"ライブラリのリリースを取得できませんでした。設定とネットワーク接続を確認して、もう一度お試しください。"
@@ -5575,6 +8687,12 @@ v:"ライブラリのリポジトリに、このバージョンの %s で使え�
 k:"The locale to use when presenting text in the user interface. This does not affect the content of data files. Leave this value blank to use the system default. Note that changes to this take effect the next time GCS is started."
 v:"ユーザーインターフェースのテキスト表示に使うロケール。データファイルの内容には影響しません。空欄にするとシステムのデフォルトを使用します。変更は次回GCSを起動したときに反映されます。"
 
+k:"the lowest of %s"
+v:"%s のうち最小"
+
+k:"the lowest or highest of"
+v:"最小または最大"
+
 k:"The mana cost to cast the spell"
 v:"呪文の詠唱に必要なマナ・コスト"
 
@@ -5584,14 +8702,23 @@ v:"呪文の維持に必要なマナ・コスト"
 k:"The maximum level allowed for this trait. May be a number or a script expression. Leave blank for no maximum."
 v:"この特徴に許される最大レベル。数値またはスクリプト式を指定できます。空欄にすると上限なしです。"
 
+k:"the maximum level of"
+v:"次の最大レベル:"
+
 k:"The maximum load that can be carried and still remain within the %s encumbrance level"
 v:"荷重レベル %s にとどまったまま運べる最大重量"
 
 k:"The maximum number of `bytes` to write to a log file before rotating it"
 v:"ログファイルをローテーションするまでに書き込む最大 `バイト数`"
 
+k:"the maximum uses of"
+v:"次の最大使用回数:"
+
 k:"The maximum `number` of old logs files to retain"
 v:"保持する古いログファイルの最大 `数`"
+
+k:"The minimum may not be more than the maximum"
+v:"最小値は最大値を超えられません"
 
 k:"The minimum value of $%s could not be reached while staying at"
 k:"or under the maximum value of $%s with the available items."
@@ -5600,6 +8727,12 @@ v:"最小値 $%s に到達できませんでした。"
 
 k:"The miss is squared when the target was flying or underwater, or when Artillery or Dropping was used against a target the attacker could not see; a dodge is never squared. When the target dodged, the margin is its margin of success."
 v:"目標が飛行中または水中にいる場合、または攻撃者が見えない目標に対して砲撃や投下を行った場合、外れ幅は2乗される。よけは2乗されない。目標がよけた場合、外れ幅は目標の成功度になる。"
+
+k:"The money carried doesn't cover it, so it can't be finalized."
+v:"携帯している金銭では足りないため、確定できません。"
+
+k:"The money that selling equipment pays out in, using as few items as possible. Drag equipment tagged \"%s\", which is what buying spends, from any equipment list here to add a copy of it."
+v:"装備を売却したときに支払われる金銭で、できるだけ少ない項目数で構成されます。購入で使われる \"%s\" のタグが付いた装備を、任意の装備リストからここにドラッグすると、そのコピーを追加します。"
 
 k:"the moving object"
 v:"移動中の物体"
@@ -5628,11 +8761,23 @@ v:"選択リストに表示するこの命中部位の名前"
 k:"The name of this hit location as it should appear in the hit location table"
 v:"命中部位表に表示するこの命中部位の名前"
 
+k:"The name suggested follows what is being sold until you change it"
+v:"提案される名前は、変更するまで売却するものに追従します"
+
+k:"The name the shopping record gives the purchase"
+v:"購入記録がその購入に付ける名前"
+
 k:"The names the generator learns from. Weights make some names more likely; leave them all at 1 for an unweighted list. A name listed more than once has its weights added together."
 v:"ジェネレータが学習する名前。重みを付けると、その名前が選ばれやすくなります。重み付けしない場合はすべて1のままにしてください。同じ名前が複数ある場合は、重みが合算されます。"
 
+k:"The number of %s to spend, up to the %d carried"
+v:"使う%sの数 (携帯している%d個まで)"
+
 k:"The number of consecutive numbers this hit location fills in the table"
 v:"この命中部位が表の中で占める連続した数の個数"
+
+k:"The number of points the template is meant to cost. Enter the same value in both fields for an exact target, or leave one blank to leave that end of the range open."
+v:"テンプレートが想定するポイントコストの目標。正確な目標にするには両方に同じ値を入力し、片側を空欄にするとその側は無制限になります。"
 
 k:"The object is too heavy to throw"
 v:"この物体は重すぎて投げられない"
@@ -5646,20 +8791,41 @@ v:"唯一の防御は「回避して伏せる」(BX377): よけ+3で、目標は
 k:"The output file may not be an empty path."
 v:"出力ファイルのパスは空にできません。"
 
+k:"The percentage of an item's full price that buying it costs, unless another is chosen when buying"
+v:"項目を購入するのにかかる、定価に対する割合。購入時に別の割合を選んだ場合を除く"
+
+k:"The percentage of an item's full price that selling it brings in, unless another is chosen when selling"
+v:"項目を売却して得られる、定価に対する割合。売却時に別の割合を選んだ場合を除く"
+
+k:"The percentage of each item's full price to pay"
+v:"各項目の定価のうち支払う割合"
+
+k:"The picks come to %s, but this asks for %s."
+v:"選んだ合計は %s ですが、ここでは %s が求められています。"
+
+k:"The picks don't meet the rule."
+v:"選んだものは規則を満たしていません。"
+
+k:"The points added to a %s already present, or taken away when negative, never below 0. On its own, the grant gives the %s that many points when they are enough to buy a level: at least 1, or 2 for a Hard %s."
+v:"すでにある %s に加えるポイント (負の値なら差し引き、0を下回らない)。単独では、レベルを買うのに十分なポイント (最低1、難しい %s なら2) があるとき、その %s にそのポイントを与えます。"
+
+k:"The points added to a %s already present, or taken away when negative, never below 0. On its own, the grant gives the %s that many points when they are enough to buy a level: at least 1, or 3 for a wildcard."
+v:"すでにある %s に加えるポイント (負の値なら差し引き、0を下回らない)。単独では、レベルを買うのに十分なポイント (最低1、ワイルドカードなら3) があるとき、その %s にそのポイントを与えます。"
+
 k:"The possible eye descriptions. A gender with an empty list uses the common options; when both are empty, Brown is used."
-v:"目の見た目の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
+v:"目の描写の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
 
 k:"The possible hair descriptions. A gender with an empty list uses the common options; when both are empty, Brown is used."
-v:"髪の見た目の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
+v:"髪の描写の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
 
 k:"The possible handedness descriptions. A gender with an empty list uses the common options; when both are empty, Right is used."
-v:"利き手の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「右」になります。"
+v:"利き手の描写の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「右」になります。"
 
 k:"The possible skin descriptions. A gender with an empty list uses the common options; when both are empty, Brown is used."
-v:"肌の見た目の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
+v:"肌の描写の候補。リストが空の性別は共通オプションを使用し、両方空の場合は「茶色」になります。"
 
-k:"The previous copy of %s did not finish quitting, so nothing was changed. Try the update again."
-v:"%s の以前のコピーが終了しきれなかったため、何も変更されませんでした。もう一度アップデートしてください。"
+k:"The quantity to buy"
+v:"購入する数量"
 
 k:"The reduction in cost for each SM greater than 0"
 v:"SMが0を超えるごとのコスト軽減"
@@ -5679,11 +8845,41 @@ v:"その日の残りは採集に充てる。1回の試行に1時間かかり、
 k:"The restraint gives DR %d against this damage (BX432)."
 v:"拘束具はこのダメージに対してDR %d を与える (BX432)。"
 
-k:"The script should return text describing the missing prerequisite or an empty string if the prerequisite has been met"
-v:"スクリプトは、満たされていない前提条件を説明するテキストを返し、前提条件が満たされている場合は空文字列を返す必要があります"
+k:"The rule is met, but something picked below needs attention."
+v:"規則は満たされていますが、下で選んだものに確認が必要です。"
+
+k:"The rule is met."
+v:"規則を満たしています。"
+
+k:"The rule is met; choices below are still to be made."
+v:"規則は満たされています。下の選択がまだ残っています。"
+
+k:"The script's last value decides: true or empty text means met; false means not met; any other text means not met, with that text as the reason."
+v:"スクリプトの最後の値で判定します。trueまたは空のテキストは満たしている、falseは満たしていない、それ以外のテキストは満たしていない (そのテキストが理由) になります。"
+
+k:"the sheet lacks the attribute its level rests on"
+v:"シートに、そのレベルの基準となる属性がありません"
+
+k:"the sheet lacks the skill its level rests on"
+v:"シートに、そのレベルの基準となる技能がありません"
+
+k:"The sheet settings disable traits whose prerequisites are unsatisfied, so this trait is treated as disabled until they are met."
+v:"シート設定が前提条件を満たさない特徴を無効にするため、この特徴は満たされるまで無効として扱われます。"
+
+k:"the skill %s"
+v:"技能 %s"
 
 k:"The skill adjustment for this hit location"
 v:"この命中部位の技能調整"
+
+k:"The skill level the grant gives the %s, in place of the level its points and difficulty would give it; bonuses still apply on top, up to its limit, if any. With Keep Highest or Keep Lowest, one already present is held to at least or at most that level. A level below 1, or below what 1 point buys (2 for a Hard %s), does neither."
+v:"付与が %s に与える技能レベル。ポイントと難易度から決まるレベルの代わりになります。ボーナスは、上限があればその範囲で、その上にさらに適用されます。「最高値を保持」または「最低値を保持」の場合、すでにあるものはそのレベル以上または以下に保たれます。1未満、または1ポイントで買えるレベル未満 (難しい %s なら2) の場合は、どちらも行いません。"
+
+k:"The skill level the grant gives the %s, in place of the level its points and difficulty would give it; bonuses still apply on top. With Keep Highest or Keep Lowest, one already present is held to at least or at most that level. A level below 1, or below what 1 point buys (3 for a wildcard), does neither."
+v:"付与が %s に与える技能レベル。ポイントと難易度から決まるレベルの代わりになります。ボーナスはその上にさらに適用されます。「最高値を保持」または「最低値を保持」の場合、すでにあるものはそのレベル以上または以下に保たれます。1未満、または1ポイントで買えるレベル未満 (ワイルドカードなら3) の場合は、どちらも行いません。"
+
+k:"the spell %s"
+v:"呪文 %s"
 
 k:"the striking object"
 v:"衝突する物体"
@@ -5712,10 +8908,11 @@ v:"教える側は、教える技能／呪文／特徴があなたと同じか�
 k:"The teacher must have the Teaching skill at 12+"
 v:"教える側は「教授」技能が12以上である必要がある"
 
-k:"The template contains an Ancestry (%s)."
-k:"Disable your character's existing Ancestry (%s)?"
-v:"このテンプレートには血統 (%s) が含まれています。"
-v:"キャラクターの既存の血統 (%s) を無効にしますか？"
+k:"the technique %s"
+v:"テクニック %s"
+
+k:"The template presents choices that haven't been made yet, so what it costs depends on what is picked."
+v:"テンプレートにはまだ行われていない選択があるため、コストは選んだものによって変わります。"
 
 k:"The text placed on the character sheet when this option is chosen"
 v:"このオプションが選ばれたときにキャラクターシートに表示されるテキスト"
@@ -5725,6 +8922,9 @@ v:"呪文の詠唱に必要な時間"
 
 k:"The training names are converted to lowercase before being used, so the case they were entered in does not matter"
 v:"訓練名は使用前に小文字に変換されるため、入力時の大文字小文字は影響しません"
+
+k:"the trait %s"
+v:"特徴 %s"
 
 k:"The update could not be installed, so the previous version was kept. Downloading it from the %s web site and installing it by hand will work."
 v:"アップデートをインストールできなかったため、以前のバージョンを維持しました。%s のウェブサイトからダウンロードして手動でインストールすると、うまくいきます。"
@@ -5737,6 +8937,9 @@ v:"アップデートは成功と報告されましたが、別のバージョ�
 
 k:"The update was not installed"
 v:"アップデートはインストールされませんでした"
+
+k:"The update was prepared but never installed, so nothing was changed. Try the update again, or download it from the %s web site and install it by hand."
+v:"アップデートは準備されましたがインストールされなかったため、何も変更されませんでした。もう一度アップデートするか、%s のウェブサイトからダウンロードして手動でインストールしてください。"
 
 k:"The value of all of these pieces of equipment, plus the value of any contained equipment"
 v:"これらの装備すべての価格、加えて、任意の包含する装備の価格"
@@ -5795,6 +8998,9 @@ v:"ログの書き込み先の `ファイル`"
 k:"Theme Colors"
 v:"テーマカラー"
 
+k:"There is no file of that name."
+v:"その名前のファイルはありません。"
+
 k:"There is no valid mapping for page reference key \"%s\"."
 k:"Would you like to create one by choosing a PDF to map to this key?"
 v:"ページ参照キー \"%s\" に有効なマッピングがありません。"
@@ -5812,8 +9018,23 @@ v:"これらのノートには、各スクリプトを <script>ここにスク�
 k:"These notes will be interpreted as markdown and may also have scripts embedded in them by wrapping each script in <script>your script goes here</script> tags."
 v:"これらのノートはMarkdownとして解釈され、各スクリプトを <script>ここにスクリプトを書く</script> タグで囲むことで、スクリプトも埋め込めます。"
 
+k:"These rows carry template choices, which only a template can hold:"
+k:"%s"
+k:""
+k:"Continuing removes the choices, leaving the rows otherwise as they are."
+v:"これらの行にはテンプレートの選択肢が含まれていますが、テンプレートにしか保持できません:"
+v:"%s"
+v:""
+v:"続けると選択肢は削除され、行はそれ以外そのまま残ります。"
+
 k:"Thin"
 v:"細い"
+
+k:"this armor"
+v:"この防具"
+
+k:"This character carries no money-tagged items."
+v:"このキャラクターは、金銭タグの付いた項目を携帯していません。"
 
 k:"This copy of %s has been renamed, so it can't be updated automatically."
 v:"この %s のコピーは名前が変更されているため、自動アップデートできません。"
@@ -5821,8 +9042,29 @@ v:"この %s のコピーは名前が変更されているため、自動アッ�
 k:"This copy of %s isn't installed as an application, so it can't be updated automatically."
 v:"この %s のコピーはアプリケーションとしてインストールされていないため、自動アップデートできません。"
 
-k:"This copy was installed by Homebrew. Run `brew upgrade --cask gcs` to update it."
-v:"このコピーはHomebrewでインストールされています。アップデートするには `brew upgrade --cask gcs` を実行してください。"
+k:"This copy was installed by Homebrew. Run `brew upgrade --cask %s` to update it."
+v:"このコピーはHomebrewでインストールされています。更新するには `brew upgrade --cask %s` を実行してください。"
+
+k:"this equipment"
+v:"この装備"
+
+k:"This file cannot be read. Check its permissions, choose another PDF or remove the mapping."
+v:"このファイルは読み込めません。権限を確認するか、別のPDFを選ぶか、マッピングを削除してください。"
+
+k:"This file could not be found. Choose another PDF or remove the mapping."
+v:"このファイルが見つかりません。別のPDFを選ぶか、マッピングを削除してください。"
+
+k:"This is a folder, not a PDF. Choose a PDF or remove the mapping."
+v:"これはフォルダで、PDFではありません。PDFを選ぶか、マッピングを削除してください。"
+
+k:"This is the pick of a choice that must be made, so it can't be turned off. Pick another of the choice's modifiers instead."
+v:"これは必ず行う選択のうちの選ばれたものなので、オフにできません。代わりに、その選択の別の修正を選んでください。"
+
+k:"This item presents choices that haven't been made yet, so what it costs depends on what is picked. The choices are made when it is added to a character sheet."
+v:"この項目にはまだ行われていない選択があるため、コストは選んだものによって変わります。選択は、キャラクターシートに追加するときに行います。"
+
+k:"This marker holds its own definition, written in the text."
+v:"このマーカーは、テキストの中に書かれた独自の定義を持っています。"
 
 k:"This release can't be verified automatically, so it has to be installed by hand."
 v:"このリリースは自動的に検証できないため、手動でインストールする必要があります。"
@@ -5830,11 +9072,35 @@ v:"このリリースは自動的に検証できないため、手動でイン�
 k:"This release doesn't include a build for this system."
 v:"このリリースには、このシステム向けのビルドが含まれていません。"
 
+k:"this trait"
+v:"この特徴"
+
+k:"This trait's prerequisites are met only while other traits whose prerequisites are unmet are left enabled: they contradict one another, so no choice among the traits caught in the contradiction satisfies every one, and all of them are left enabled rather than disabling any of them."
+v:"この特徴の前提条件は、前提条件を満たしていない他の特徴が有効のままである間だけ満たされます。互いに矛盾しているため、矛盾に巻き込まれた特徴のどの選択もすべてを満たせず、どれも無効にせず、すべて有効のままにしてあります。"
+
+k:"This trait's prerequisites contradict those of other traits, so no choice among them satisfies every one. The traits caught in the contradiction are left enabled rather than disabling any of them."
+v:"この特徴の前提条件は他の特徴のものと矛盾しているため、どの選択もすべてを満たせません。矛盾に巻き込まれた特徴は、どれも無効にせず、有効のままにしてあります。"
+
+k:"This was most likely created by a newer version of GCS, which is needed to make use of it. This version caps nothing with it, but its original data will be written back out unchanged when this cap is saved."
+v:"おそらく新しいバージョンのGCSで作成されたもので、利用するにはそのバージョンが必要です。このバージョンでは何も制限しませんが、この上限を保存しても元のデータはそのまま書き戻されます。"
+
 k:"This was most likely created by a newer version of GCS. Its original data will be written back out unchanged when this file is saved."
 v:"新しいバージョンのGCSで作成された可能性が高いです。このファイルを保存すると、元のデータは変更されずに書き戻されます。"
 
+k:"This was most likely created by a newer version of GCS. This version can't check it, which hides an item unless the rest of the filter decides without it. Its original data will be written back out unchanged when this filter is saved."
+v:"おそらく新しいバージョンのGCSで作成されたものです。このバージョンでは確認できないため、フィルタの残りで判定できない限り項目は非表示になります。このフィルタを保存しても元のデータはそのまま書き戻されます。"
+
+k:"This was most likely created by a newer version of GCS. This version can't tell what it asks for, so it can't be checked, which hides an item unless the rest of the filter decides without it. Saving the filter may not keep all of it."
+v:"おそらく新しいバージョンのGCSで作成されたものです。このバージョンでは何を求めているか分からず確認できないため、フィルタの残りで判定できない限り項目は非表示になります。フィルタを保存すると、すべては保持されない可能性があります。"
+
+k:"this weapon"
+v:"この武器"
+
 k:"This weapon fires %v %s per attack and each shot releases %v smaller %s."
 v:"この武器は攻撃ごとに %v %s を発射し、各発射でさらに小さい %s が %v 個放出されます。"
+
+k:"this weapon's %s"
+v:"この武器の %s"
 
 k:"thr (leveled)"
 v:"thr (レベルあり)"
@@ -5873,7 +9139,10 @@ k:"Thrown Weapon"
 v:"投擲武器"
 
 k:"Thrust = Swing-2"
-v:"突き = 振り-2"
+v:"スラスト = スイング-2"
+
+k:"Tile Mode"
+v:"タイルモード"
 
 k:"Time"
 v:"時間"
@@ -5886,6 +9155,9 @@ v:"先端"
 
 k:"Title"
 v:"タイトル"
+
+k:"Title Note"
+v:"タイトルノート"
 
 k:"TL"
 v:"TL"
@@ -6016,6 +9288,9 @@ v:"必要な技能名が次の武器へ"
 k:"Toggle"
 v:"切り替え"
 
+k:"Toggle Button"
+v:"トグルボタン"
+
 k:"Toggle Edit Mode"
 v:"編集モードの切り替え"
 
@@ -6049,6 +9324,9 @@ v:"サイドバーの切り替え"
 k:"Toggle Trait Modifier"
 v:"特徴修正の切り替え"
 
+k:"Toolbar"
+v:"ツールバー"
+
 k:"Tooltip"
 v:"ツールチップ"
 
@@ -6073,6 +9351,9 @@ v:"胴体DR"
 k:"Total"
 v:"計"
 
+k:"Total $%s"
+v:"合計 $%s"
+
 k:"Total points spent on advantages"
 v:"有利な特徴に使ったポイントの合計"
 
@@ -6094,6 +9375,15 @@ v:"技能に使ったポイントの合計"
 k:"Total points spent on spells"
 v:"呪文に使ったポイントの合計"
 
+k:"Total: $%s"
+v:"合計: $%s"
+
+k:"Total: %s"
+v:"合計: %s"
+
+k:"Trading"
+v:"売買"
+
 k:"Training Name Drag"
 v:"訓練名のドラッグ"
 
@@ -6103,11 +9393,23 @@ v:"訓練名"
 k:"Trait"
 v:"特徴"
 
+k:"trait"
+v:"特徴"
+
+k:"trait %s"
+v:"特徴 %s"
+
+k:"Trait Choice"
+v:"特徴の選択肢"
+
 k:"Trait Container"
 v:"特徴コンテナ"
 
 k:"trait frequency of appearance"
 v:"特徴の出現頻度"
+
+k:"Trait Level"
+v:"特徴レベル"
 
 k:"Trait level adjustments:"
 k:""
@@ -6117,13 +9419,19 @@ v:""
 k:"Trait Modifier"
 v:"特徴修正"
 
-k:"Trait Modifier Container"
-v:"特徴修正コンテナ"
+k:"Trait Modifier Choice"
+v:"特徴修正の選択肢"
+
+k:"Trait Modifier Group"
+v:"特徴修正グループ"
 
 k:"Trait Modifiers"
 v:"特徴修正"
 
 k:"Trait Name"
+v:"特徴名"
+
+k:"Trait name"
 v:"特徴名"
 
 k:"trait self-control adjustment"
@@ -6134,6 +9442,21 @@ v:"特徴の自制判定"
 
 k:"Traits"
 v:"特徴"
+
+k:"traits"
+v:"特徴"
+
+k:"traits named %s"
+v:"名前が %s の特徴"
+
+k:"Transaction"
+v:"取引"
+
+k:"Transaction Name"
+v:"取引名"
+
+k:"Transaction name"
+v:"取引名"
 
 k:"Translate"
 v:"移動"
@@ -6153,11 +9476,17 @@ v:"トレイ"
 k:"treats the attack as braced (add +1 to Accuracy)."
 v:"攻撃を支えられたものとして扱う (命中+1)。"
 
+k:"Tree"
+v:"ツリー"
+
 k:"Triggering Condition"
 v:"発動条件"
 
-k:"triggering condition"
-v:"発動条件"
+k:"true"
+v:"true"
+
+k:"Turn off to spend none of the %s"
+v:"%s を使わないにはオフにする"
 
 k:"Two-handed"
 v:"両手持ち"
@@ -6219,6 +9548,21 @@ v:"印刷データを作成できません！"
 k:"Unable to create print dialog."
 v:"印刷ダイアログを作成できません。"
 
+k:"Unable to create the filter editor"
+v:"フィルタエディタを作成できません"
+
+k:"Unable to create the import dialog"
+v:"インポートダイアログを作成できません"
+
+k:"Unable to create the merge dialog"
+v:"マージダイアログを作成できません"
+
+k:"Unable to create the skill level cap editor"
+v:"技能レベル上限エディタを作成できません"
+
+k:"Unable to create the source set editor"
+v:"ソースセットエディタを作成できません"
+
 k:"Unable to create:"
 k:"%s"
 v:"作成できません:"
@@ -6271,8 +9615,14 @@ v:"リンクを開けません"
 k:"Unable to open markdown"
 v:"Markdownを開けません"
 
+k:"Unable to open the User Guide page"
+v:"ユーザーガイドのページを開けません"
+
 k:"Unable to open web page for download"
 v:"ダウンロード用のウェブページを開けません"
+
+k:"Unable to open web page for sponsoring"
+v:"支援用のウェブページを開けません"
 
 k:"Unable to prepare the update"
 v:"アップデートを準備できません"
@@ -6330,17 +9680,35 @@ v:"外部PDFのコマンドラインを使用できません"
 k:"Unbalanced"
 v:"不安定"
 
+k:"Unchecked"
+v:"未チェック"
+
 k:"Unconscious"
 v:"気絶"
 
+k:"Under: expected %s."
+v:"不足: 想定は %s。"
+
 k:"Underwater"
 v:"水中"
+
+k:"Undo"
+v:"元に戻す"
 
 k:"Undo %s"
 v:"%s を元に戻す"
 
 k:"Undock From Workspace"
 v:"ワークスペースからドッキング解除"
+
+k:"unequipped carried equipment"
+v:"装備していない携帯品"
+
+k:"unequipped state"
+v:"装備していない状態"
+
+k:"Ungroup"
+v:"グループ解除"
 
 k:"Union"
 v:"和集合"
@@ -6354,8 +9722,14 @@ v:"不明"
 k:"Unknown feature type %q; it will be preserved, but ignored"
 v:"不明な特性の種類 %q。保持されますが、無視されます"
 
-k:"Unknown prerequisite type %q; it will be preserved, but is never satisfied"
-v:"不明な前提条件の種類 %q。保持されますが、決して満たされません"
+k:"Unknown filter node type %q; it will be preserved, but can't be checked"
+v:"不明なフィルタノードの種類 %q。保持されますが、確認できません"
+
+k:"Unknown Prerequisite"
+v:"不明な前提条件"
+
+k:"Unknown type \"%s\""
+v:"不明な種類 \"%s\""
 
 k:"unless trait"
 v:"次の特徴がない場合"
@@ -6369,6 +9743,12 @@ v:"名無しのキャラクター"
 k:"Unnamed Loot"
 v:"名無しの戦利品"
 
+k:"Unnamed Template"
+v:"名無しのテンプレート"
+
+k:"Unnamed Threshold"
+v:"名無しのしきい値"
+
 k:"Unpacking the update…"
 v:"アップデートを展開中…"
 
@@ -6380,6 +9760,9 @@ v:"満たされていない前提条件"
 
 k:"Unspent"
 v:"未使用"
+
+k:"Until it is defined, the player is asked for it as any text."
+v:"定義されるまでは、プレイヤーは任意のテキストとして尋ねられます。"
 
 k:"Untitled"
 v:"無題"
@@ -6420,6 +9803,9 @@ v:"アップデートをキャンセルしました"
 k:"Update to"
 v:"次にアップデート: "
 
+k:"Updates & Library"
+v:"アップデートとライブラリ"
+
 k:"Updating…"
 v:"更新中…"
 
@@ -6429,29 +9815,14 @@ v:"直立"
 k:"Usage"
 v:"使用法"
 
-k:"Usage Qualifier"
-v:"使用法の条件"
-
 k:"Usage: "
 v:"使い方: "
-
-k:"Use Half-Stat Defaults"
-v:"半分の能力値を技能なし値に使用"
 
 k:"Use internal file dialogs rather than the platform's"
 v:"プラットフォーム標準ではなく内蔵のファイルダイアログを使用する"
 
 k:"Use level from owner"
 v:"所有者のレベルを使用"
-
-k:"Use Modifying Dice + Adds"
-v:"選択ルール「サイコロ数+修正の変更」(Modifying Dice + Adds) を使用する"
-
-k:"Use Multiplicative Modifiers"
-v:"乗算修正を使用"
-
-k:"Use Separate Windows"
-v:"別ウィンドウを使用"
 
 k:"Use the most recent commit (possibly unreleased) of this repository"
 v:"このリポジトリの最新コミット (未リリースの可能性あり) を使用する"
@@ -6467,6 +9838,9 @@ v:"ユーザーガイド"
 
 k:"User Library"
 v:"ユーザライブラリ"
+
+k:"uses"
+v:"使用回数"
 
 k:"Uses a Musket Rest"
 v:"マスケット銃の支え台を使用"
@@ -6488,6 +9862,12 @@ v:"真空または極薄の大気"
 
 k:"Value"
 v:"価格"
+
+k:"value"
+v:"値"
+
+k:"Value Each"
+v:"各価格"
 
 k:"Value must be at least %s"
 v:"値は %s 以上である必要があります"
@@ -6519,6 +9899,12 @@ v:"表示"
 k:"VTT Notes"
 v:"VTTノート"
 
+k:"VTT notes"
+v:"VTTノート"
+
+k:"Waiting for the Library Explorer to finish scanning the libraries…"
+v:"ライブラリエクスプローラーがライブラリのスキャンを終えるのを待っています…"
+
 k:"Warning"
 v:"警告"
 
@@ -6526,9 +9912,6 @@ k:"Water or another fluid"
 v:"水またはその他の流体"
 
 k:"Weapon Accuracy"
-v:"武器の命中"
-
-k:"weapon accuracy"
 v:"武器の命中"
 
 k:"weapon armor divisor"
@@ -6561,6 +9944,21 @@ v:"武器の破片のダメージタイプ"
 k:"weapon fragmentation dice"
 v:"武器の破片のダイス"
 
+k:"Weapon Master (Sword)"
+v:"武器の達人 (剣)"
+
+k:"Weapons"
+v:"武器"
+
+k:"weapons"
+v:"武器"
+
+k:"weapons named %s"
+v:"名前が %s の武器"
+
+k:"weapons using %s"
+v:"%s を使う武器"
+
 k:"Weather:"
 v:"天候:"
 
@@ -6571,52 +9969,112 @@ k:"WEBP"
 v:"WEBP"
 
 k:"Weight"
-v:"体重"
+v:"重量"
+
+k:"weight"
+v:"重量"
 
 k:"Weight Adjustment"
-v:"体重調整"
+v:"重量調整"
 
 k:"Weight Modifier"
-v:"体重修正"
+v:"重量修正"
 
-k:"Weight Qualifier"
-v:"体重の条件"
+k:"Weight Modifier Type"
+v:"重量修正の種類"
 
 k:"Weight Script"
-v:"体重コメント"
+v:"重量スクリプト"
 
 k:"Weight Units"
-v:"体重の単位"
+v:"重量の単位"
+
+k:"what 1 point buys"
+v:"1ポイントで買えるもの"
+
+k:"What %s holds"
+v:"%s の中身"
+
+k:"what %s points buy"
+v:"%s ポイントで買えるもの"
+
+k:"What is already checked can't be settled at random."
+v:"すでにチェックされているものはランダムに決められません。"
+
+k:"what the player is asked for"
+v:"プレイヤーに尋ねる内容"
 
 k:"When"
 v:"条件"
 
+k:"When added, this feature only takes effect while the switch of the trait, skill, spell or piece of equipment it belongs to is on. For a feature on a modifier, that is the item the modifier belongs to. The switch can be toggled from the character sheet or the item's editor."
+v:"追加すると、この特性は、所属する特徴・技能・呪文・装備のスイッチがオンのときだけ有効になります。修正に付いた特性の場合は、その修正が属する項目が対象です。スイッチはキャラクターシートまたは項目のエディタで切り替えられます。"
+
+k:"When Already Present"
+v:"すでにある場合"
+
 k:"When checked, a leveled modifier's cost adjustment is multiplied by its level. For a modifier that takes its level from its owner, that is the owner's purchased level, not counting any levels granted by bonuses. Uncheck it to leave the cost adjustment unmultiplied, while any per-level features the modifier carries still scale with the level. Either way, a point adjustment that affects levels only is added to the owner's cost per level, so it is still charged for each of the owner's levels."
 v:"チェックすると、レベルありの修正のコスト調整にレベルが掛けられます。所有者からレベルを引き継ぐ修正では、ボーナスで得たレベルを除いた、所有者の購入レベルが対象です。チェックを外すとコスト調整は乗算されませんが、修正が持つレベルごとの特性は引き続きレベルに応じて拡大します。どちらの場合も、レベルだけに影響するポイント調整は所有者のレベルごとのコストに加算されるため、所有者のレベルごとに課金されます。"
 
-k:"When checked, this feature only takes effect while the switch of the trait, skill, spell or piece of equipment it belongs to is on. For a feature on a modifier, that is the item the modifier belongs to. The switch can be toggled from the character sheet or the item's editor."
-v:"チェックすると、この特性は、所属する特徴・技能・呪文・装備のスイッチがオンのときだけ有効になります。修正に付いた特性の場合は、その修正が属する項目が対象です。スイッチはキャラクターシートまたは項目のエディタで切り替えられます。"
+k:"When checked, the per-level damage of the attacks this modifier provides is multiplied by this modifier's level rather than its owner's. It only applies while the modifier has levels of its own, since one that takes its level from its owner has the owner's level anyway."
+v:"チェックすると、この修正が提供する攻撃のレベルごとのダメージには、所有者のレベルではなく、この修正のレベルが掛けられます。修正が自分のレベルを持っている場合にのみ適用されます。所有者からレベルを引き継ぐ修正は、所有者のレベルがそのまま使われるためです。"
+
+k:"When enabled, character sheets open as pages of the paper's size, as many across as fit. Unlike the printed pages, they show an empty list you can add to, such as Spells for a character without any, so their page breaks can differ from the print's. Each sheet's toolbar can switch between pages and a single continuous page."
+v:"有効にすると、キャラクターシートは用紙サイズのページとして、横に収まるだけ並べて開きます。印刷されるページと違い、呪文のない人物の「呪文」のように、追加できる空のリストも表示されるため、改ページが印刷と異なる場合があります。各シートのツールバーで、ページ表示と1枚の連続したページを切り替えられます。"
+
+k:"When enabled, list files open locked, so that nothing changes them until they are unlocked with the lock button in their toolbar. A new list opens unlocked, and lists already open keep their state."
+v:"有効にすると、リストファイルはロックされた状態で開き、ツールバーのロックボタンで解除するまで何も変更できません。新しいリストはロック解除の状態で開き、すでに開いているリストは状態を保ちます。"
 
 k:"When enabled, the page reference column on character sheets, loot sheets, and templates will display more than one page reference when there is room, rather than always collapsing to a single reference. Standalone lists are unaffected, since their columns can be resized directly."
 v:"有効にすると、キャラクターシート、戦利品シート、テンプレートのページ参照列は、余裕があるとき常に1つにまとめず、複数のページ参照を表示します。単独のリストは列幅を直接変えられるため影響を受けません。"
 
-k:"When Tech Level"
-v:"テックレベルが"
+k:"when its damage type"
+v:"ダメージタイプが次のとき"
 
-k:"When the Tech Level"
-v:"テックレベルが"
+k:"when its usage"
+v:"使用法が次のとき"
 
-k:"when the Tech Level"
-v:"テックレベルが"
+k:"When off, the things inside are offered one by one in the choice, listed under this name."
+v:"オフにすると、中身が1つずつ、この名前の下に一覧表示されて選択肢として提示されます。"
+
+k:"when the tech level"
+v:"テックレベルが次のとき"
+
+k:"When TL"
+v:"TLが次のとき"
 
 k:"where all tags"
 v:"すべてのタグが次のものである"
 
+k:"where at least one contains"
+v:"少なくとも1つが次を含む"
+
+k:"where at least one ends with"
+v:"少なくとも1つが次で終わる"
+
+k:"where at least one is"
+v:"少なくとも1つが次である"
+
+k:"where at least one starts with"
+v:"少なくとも1つが次で始まる"
+
 k:"where at least one tag"
 v:"少なくとも1つのタグが次のものである"
 
-k:"Where to display…"
-v:"表示場所…"
+k:"where none contains"
+v:"どれも次を含まない"
+
+k:"where none ends with"
+v:"どれも次で終わらない"
+
+k:"where none is"
+v:"どれも次でない"
+
+k:"where none starts with"
+v:"どれも次で始まらない"
+
+k:"Where to display"
+v:"表示場所"
 
 k:"Whether the switchable features of an item are currently on. Features marked as switchable only take effect while the item's switch is on. Items with no switchable features have nothing to switch, so this column is blank for them."
 v:"項目の切り替え可能な特性が現在オンかどうか。切り替え可能とされた特性は、項目のスイッチがオンのときだけ有効になります。切り替え可能な特性がない項目は切り替えるものがないため、この列は空白になります。"
@@ -6633,11 +10091,20 @@ v:"この装備品を装備しているか持っているだけか。装備し�
 k:"which"
 v:"その値が"
 
-k:"whose college "
-v:"系統が "
+k:"which can't be blank"
+v:"空欄にできない"
+
+k:"Which style does this trait represent?"
+v:"この特徴はどの流派を表しますか？"
+
+k:"whose college"
+v:"系統が"
 
 k:"whose college name"
 v:"その系統(college) 名が"
+
+k:"whose damage type"
+v:"ダメージタイプが"
 
 k:"whose name"
 v:"その名前は"
@@ -6645,14 +10112,41 @@ v:"その名前は"
 k:"whose name "
 v:"その名前は "
 
-k:"whose power source "
-v:"動力源が "
+k:"whose notes"
+v:"ノートが"
+
+k:"whose owner has a title note that"
+v:"所有者のタイトルノートが次であるもの"
+
+k:"whose owner has no optional specialization"
+v:"所有者に任意の専門化がない"
+
+k:"whose owner has no specialization"
+v:"所有者に専門化がない"
+
+k:"whose owner has no tech level"
+v:"所有者にテックレベルがない"
+
+k:"whose owner's optional specialization"
+v:"所有者の任意の専門化が"
+
+k:"whose owner's specialization"
+v:"所有者の専門化が"
+
+k:"whose owner's tech level"
+v:"所有者のテックレベルが"
+
+k:"whose power source"
+v:"動力源が"
+
+k:"whose skill name"
+v:"技能名が"
 
 k:"whose specialization"
 v:"専門化が"
 
-k:"whose tag "
-v:"タグが "
+k:"whose usage"
+v:"使用法が"
 
 k:"Winding"
 v:"ワインディング"
@@ -6660,11 +10154,32 @@ v:"ワインディング"
 k:"Window"
 v:"ウィンドウ"
 
+k:"with %s"
+v:"%s 付き"
+
 k:"With %s FP, the hiker has fewer than a third left after %s hours; Move, Dodge and ST are halved from then on, and the hours below allow for it (B426)."
 v:"FP %s の場合、ハイカーは %s 時間後に残りが3分の1未満になる。その時点から移動力・よけ・STが半分になり、以下の時間はそれを見込んでいる (B426)。"
 
+k:"with a tag that"
+v:"次であるタグを持つ"
+
 k:"with a tag which"
 v:"次の条件のタグを持つ"
+
+k:"with a title note that"
+v:"次であるタイトルノートを持つ"
+
+k:"with a title note which"
+v:"次であるタイトルノートを持つ"
+
+k:"with all tags that"
+v:"すべてのタグが次であるもの"
+
+k:"with all title notes that"
+v:"すべてのタイトルノートが次であるもの"
+
+k:"with at least one tag"
+v:"少なくとも1つのタグを持つ"
 
 k:"with priority"
 v:"優先度付き"
@@ -6677,17 +10192,59 @@ v:""
 k:"Without gravity, there is no fall."
 v:"重力がなければ、落下はない。"
 
+k:"without tags"
+v:"タグなし"
+
+k:"Workspace"
+v:"ワークスペース"
+
 k:"World1"
 v:"World1"
 
 k:"World2"
 v:"World2"
 
-k:"Would you like to apply the initial randomization again?"
-v:"最初のランダム化をもう一度適用しますか？"
+k:"Would add %s to %s, already present, but the grant is not in effect"
+v:"%s を %s に加える (すでにあるが、その付与は有効ではない)"
+
+k:"Would add %s to %s, already present, but the prerequisites of what carries the grant are not met"
+v:"%s を %s に加える (すでにあるが、付与を持つものの前提条件を満たしていない)"
+
+k:"Would grant %s at level %s, but a level below 1 grants nothing"
+v:"%s をレベル %s で付与する (が、レベル1未満は何も付与しない)"
+
+k:"Would grant %s at skill level %s, but a skill level below 1 grants nothing"
+v:"%s を技能レベル %s で付与する (が、技能レベル1未満は何も付与しない)"
+
+k:"Would grant %s with %s, but points too few to buy a level grant nothing"
+v:"%s を %s で付与する (が、レベルを買うにはポイントが足りず何も付与しない)"
+
+k:"Would grant %s, but the grant is not in effect"
+v:"%s を付与する (が、その付与は有効ではない)"
+
+k:"Would keep the higher level of %s, as it is or %s, but the grant is not in effect"
+v:"%s の高い方のレベルを保つ (現状のまま、または %s) (が、その付与は有効ではない)"
+
+k:"Would keep the higher level of %s, as it is or %s, but the prerequisites of what carries the grant are not met"
+v:"%s の高い方のレベルを保つ (現状のまま、または %s) (が、付与を持つものの前提条件を満たしていない)"
+
+k:"Would keep the lower level of %s, as it is or %s, but the grant is not in effect"
+v:"%s の低い方のレベルを保つ (現状のまま、または %s) (が、その付与は有効ではない)"
+
+k:"Would keep the lower level of %s, as it is or %s, but the prerequisites of what carries the grant are not met"
+v:"%s の低い方のレベルを保つ (現状のまま、または %s) (が、付与を持つものの前提条件を満たしていない)"
+
+k:"Would remove %s from %s, already present, but the grant is not in effect"
+v:"%s を %s から外す (すでにあるが、その付与は有効ではない)"
+
+k:"Would remove %s from %s, already present, but the prerequisites of what carries the grant are not met"
+v:"%s を %s から外す (すでにあるが、付与を持つものの前提条件を満たしていない)"
 
 k:"Wounding:"
 v:"負傷:"
+
+k:"Wrap in Group"
+v:"グループにまとめる"
 
 k:"X"
 v:"X"
@@ -6743,6 +10300,15 @@ v:"落下によるヤード/秒"
 k:"Yes"
 v:"はい"
 
+k:"You can undo this from the Edit menu."
+v:"編集メニューから元に戻せます。"
+
+k:"You Get (%d%%)"
+v:"受け取り (%d%%)"
+
+k:"You receive: %s (%s)"
+v:"受け取るもの: %s (%s)"
+
 k:"[file]..."
 v:"[ファイル]..."
 
@@ -6754,6 +10320,9 @@ v:"«未設定»"
 
 k:"±"
 v:"±"
+
+k:"± adds the amount; × multiplies the attribute by it, after every amount has been added."
+v:"± は量を加算し、× は、すべての量を加えた後に、属性にそれを掛けます。"
 
 k:"½ Damage"
 v:"½ダメージ"
@@ -6767,8 +10336,11 @@ v:"x3傷害 (重要器官)、DRは適用されない"
 k:"†: Requires two hands. If you have at least ST %v, you can use it one-handed, but it becomes unready after you attack with it. If you have at least ST %v, you can use it one-handed with no readiness penalty."
 v:"†: 両手が必要。ST %v 以上なら片手で使えるが、攻撃後は構えなし状態になる。ST %v 以上なら、構えなしのペナルティなしに片手で使える。"
 
-k:"‡: Requires two hands and becomes unready after you attack with it. If you have at least ST %v, you can used it two-handed without it becoming unready. If you have at least ST %v, you can use it one-handed with no readiness penalty."
+k:"‡: Requires two hands and becomes unready after you attack with it. If you have at least ST %v, you can use it two-handed without it becoming unready. If you have at least ST %v, you can use it one-handed with no readiness penalty."
 v:"‡: 両手が必要で、攻撃後は構えなし状態になる。ST %v 以上なら、構えなしにならずに両手で使える。ST %v 以上なら、構えなしのペナルティなしに片手で使える。"
 
-k:"New Container"
-v:"新規コンテナ"
+k:"…and %d more"
+v:"…ほか%d件"
+
+k:"−%s %s"
+v:"−%s %s"

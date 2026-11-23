@@ -1,0 +1,230 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "st",
+			"type": "integer",
+			"name": "ST",
+			"full_name": "体力",
+			"base": "10",
+			"cost_per_point": 10,
+			"cost_adj_percent_per_sm": 10
+		},
+		{
+			"id": "dx",
+			"type": "integer",
+			"name": "DX",
+			"full_name": "敏捷力",
+			"base": "10",
+			"cost_per_point": 20
+		},
+		{
+			"id": "iq",
+			"type": "integer",
+			"name": "IQ",
+			"full_name": "知力",
+			"base": "10",
+			"cost_per_point": 20
+		},
+		{
+			"id": "ht",
+			"type": "integer",
+			"name": "HT",
+			"full_name": "生命力",
+			"base": "10",
+			"cost_per_point": 10
+		},
+		{
+			"id": "will",
+			"type": "integer",
+			"name": "意志力",
+			"base": "$iq",
+			"cost_per_point": 5
+		},
+		{
+			"id": "fright_check",
+			"type": "integer",
+			"name": "恐怖判定",
+			"base": "$will",
+			"cost_per_point": 2
+		},
+		{
+			"id": "per",
+			"type": "integer",
+			"name": "Per",
+			"full_name": "知覚力",
+			"base": "$iq",
+			"cost_per_point": 5
+		},
+		{
+			"id": "vision",
+			"type": "integer",
+			"name": "視覚",
+			"base": "$per",
+			"cost_per_point": 2
+		},
+		{
+			"id": "hearing",
+			"type": "integer",
+			"name": "聴覚",
+			"base": "$per",
+			"cost_per_point": 2
+		},
+		{
+			"id": "taste_smell",
+			"type": "integer",
+			"name": "味覚・嗅覚",
+			"base": "$per",
+			"cost_per_point": 2
+		},
+		{
+			"id": "touch",
+			"type": "integer",
+			"name": "触覚",
+			"base": "$per",
+			"cost_per_point": 2
+		},
+		{
+			"id": "basic_speed",
+			"type": "decimal",
+			"name": "基本スピード",
+			"base": "($dx + $ht) / 4",
+			"cost_per_point": 20
+		},
+		{
+			"id": "basic_move",
+			"type": "integer",
+			"name": "基本移動力",
+			"base": "Math.floor($basic_speed)",
+			"cost_per_point": 5
+		},
+		{
+			"id": "fp",
+			"type": "pool",
+			"name": "FP",
+			"full_name": "疲労点",
+			"base": "$ht",
+			"cost_per_point": 3,
+			"thresholds": [
+				{
+					"state": "気絶",
+					"value": "-$fp",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "倒れる寸前",
+					"value": "0",
+					"explanation": "- 話す・休む以外の行動には意志力判定が必要。失敗すると気絶する\n- 0未満で失うFP1ごとに、HP 1の負傷も受ける\n- 移動力・よけ・体力が半分になる (B426)",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "疲労",
+					"value": "Math.ceil($fp / 3) - 1",
+					"explanation": "移動力・よけ・体力が半分になる (B426)",
+					"ops": [
+						"halve_move",
+						"halve_dodge",
+						"halve_st"
+					]
+				},
+				{
+					"state": "疲れ始め",
+					"value": "$fp - 1"
+				},
+				{
+					"state": "休養十分",
+					"value": "$fp"
+				}
+			]
+		},
+		{
+			"id": "hp",
+			"type": "pool",
+			"name": "HP",
+			"full_name": "ヒットポイント",
+			"base": "$st",
+			"cost_per_point": 2,
+			"cost_adj_percent_per_sm": 10,
+			"thresholds": [
+				{
+					"state": "死亡",
+					"value": "Math.round(-$hp * 5)",
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "瀕死 #4",
+					"value": "Math.round(-$hp * 4)",
+					"explanation": "- 死亡を避けるためにHT判定が必要\n- 毎秒、気絶を避けるためにHT-4の判定が必要\n- 移動力とよけが半分になる (B419)",
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "瀕死 #3",
+					"value": "Math.round(-$hp * 3)",
+					"explanation": "- 死亡を避けるためにHT判定が必要\n- 毎秒、気絶を避けるためにHT-3の判定が必要\n- 移動力とよけが半分になる (B419)",
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "瀕死 #2",
+					"value": "Math.round(-$hp * 2)",
+					"explanation": "- 死亡を避けるためにHT判定が必要\n- 毎秒、気絶を避けるためにHT-2の判定が必要\n- 移動力とよけが半分になる (B419)",
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "瀕死 #1",
+					"value": "-$hp",
+					"explanation": "- 死亡を避けるためにHT判定が必要\n- 毎秒、気絶を避けるためにHT-1の判定が必要\n- 移動力とよけが半分になる (B419)",
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "倒れる寸前",
+					"value": "0",
+					"explanation": "- 毎秒、気絶を避けるためにHT判定が必要\n- 移動力とよけが半分になる (B419)",
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "よろめき",
+					"value": "Math.ceil($hp / 3) - 1",
+					"explanation": "移動力とよけが半分になる (B419)",
+					"ops": [
+						"halve_move",
+						"halve_dodge"
+					]
+				},
+				{
+					"state": "負傷",
+					"value": "$hp - 1"
+				},
+				{
+					"state": "健康",
+					"value": "$hp"
+				}
+			]
+		}
+	]
+}

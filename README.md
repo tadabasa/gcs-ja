@@ -8,7 +8,7 @@ GURPS Character Sheet の日本語化ファイル（v5対応）
 - 当該フォルダ内にja.i18nをコピーする
 - Humanoid.bodyは身体タイプにインポート（必要に応じて設定のデフォルト身体タイプを書き換え）
 - Standard.attrは属性にインポート（必要に応じて設定の属性を書き換え）
-- Library配下のファイルはホームディレクトリに作成されるGCS/User Libraryにコピーしてください
+- Library配下のファイルはホームディレクトリに作成されるGCS/User Libraryにコピーする
 
 上記の手順を実施後にGCS を再起動すると反映される。
 

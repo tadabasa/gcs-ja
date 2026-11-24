@@ -87,7 +87,7 @@
 		{
 			"id": "basic_speed",
 			"type": "decimal",
-			"name": "基本スピード",
+			"name": "基本反応速度",
 			"base": "($dx + $ht) / 4",
 			"cost_per_point": 20
 		},

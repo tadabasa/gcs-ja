@@ -333,13 +333,13 @@ k:" whose tag "
 v:" タグが "
 
 k:" whose tech level is "
-v:" テックレベルが "
+v:" 文明レベルが "
 
 k:" whose title note "
 v:" タイトルノートが "
 
 k:" with a matching tech level"
-v:" テックレベルが一致"
+v:" 文明レベルが一致"
 
 k:" with a modifier "
 v:" 修正が "
@@ -644,7 +644,7 @@ k:"%s could not quit, so the update was discarded. It will be offered again the 
 v:"%s を終了できなかったため、アップデートは破棄されました。次回のアップデート確認時に再度提示されます。"
 
 k:"%s cut, per fragment"
-v:"%s 斬撃、破片ごと"
+v:"%s 切り、破片ごと"
 
 k:"%s days"
 v:"%s日"
@@ -950,10 +950,10 @@ k:"*The standard damage progression*"
 v:"*標準のダメージ進行*"
 
 k:"*Thrust is 1d per 10 ST and swing is 3d per 20 ST (1d and 1d+2 at ST 10), the Medium and Large columns from [T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)*"
-v:"*スラストはST10ごとに1d、スイングはST20ごとに3d (ST10で1dと1d+2)。[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)の中・大の列*"
+v:"*突きはST10ごとに1d、振りはST20ごとに3d (ST10で1dと1d+2)。[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)の中・大の列*"
 
 k:"*Thrust is 1d per 15 ST and swing is 1d per 10 ST (1d-2 and 1d at ST 10), the Small and Medium columns from [T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)*"
-v:"*スラストはST15ごとに1d、スイングはST10ごとに1d (ST10で1d-2と1d)。[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)の小・中の列*"
+v:"*突きはST15ごとに1d、振りはST10ごとに1d (ST10で1d-2と1d)。[T Bone's Games Diner](https://www.gamesdiner.com/rules-nugget-gurps-new-damage-for-st/)の小・中の列*"
 
 k:"+"
 v:"+"
@@ -1025,7 +1025,7 @@ k:"+ owner specialization"
 v:"+ 所有者の専門化"
 
 k:"+ owner tech level"
-v:"+ 所有者のテックレベル"
+v:"+ 所有者の文明レベル"
 
 k:"+ owner title note"
 v:"+ 所有者のタイトルノート"
@@ -1052,7 +1052,7 @@ k:"+ tag"
 v:"+ タグ"
 
 k:"+ tech level"
-v:"+ テックレベル"
+v:"+ 文明レベル"
 
 k:"+ title note"
 v:"+ タイトルノート"
@@ -1097,7 +1097,7 @@ k:", unless already present"
 v:"、すでにある場合を除く"
 
 k:", when the tech level "
-v:"、テックレベルが "
+v:"、文明レベルが "
 
 k:"- hsl(), e.g. \"hsl(120, 100%, 50%)\""
 v:"- hsl()、例: \"hsl(120, 100%, 50%)\""
@@ -1455,10 +1455,10 @@ k:"Add Switchable"
 v:"切り替え可能な特性を追加"
 
 k:"Add Tech Level"
-v:"テックレベルを追加"
+v:"文明レベルを追加"
 
 k:"Add Tech Level Condition"
-v:"テックレベルの条件を追加"
+v:"文明レベルの条件を追加"
 
 k:"Add the money received to the quantity of any carried item that matches it exactly, rather than carrying it as a new item"
 v:"受け取った金銭を、完全に一致する携帯品の数量に加え、新しい項目として持たない"
@@ -1775,7 +1775,7 @@ k:"and whose owner's specialization"
 v:"かつ所有者の専門化が"
 
 k:"and whose owner's tech level"
-v:"かつ所有者のテックレベルが"
+v:"かつ所有者の文明レベルが"
 
 k:"and whose point total"
 v:"かつポイント合計が"
@@ -2071,7 +2071,7 @@ k:"Basic Damage"
 v:"基本ダメージ"
 
 k:"Basic Lift"
-v:"基本重量 (BL)"
+v:"荷重基本値 (BL)"
 
 k:"Basic Move"
 v:"基本移動力"
@@ -2080,10 +2080,10 @@ k:"Basic Set"
 v:"ベーシック・セット"
 
 k:"Basic Swing"
-v:"基本スイング"
+v:"基本振り"
 
 k:"Basic Thrust"
-v:"基本スラスト"
+v:"基本突き"
 
 k:"be a container"
 v:"コンテナである"
@@ -2092,13 +2092,13 @@ k:"be a technique"
 v:"テクニックである"
 
 k:"be ritual magic"
-v:"儀式魔術である"
+v:"儀式魔法である"
 
 k:"before the built-in notes"
 v:"組み込みノートの前に"
 
 k:"Being at least two sizes bigger, %s overruns %s and inflicts thrust damage for ST %s as well (BX432)."
-v:"%s は2サイズ以上大きいため、%s を轢き、ST %s のスラストダメージも与える (BX432)。"
+v:"%s は2サイズ以上大きいため、%s を轢き、ST %s の突きダメージも与える (BX432)。"
 
 k:"Being Very Fit, the hiker loses FP at half that rate (B55)."
 v:"非常に頑健なため、ハイカーはその半分の割合でFPを失う (B55)。"
@@ -2866,7 +2866,7 @@ k:"Damage Progression Description"
 v:"ダメージ進行の説明"
 
 k:"Damage Resistance for the hit location"
-v:"この命中部位のダメージ減少 (DR)"
+v:"この命中部位の防護点 (DR)"
 
 k:"Damage Strength Basis"
 v:"ダメージの基準ST"
@@ -2929,7 +2929,7 @@ k:"Decrease Skill Level"
 v:"技能レベルの値を減少"
 
 k:"Decrease Tech Level"
-v:"テックレベルを下げる"
+v:"文明レベルを下げる"
 
 k:"Decrease Uses"
 v:"使用回数を減らす"
@@ -2980,7 +2980,7 @@ k:"Default Sheet Settings…"
 v:"デフォルトのシート設定…"
 
 k:"Default Tech Level"
-v:"デフォルトのテックレベル"
+v:"デフォルトの文明レベル"
 
 k:"Default Type"
 v:"技能なし値の種類"
@@ -3088,7 +3088,7 @@ k:"Destination"
 v:"保存先"
 
 k:"Determines the method used to calculate thrust and swing damage"
-v:"スラストとスイングのダメージの計算方法を決定します"
+v:"突きと振りのダメージの計算方法を決定します"
 
 k:"Development builds can't be updated automatically."
 v:"開発版は自動アップデートできません。"
@@ -3261,10 +3261,10 @@ k:"does not start with"
 v:"次の文字列で始まらない"
 
 k:"Doesn't apply at this tech level"
-v:"このテックレベルでは適用されません"
+v:"この文明レベルでは適用されません"
 
 k:"doesn't apply at this tech level"
-v:"このテックレベルでは適用されません"
+v:"この文明レベルでは適用されません"
 
 k:"Doesn't have"
 v:"持たない"
@@ -3339,7 +3339,7 @@ k:"Drop a %s here from a library or sheet, or click to start with a blank one."
 v:"%s をライブラリまたはシートからここにドロップするか、クリックして空の状態から始めます。"
 
 k:"Drop an image here, double-click, or press Space to change the portrait"
-v:"画像をここに\nドロップするか、\nダブルクリックまたは\nスペースキーで\nポートレイトを変更します"
+v:"画像をここにドロップするか、ダブルクリックまたはスペースキーでポートレイトを変更します"
 
 k:"Drop equipment here from any equipment list, or choose Buy from an equipment list's menu. Drop equipment modifiers onto an item to adjust it."
 v:"装備を任意の装備リストからここにドロップするか、装備リストのメニューから「購入」を選びます。装備修正を項目にドロップすると、その項目を調整します。"
@@ -3647,7 +3647,7 @@ k:"Explosive:"
 v:"爆薬:"
 
 k:"Explosives normally do crushing damage with the Explosion modifier (B104), often with Fragmentation (B104)."
-v:"爆薬は通常、爆発修正 (B104) 付きの殴打 (crushing) ダメージを与え、多くは破片 (B104) も伴う。"
+v:"爆薬は通常、爆発修正 (B104) 付きの叩き (crushing) ダメージを与え、多くは破片 (B104) も伴う。"
 
 k:"Export"
 v:"エクスポート"
@@ -4341,7 +4341,7 @@ k:"have a specialization"
 v:"専門化がある"
 
 k:"have a tech level"
-v:"テックレベルがある"
+v:"文明レベルがある"
 
 k:"have a user description"
 v:"ユーザ説明がある"
@@ -4494,7 +4494,7 @@ k:"Hot fragments (white phosphorus)"
 v:"高温の破片 (白リン)"
 
 k:"Hot fragments (white phosphorus) each inflict 1d(0.2) burning every 10 seconds for one minute as well."
-v:"高温の破片 (白リン) は、さらに1分間、10秒ごとに熱傷 (burning) 1d(0.2) を与える。"
+v:"高温の破片 (白リン) は、さらに1分間、10秒ごとに焼き (burning) 1d(0.2) を与える。"
 
 k:"Hot, in plate armor, an overcoat, etc. (+2 FP per hour)"
 v:"暑い、板金鎧・オーバーコートなどを着ている (1時間ごとにFP-2)"
@@ -4659,7 +4659,7 @@ k:"Increase Skill Level"
 v:"技能レベルを増加"
 
 k:"Increase Tech Level"
-v:"テックレベルを上げる"
+v:"文明レベルを上げる"
 
 k:"Increase Uses"
 v:"使用回数を増やす"
@@ -4794,16 +4794,16 @@ k:"Invisible"
 v:"不可視"
 
 k:"iq sw"
-v:"IQ基準スイング"
+v:"IQ基準振り"
 
 k:"iq thr"
-v:"IQ基準スラスト"
+v:"IQ基準突き"
 
 k:"IQ-based Swing"
-v:"IQ基準のスイング"
+v:"IQ基準の振り"
 
 k:"IQ-based Thrust"
-v:"IQ基準のスラスト"
+v:"IQ基準の突き"
 
 k:"is"
 v:"次のものである"
@@ -5099,16 +5099,16 @@ k:"Lifting ST"
 v:"持ち上げ用ST"
 
 k:"lifting sw"
-v:"持ち上げスイング"
+v:"持ち上げ振り"
 
 k:"Lifting Swing"
-v:"持ち上げスイング"
+v:"持ち上げ振り"
 
 k:"lifting thr"
-v:"持ち上げスラスト"
+v:"持ち上げ突き"
 
 k:"Lifting Thrust"
-v:"持ち上げスラスト"
+v:"持ち上げ突き"
 
 k:"Light"
 v:"軽荷"
@@ -5367,7 +5367,7 @@ k:"Media"
 v:"メディア"
 
 k:"Medium"
-v:"並荷/中間"
+v:"並荷"
 
 k:"Meets an unknown type of prerequisite (\"%s\") that needs a newer version of GCS"
 v:"不明な種類の前提条件 (\"%s\") があります。新しいバージョンのGCSが必要です"
@@ -6137,10 +6137,10 @@ k:"nothing"
 v:"なし"
 
 k:"Nothing in it applies at this tech level, left out of the check"
-v:"このテックレベルで適用されるものがなく、確認の対象外"
+v:"この文明レベルで適用されるものがなく、確認の対象外"
 
 k:"nothing in it applies at this tech level, left out of the check"
-v:"このテックレベルで適用されるものがなく、確認の対象外"
+v:"この文明レベルで適用されるものがなく、確認の対象外"
 
 k:"Nothing to buy yet."
 v:"購入するものはまだありません。"
@@ -6418,7 +6418,7 @@ k:"Owner Specialization"
 v:"所有者の専門化"
 
 k:"Owner Tech Level"
-v:"所有者のテックレベル"
+v:"所有者の文明レベル"
 
 k:"Owner Title Note"
 v:"所有者のタイトルノート"
@@ -6586,7 +6586,7 @@ k:"Percent of full price"
 v:"定価に対する割合"
 
 k:"Perks"
-v:"パーク"
+v:"特典"
 
 k:"Phoenix Flame D3"
 v:"フェニックスフレイムD3"
@@ -7181,10 +7181,10 @@ k:"Remove Switchable"
 v:"切り替え可能な特性を削除"
 
 k:"Remove Tech Level"
-v:"テックレベルを削除"
+v:"文明レベルを削除"
 
 k:"Remove Tech Level Condition"
-v:"テックレベルの条件を削除"
+v:"文明レベルの条件を削除"
 
 k:"Remove the mapping for %s"
 v:"%s のマッピングを削除"
@@ -7247,7 +7247,7 @@ k:"Repository"
 v:"リポジトリ"
 
 k:"require a tech level"
-v:"テックレベルが必要"
+v:"文明レベルが必要"
 
 k:"Required"
 v:"必須"
@@ -7400,7 +7400,7 @@ k:"Ritual Magic Spell"
 v:"儀礼魔法呪文"
 
 k:"Ritual Magic spell"
-v:"儀式魔術の呪文"
+v:"儀式魔法の呪文"
 
 k:"Ritual Time"
 v:"儀式時間"
@@ -7567,7 +7567,7 @@ k:"Secondary"
 v:"サブ"
 
 k:"Secondary Attributes"
-v:"副次能力値"
+v:"副能力値"
 
 k:"Secondary Fields"
 v:"サブフィールド"
@@ -7873,7 +7873,7 @@ k:"Show spell ritual, cost & time adjustments"
 v:"呪文の儀式・コスト・時間の調整を表示する"
 
 k:"Show tech level (TL)"
-v:"テックレベル (TL) を表示"
+v:"文明レベル (TL) を表示"
 
 k:"Show the full version and exit"
 v:"完全なバージョンを表示して終了します"
@@ -8317,7 +8317,7 @@ k:"Swimming skill level"
 v:"「水泳」技能レベル"
 
 k:"Swing = Thrust+2"
-v:"スイング = スラスト+2"
+v:"振り = 突き+2"
 
 k:"Switch"
 v:"切り替え"
@@ -8431,10 +8431,10 @@ k:"Targets"
 v:"対象"
 
 k:"Tech Level"
-v:"テックレベル"
+v:"文明レベル"
 
 k:"tech level"
-v:"テックレベル"
+v:"文明レベル"
 
 k:"Technique"
 v:"テクニック"
@@ -8449,16 +8449,16 @@ k:"Technique Default Skill Name"
 v:"テクニックの技能なし値の技能名"
 
 k:"telekinetic sw"
-v:"念動スイング"
+v:"念動振り"
 
 k:"Telekinetic Swing"
-v:"念動スイング"
+v:"念動振り"
 
 k:"telekinetic thr"
-v:"念動スラスト"
+v:"念動突き"
 
 k:"Telekinetic Thrust"
-v:"念動スラスト"
+v:"念動突き"
 
 k:"Temperate"
 v:"温帯"
@@ -9139,7 +9139,7 @@ k:"Thrown Weapon"
 v:"投擲武器"
 
 k:"Thrust = Swing-2"
-v:"スラスト = スイング-2"
+v:"突き = 振り-2"
 
 k:"Tile Mode"
 v:"タイルモード"
@@ -10038,7 +10038,7 @@ k:"When off, the things inside are offered one by one in the choice, listed unde
 v:"オフにすると、中身が1つずつ、この名前の下に一覧表示されて選択肢として提示されます。"
 
 k:"when the tech level"
-v:"テックレベルが次のとき"
+v:"文明レベルが次のとき"
 
 k:"When TL"
 v:"TLが次のとき"
@@ -10125,7 +10125,7 @@ k:"whose owner has no specialization"
 v:"所有者に専門化がない"
 
 k:"whose owner has no tech level"
-v:"所有者にテックレベルがない"
+v:"所有者に文明レベルがない"
 
 k:"whose owner's optional specialization"
 v:"所有者の任意の専門化が"
@@ -10134,7 +10134,7 @@ k:"whose owner's specialization"
 v:"所有者の専門化が"
 
 k:"whose owner's tech level"
-v:"所有者のテックレベルが"
+v:"所有者の文明レベルが"
 
 k:"whose power source"
 v:"動力源が"

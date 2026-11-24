@@ -4,7 +4,7 @@
 	"rows": [
 		{
 			"id": "tlqM2aXX8XYtB9GQX",
-			"name": "360度視野 (360° Vision)",
+			"name": "全周視覚 (360° Vision)",
 			"reference": "B34,P39",
 			"tags": [
 				"Advantage",
@@ -42,7 +42,7 @@
 		},
 		{
 			"id": "tgfF0MZG_QvCG2sCz",
-			"name": "@精神的パーク@",
+			"name": "@精神的特典@",
 			"reference": "B100, PU2:12",
 			"reference_highlight": "Perks",
 			"tags": [
@@ -56,7 +56,7 @@
 		},
 		{
 			"id": "tl6hXl2u897stCQ0T",
-			"name": "@肉体的パーク@",
+			"name": "@肉体的特典@",
 			"reference": "B100, PU2:13",
 			"reference_highlight": "Perks",
 			"tags": [
@@ -70,7 +70,7 @@
 		},
 		{
 			"id": "tQ70c3nkNTkQLRqCL",
-			"name": "@社会的パーク@",
+			"name": "@社会的特典@",
 			"reference": "B100, PU2:17",
 			"reference_highlight": "Perks",
 			"tags": [
@@ -84,7 +84,7 @@
 		},
 		{
 			"id": "tOPXlb-UVg1jhrhNv",
-			"name": "@超常的パーク@",
+			"name": "@超常的特典@",
 			"reference": "B100, PU2:19",
 			"reference_highlight": "Perks",
 			"tags": [
@@ -189,7 +189,7 @@
 		},
 		{
 			"id": "tbB8FlaUVuRanGu-T",
-			"name": "うっかり屋 (Absent-Mindedness)",
+			"name": "放心 (Absent-Mindedness)",
 			"reference": "B122",
 			"local_notes": "自分の思考に没入すると、人身への物理的な負傷以外のいかなる出来事に気づくにも、知覚力-5の判定が必要になる",
 			"tags": [
@@ -210,7 +210,7 @@
 		},
 		{
 			"id": "tM6z7Mx6e2V4VvUR4",
-			"name": "絶対方向感覚 (Absolute Direction)",
+			"name": "方向感覚 (Absolute Direction)",
 			"reference": "B34",
 			"tags": [
 				"Advantage",
@@ -227,7 +227,7 @@
 				},
 				{
 					"id": "m2XNylIU-8fim-Uxc",
-					"name": "3次元空間感覚 (3D Spatial Sense)",
+					"name": "空間感覚 (3D Spatial Sense)",
 					"reference": "B34",
 					"cost_adj": "5",
 					"features": [
@@ -345,7 +345,7 @@
 		},
 		{
 			"id": "tj0jQVJjSQgY7izGf",
-			"name": "絶対時間感覚 (Absolute Timing)",
+			"name": "時間感覚 (Absolute Timing)",
 			"reference": "B35",
 			"tags": [
 				"Advantage",
@@ -354,7 +354,7 @@
 			"modifiers": [
 				{
 					"id": "m2Cr6SWrVPRDl7MKY",
-					"name": "時間位置把握 (Chronolocation)",
+					"name": "絶対時間感覚 (Chronolocation)",
 					"cost_adj": "3",
 					"disabled": true
 				}
@@ -393,7 +393,7 @@
 		},
 		{
 			"id": "tEO6O06rHnIkHPOmM",
-			"name": "高所恐怖症 (高所) (Acrophobia (Heights))",
+			"name": "高所恐怖症 (Acrophobia (Heights))",
 			"reference": "B150",
 			"local_notes": "建物の中で窓から離れている場合を除き、自らの意思で地上15フィート (約4.5m) を超える高さには行けない。実際に落ちる可能性が少しでもあるなら、自制判定は-5。",
 			"tags": [
@@ -409,7 +409,7 @@
 		},
 		{
 			"id": "t6XtSYhM7yan5_B73",
-			"name": "鋭敏な聴覚 (Acute Hearing)",
+			"name": "鋭敏聴覚 (Acute Hearing)",
 			"reference": "B35",
 			"tags": [
 				"Advantage",
@@ -434,7 +434,7 @@
 		},
 		{
 			"id": "tmlb6LFRFAUiYGyPa",
-			"name": "鋭敏な感覚 (@特殊感覚@) (Acute Sense)",
+			"name": "鋭敏感覚 (@特殊感覚@) (Acute Sense)",
 			"reference": "B35",
 			"tags": [
 				"Advantage",
@@ -451,7 +451,7 @@
 		},
 		{
 			"id": "tAZ31tXG_HzDmVCRp",
-			"name": "鋭敏な味覚・嗅覚 (Acute Taste & Smell)",
+			"name": "鋭敏味覚・嗅覚 (Acute Taste & Smell)",
 			"reference": "B35",
 			"tags": [
 				"Advantage",
@@ -476,7 +476,7 @@
 		},
 		{
 			"id": "tQmX3PWAYpT2gKZym",
-			"name": "鋭敏な触覚 (Acute Touch)",
+			"name": "鋭敏触覚 (Acute Touch)",
 			"reference": "B35",
 			"tags": [
 				"Advantage",
@@ -501,7 +501,7 @@
 		},
 		{
 			"id": "tkdGzhkqoMAQbknEc",
-			"name": "鋭敏な視覚 (Acute Vision)",
+			"name": "鋭敏視覚 (Acute Vision)",
 			"reference": "B35",
 			"tags": [
 				"Advantage",
@@ -526,7 +526,7 @@
 		},
 		{
 			"id": "tC7vHppsCtZue1RiC",
-			"name": "依存症 (@物質@) (Addiction)",
+			"name": "中毒 (@物質@) (Addiction)",
 			"reference": "B122",
 			"tags": [
 				"Disadvantage",
@@ -879,7 +879,7 @@
 							"id": "mTRBacN7YvN0oz-fM",
 							"name": "咳 (Coughing)",
 							"reference": "B428",
-							"local_notes": "DX-3、IQ-1で、「隠密」を使えない",
+							"local_notes": "DX-3、IQ-1で、「忍び」を使えない",
 							"cost_adj": "20%",
 							"disabled": true
 						},
@@ -887,7 +887,7 @@
 							"id": "mafwitAwhQOQZ4QOL",
 							"name": "副次の咳 (Secondary Coughing)",
 							"reference": "B428",
-							"local_notes": "DX-3、IQ-1で、「隠密」を使えない",
+							"local_notes": "DX-3、IQ-1で、「忍び」を使えない",
 							"cost_adj": "4%",
 							"disabled": true
 						},
@@ -1419,7 +1419,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -1482,7 +1482,7 @@
 		},
 		{
 			"id": "taFPI7E0PJwXbS5nL",
-			"name": "広場恐怖症 (開けた場所) (Agoraphobia (Open Spaces))",
+			"name": "広場恐怖症 (Agoraphobia (Open Spaces))",
 			"reference": "B150",
 			"local_notes": "屋外にいると落ち着かず、50フィート (約15m) 以内に壁がないと本当に怯える。",
 			"tags": [
@@ -1498,7 +1498,7 @@
 		},
 		{
 			"id": "tx8ZOfGNA3np_ivia",
-			"name": "先端恐怖症/TL5以下 (鋭いもの) (Aichmophobia/TL5- (Sharp Things))",
+			"name": "尖端恐怖症 (TL5以下) (Aichmophobia/TL5- (Sharp Things))",
 			"reference": "B150",
 			"local_notes": "尖ったものは何でも怖い。剣、槍、ナイフ、針のすべてに取り乱す。鋭い武器を使おうとしたり、突きつけられたりすると、自制判定-2が必要。",
 			"tags": [
@@ -1514,7 +1514,7 @@
 		},
 		{
 			"id": "tF4QXQBAy7T9jtale",
-			"name": "先端恐怖症/TL6以上 (鋭いもの) (Aichmophobia/TL6+ (Sharp Things))",
+			"name": "尖端恐怖症 (TL6以上) (Aichmophobia/TL6+ (Sharp Things))",
 			"reference": "B150",
 			"local_notes": "尖ったものは何でも怖い。剣、槍、ナイフ、針のすべてに取り乱す。鋭い武器を使おうとしたり、突きつけられたりすると、自制判定-2が必要。",
 			"tags": [
@@ -1530,7 +1530,7 @@
 		},
 		{
 			"id": "tFHuERzaUyJb5catX",
-			"name": "猫恐怖症 (ネコ) (Ailurophobia (Cats))",
+			"name": "ネコ恐怖症 (Ailurophobia (Cats))",
 			"reference": "B149",
 			"local_notes": "ライオン、トラ、ヒョウなど、ネコ科の動物すべてを含む。",
 			"tags": [
@@ -1546,7 +1546,7 @@
 		},
 		{
 			"id": "tEt35oNyt6mqHi_k9",
-			"name": "アルコール不耐性 (Alcohol Intolerance)",
+			"name": "アルコールに弱い (Alcohol Intolerance)",
 			"reference": "B165",
 			"tags": [
 				"Physical",
@@ -1566,7 +1566,7 @@
 		},
 		{
 			"id": "t59wSfU9kpC1rus5P",
-			"name": "アルコール耐性 (Alcohol Tolerance)",
+			"name": "アルコールに強い (Alcohol Tolerance)",
 			"reference": "B100",
 			"tags": [
 				"Perk",
@@ -1586,7 +1586,7 @@
 		},
 		{
 			"id": "tCkS7354KTh2G6WfI",
-			"name": "アルコール依存症 (Alcoholism)",
+			"name": "アルコール中毒 (Alcoholism)",
 			"reference": "B122",
 			"tags": [
 				"Disadvantage",
@@ -1831,7 +1831,7 @@
 				},
 				{
 					"id": "m6nekZTHmq6mMOZcC",
-					"name": "好意 (Favor)",
+					"name": "貸し (Favor)",
 					"reference": "B55",
 					"cost_adj": "x0.2",
 					"disabled": true
@@ -1844,7 +1844,7 @@
 		},
 		{
 			"id": "tQcU6Xo1BzIIerEX3",
-			"name": "時間速度変化 (Altered Time Rate)",
+			"name": "加速 (Altered Time Rate)",
 			"reference": "B38,P41,MA42",
 			"tags": [
 				"Advantage",
@@ -1878,7 +1878,7 @@
 		},
 		{
 			"id": "tqyRvrXKWtUMlIEQe",
-			"name": "別形態 (@形態@) (Alternate Form)",
+			"name": "変身 (@形態@) (Alternate Form)",
 			"reference": "B83",
 			"local_notes": "<script>entity.exists ? \"\" : \"最も高価な形態の場合は、基本の形態よりそのぶん高いコストと同じレベルに設定する\"</script>",
 			"tags": [
@@ -1976,7 +1976,7 @@
 		},
 		{
 			"id": "tVn3lzGhC2AEnH6EO",
-			"name": "別の身分 (Alternate Identity)",
+			"name": "身元 (Alternate Identity)",
 			"reference": "B39",
 			"local_notes": "@身分@",
 			"tags": [
@@ -1998,7 +1998,7 @@
 		},
 		{
 			"id": "tE_Ykx9nKvsgBGb6L",
-			"name": "両利き (Ambidexterity)",
+			"name": "両手利き (Ambidexterity)",
 			"reference": "B39",
 			"tags": [
 				"Advantage",
@@ -2037,7 +2037,7 @@
 		},
 		{
 			"id": "tS-7-nKXlxWatBXhg",
-			"name": "水陸両生 (Amphibious)",
+			"name": "水中適応 (Amphibious)",
 			"reference": "B40,P42",
 			"tags": [
 				"Advantage",
@@ -2051,7 +2051,7 @@
 		},
 		{
 			"id": "tZTGYpVyvbfhURaxn",
-			"name": "動物への共感 (Animal Empathy)",
+			"name": "動物共感 (Animal Empathy)",
 			"reference": "B40,P48",
 			"tags": [
 				"Advantage",
@@ -2122,7 +2122,7 @@
 		},
 		{
 			"id": "tdlCZw4YB4T7QkOnj",
-			"name": "容姿 (Appearance)",
+			"name": "容貌 (Appearance)",
 			"reference": "B21",
 			"tags": [
 				"Advantage",
@@ -2193,7 +2193,7 @@
 				},
 				{
 					"id": "mIQ2vw3Pazczpo4PF",
-					"name": "ハンサム (Handsome)",
+					"name": "美しい (Handsome)",
 					"reference": "B21",
 					"cost_adj": "12",
 					"features": [
@@ -2207,7 +2207,7 @@
 				},
 				{
 					"id": "m10UesvCiYq8yk2o-",
-					"name": "ハンサム (中性的) (Handsome (Androgynous))",
+					"name": "美しい (中性的) (Handsome (Androgynous))",
 					"reference": "B21",
 					"cost_adj": "12",
 					"features": [
@@ -2221,7 +2221,7 @@
 				},
 				{
 					"id": "m0WR8xNMlkd_ndeEs",
-					"name": "ハンサム (印象的) (Handsome (Impressive))",
+					"name": "美しい (印象的) (Handsome (Impressive))",
 					"reference": "B21",
 					"cost_adj": "12",
 					"features": [
@@ -2318,7 +2318,7 @@
 				},
 				{
 					"id": "mO0YBr_9_G2W6AjL3",
-					"name": "超越的 (Transcendent)",
+					"name": "究極 (Transcendent)",
 					"reference": "B21",
 					"cost_adj": "20",
 					"features": [
@@ -2332,7 +2332,7 @@
 				},
 				{
 					"id": "m92ChCxM8fIJFBLMw",
-					"name": "超越的 (中性的) (Transcendent (Androgynous))",
+					"name": "究極 (中性的) (Transcendent (Androgynous))",
 					"reference": "B21",
 					"cost_adj": "20",
 					"features": [
@@ -2346,7 +2346,7 @@
 				},
 				{
 					"id": "mCyLNDrSD3lwB5ymp",
-					"name": "超越的 (印象的) (Transcendent (Impressive))",
+					"name": "究極 (印象的) (Transcendent (Impressive))",
 					"reference": "B21",
 					"cost_adj": "20",
 					"features": [
@@ -2395,7 +2395,7 @@
 				},
 				{
 					"id": "mZQyMA2gJHM05_Wwk",
-					"name": "非常に美しい (Very Beautiful)",
+					"name": "最高 (Very Beautiful)",
 					"reference": "B21",
 					"cost_adj": "16",
 					"features": [
@@ -2409,7 +2409,7 @@
 				},
 				{
 					"id": "mui1zNROmPDUd2KBj",
-					"name": "非常に美しい (中性的) (Very Beautiful (Androgynous))",
+					"name": "最高 (中性的) (Very Beautiful (Androgynous))",
 					"reference": "B21",
 					"cost_adj": "16",
 					"features": [
@@ -2423,7 +2423,7 @@
 				},
 				{
 					"id": "mhdKETgw48O9PQIPK",
-					"name": "非常に美しい (印象的) (Very Beautiful (Impressive))",
+					"name": "最高 (印象的) (Very Beautiful (Impressive))",
 					"reference": "B21",
 					"cost_adj": "16",
 					"features": [
@@ -2437,7 +2437,7 @@
 				},
 				{
 					"id": "mgxWUcYSixy56Yrr4",
-					"name": "非常にハンサム (Very Handsome)",
+					"name": "最高 (Very Handsome)",
 					"reference": "B21",
 					"cost_adj": "16",
 					"features": [
@@ -2451,7 +2451,7 @@
 				},
 				{
 					"id": "mfpMU_-AGSyMIzBQW",
-					"name": "非常にハンサム (中性的) (Very Handsome (Androgynous))",
+					"name": "最高 (中性的) (Very Handsome (Androgynous))",
 					"reference": "B21",
 					"cost_adj": "16",
 					"features": [
@@ -2465,7 +2465,7 @@
 				},
 				{
 					"id": "m2vNtTTepCl5vzjAE",
-					"name": "非常にハンサム (印象的) (Very Handsome (Impressive))",
+					"name": "最高 (印象的) (Very Handsome (Impressive))",
 					"reference": "B21",
 					"cost_adj": "16",
 					"features": [
@@ -2484,7 +2484,7 @@
 		},
 		{
 			"id": "tjabBEbQzLMhSX59r",
-			"name": "クモ恐怖症 (クモ) (Arachnophobia (Spiders))",
+			"name": "クモ恐怖症 (Arachnophobia (Spiders))",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -2499,7 +2499,7 @@
 		},
 		{
 			"id": "tN2MYa9FLlfw5pvda",
-			"name": "腕のDX (Arm DX)",
+			"name": "腕の敏捷力 (Arm DX)",
 			"reference": "B40",
 			"tags": [
 				"Advantage",
@@ -2535,7 +2535,7 @@
 		},
 		{
 			"id": "thlDrY5R5B5nJepiw",
-			"name": "腕のST (Arm ST)",
+			"name": "腕の体力 (Arm ST)",
 			"reference": "B40",
 			"local_notes": "それらの腕や手で持ち上げる、投げる、攻撃する場合にのみ適用される。複数の手が必要な作業でSTが異なる場合は、平均STを使う。",
 			"tags": [
@@ -2587,7 +2587,7 @@
 		},
 		{
 			"id": "t5Qs23yaRu3D4T_hM",
-			"name": "注意深い (Attentive)",
+			"name": "凝り性 (Attentive)",
 			"reference": "B163",
 			"tags": [
 				"Mental",
@@ -2607,7 +2607,7 @@
 		},
 		{
 			"id": "tcPz4czZWl6IBoVSi",
-			"name": "孤独恐怖症 (一人でいること) (Autophobia (Being Alone))",
+			"name": "孤独恐怖症 (Autophobia (Being Alone))",
 			"reference": "B149",
 			"local_notes": "一人でいることに耐えられず、それを避けるためならどんなことでもする。",
 			"tags": [
@@ -2623,7 +2623,7 @@
 		},
 		{
 			"id": "trA1ecHk_82dDKazI",
-			"name": "自己トランス (Autotrance)",
+			"name": "トランス (Autotrance)",
 			"reference": "B101",
 			"tags": [
 				"Mental",
@@ -2636,7 +2636,7 @@
 		},
 		{
 			"id": "tNs3r-xh05OnHz3pI",
-			"name": "普通の富 (Average Wealth)",
+			"name": "標準 (Average Wealth)",
 			"reference": "B25, L8, DFA54, DW33",
 			"reference_highlight": "Average",
 			"local_notes": "開始時の富は通常どおり",
@@ -2654,7 +2654,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "ゆとりのある富 (Comfortable Wealth)"
+							"qualifier": "快適 (Comfortable Wealth)"
 						}
 					},
 					{
@@ -2686,7 +2686,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "裕福 (Wealthy)"
+							"qualifier": "富裕 (Wealthy)"
 						}
 					},
 					{
@@ -2694,7 +2694,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "非常に裕福 (Very Wealthy)"
+							"qualifier": "大金持 (Very Wealthy)"
 						}
 					},
 					{
@@ -2702,7 +2702,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "超大金持ち (Filthy Rich)"
+							"qualifier": "富豪 (Filthy Rich)"
 						}
 					},
 					{
@@ -2710,7 +2710,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "億万長者 (Multimillionaire)"
+							"qualifier": "大富豪 (Multimillionaire)"
 						}
 					}
 				]
@@ -2935,7 +2935,7 @@
 		},
 		{
 			"id": "ttwfuD5y7jvTNPd7f",
-			"name": "体臭 (Bad Smell)",
+			"name": "悪臭 (Bad Smell)",
 			"reference": "B124",
 			"tags": [
 				"Disadvantage",
@@ -2955,7 +2955,7 @@
 		},
 		{
 			"id": "tnrtPQ0mWF4k75plo",
-			"name": "短気 (Bad Temper)",
+			"name": "かんしゃく (Bad Temper)",
 			"reference": "B124",
 			"tags": [
 				"Disadvantage",
@@ -2969,7 +2969,7 @@
 		},
 		{
 			"id": "tELmv9bNG_8o75sYZ",
-			"name": "狂戦士化 (Berserk)",
+			"name": "バーサーク (Berserk)",
 			"reference": "B124",
 			"local_notes": "1秒の間にHPの1/4を超えるダメージを受けたとき、および愛する人が同等の危害を受けるのを目撃したときは、自制判定を行う",
 			"tags": [
@@ -3023,21 +3023,21 @@
 				},
 				{
 					"id": "mqVJhc2lECaz6jZ8D",
-					"name": "@熱傷/腐食/斬撃/殴打@のみでダメージを受ける (Only Damaged)",
+					"name": "@焼き/侵蝕/切り/叩き@のみでダメージを受ける (Only Damaged)",
 					"reference": "B40",
 					"cost_adj": "30%",
 					"disabled": true
 				},
 				{
 					"id": "m0ZI712_gzHHN4abH",
-					"name": "@1. 熱傷/腐食/斬撃/殴打から1つ選択@ または @2. 熱傷/腐食/斬撃/殴打から1つ選択@のみでダメージを受ける (Only Damaged by)",
+					"name": "@1. 焼き/侵蝕/切り/叩きから1つ選択@ または @2. 焼き/侵蝕/切り/叩きから1つ選択@のみでダメージを受ける (Only Damaged by)",
 					"reference": "B40",
 					"cost_adj": "20%",
 					"disabled": true
 				},
 				{
 					"id": "m08YEHlKne17XFHIF",
-					"name": "@1. 熱傷/腐食/斬撃/殴打から1つ選択@、@2. 熱傷/腐食/斬撃/殴打から1つ選択@ または @3. 熱傷/腐食/斬撃/殴打から1つ選択@のみでダメージを受ける (Only Damaged by ,)",
+					"name": "@1. 焼き/侵蝕/切り/叩きから1つ選択@、@2. 焼き/侵蝕/切り/叩きから1つ選択@ または @3. 焼き/侵蝕/切り/叩きから1つ選択@のみでダメージを受ける (Only Damaged by ,)",
 					"reference": "B40",
 					"cost_adj": "10%",
 					"disabled": true
@@ -3376,7 +3376,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -3439,7 +3439,7 @@
 		},
 		{
 			"id": "tMpjw_N1k8SppqRpv",
-			"name": "祝福 (Blessed)",
+			"name": "福者/預言者 (Blessed)",
 			"reference": "B40,P43",
 			"tags": [
 				"Advantage",
@@ -3486,7 +3486,7 @@
 		},
 		{
 			"id": "tmRX0o0iO20zWIVyo",
-			"name": "殺戮衝動 (Bloodlust)",
+			"name": "残忍 (Bloodlust)",
 			"reference": "B125",
 			"local_notes": "降伏を受け入れる、歩哨をかわす、捕虜を取るなどの必要があるときは、自制判定を行う。",
 			"tags": [
@@ -3530,7 +3530,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -3571,7 +3571,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							},
 							"modifier": -2
 						},
@@ -3624,7 +3624,7 @@
 		},
 		{
 			"id": "tmgQQ3mPPfMq-vEsV",
-			"name": "腕渡り (Brachiator)",
+			"name": "ツタ渡り (Brachiator)",
 			"reference": "B41",
 			"tags": [
 				"Advantage",
@@ -3649,7 +3649,7 @@
 		},
 		{
 			"id": "tPh0lR2im4mtyLaQl",
-			"name": "息止め (Breath-Holding)",
+			"name": "呼吸中断 (Breath-Holding)",
 			"reference": "B41",
 			"tags": [
 				"Advantage",
@@ -3667,7 +3667,7 @@
 		},
 		{
 			"id": "ttkZb4D-srbLBDQT3",
-			"name": "寛容 (Broad-Minded)",
+			"name": "心が広い (Broad-Minded)",
 			"reference": "B163",
 			"tags": [
 				"Mental",
@@ -3680,7 +3680,7 @@
 		},
 		{
 			"id": "tzt3FQiPe2cmVzpVT",
-			"name": "雷鳴恐怖症 (大きな音) (Brontophobia (Loud Noises))",
+			"name": "騒音恐怖症 (Brontophobia (Loud Noises))",
 			"reference": "B150",
 			"local_notes": "大きな音がしそうな状況を避ける。突然の大きな音には、直ちに自制判定が必要。雷雨はあなたにとって心的外傷になる体験だ！",
 			"tags": [
@@ -3696,7 +3696,7 @@
 		},
 		{
 			"id": "tMrRhiOyGg6WNz09k",
-			"name": "いじめっ子 (Bully)",
+			"name": "弱い者いじめ (Bully)",
 			"reference": "B125",
 			"tags": [
 				"Disadvantage",
@@ -3717,7 +3717,7 @@
 		},
 		{
 			"id": "tNe543pbMl1IkZxSo",
-			"name": "冷酷 (Callous)",
+			"name": "冷淡 (Callous)",
 			"reference": "B125",
 			"tags": [
 				"Disadvantage",
@@ -3773,7 +3773,7 @@
 		},
 		{
 			"id": "tpBjoDeCzKWt1bInn",
-			"name": "学習不能 (Cannot Learn)",
+			"name": "学習できない (Cannot Learn)",
 			"reference": "B125",
 			"tags": [
 				"Disadvantage",
@@ -3828,7 +3828,7 @@
 		},
 		{
 			"id": "t-ZuUbg_LrqZ1hi6c",
-			"name": "慎重 (Careful)",
+			"name": "用心深い (Careful)",
 			"reference": "B163",
 			"tags": [
 				"Mental",
@@ -3841,7 +3841,7 @@
 		},
 		{
 			"id": "tzQQVBRuixCbnRR0w",
-			"name": "猫の着地 (Catfall)",
+			"name": "空中バランス (Catfall)",
 			"reference": "B41,P43",
 			"tags": [
 				"Advantage",
@@ -3871,7 +3871,7 @@
 		},
 		{
 			"id": "tsavbTOaIQeNnkIK9",
-			"name": "カメレオン (Chameleon)",
+			"name": "能動迷彩 (Chameleon)",
 			"reference": "B41,P43",
 			"tags": [
 				"Advantage",
@@ -3920,7 +3920,7 @@
 		},
 		{
 			"id": "tndY5Ckq0qsVhEMuU",
-			"name": "霊媒 (Channeling)",
+			"name": "チャネリング (Channeling)",
 			"reference": "B41,P43",
 			"tags": [
 				"Advantage",
@@ -3964,7 +3964,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "占い (Fortune-Telling)"
+						"qualifier": "占い師 (Fortune-Telling)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -4037,7 +4037,7 @@
 		},
 		{
 			"id": "t0eVKnl-kbhJzS6cL",
-			"name": "排他的 (Chauvinistic)",
+			"name": "仲間意識が強い (Chauvinistic)",
 			"reference": "B163",
 			"tags": [
 				"Mental",
@@ -4057,7 +4057,7 @@
 		},
 		{
 			"id": "tOyGCEEXkwH_ipfxg",
-			"name": "慢性うつ (Chronic Depression)",
+			"name": "うつ (Chronic Depression)",
 			"reference": "B126",
 			"local_notes": "生存に必要な最低限のものを得て消費する以外のことをするとき、および2つ以上の行動から選ばなければならないときは、自制判定を行う",
 			"tags": [
@@ -4184,7 +4184,7 @@
 		},
 		{
 			"id": "tzBDG0xUlT_dh7FuY",
-			"name": "人懐っこい (Chummy)",
+			"name": "人なつっこい (Chummy)",
 			"reference": "B126",
 			"tags": [
 				"Disadvantage",
@@ -4209,7 +4209,7 @@
 		},
 		{
 			"id": "tABjxMAPO3RzcQAhj",
-			"name": "歓待を受ける権利 (Claim to Hospitality)",
+			"name": "歓待される (Claim to Hospitality)",
 			"reference": "B41",
 			"tags": [
 				"Advantage",
@@ -4253,7 +4253,7 @@
 		},
 		{
 			"id": "tTyoCiOimAdIrte5U",
-			"name": "千里眼 (Clairsentience)",
+			"name": "超感覚 (Clairsentience)",
 			"reference": "B42,P44,PSI13",
 			"tags": [
 				"Advantage",
@@ -4336,7 +4336,7 @@
 		},
 		{
 			"id": "tWpr7NCMkHBwsQMNQ",
-			"name": "閉所恐怖症 (閉ざされた場所) (Claustrophobia (Enclosed Spaces))",
+			"name": "閉所恐怖症 (Claustrophobia (Enclosed Spaces))",
 			"reference": "B149",
 			"local_notes": "空が見えない (少なくとも非常に高い天井がない) ときは落ち着かない。小さな部屋や乗り物では壁が迫ってくるように感じる…空気が必要だ！地下に潜るつもりの者には危険な恐怖だ。",
 			"tags": [
@@ -4352,7 +4352,7 @@
 		},
 		{
 			"id": "t_iKOx_M0gzCIh-Ws",
-			"name": "聖職叙任 (Clerical Investment)",
+			"name": "聖職者 (Clerical Investment)",
 			"reference": "B43",
 			"tags": [
 				"Advantage",
@@ -4372,7 +4372,7 @@
 		},
 		{
 			"id": "tkBNrHPI9rVmA2KbW",
-			"name": "吸着 (Clinging)",
+			"name": "壁にはりつく (Clinging)",
 			"reference": "B43,P45",
 			"tags": [
 				"Advantage",
@@ -4427,7 +4427,7 @@
 		},
 		{
 			"id": "ttlpxHmhTlHZvLehl",
-			"name": "無知 (Clueless)",
+			"name": "察しが悪い (Clueless)",
 			"reference": "B126",
 			"tags": [
 				"Disadvantage",
@@ -4461,7 +4461,7 @@
 		},
 		{
 			"id": "tYKd1V2ZzpN6-3H8E",
-			"name": "名誉の掟 (@軽い対象@) (Code of Honor)",
+			"name": "名誉重視 (@軽い対象@) (Code of Honor)",
 			"reference": "B163,MA53,PU6:9",
 			"reference_highlight": "Code of Honor",
 			"local_notes": "@信条@",
@@ -4476,7 +4476,7 @@
 		},
 		{
 			"id": "tKWwWUMDgTp70GYlR",
-			"name": "名誉の掟 (@対象@) (Code of Honor)",
+			"name": "名誉重視 (@対象@) (Code of Honor)",
 			"reference": "B127",
 			"reference_highlight": "Code of Honor",
 			"local_notes": "@信条@",
@@ -4535,7 +4535,7 @@
 		},
 		{
 			"id": "tHya0RG2_BqeqLArf",
-			"name": "名誉の掟 (騎士道) (Code of Honor (Chivalry))",
+			"name": "名誉重視 (騎士道) (Code of Honor (Chivalry))",
 			"reference": "B127",
 			"local_notes": "貴婦人と、自分より弱い者はすべて守る。約束は決して破らない。自分、貴婦人、主君、信仰への侮辱を決して見過ごさない。侮辱は謝罪か決闘 (必ずしも命がけではない！) でのみ晴らせる。いかなる形でも相手につけ込まない。武器や状況は対等でなければならない (相手も高貴で騎士道を守る者なら、全面戦争でも)。同等以上の身分の者からの武力による挑戦はすべて受ける。",
 			"tags": [
@@ -4549,7 +4549,7 @@
 		},
 		{
 			"id": "tEPlPRVY1z8clGFZ1",
-			"name": "名誉の掟 (紳士) (Code of Honor (Gentleman's))",
+			"name": "名誉重視 (紳士) (Code of Honor (Gentleman's))",
 			"reference": "B127",
 			"local_notes": "約束は決して破らない。自分、貴婦人、旗への侮辱を決して見過ごさない。侮辱は謝罪か決闘 (必ずしも命がけではない！) でのみ晴らせる。いかなる形でも相手につけ込まない。武器や状況は対等でなければならない (全面戦争を除く)。これは紳士同士の間でのみ適用される。",
 			"tags": [
@@ -4563,7 +4563,7 @@
 		},
 		{
 			"id": "tqq24I9NJrLajsURv",
-			"name": "名誉の掟 (海賊) (Code of Honor (Pirate's))",
+			"name": "名誉重視 (海賊) (Code of Honor (Pirate's))",
 			"reference": "B127",
 			"local_notes": "危険にかかわらず、侮辱には必ず報復する。仲間の敵は自分の敵。公正で公然の決闘を除き、仲間の乗組員や相棒を攻撃しない。",
 			"tags": [
@@ -4577,7 +4577,7 @@
 		},
 		{
 			"id": "tW3e4OJTtFNNveAgo",
-			"name": "名誉の掟 (職業倫理) (Code of Honor (Professional))",
+			"name": "名誉重視 (職業倫理) (Code of Honor (Professional))",
 			"reference": "B127",
 			"local_notes": "職業の倫理を守る。常に全力で仕事をこなす。自分のギルド、組合、職能団体を支える。",
 			"tags": [
@@ -4591,7 +4591,7 @@
 		},
 		{
 			"id": "txSrmgLB0M36uR802",
-			"name": "名誉の掟 (兵士) (Code of Honor (Soldier's))",
+			"name": "名誉重視 (兵士) (Code of Honor (Soldier's))",
 			"reference": "B127",
 			"local_notes": "士官は厳しくも公正で、先頭に立ち、部下の面倒を見る。兵は仲間を気遣い、装備の手入れを怠らない。兵士は皆、部隊・軍・国の名誉のために戦い死ぬ覚悟を持ち、命令に従い、「戦争のルール」を守り、名誉ある敵を敬い (不名誉な敵には銃弾で応じる)、誇りを持って軍服を着る。",
 			"tags": [
@@ -4605,7 +4605,7 @@
 		},
 		{
 			"id": "tiE78wcDJSFASATPK",
-			"name": "名誉の掟 (芝居) (Code of Honor (Theatrical))",
+			"name": "名誉重視 (芝居) (Code of Honor (Theatrical))",
 			"reference": "B127, BS186",
 			"tags": [
 				"Disadvantage",
@@ -4618,7 +4618,7 @@
 		},
 		{
 			"id": "tByWkjvIB0UzQSz5Q",
-			"name": "性交恐怖症 (性行為) (Coitophobia (Sex))",
+			"name": "性恐怖症 (Coitophobia (Sex))",
 			"reference": "B150",
 			"local_notes": "性的関係や童貞・処女を失うという考えに怯える。",
 			"tags": [
@@ -4798,7 +4798,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "強化された時間感覚 (Enhanced Time Sense)"
+							"qualifier": "超時感覚 (Enhanced Time Sense)"
 						}
 					}
 				]
@@ -4851,7 +4851,7 @@
 		},
 		{
 			"id": "tdEOEbc8ltxyQNFJj",
-			"name": "ゆとりのある富 (Comfortable Wealth)",
+			"name": "快適 (Comfortable Wealth)",
 			"reference": "B25, L8, DFA54, DW33",
 			"reference_highlight": "Comfortable",
 			"local_notes": "開始時の富は通常の2倍",
@@ -4869,7 +4869,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "普通の富 (Average Wealth)"
+							"qualifier": "標準 (Average Wealth)"
 						}
 					},
 					{
@@ -4901,7 +4901,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "裕福 (Wealthy)"
+							"qualifier": "富裕 (Wealthy)"
 						}
 					},
 					{
@@ -4909,7 +4909,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "非常に裕福 (Very Wealthy)"
+							"qualifier": "大金持 (Very Wealthy)"
 						}
 					},
 					{
@@ -4917,7 +4917,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "超大金持ち (Filthy Rich)"
+							"qualifier": "富豪 (Filthy Rich)"
 						}
 					},
 					{
@@ -4925,7 +4925,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "億万長者 (Multimillionaire)"
+							"qualifier": "大富豪 (Multimillionaire)"
 						}
 					}
 				]
@@ -4959,7 +4959,7 @@
 		},
 		{
 			"id": "tDHschYOgUSlMTOYN",
-			"name": "区分された精神 (Compartmentalized Mind)",
+			"name": "並列思考 (Compartmentalized Mind)",
 			"reference": "B43,PSI13",
 			"tags": [
 				"Advantage",
@@ -5108,7 +5108,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "けち (Miserliness)"
+							"qualifier": "けちんぼ (Miserliness)"
 						}
 					}
 				]
@@ -5158,7 +5158,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "けち (Miserliness)"
+							"qualifier": "けちんぼ (Miserliness)"
 						}
 					}
 				]
@@ -5186,7 +5186,7 @@
 		},
 		{
 			"id": "tBo2ze1N-AhjfZpqW",
-			"name": "混乱 (Confused)",
+			"name": "適応能力がない (Confused)",
 			"reference": "B129",
 			"local_notes": "見知らぬ場所にいるとき、または騒ぎが起きているときは、自制判定を行う",
 			"tags": [
@@ -5201,7 +5201,7 @@
 		},
 		{
 			"id": "tDJEofRVQdR97QyYX",
-			"name": "好感が持てる (Congenial)",
+			"name": "つきあいがよい (Congenial)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -5214,7 +5214,7 @@
 		},
 		{
 			"id": "tIixiOHEen0Uqu4Xo",
-			"name": "締め付け攻撃 (Constriction Attack)",
+			"name": "締めつけ (Constriction Attack)",
 			"reference": "B43,P45",
 			"local_notes": "自分のSM以下の相手への組み付きに成功した場合、次のターンとそれ以降のターンごとに、自分のSTと、犠牲者のSTまたはHTの高い方との即決勝負を行う。勝てば、勝利度に等しいダメージを犠牲者に与える。負ければダメージはない",
 			"tags": [
@@ -5238,7 +5238,7 @@
 		},
 		{
 			"id": "t7U76B4j7M7hCGD_H",
-			"name": "情報提供者 (@誰@) (Contact)",
+			"name": "情報屋 (@誰@) (Contact)",
 			"reference": "B44",
 			"tags": [
 				"Advantage",
@@ -5333,7 +5333,7 @@
 				},
 				{
 					"id": "mna6eyN2nx9_EG3tM",
-					"name": "好意 (Favor)",
+					"name": "貸し (Favor)",
 					"reference": "B55",
 					"cost_adj": "x0.2",
 					"disabled": true
@@ -5362,7 +5362,7 @@
 		},
 		{
 			"id": "t72KUTNvqePTkWudf",
-			"name": "極度の内気 (Crippling Shyness)",
+			"name": "内気 (極度) (Crippling Shyness)",
 			"reference": "B154",
 			"local_notes": "可能な限り他人を避ける。",
 			"tags": [
@@ -5386,7 +5386,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "飲み騒ぎ (Carousing)"
+							"qualifier": "宴会 (Carousing)"
 						}
 					},
 					{
@@ -5402,7 +5402,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "口先 (Fast-Talk)"
+							"qualifier": "言いくるめ (Fast-Talk)"
 						}
 					},
 					{
@@ -5442,7 +5442,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "演芸 (Performance)"
+							"qualifier": "演劇 (Performance)"
 						}
 					},
 					{
@@ -5511,7 +5511,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "飲み騒ぎ (Carousing)"
+						"qualifier": "宴会 (Carousing)"
 					},
 					"amount": -4
 				},
@@ -5529,7 +5529,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": -4
 				},
@@ -5574,7 +5574,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -4
 				},
@@ -5639,7 +5639,7 @@
 		},
 		{
 			"id": "ty02wIs3SOt8DoIC7",
-			"name": "殴打の打撃部位 (@身体部位@) (Crushing Striker)",
+			"name": "攻撃部位・叩き (@身体部位@) (Crushing Striker)",
 			"reference": "B88,MA47",
 			"tags": [
 				"Advantage",
@@ -5737,7 +5737,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						}
 					],
@@ -5752,7 +5752,7 @@
 		},
 		{
 			"id": "t5D4nXKgejnaua22T",
-			"name": "文化適応力 (Cultural Adaptability)",
+			"name": "異文化適応 (Cultural Adaptability)",
 			"reference": "B46",
 			"tags": [
 				"Advantage",
@@ -5773,7 +5773,7 @@
 		},
 		{
 			"id": "toXBQ8q4Nek5lsLPF",
-			"name": "文化への精通 (@文化@) (Cultural Familiarity)",
+			"name": "文化適応 (@文化@) (Cultural Familiarity)",
 			"reference": "B23",
 			"local_notes": "不慣れによる通常の-3ペナルティを受けない",
 			"tags": [
@@ -5830,7 +5830,7 @@
 		},
 		{
 			"id": "ttKtZU4HsXw4K7aho",
-			"name": "斬撃の打撃部位 (@身体部位@) (Cutting Striker)",
+			"name": "攻撃部位・切り (@身体部位@) (Cutting Striker)",
 			"reference": "B88",
 			"tags": [
 				"Advantage",
@@ -5926,7 +5926,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -5956,7 +5956,7 @@
 		},
 		{
 			"id": "ttppfGersg2XRSwD4",
-			"name": "犬恐怖症 (イヌ) (Cynophobia (Dogs))",
+			"name": "イヌ恐怖症 (Cynophobia (Dogs))",
 			"reference": "B149",
 			"local_notes": "キツネ、オオカミ、コヨーテ、野犬など、イヌ科の動物すべてを含む。",
 			"tags": [
@@ -5972,7 +5972,7 @@
 		},
 		{
 			"id": "tBmSJ3pNE53c4IRUU",
-			"name": "ダメージ減少 (Damage Resistance)",
+			"name": "防護点 (Damage Resistance)",
 			"reference": "B46,B47,P45,MA43,PSI14",
 			"tags": [
 				"Advantage",
@@ -6093,7 +6093,7 @@
 									"id": "mriC_suSIQRyOEPIf",
 									"name": "非常に一般的 (Very Common)",
 									"reference": "H14,B46",
-									"local_notes": "非常に広い: 白兵攻撃、長射程攻撃、物理攻撃、エネルギー攻撃、または1つの動力源 (魔法、サイオニクスなど)",
+									"local_notes": "非常に広い: 白兵攻撃、長射程攻撃、物理攻撃、エネルギー攻撃、または1つの動力源 (魔法、超能力など)",
 									"nameables": {
 										"天敵": {
 											"label": "天敵",
@@ -6105,7 +6105,7 @@
 												"エネルギー攻撃",
 												"気",
 												"魔法",
-												"サイオニクス"
+												"超能力"
 											],
 											"free_form": true,
 											"not_blank": true
@@ -6125,17 +6125,17 @@
 									"id": "mGhdjo4vkF4K3wlU4",
 									"name": "一般的 (Common)",
 									"reference": "H14,B46",
-									"local_notes": "広い: 1つのダメージ種別 (熱傷、殴打など)、物質の分類 (金属、石、木など)、または酸、冷気、電気、火など",
+									"local_notes": "広い: 1つのダメージ種別 (焼き、叩きなど)、物質の分類 (金属、石、木など)、または酸、冷気、電気、火など",
 									"nameables": {
 										"天敵": {
 											"label": "天敵",
 											"tooltip": "あなたのDRが防げない攻撃や物質。",
 											"options": [
-												"熱傷",
-												"腐食",
-												"殴打",
-												"斬撃",
-												"刺突",
+												"焼き",
+												"侵蝕",
+												"叩き",
+												"切り",
+												"刺し",
 												"貫通",
 												"毒",
 												"金属",
@@ -6277,7 +6277,7 @@
 									"id": "mHX9jNBEFXDMx9Udj",
 									"name": "非常に一般的 (Very Common)",
 									"reference": "B46",
-									"local_notes": "非常に広い: 白兵攻撃、長射程攻撃、物理攻撃、エネルギー攻撃、または1つの動力源 (魔法、サイオニクスなど)",
+									"local_notes": "非常に広い: 白兵攻撃、長射程攻撃、物理攻撃、エネルギー攻撃、または1つの動力源 (魔法、超能力など)",
 									"nameables": {
 										"攻撃の形態": {
 											"label": "攻撃の形態",
@@ -6289,7 +6289,7 @@
 												"エネルギー攻撃",
 												"気",
 												"魔法",
-												"サイオニクス"
+												"超能力"
 											],
 											"free_form": true,
 											"not_blank": true
@@ -6309,17 +6309,17 @@
 									"id": "mydbXeU0Gp6_5IXwP",
 									"name": "一般的 (Common)",
 									"reference": "B46",
-									"local_notes": "広い: 1つのダメージ種別 (熱傷、殴打など)、物質の分類 (金属、石、木など)、または酸、冷気、電気、火など",
+									"local_notes": "広い: 1つのダメージ種別 (焼き、叩きなど)、物質の分類 (金属、石、木など)、または酸、冷気、電気、火など",
 									"nameables": {
 										"攻撃の形態": {
 											"label": "攻撃の形態",
 											"tooltip": "あなたのDRが防ぐ攻撃の形態。",
 											"options": [
-												"熱傷",
-												"腐食",
-												"殴打",
-												"斬撃",
-												"刺突",
+												"焼き",
+												"侵蝕",
+												"叩き",
+												"切り",
+												"刺し",
 												"貫通",
 												"毒",
 												"金属",
@@ -6489,7 +6489,7 @@
 		},
 		{
 			"id": "tO0G2kcresS1YZ_KE",
-			"name": "向こう見ず (Daredevil)",
+			"name": "暴虎馮河 (Daredevil)",
 			"reference": "B47",
 			"tags": [
 				"Advantage",
@@ -6509,7 +6509,7 @@
 		},
 		{
 			"id": "tEFtRoCNBxTe9vjsG",
-			"name": "暗黒視 (Dark Vision)",
+			"name": "闇視 (Dark Vision)",
 			"reference": "B47,P46",
 			"tags": [
 				"Advantage",
@@ -6555,7 +6555,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "普通の富 (Average Wealth)"
+							"qualifier": "標準 (Average Wealth)"
 						}
 					},
 					{
@@ -6579,7 +6579,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "ゆとりのある富 (Comfortable Wealth)"
+							"qualifier": "快適 (Comfortable Wealth)"
 						}
 					},
 					{
@@ -6587,7 +6587,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "裕福 (Wealthy)"
+							"qualifier": "富裕 (Wealthy)"
 						}
 					},
 					{
@@ -6595,7 +6595,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "非常に裕福 (Very Wealthy)"
+							"qualifier": "大金持 (Very Wealthy)"
 						}
 					},
 					{
@@ -6603,7 +6603,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "超大金持ち (Filthy Rich)"
+							"qualifier": "富豪 (Filthy Rich)"
 						}
 					},
 					{
@@ -6611,7 +6611,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "億万長者 (Multimillionaire)"
+							"qualifier": "大富豪 (Multimillionaire)"
 						}
 					}
 				]
@@ -6718,7 +6718,7 @@
 		},
 		{
 			"id": "tLnETZfKq1bkyavDB",
-			"name": "基本スピードの低下 (Decreased Basic Speed)",
+			"name": "基本反応速度の低下 (Decreased Basic Speed)",
 			"reference": "B17",
 			"tags": [
 				"Attribute",
@@ -6900,7 +6900,7 @@
 		},
 		{
 			"id": "tjv4a7cS6NrQ4rttz",
-			"name": "時間速度の低下 (Decreased Time Rate)",
+			"name": "減速 (Decreased Time Rate)",
 			"reference": "B129",
 			"tags": [
 				"Disadvantage",
@@ -7002,7 +7002,7 @@
 		},
 		{
 			"id": "tXFf9MSQ3FMT2psO8",
-			"name": "群衆恐怖症 (群衆) (Demophobia (Crowds))",
+			"name": "群衆恐怖症 (Demophobia (Crowds))",
 			"reference": "B149",
 			"local_notes": "12人を超える集団は、全員が顔見知りでない限りこの恐怖を引き起こす。自制判定は、25人超で-1、100人以上の群衆で-2、1,000人で-3、10,000人で-4、以降も同様。",
 			"tags": [
@@ -7018,7 +7018,7 @@
 		},
 		{
 			"id": "td5zyb9sBhZkHhkmv",
-			"name": "依存物質 (@物質@) (Dependency)",
+			"name": "依存 (@物質@) (Dependency)",
 			"reference": "B130",
 			"tags": [
 				"Disadvantage",
@@ -7132,7 +7132,7 @@
 		},
 		{
 			"id": "tIDqwizWRQYDHHGUX",
-			"name": "被扶養者 (@誰@) (Dependent)",
+			"name": "足手まとい (@誰@) (Dependent)",
 			"reference": "B131",
 			"tags": [
 				"Disadvantage",
@@ -7412,7 +7412,7 @@
 		},
 		{
 			"id": "tRhngvpgV84q6zY8n",
-			"name": "信仰の戒律 (禁欲主義) (Disciplines of Faith (Asceticism))",
+			"name": "信仰による規律 (禁欲主義) (Disciplines of Faith (Asceticism))",
 			"reference": "B132",
 			"tags": [
 				"Disadvantage",
@@ -7425,7 +7425,7 @@
 		},
 		{
 			"id": "tfH5wLK63v1I9hTlq",
-			"name": "信仰の戒律 (修道生活) (Disciplines of Faith (Monasticism))",
+			"name": "信仰による規律 (修道生活) (Disciplines of Faith (Monasticism))",
 			"reference": "B132",
 			"tags": [
 				"Disadvantage",
@@ -7438,7 +7438,7 @@
 		},
 		{
 			"id": "teAIBPy4-oOSi6HoI",
-			"name": "信仰の戒律 (神秘主義) (Disciplines of Faith (Mysticism))",
+			"name": "信仰による規律 (神秘主義) (Disciplines of Faith (Mysticism))",
 			"reference": "B132",
 			"tags": [
 				"Disadvantage",
@@ -7451,7 +7451,7 @@
 		},
 		{
 			"id": "t9CbY1uCmgSV0FolN",
-			"name": "信仰の戒律 (儀礼主義) (Disciplines of Faith (Ritualism))",
+			"name": "信仰による規律 (儀礼主義) (Disciplines of Faith (Ritualism))",
 			"reference": "B132",
 			"tags": [
 				"Disadvantage",
@@ -7464,7 +7464,7 @@
 		},
 		{
 			"id": "tTr0n87UXk6YrVoKR",
-			"name": "識別聴覚 (Discriminatory Hearing)",
+			"name": "超聴覚 (Discriminatory Hearing)",
 			"reference": "B49,P47",
 			"tags": [
 				"Advantage",
@@ -7506,7 +7506,7 @@
 		},
 		{
 			"id": "tjKuFiuy3Fs6rm69e",
-			"name": "識別嗅覚 (Discriminatory Smell)",
+			"name": "超嗅覚 (Discriminatory Smell)",
 			"reference": "B49,P47",
 			"tags": [
 				"Advantage",
@@ -7536,7 +7536,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "追跡 (Tracking)"
+						"qualifier": "足跡追跡 (Tracking)"
 					},
 					"amount": 4
 				},
@@ -7552,7 +7552,7 @@
 		},
 		{
 			"id": "tkVnKZcuYZ4Hth4v7",
-			"name": "識別味覚 (Discriminatory Taste)",
+			"name": "超味覚 (Discriminatory Taste)",
 			"reference": "B49,P47",
 			"tags": [
 				"Advantage",
@@ -7633,7 +7633,7 @@
 		},
 		{
 			"id": "tjUsPkJ0yQvhNsqyS",
-			"name": "気が散りやすい (Distractible)",
+			"name": "注意散漫 (Distractible)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -7668,7 +7668,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "声 (Voice)"
+							"qualifier": "美声 (Voice)"
 						}
 					}
 				]
@@ -7689,7 +7689,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": -2
 				},
@@ -7698,7 +7698,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -2
 				},
@@ -7772,7 +7772,7 @@
 		},
 		{
 			"id": "tUX_zxoB4sWyeNpHi",
-			"name": "呼吸しない (Doesn't Breathe)",
+			"name": "呼吸不要 (Doesn't Breathe)",
 			"reference": "B49",
 			"tags": [
 				"Advantage",
@@ -7857,7 +7857,7 @@
 		},
 		{
 			"id": "tn9VjEGfaGTl2Mwyz",
-			"name": "飲食しない (Doesn't Eat or Drink)",
+			"name": "飲食不要 (Doesn't Eat or Drink)",
 			"reference": "B50",
 			"tags": [
 				"Advantage",
@@ -7871,7 +7871,7 @@
 		},
 		{
 			"id": "tyrJL144Jz5QN6Z9r",
-			"name": "眠らない (Doesn't Sleep)",
+			"name": "睡眠不要 (Doesn't Sleep)",
 			"reference": "B50",
 			"tags": [
 				"Advantage",
@@ -7941,7 +7941,7 @@
 		},
 		{
 			"id": "tCM86nTmt4WVP1tI7",
-			"name": "畏怖 (Dread)",
+			"name": "嫌悪 (Dread)",
 			"reference": "B132",
 			"local_notes": "@対象@に、レベルヤード以内に近づけない",
 			"tags": [
@@ -8009,7 +8009,7 @@
 		},
 		{
 			"id": "ta2gcuebm2uhQ5XyB",
-			"name": "夢想家 (Dreamer)",
+			"name": "夢見がち (Dreamer)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -8029,7 +8029,7 @@
 		},
 		{
 			"id": "tHBiRZcX2d5iKicWB",
-			"name": "地味 (Dull)",
+			"name": "保守的 (Dull)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -8042,7 +8042,7 @@
 		},
 		{
 			"id": "t-t--4XDw5-r25ldY",
-			"name": "分身 (Duplication)",
+			"name": "複製 (Duplication)",
 			"reference": "B50,P48",
 			"tags": [
 				"Advantage",
@@ -8221,7 +8221,7 @@
 		},
 		{
 			"id": "tDK9FvKn-O3nj-U0j",
-			"name": "読字障害 (Dyslexia)",
+			"name": "難読症 (Dyslexia)",
 			"reference": "B134",
 			"local_notes": "すべての言語の文章理解レベルが「なし」で、向上させられない",
 			"tags": [
@@ -8261,7 +8261,7 @@
 		},
 		{
 			"id": "tzVv8jJIuoUiVT_80",
-			"name": "心を読まれやすい (Easy to Read)",
+			"name": "感情が顔に出る (Easy to Read)",
 			"reference": "B134",
 			"tags": [
 				"Disadvantage",
@@ -8276,7 +8276,7 @@
 				},
 				{
 					"type": "conditional_modifier",
-					"situation": "嘘をついたりはったりをかけたりするときの、あなたの演技、口先、賭博技能との即決勝負における、他者のIQ、嘘看破、賭博の判定に",
+					"situation": "嘘をついたりはったりをかけたりするときの、あなたの演技、口先、賭博技能との即決勝負における、他者のIQ、嘘発見、賭博の判定に",
 					"amount": 4
 				}
 			],
@@ -8286,7 +8286,7 @@
 		},
 		{
 			"id": "tW-eAzIKBWa5Yc9cI",
-			"name": "映像記憶 (Eidetic Memory)",
+			"name": "記憶力 (Eidetic Memory)",
 			"reference": "B51",
 			"tags": [
 				"Advantage",
@@ -8295,7 +8295,7 @@
 			"modifiers": [
 				{
 					"id": "mkLR0FMSkGrbaZrbv",
-					"name": "写真的 (Photographic)",
+					"name": "写真記憶 (Photographic)",
 					"reference": "B51",
 					"cost_adj": "5",
 					"disabled": true
@@ -8308,7 +8308,7 @@
 		},
 		{
 			"id": "t85L5o1YSjwxi6KD5",
-			"name": "弾力のある皮膚 (Elastic Skin)",
+			"name": "伸縮自在の皮膚 (Elastic Skin)",
 			"reference": "B51,P48",
 			"tags": [
 				"Advantage",
@@ -8369,7 +8369,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "嘘看破 (Detect Lies)"
+						"qualifier": "嘘発見 (Detect Lies)"
 					},
 					"amount": 3
 				},
@@ -8378,7 +8378,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "占い (Fortune-Telling)"
+						"qualifier": "占い師 (Fortune-Telling)"
 					},
 					"amount": 3
 				},
@@ -8420,7 +8420,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "嘘看破 (Detect Lies)"
+						"qualifier": "嘘発見 (Detect Lies)"
 					},
 					"amount": 1
 				},
@@ -8429,7 +8429,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "占い (Fortune-Telling)"
+						"qualifier": "占い師 (Fortune-Telling)"
 					},
 					"amount": 1
 				},
@@ -8584,7 +8584,7 @@
 		},
 		{
 			"id": "t2YeWtLsS-544fGdt",
-			"name": "止めの強化 (Enhanced Block)",
+			"name": "強化止め (Enhanced Block)",
 			"reference": "B51,MA43",
 			"tags": [
 				"Advantage",
@@ -8609,7 +8609,7 @@
 		},
 		{
 			"id": "twGsZPV8OE0NLFaXl",
-			"name": "よけの強化 (Enhanced Dodge)",
+			"name": "強化よけ (Enhanced Dodge)",
 			"reference": "B51,MA43",
 			"tags": [
 				"Advantage",
@@ -8634,7 +8634,7 @@
 		},
 		{
 			"id": "tG2tK0QWXPQqFk-rd",
-			"name": "移動力の強化 (@種類@) (Enhanced Move)",
+			"name": "高速移動 (@種類@) (Enhanced Move)",
 			"reference": "B52,P49",
 			"local_notes": "レベルごとに通常の@種類@移動力が2倍",
 			"tags": [
@@ -8708,7 +8708,7 @@
 		},
 		{
 			"id": "tDw6GZRxayNGMc8wW",
-			"name": "受けの強化 (@白兵武器技能@) (Enhanced Parry)",
+			"name": "強化受け (@白兵武器技能@) (Enhanced Parry)",
 			"reference": "B51,MA43",
 			"tags": [
 				"Advantage",
@@ -8737,7 +8737,7 @@
 		},
 		{
 			"id": "tVyvGlX-r5_Svydpa",
-			"name": "受けの強化 (すべての受け) (Enhanced Parry (All parries))",
+			"name": "強化受け (すべての受け) (Enhanced Parry (All parries))",
 			"reference": "B51,MA43",
 			"tags": [
 				"Advantage",
@@ -8762,7 +8762,7 @@
 		},
 		{
 			"id": "taqHL9ZGLNxoSoyo-",
-			"name": "受けの強化 (素手) (Enhanced Parry (Bare hands))",
+			"name": "強化受け (素手) (Enhanced Parry (Bare hands))",
 			"reference": "B51",
 			"tags": [
 				"Advantage",
@@ -8786,7 +8786,7 @@
 		},
 		{
 			"id": "tAdgvQpc5XxYoM2Zu",
-			"name": "強化された時間感覚 (Enhanced Time Sense)",
+			"name": "超時感覚 (Enhanced Time Sense)",
 			"reference": "B52,MA44",
 			"local_notes": "強化された時間感覚を持たない者より先に戦闘で行動する。決して硬直しない",
 			"tags": [
@@ -8856,7 +8856,7 @@
 		},
 		{
 			"id": "tOl20TXr9KKkV5FRy",
-			"name": "強化された追跡 (Enhanced Tracking)",
+			"name": "多目標追尾 (Enhanced Tracking)",
 			"reference": "B53,P49",
 			"tags": [
 				"Advantage",
@@ -8883,7 +8883,7 @@
 		},
 		{
 			"id": "tTeeNp4aWCjsLvUGJ",
-			"name": "昆虫恐怖症 (昆虫) (Entomophobia (Insects))",
+			"name": "昆虫恐怖症 (Entomophobia (Insects))",
 			"reference": "B150",
 			"local_notes": "あらゆる「虫」が怖い。大きなもの、毒のあるものは自制判定-3。非常に大きなもの、または大量の場合は-6。巨大アリの塚は避けること。",
 			"tags": [
@@ -8927,7 +8927,7 @@
 		},
 		{
 			"id": "tUJz4wvVveMiGDX0R",
-			"name": "寿命の延長 (Extended Lifespan)",
+			"name": "寿命が長い (Extended Lifespan)",
 			"reference": "B53",
 			"tags": [
 				"Advantage",
@@ -9127,7 +9127,7 @@
 		},
 		{
 			"id": "tnoTxbCUvvok5k1Ep",
-			"name": "追加攻撃 (Extra Attack)",
+			"name": "追加攻撃回数 (Extra Attack)",
 			"reference": "B53,P49,MA44",
 			"tags": [
 				"Advantage",
@@ -9501,7 +9501,7 @@
 		},
 		{
 			"id": "tpqxCsRu8W1w0NZPS",
-			"name": "並外れた幸運 (Extraordinary Luck)",
+			"name": "すごい幸運 (Extraordinary Luck)",
 			"reference": "B66",
 			"local_notes": "プレイ30分につき1回使用可能",
 			"tags": [
@@ -9553,7 +9553,7 @@
 		},
 		{
 			"id": "tLDRbhXFP-3CeGka-",
-			"name": "狂信 (@集団または理想@) (Fanaticism)",
+			"name": "熱狂 (@集団または理想@) (Fanaticism)",
 			"reference": "B136",
 			"tags": [
 				"Disadvantage",
@@ -9598,7 +9598,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -9703,7 +9703,7 @@
 		},
 		{
 			"id": "te7lgTR0NeLuQCsre",
-			"name": "怖がり (Fearfulness)",
+			"name": "恐がり (Fearfulness)",
 			"reference": "B136",
 			"tags": [
 				"Disadvantage",
@@ -9718,7 +9718,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "恐れ知らず (Fearlessness)"
+							"qualifier": "恐怖を感じない (Fearlessness)"
 						}
 					}
 				]
@@ -9742,7 +9742,7 @@
 		},
 		{
 			"id": "tQa3EUrs4Hjt9gxK6",
-			"name": "恐れ知らず (Fearlessness)",
+			"name": "恐怖を感じない (Fearlessness)",
 			"reference": "B55,MA44",
 			"tags": [
 				"Advantage",
@@ -9757,7 +9757,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "怖がり (Fearfulness)"
+							"qualifier": "恐がり (Fearfulness)"
 						}
 					}
 				]
@@ -9833,7 +9833,7 @@
 		},
 		{
 			"id": "tFY7tz3BT0k253ky_",
-			"name": "濾過肺 (Filter Lungs)",
+			"name": "濾過装置 (Filter Lungs)",
 			"reference": "B55",
 			"tags": [
 				"Advantage",
@@ -9847,7 +9847,7 @@
 		},
 		{
 			"id": "tqzd8zGIvcYp0FgjE",
-			"name": "超大金持ち (Filthy Rich)",
+			"name": "富豪 (Filthy Rich)",
 			"reference": "B25, L8, DFRC2:49, DW33",
 			"local_notes": "開始時の富は通常の100倍",
 			"tags": [
@@ -9864,7 +9864,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "普通の富 (Average Wealth)"
+							"qualifier": "標準 (Average Wealth)"
 						}
 					},
 					{
@@ -9896,7 +9896,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "ゆとりのある富 (Comfortable Wealth)"
+							"qualifier": "快適 (Comfortable Wealth)"
 						}
 					},
 					{
@@ -9904,7 +9904,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "裕福 (Wealthy)"
+							"qualifier": "富裕 (Wealthy)"
 						}
 					},
 					{
@@ -9912,7 +9912,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "非常に裕福 (Very Wealthy)"
+							"qualifier": "大金持 (Very Wealthy)"
 						}
 					},
 					{
@@ -9920,7 +9920,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "億万長者 (Multimillionaire)"
+							"qualifier": "大富豪 (Multimillionaire)"
 						}
 					}
 				]
@@ -9951,9 +9951,9 @@
 		},
 		{
 			"id": "toTe273Ky82B6YdW5",
-			"name": "頑健 (Fit)",
+			"name": "健康 (Fit)",
 			"reference": "B55",
-			"local_notes": "FPを通常の2倍の速さで回復する (ただし、呪文やサイオニクスで消費したFPは除く)",
+			"local_notes": "FPを通常の2倍の速さで回復する (ただし、呪文や超能力で消費したFPは除く)",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -10106,7 +10106,7 @@
 			"id": "tBp8Q-gJeFHzopeuI",
 			"name": "飛行 (Flight)",
 			"reference": "B56,P50,PSI14",
-			"local_notes": "空中移動力は基本スピードの2倍 (端数は切り捨て)",
+			"local_notes": "空中移動力は基本反応速度の2倍 (端数は切り捨て)",
 			"tags": [
 				"Advantage",
 				"Exotic",
@@ -10218,7 +10218,7 @@
 					"id": "miWMOshqrxZ9TjRYp",
 					"name": "遅い (Slow)",
 					"reference": "PSI14",
-					"local_notes": "基本スピード",
+					"local_notes": "基本反応速度",
 					"cost_adj": "-25%",
 					"disabled": true
 				},
@@ -10335,7 +10335,7 @@
 		},
 		{
 			"id": "tIwv4VeJHsrnAQG0T",
-			"name": "動物を怯えさせる (Frightens Animals)",
+			"name": "動物に嫌われる (Frightens Animals)",
 			"reference": "B137",
 			"tags": [
 				"Disadvantage",
@@ -10363,7 +10363,7 @@
 		},
 		{
 			"id": "tu3GuYC47Sx6bnm4k",
-			"name": "G経験 (G-Experience)",
+			"name": "重力対応力訓練 (G-Experience)",
 			"reference": "B57",
 			"tags": [
 				"Advantage",
@@ -10380,7 +10380,7 @@
 		},
 		{
 			"id": "tHNrjEQFQBNOgwmzK",
-			"name": "G経験 (すべて) (G-Experience (All))",
+			"name": "重力対応力訓練 (すべて) (G-Experience (All))",
 			"reference": "B57",
 			"tags": [
 				"Advantage",
@@ -10487,7 +10487,7 @@
 		},
 		{
 			"id": "t7blIRUzFpiHS_mnO",
-			"name": "ガジェット (Gizmo)",
+			"name": "謎のアイテム (Gizmo)",
 			"reference": "B57,MA45",
 			"tags": [
 				"Advantage",
@@ -10504,7 +10504,7 @@
 		},
 		{
 			"id": "tYHaB3nA17KP6h1DZ",
-			"name": "大食い (Gluttony)",
+			"name": "くいしんぼ (Gluttony)",
 			"reference": "B137",
 			"local_notes": "理由があって抵抗すべきうまそうな一口や上等なワインを前にしたときは、自制判定を行う。失敗すれば、結果にかかわらず手を出してしまう。",
 			"tags": [
@@ -10703,7 +10703,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "嘘看破 (Detect Lies)"
+							"qualifier": "嘘発見 (Detect Lies)"
 						}
 					}
 				]
@@ -10727,7 +10727,7 @@
 		},
 		{
 			"id": "t-TwxuBLxBKZX3AeN",
-			"name": "ガンスリンガー (Gunslinger)",
+			"name": "銃の達人 (Gunslinger)",
 			"reference": "B58,MA45,GF15",
 			"tags": [
 				"Advantage",
@@ -10817,7 +10817,7 @@
 		},
 		{
 			"id": "tf1sTjmj7fO_KiDam",
-			"name": "癖 (Habit)",
+			"name": "習慣や表現 (Habit)",
 			"reference": "B164",
 			"local_notes": "@癖@",
 			"tags": [
@@ -10846,7 +10846,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "高い手先の器用さ (High Manual Dexterity)"
+							"qualifier": "手先が器用 (High Manual Dexterity)"
 						}
 					}
 				]
@@ -10868,7 +10868,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "宝石細工師 (Jeweler)"
+						"qualifier": "宝石屋 (Jeweler)"
 					},
 					"amount": -3,
 					"per_level": true
@@ -11067,7 +11067,7 @@
 		},
 		{
 			"id": "to1xtqqmTMVRyo0q3",
-			"name": "治癒 (Healing)",
+			"name": "治療できる (Healing)",
 			"reference": "B59,P51,PSI14",
 			"tags": [
 				"Advantage",
@@ -11253,7 +11253,7 @@
 		},
 		{
 			"id": "tXxzGDPLXkpHMSLSK",
-			"name": "太陽恐怖症 (太陽) (Heliophobia (Sun))",
+			"name": "太陽恐怖症 (Heliophobia (Sun))",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -11297,7 +11297,7 @@
 		},
 		{
 			"id": "tCEOuCUPPWTbOE7ei",
-			"name": "血液恐怖症 (血) (Hemophobia (Blood))",
+			"name": "血液恐怖症 (Hemophobia (Blood))",
 			"reference": "B149",
 			"local_notes": "血を見ると震え上がる！ほとんどの戦闘で自制判定が必要になる…",
 			"tags": [
@@ -11313,7 +11313,7 @@
 		},
 		{
 			"id": "tud6WHncq1hwuXoxS",
-			"name": "雌雄同体 (Hermaphromorph)",
+			"name": "性別変更可能 (Hermaphromorph)",
 			"reference": "B59",
 			"tags": [
 				"Advantage",
@@ -11342,7 +11342,7 @@
 		},
 		{
 			"id": "tToKVITWIFSZIRkXK",
-			"name": "爬虫類恐怖症 (爬虫類) (Herpetophobia (Reptiles))",
+			"name": "爬虫類恐怖症 (Herpetophobia (Reptiles))",
 			"reference": "B150",
 			"local_notes": "爬虫類、両生類、鱗のあるぬめぬめしたものを考えただけで取り乱す。非常に大きな爬虫類や毒のあるものは自制判定-2、爬虫類の群れ (ヘビの巣穴など) は-4。",
 			"tags": [
@@ -11371,7 +11371,7 @@
 		},
 		{
 			"id": "t7x0UhMbIv9VWYd8n",
-			"name": "頑迷 (Hidebound)",
+			"name": "創造力がない (Hidebound)",
 			"reference": "B138",
 			"tags": [
 				"Disadvantage",
@@ -11381,7 +11381,7 @@
 			"features": [
 				{
 					"type": "conditional_modifier",
-					"situation": "創造性や発明を要するあらゆる作業 (「芸術」技能の判定のほとんど、新しい発明のためのすべての「技術者」判定、発明家の特徴を使うためのすべての技能判定を含む) に",
+					"situation": "創造性や発明を要するあらゆる作業 (「芸術」技能の判定のほとんど、新しい発明のためのすべての「エンジニア」判定、発明家の特徴を使うためのすべての技能判定を含む) に",
 					"amount": -2
 				}
 			],
@@ -11391,7 +11391,7 @@
 		},
 		{
 			"id": "tY_8UkOBvzKIAgGGQ",
-			"name": "高い手先の器用さ (High Manual Dexterity)",
+			"name": "手先が器用 (High Manual Dexterity)",
 			"reference": "B59",
 			"tags": [
 				"Advantage",
@@ -11414,7 +11414,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "宝石細工師 (Jeweler)"
+						"qualifier": "宝石屋 (Jeweler)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -11520,7 +11520,7 @@
 		},
 		{
 			"id": "teRggYn926_I1YeWO",
-			"name": "高い痛覚閾値 (High Pain Threshold)",
+			"name": "痛みに強い (High Pain Threshold)",
 			"reference": "B59",
 			"local_notes": "負傷してもショックのペナルティを受けない",
 			"tags": [
@@ -11563,7 +11563,7 @@
 		},
 		{
 			"id": "tor-Nvi96sevrjRIT",
-			"name": "高TL (High TL)",
+			"name": "TLが高い (High TL)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
@@ -11580,7 +11580,7 @@
 		},
 		{
 			"id": "tv7bDjPB_5Noifly6",
-			"name": "崇高な目的 (@目的@) (Higher Purpose)",
+			"name": "至高の目的 (@目的@) (Higher Purpose)",
 			"reference": "B59",
 			"tags": [
 				"Advantage",
@@ -11606,7 +11606,7 @@
 		},
 		{
 			"id": "tzSU0oJe0L8zY5VA5",
-			"name": "誠実な顔 (Honest Face)",
+			"name": "善良な顔 (Honest Face)",
 			"reference": "B101",
 			"tags": [
 				"Perk",
@@ -11626,7 +11626,7 @@
 		},
 		{
 			"id": "t7pCgXTVkswkTjOZO",
-			"name": "正直 (Honesty)",
+			"name": "遵法精神 (Honesty)",
 			"reference": "B138",
 			"local_notes": "不合理な法を破る「必要」に直面したときは、自制判定を行う。失敗すれば、結果にかかわらず法に従わなければならない。衝動に抵抗して法を破った場合は、その後もう一度自制判定を行う。失敗すれば、当局に自首しなければならない！",
 			"tags": [
@@ -11669,7 +11669,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							},
 							"modifier": -2
 						},
@@ -11702,7 +11702,7 @@
 		},
 		{
 			"id": "tmQosgh6KoBoBDxMb",
-			"name": "武器恐怖症 (武器) (Hoplophobia (Weapons))",
+			"name": "武器恐怖症 (Hoplophobia (Weapons))",
 			"reference": "B150",
 			"local_notes": "武器の存在そのものがストレスになる。武器を使おうとしたり、突きつけられたりすると、自制判定-2が必要。",
 			"tags": [
@@ -11752,7 +11752,7 @@
 		},
 		{
 			"id": "tmvQodT3s0JuvbtIx",
-			"name": "謙虚 (Humble)",
+			"name": "腰が低い (Humble)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -11870,7 +11870,7 @@
 		},
 		{
 			"id": "tOzNzbrbSew6q7kjX",
-			"name": "超スペクトル視覚 (Hyperspectral Vision)",
+			"name": "域外視覚 (Hyperspectral Vision)",
 			"reference": "B60,P51",
 			"tags": [
 				"Advantage",
@@ -11927,7 +11927,7 @@
 			"features": [
 				{
 					"type": "conditional_modifier",
-					"situation": "「法医学」「観察」「捜索」で隠された手がかりや物を見つける",
+					"situation": "「鑑識」「監視」「捜索」で隠された手がかりや物を見つける",
 					"amount": 3
 				},
 				{
@@ -11940,7 +11940,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "追跡 (Tracking)"
+						"qualifier": "足跡追跡 (Tracking)"
 					},
 					"amount": 3
 				}
@@ -11951,7 +11951,7 @@
 		},
 		{
 			"id": "tDdBGGYLkL73C598D",
-			"name": "発光 (Illuminated)",
+			"name": "選ばれし者 (Illuminated)",
 			"reference": "B60",
 			"tags": [
 				"Advantage",
@@ -11965,7 +11965,7 @@
 		},
 		{
 			"id": "t4slIFEFLKoDYazcy",
-			"name": "想像力豊か (Imaginative)",
+			"name": "発想マニア (Imaginative)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -11978,7 +11978,7 @@
 		},
 		{
 			"id": "tkhBSvR-2rJsUAwDE",
-			"name": "刺突の打撃部位 (@身体部位@) (Impaling Striker)",
+			"name": "攻撃部位・刺し (@身体部位@) (Impaling Striker)",
 			"reference": "B88",
 			"tags": [
 				"Advantage",
@@ -12077,7 +12077,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						}
 					],
@@ -12092,7 +12092,7 @@
 		},
 		{
 			"id": "txREhxV6L1SKixwe_",
-			"name": "G耐性の向上 (Improved G-tolerance)",
+			"name": "重力適応 (Improved G-tolerance)",
 			"reference": "B60",
 			"tags": [
 				"Advantage",
@@ -12141,7 +12141,7 @@
 		},
 		{
 			"id": "tV06LED8bg9xJGF3c",
-			"name": "衝動的 (Impulsiveness)",
+			"name": "直情 (Impulsiveness)",
 			"reference": "B139",
 			"local_notes": "待って考えるのが賢明なときは、自制判定を行う。失敗すれば行動しなければならない",
 			"tags": [
@@ -12156,7 +12156,7 @@
 		},
 		{
 			"id": "t5NruiJFzLvsyzwd1",
-			"name": "無能 (@技能@) (Incompetence)",
+			"name": "才能がない (@技能@) (Incompetence)",
 			"reference": "B164",
 			"local_notes": "@技能@は技能なし値でしか持てない (ポイントを費やせない)",
 			"tags": [
@@ -12271,7 +12271,7 @@
 		},
 		{
 			"id": "tWF1J_Z0Ziz-qJ6pn",
-			"name": "基本スピードの向上 (Increased Basic Speed)",
+			"name": "基本反応速度の向上 (Increased Basic Speed)",
 			"reference": "B17",
 			"tags": [
 				"Advantage",
@@ -12616,7 +12616,7 @@
 		},
 		{
 			"id": "tM8LVZ-8-HpvEFsPi",
-			"name": "好奇心がない (Incurious)",
+			"name": "無関心 (Incurious)",
 			"reference": "B140",
 			"local_notes": "奇妙なものに出会ったときは、自制判定を行う。失敗すれば無視してしまう！",
 			"tags": [
@@ -12653,7 +12653,7 @@
 		},
 		{
 			"id": "t6VL5FJC9tWm68DU4",
-			"name": "不労所得 (Independent Income)",
+			"name": "副収入 (Independent Income)",
 			"reference": "B26",
 			"tags": [
 				"Advantage",
@@ -12670,7 +12670,7 @@
 		},
 		{
 			"id": "t4ANWaWCephx_yJpO",
-			"name": "不屈 (Indomitable)",
+			"name": "他人に影響されない (Indomitable)",
 			"reference": "B60",
 			"local_notes": "通常の言葉や行動では影響されない",
 			"tags": [
@@ -12733,7 +12733,7 @@
 					"id": "mmNNvnxjiTDKejRV0",
 					"name": "拡散 (Diffuse)",
 					"reference": "B60",
-					"local_notes": "行動を妨げる傷害を受けない。脳、重要器官、鼠径部は狙えない。ほとんどの敵はあなたを突き飛ばしたり組み付いたりできない (GMの判断)。出血しない。血液を介する毒の影響を受けない。体の一部への血流を断つ攻撃の影響を受けない。刺突・貫通攻撃は、貫通したダメージにかかわらず、どの大きさでも負傷はHP 1以下。その他の攻撃は負傷がHP 2以下。例外: 範囲攻撃、円錐攻撃、爆発攻撃は通常の傷害を与える",
+					"local_notes": "行動を妨げる傷害を受けない。脳、重要器官、鼠径部は狙えない。ほとんどの敵はあなたを突き飛ばしたり組み付いたりできない (GMの判断)。出血しない。血液を介する毒の影響を受けない。体の一部への血流を断つ攻撃の影響を受けない。刺し・貫通攻撃は、貫通したダメージにかかわらず、どの大きさでも負傷はHP 1以下。その他の攻撃は負傷がHP 2以下。例外: 範囲攻撃、円錐攻撃、爆発攻撃は通常の傷害を与える",
 					"cost_adj": "100",
 					"disabled": true
 				},
@@ -12741,7 +12741,7 @@
 					"id": "mWZ94aEkMmxYd7uwx",
 					"name": "均質 (Homogenous)",
 					"reference": "B60",
-					"local_notes": "傷害修正の変更: 刺突と貫通++はx1/2、貫通+はx1/3、貫通はx1/5、貫通-はx1/10",
+					"local_notes": "傷害修正の変更: 刺しと貫通++はx1/2、貫通+はx1/3、貫通はx1/5、貫通-はx1/10",
 					"cost_adj": "40",
 					"disabled": true
 				},
@@ -12797,7 +12797,7 @@
 					"id": "m_m2GNV0JSNZjPj-C",
 					"name": "非生物 (Unliving)",
 					"reference": "B61",
-					"local_notes": "傷害修正の変更: 刺突と貫通++はx1、貫通+はx1/2、貫通はx1/3、貫通-はx1/5",
+					"local_notes": "傷害修正の変更: 刺しと貫通++はx1、貫通+はx1/2、貫通はx1/3、貫通-はx1/5",
 					"cost_adj": "20",
 					"disabled": true
 				}
@@ -12808,7 +12808,7 @@
 		},
 		{
 			"id": "tuvstBu3EtRU0qAa9",
-			"name": "生来の攻撃 (熱傷) (Innate Attack (Burn))",
+			"name": "特殊攻撃 (焼き) (Innate Attack (Burn))",
 			"reference": "B61,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -13464,7 +13464,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -13527,7 +13527,7 @@
 		},
 		{
 			"id": "tQ5DActXmkdpAa9eS",
-			"name": "生来の攻撃 (腐食) (Innate Attack (Corrosion))",
+			"name": "特殊攻撃 (侵蝕) (Innate Attack (Corrosion))",
 			"reference": "B61,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -14176,7 +14176,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -14239,7 +14239,7 @@
 		},
 		{
 			"id": "tPn0MAB9RgKaGCCBe",
-			"name": "生来の攻撃 (殴打) (Innate Attack (Crush))",
+			"name": "特殊攻撃 (叩き) (Innate Attack (Crush))",
 			"reference": "B61,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -14795,7 +14795,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -14858,7 +14858,7 @@
 		},
 		{
 			"id": "tVAS4yCBzhDTkfg2T",
-			"name": "生来の攻撃 (斬撃) (Innate Attack (Cut))",
+			"name": "特殊攻撃 (切り) (Innate Attack (Cut))",
 			"reference": "B61,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -14870,7 +14870,7 @@
 					"id": "mZvCGoaSH9OPkDpZ6",
 					"name": "鈍的外傷2倍 (Double Blunt Trauma)",
 					"reference": "B104",
-					"local_notes": "鈍的外傷は殴打と同様",
+					"local_notes": "鈍的外傷は叩きと同様",
 					"cost_adj": "20%",
 					"disabled": true
 				},
@@ -15415,7 +15415,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -15478,7 +15478,7 @@
 		},
 		{
 			"id": "t1Z9nSurFSpFVBLI4",
-			"name": "生来の攻撃 (疲労) (Innate Attack (Fatigue))",
+			"name": "特殊攻撃 (疲労) (Innate Attack (Fatigue))",
 			"reference": "B61,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -16159,7 +16159,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -16222,7 +16222,7 @@
 		},
 		{
 			"id": "tiSMEnPxz8njtqMqF",
-			"name": "生来の攻撃 (巨大貫通) (Innate Attack (Huge Pierce))",
+			"name": "特殊攻撃 (巨大貫通) (Innate Attack (Huge Pierce))",
 			"reference": "B62,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -16778,7 +16778,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -16841,7 +16841,7 @@
 		},
 		{
 			"id": "tWppgjQ8iF92iiMzu",
-			"name": "生来の攻撃 (刺突) (Innate Attack (Impaling))",
+			"name": "特殊攻撃 (刺し) (Innate Attack (Impaling))",
 			"reference": "B61,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -17397,7 +17397,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -17460,7 +17460,7 @@
 		},
 		{
 			"id": "tYflWz-DKvMS5SRb7",
-			"name": "生来の攻撃 (大型貫通) (Innate Attack (Large Pierce))",
+			"name": "特殊攻撃 (大型貫通) (Innate Attack (Large Pierce))",
 			"reference": "B62,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -18031,7 +18031,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -18094,7 +18094,7 @@
 		},
 		{
 			"id": "tBCf_8fhi4efG2liK",
-			"name": "生来の攻撃 (貫通) (Innate Attack (Piercing))",
+			"name": "特殊攻撃 (貫通) (Innate Attack (Piercing))",
 			"reference": "B62,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -18665,7 +18665,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -18728,7 +18728,7 @@
 		},
 		{
 			"id": "tLwat-1-cXIRFfQyp",
-			"name": "生来の攻撃 (小型貫通) (Innate Attack (Small Pierce))",
+			"name": "特殊攻撃 (小型貫通) (Innate Attack (Small Pierce))",
 			"reference": "B62,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -19285,7 +19285,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -19348,7 +19348,7 @@
 		},
 		{
 			"id": "ttP5n0OVmbu8o50uI",
-			"name": "生来の攻撃 (毒) (Innate Attack (Toxic))",
+			"name": "特殊攻撃 (毒) (Innate Attack (Toxic))",
 			"reference": "B62,P53,MA45",
 			"tags": [
 				"Advantage",
@@ -20004,7 +20004,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -20067,7 +20067,7 @@
 		},
 		{
 			"id": "tyGoIW1uefQS5nUC_",
-			"name": "計算音痴 (Innumerate)",
+			"name": "数学障害 (Innumerate)",
 			"reference": "B140",
 			"tags": [
 				"Disadvantage",
@@ -20106,7 +20106,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "財務 (Finance)"
+							"qualifier": "財政 (Finance)"
 						}
 					},
 					{
@@ -20122,7 +20122,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "暗号 (Cryptography)"
+							"qualifier": "暗号学 (Cryptography)"
 						}
 					},
 					{
@@ -20202,7 +20202,7 @@
 		},
 		{
 			"id": "t9FaLAwdEEbc9zy9J",
-			"name": "非実体 (Insubstantiality)",
+			"name": "非実体化 (Insubstantiality)",
 			"reference": "B62,P55,PSI14",
 			"tags": [
 				"Advantage",
@@ -20360,7 +20360,7 @@
 		},
 		{
 			"id": "ttHkLI9zwzfeOIEZc",
-			"name": "不寛容 (@階級・民族・国籍・宗教・性別・種族@) (Intolerance)",
+			"name": "狭量 (@階級・民族・国籍・宗教・性別・種族@) (Intolerance)",
 			"reference": "B140",
 			"tags": [
 				"Disadvantage",
@@ -20445,7 +20445,7 @@
 		},
 		{
 			"id": "tjGcz8EnMEzkKbBkl",
-			"name": "不可視 (Invisibility)",
+			"name": "透明 (Invisibility)",
 			"reference": "B63,P56",
 			"tags": [
 				"Advantage",
@@ -20579,7 +20579,7 @@
 		},
 		{
 			"id": "thzHBFCK6BNeYvZxO",
-			"name": "跳躍者 (@世界/時間/霊界@) (Jumper)",
+			"name": "次元跳躍者 (@世界/時間/霊界@) (Jumper)",
 			"reference": "B64,P57,PSI15,DF9:5",
 			"tags": [
 				"Advantage",
@@ -20817,7 +20817,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "飲み騒ぎ (Carousing)"
+						"qualifier": "宴会 (Carousing)"
 					},
 					"amount": -3
 				},
@@ -20860,7 +20860,7 @@
 		},
 		{
 			"id": "tG1q2hcai2DaeRlhm",
-			"name": "窃盗癖 (Kleptomania)",
+			"name": "盗癖 (Kleptomania)",
 			"reference": "B141",
 			"local_notes": "盗みの機会を与えられるたびに、自制判定を行う。そのアイテムに特に惹かれる場合は最大-3 (必ずしも価値があるとは限らない。貧乏または強欲の場合を除く)。失敗すれば、盗もうとしなければならない。盗んだ物は持っていても売ってもよいが、返したり捨てたりはできない。",
 			"tags": [
@@ -20914,7 +20914,7 @@
 			"id": "tWxf5xaLhR2u0HTIG",
 			"name": "足が不自由 (脚の障害) (Lame (Crippled Legs))",
 			"reference": "B141",
-			"local_notes": "基本移動力を基本スピードの半分 (端数切り捨て) に下げなければならない",
+			"local_notes": "基本移動力を基本反応速度の半分 (端数切り捨て) に下げなければならない",
 			"tags": [
 				"Disadvantage",
 				"Physical"
@@ -21216,7 +21216,7 @@
 		},
 		{
 			"id": "tukroad0MSj14lSkd",
-			"name": "大型貫通の打撃部位 (@身体部位@) (Large Piercing Striker)",
+			"name": "攻撃部位・大型貫通 (@身体部位@) (Large Piercing Striker)",
 			"reference": "B88",
 			"tags": [
 				"Advantage",
@@ -21315,7 +21315,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						}
 					],
@@ -21359,7 +21359,7 @@
 		},
 		{
 			"id": "t4McL1AEbuPtYbiha",
-			"name": "法執行権限 (Legal Enforcement Powers)",
+			"name": "法の番人 (Legal Enforcement Powers)",
 			"reference": "B65",
 			"local_notes": "@描写@",
 			"tags": [
@@ -21377,7 +21377,7 @@
 		},
 		{
 			"id": "tiE8dIan1PMH6pAni",
-			"name": "法的免責 (Legal Immunity)",
+			"name": "一般の法で裁かれない (Legal Immunity)",
 			"reference": "B65",
 			"tags": [
 				"Advantage",
@@ -21437,7 +21437,7 @@
 		},
 		{
 			"id": "tIpdVeRhYOR8XO6Uj",
-			"name": "生命の天敵 (Lifebane)",
+			"name": "瘴気 (Lifebane)",
 			"reference": "B142",
 			"tags": [
 				"Disadvantage",
@@ -21451,7 +21451,7 @@
 		},
 		{
 			"id": "t6krAE1uo6M0oDJFL",
-			"name": "持ち上げST (Lifting ST)",
+			"name": "追加荷重体力 (Lifting ST)",
 			"reference": "B65,P58",
 			"tags": [
 				"Advantage",
@@ -21538,7 +21538,7 @@
 		},
 		{
 			"id": "tq6b1t_pc4X18GAWi",
-			"name": "電光計算 (Lightning Calculator)",
+			"name": "暗算能力 (Lightning Calculator)",
 			"reference": "B66",
 			"tags": [
 				"Advantage",
@@ -21547,7 +21547,7 @@
 			"modifiers": [
 				{
 					"id": "mjfLNNYD1zksKmHiO",
-					"name": "直感的数学者 (Intuitive Mathematician)",
+					"name": "演算能力 (Intuitive Mathematician)",
 					"reference": "B66",
 					"cost_adj": "3",
 					"disabled": true
@@ -21573,7 +21573,7 @@
 		},
 		{
 			"id": "tnD52D6dhwXRMkPs5",
-			"name": "一匹狼 (Loner)",
+			"name": "人嫌い (Loner)",
 			"reference": "B142",
 			"local_notes": "誰かが近くをうろつく、肩越しに覗くなどするたびに自制判定を行う。失敗すれば、短気であるかのようにその人物に食ってかかる。",
 			"tags": [
@@ -21641,7 +21641,7 @@
 		},
 		{
 			"id": "tB9zzcWILiYnqrMg9",
-			"name": "長い鉤爪 (Long Talons)",
+			"name": "長い鈎爪 (Long Talons)",
 			"reference": "B43",
 			"tags": [
 				"Advantage",
@@ -21670,7 +21670,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -21712,7 +21712,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -21741,7 +21741,7 @@
 		},
 		{
 			"id": "thdJ55ghf__io9AQa",
-			"name": "長寿 (Longevity)",
+			"name": "老化しにくい (Longevity)",
 			"reference": "B66",
 			"local_notes": "加齢判定は、出目が17か18のときのみ失敗する (修正後のHTが17以上なら18のときのみ)",
 			"tags": [
@@ -21755,7 +21755,7 @@
 		},
 		{
 			"id": "t0DUjQv4R20iknQwp",
-			"name": "低い共感力 (Low Empathy)",
+			"name": "感情を理解できない (Low Empathy)",
 			"reference": "B142",
 			"tags": [
 				"Disadvantage",
@@ -21778,7 +21778,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "冷酷 (Callous)"
+							"qualifier": "冷淡 (Callous)"
 						}
 					},
 					{
@@ -21807,7 +21807,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "飲み騒ぎ (Carousing)"
+						"qualifier": "宴会 (Carousing)"
 					},
 					"amount": -3
 				},
@@ -21825,7 +21825,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "嘘看破 (Detect Lies)"
+						"qualifier": "嘘発見 (Detect Lies)"
 					},
 					"amount": -3
 				},
@@ -21852,7 +21852,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": -3
 				},
@@ -21944,7 +21944,7 @@
 		},
 		{
 			"id": "tQsgCJSqiGP4g4fkG",
-			"name": "低い痛覚閾値 (Low Pain Threshold)",
+			"name": "痛みに弱い (Low Pain Threshold)",
 			"reference": "B142",
 			"local_notes": "あらゆる負傷によるショックが2倍になる。HP 1を超えるダメージを受けるたびに、叫び声をこらえるための意志力判定が必要。",
 			"tags": [
@@ -21960,7 +21960,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "高い痛覚閾値 (High Pain Threshold)"
+							"qualifier": "痛みに強い (High Pain Threshold)"
 						}
 					}
 				]
@@ -21984,7 +21984,7 @@
 		},
 		{
 			"id": "trjGgnVvNTo20Ri9N",
-			"name": "自己評価が低い (Low Self-Image)",
+			"name": "自信喪失 (Low Self-Image)",
 			"reference": "B143",
 			"tags": [
 				"Disadvantage",
@@ -22022,7 +22022,7 @@
 		},
 		{
 			"id": "tzRswLWwJBriIQW0Q",
-			"name": "低TL (Low TL)",
+			"name": "TLが低い (Low TL)",
 			"reference": "B22",
 			"tags": [
 				"Disadvantage",
@@ -22091,7 +22091,7 @@
 		},
 		{
 			"id": "tDaEF7zyuUsXy-UQ2",
-			"name": "月狂い (Lunacy)",
+			"name": "満月の狂気 (Lunacy)",
 			"reference": "B143",
 			"local_notes": "満月の間は極めて感情的で不安定になり、新月の夜は非常に受け身になる (一時的に怠惰の不利な特徴を負う、B142)。月が満ちていく間は集中力があって愛想がよく、欠けていく間は無気力で少し怒りっぽい。",
 			"tags": [
@@ -22112,7 +22112,7 @@
 		},
 		{
 			"id": "tpnv8EEpAS6Er2pwK",
-			"name": "魔力 (Magery)",
+			"name": "魔法の素質 (Magery)",
 			"reference": "B66",
 			"tags": [
 				"Advantage",
@@ -22208,7 +22208,7 @@
 		},
 		{
 			"id": "tvH8CndwPkEmF4Z6t",
-			"name": "魔法抵抗 (Magic Resistance)",
+			"name": "魔法の耐性 (Magic Resistance)",
 			"reference": "B67",
 			"tags": [
 				"Advantage",
@@ -22249,7 +22249,7 @@
 		},
 		{
 			"id": "t0LnC2YMegJagIZHu",
-			"name": "魔法への弱さ (Magic Susceptibility)",
+			"name": "魔法の影響を受けやすい (Magic Susceptibility)",
 			"reference": "B143",
 			"local_notes": "最大5レベル",
 			"tags": [
@@ -22266,7 +22266,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "魔法抵抗 (Magic Resistance)"
+							"qualifier": "魔法の耐性 (Magic Resistance)"
 						}
 					}
 				]
@@ -22471,7 +22471,7 @@
 		},
 		{
 			"id": "taukq0RLvFcJicdCP",
-			"name": "マナ抑制 (Mana Damper)",
+			"name": "マナ除去 (Mana Damper)",
 			"reference": "B67,P59",
 			"tags": [
 				"Advantage",
@@ -22555,7 +22555,7 @@
 		},
 		{
 			"id": "t7FAtBhwvCq8nqY2T",
-			"name": "魔力恐怖症 (魔法) (Manaphobia (Magic))",
+			"name": "魔法恐怖症 (Manaphobia (Magic))",
 			"reference": "B150",
 			"local_notes": "魔法の使い方を学べず、魔法の使い手に対して悪い反応をする。魔法の近くにいるときは自制判定を行う。友好的な魔法の対象になる場合は-3、敵対的な魔法の対象になる場合は-6。(本人が信じていれば、魔法は本物でなくてもよい！)",
 			"tags": [
@@ -22593,7 +22593,7 @@
 		},
 		{
 			"id": "t8YOwR79EMqe7fPGC",
-			"name": "躁うつ (Manic-Depressive)",
+			"name": "躁鬱 (Manic-Depressive)",
 			"reference": "B143",
 			"local_notes": "各プレイセッションの開始時に1dを振る。1～3なら躁状態、4～6ならうつ状態。以降、ゲーム内時間で5時間ごとに3dを振る。10以下なら気分の変動が始まる。以降1時間かけて、現在の状態から反対の状態へ移行する。新しい状態には少なくとも5時間とどまり、その後再び3dを振る。",
 			"tags": [
@@ -22607,7 +22607,7 @@
 		},
 		{
 			"id": "tTttcosQMowqshZMw",
-			"name": "霊媒師 (Medium)",
+			"name": "霊媒 (Medium)",
 			"reference": "B68,P59",
 			"tags": [
 				"Advantage",
@@ -22717,7 +22717,7 @@
 		},
 		{
 			"id": "tfujsOp4WL4ZholTv",
-			"name": "軽度の内気 (Mild Shyness)",
+			"name": "内気 (軽度) (Mild Shyness)",
 			"reference": "B154",
 			"local_notes": "見知らぬ人、特に押しの強い人や魅力的な人の前では落ち着かない。",
 			"tags": [
@@ -22740,7 +22740,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "飲み騒ぎ (Carousing)"
+						"qualifier": "宴会 (Carousing)"
 					},
 					"amount": -1
 				},
@@ -22758,7 +22758,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": -1
 				},
@@ -22803,7 +22803,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -1
 				},
@@ -22868,7 +22868,7 @@
 		},
 		{
 			"id": "tejSZ8LfoYQcxW8rE",
-			"name": "物真似 (Mimicry)",
+			"name": "音声再現 (Mimicry)",
 			"reference": "B68,P60",
 			"tags": [
 				"Advantage",
@@ -23025,7 +23025,7 @@
 		},
 		{
 			"id": "tjp66Ocn2kW2Z8uN1",
-			"name": "精神探査 (Mind Probe)",
+			"name": "精神調査 (Mind Probe)",
 			"reference": "B69,P61",
 			"tags": [
 				"Advantage",
@@ -23280,7 +23280,7 @@
 		},
 		{
 			"id": "trUV-dtFgMs1vSSlr",
-			"name": "精神連結 (Mindlink)",
+			"name": "精神の絆 (Mindlink)",
 			"reference": "B70",
 			"tags": [
 				"Advantage",
@@ -23414,7 +23414,7 @@
 		},
 		{
 			"id": "tBfCffXDV68yHqJ5h",
-			"name": "軽度の依存症 (Minor Addiction)",
+			"name": "弱い中毒 (Minor Addiction)",
 			"reference": "B164",
 			"local_notes": "@物質@",
 			"tags": [
@@ -23448,7 +23448,7 @@
 		},
 		{
 			"id": "tj2zJQBTiP1QtLdMy",
-			"name": "けち (Miserliness)",
+			"name": "けちんぼ (Miserliness)",
 			"reference": "B144",
 			"local_notes": "金を使うよう求められるたびに自制判定を行う。出費が大きいなら-5以下になることもある (GMの判断)。失敗すれば、金を使うのを拒む。",
 			"tags": [
@@ -23869,7 +23869,7 @@
 		},
 		{
 			"id": "twD-wFuEa2heXnFR2",
-			"name": "変身 (Morph)",
+			"name": "変形 (Morph)",
 			"reference": "B84",
 			"tags": [
 				"Advantage",
@@ -24009,7 +24009,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "宇宙船乗り (Spacer)"
+							"qualifier": "宇宙船乗員 (Spacer)"
 						}
 					},
 					{
@@ -24077,7 +24077,7 @@
 		},
 		{
 			"id": "tc2Bw-0JpkS5K2zxY",
-			"name": "億万長者 (Multimillionaire)",
+			"name": "大富豪 (Multimillionaire)",
 			"reference": "B25, DFRC2:49, DW33",
 			"local_notes": "開始時の富は通常の<script>\n// Partial Multimillionaire Levels (SS2:26) allows Multimillionaire level to be any multiple of 0.2.\nlet whole = Math.trunc(self.level), partial = Math.round((self.level - whole)* 10) || 1;\nformatNum(10 ** ( whole + 2) * partial, true, false)\n</script>倍",
 			"tags": [
@@ -24098,7 +24098,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "普通の富 (Average Wealth)"
+							"qualifier": "標準 (Average Wealth)"
 						}
 					},
 					{
@@ -24130,7 +24130,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "ゆとりのある富 (Comfortable Wealth)"
+							"qualifier": "快適 (Comfortable Wealth)"
 						}
 					},
 					{
@@ -24138,7 +24138,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "裕福 (Wealthy)"
+							"qualifier": "富裕 (Wealthy)"
 						}
 					},
 					{
@@ -24146,7 +24146,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "非常に裕福 (Very Wealthy)"
+							"qualifier": "大金持 (Very Wealthy)"
 						}
 					},
 					{
@@ -24154,7 +24154,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "超大金持ち (Filthy Rich)"
+							"qualifier": "富豪 (Filthy Rich)"
 						}
 					}
 				]
@@ -24222,7 +24222,7 @@
 		},
 		{
 			"id": "t4DuSp5z4yYeW_9Ts",
-			"name": "平凡な背景 (Mundane Background)",
+			"name": "平凡な人生 (Mundane Background)",
 			"reference": "B144",
 			"tags": [
 				"Disadvantage",
@@ -24235,7 +24235,7 @@
 		},
 		{
 			"id": "tYggvuZw_KmnKdpZ0",
-			"name": "不潔恐怖症 (汚れ) (Mysophobia (Dirt))",
+			"name": "汚れ恐怖症 (Mysophobia (Dirt))",
 			"reference": "B149",
 			"local_notes": "感染、または単に汚れや不潔さを死ぬほど恐れる。汚れそうなことをするときは自制判定を行う。慣れない食べ物を食べるには-5。できるだけ「潔癖」に振る舞うこと。",
 			"tags": [
@@ -24251,7 +24251,7 @@
 		},
 		{
 			"id": "tIWYdBAI7sQ-IyQE7",
-			"name": "死恐怖症 (死) (Necrophobia (Death))",
+			"name": "死体恐怖症 (Necrophobia (Death))",
 			"reference": "B149",
 			"local_notes": "死という考えに怯える。死体 (動物は含まないが、人体の一部は含む) の前では自制判定を行う。知っている人の死体なら-4、何らかの形で不自然に動く死体なら-6。幽霊 (または幽霊らしきもの) の場合も-6。",
 			"tags": [
@@ -24267,7 +24267,7 @@
 		},
 		{
 			"id": "tAw9sp5fMz40hOucS",
-			"name": "神経性胃腸 (Nervous Stomach)",
+			"name": "胃腸が弱い (Nervous Stomach)",
 			"reference": "B165",
 			"tags": [
 				"Physical",
@@ -24309,7 +24309,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "宝石細工師 (Jeweler)"
+						"qualifier": "宝石屋 (Jeweler)"
 					},
 					"amount": -6
 				},
@@ -24399,7 +24399,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -6
 				},
@@ -24450,7 +24450,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "宝石細工師 (Jeweler)"
+						"qualifier": "宝石屋 (Jeweler)"
 					},
 					"amount": -2
 				},
@@ -24540,7 +24540,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -2
 				},
@@ -24592,7 +24592,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "宝石細工師 (Jeweler)"
+						"qualifier": "宝石屋 (Jeweler)"
 					},
 					"amount": -6
 				},
@@ -24682,7 +24682,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -6
 				},
@@ -24733,7 +24733,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "宝石細工師 (Jeweler)"
+						"qualifier": "宝石屋 (Jeweler)"
 					},
 					"amount": -4
 				},
@@ -24823,7 +24823,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -4
 				},
@@ -24866,7 +24866,7 @@
 		},
 		{
 			"id": "tgM5VeEZCZBnHb2BC",
-			"name": "無効化 (サイオニクス) (Neutralize (Psi))",
+			"name": "超能力中和 (Neutralize (Psi))",
 			"reference": "B71",
 			"tags": [
 				"Advantage",
@@ -24948,7 +24948,7 @@
 		},
 		{
 			"id": "tWNGzCluuu3S1L8jv",
-			"name": "瞬膜 (Nictitating Membrane)",
+			"name": "眼球防護膜 (Nictitating Membrane)",
 			"reference": "B71",
 			"tags": [
 				"Advantage",
@@ -24998,7 +24998,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "暗黒視 (Dark Vision)"
+							"qualifier": "闇視 (Dark Vision)"
 						}
 					},
 					{
@@ -25006,7 +25006,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "夜間視覚 (Night Vision)"
+							"qualifier": "暗視 (Night Vision)"
 						}
 					}
 				]
@@ -25018,7 +25018,7 @@
 		},
 		{
 			"id": "tk0ZKpvgqpE35AZcM",
-			"name": "夜間視覚 (Night Vision)",
+			"name": "暗視 (Night Vision)",
 			"reference": "B71,P87",
 			"tags": [
 				"Advantage",
@@ -25128,7 +25128,7 @@
 		},
 		{
 			"id": "tL0zoF3YwIHqFBQGA",
-			"name": "脚なし (空中) (No Legs (Aerial))",
+			"name": "脚がない (空中) (No Legs (Aerial))",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25155,7 +25155,7 @@
 		},
 		{
 			"id": "tN1b39d17jidkOpUZ",
-			"name": "脚なし (水生) (No Legs (Aquatic))",
+			"name": "脚がない (水生) (No Legs (Aquatic))",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25184,7 +25184,7 @@
 		},
 		{
 			"id": "t0DUQ7eLu64Y-mIKO",
-			"name": "脚なし (跳ねる) (No Legs (Bounces))",
+			"name": "脚がない (跳ねる) (No Legs (Bounces))",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25197,7 +25197,7 @@
 		},
 		{
 			"id": "t5abRxFr2btfjHG9Q",
-			"name": "脚なし (転がる) (No Legs (Rolls))",
+			"name": "脚がない (転がる) (No Legs (Rolls))",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25210,7 +25210,7 @@
 		},
 		{
 			"id": "tb_oHfkz_wodvFfU6",
-			"name": "脚なし (半水生) (No Legs (Semi-Aquatic))",
+			"name": "脚がない (半水生) (No Legs (Semi-Aquatic))",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25223,7 +25223,7 @@
 		},
 		{
 			"id": "tRqsnRRgJlvPUfZ-g",
-			"name": "脚なし (固着) (No Legs (Sessile))",
+			"name": "脚がない (固着) (No Legs (Sessile))",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25237,7 +25237,7 @@
 		},
 		{
 			"id": "tMmenR4uGwxyOIH6t",
-			"name": "脚なし (這う) (No Legs (Slithers))",
+			"name": "脚がない (這う) (No Legs (Slithers))",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25250,7 +25250,7 @@
 		},
 		{
 			"id": "taX39vARjN1SSCBTF",
-			"name": "脚なし (装軌) (No Legs (Tracked))",
+			"name": "脚がない (装軌) (No Legs (Tracked))",
 			"reference": "B145",
 			"local_notes": "@キャタピラ数@ 本のキャタピラ",
 			"tags": [
@@ -25265,7 +25265,7 @@
 		},
 		{
 			"id": "tWWroHVx45X2oTQ6b",
-			"name": "脚なし (車輪) (No Legs (Wheeled))",
+			"name": "脚がない (車輪) (No Legs (Wheeled))",
 			"reference": "B145",
 			"local_notes": "@車輪数@ 輪",
 			"tags": [
@@ -25320,7 +25320,7 @@
 		},
 		{
 			"id": "tAFhfFoZosiPCFUhy",
-			"name": "ユーモアがない (No Sense of Humor)",
+			"name": "ユーモア感覚の欠如 (No Sense of Humor)",
 			"reference": "B146",
 			"tags": [
 				"Disadvantage",
@@ -25376,7 +25376,7 @@
 		},
 		{
 			"id": "tRFC6SuQFL9lAGM7y",
-			"name": "騒がしい (Noisy)",
+			"name": "うるさい (Noisy)",
 			"reference": "B146",
 			"tags": [
 				"Disadvantage",
@@ -25389,7 +25389,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "隠密 (Stealth)"
+						"qualifier": "忍び (Stealth)"
 					},
 					"amount": -2,
 					"per_level": true
@@ -25405,7 +25405,7 @@
 		},
 		{
 			"id": "tea-pIloyMPMHOLx-",
-			"name": "図像を理解できない (Non-Iconographic)",
+			"name": "画像を処理できない (Non-Iconographic)",
 			"reference": "B146",
 			"tags": [
 				"Disadvantage",
@@ -25448,7 +25448,7 @@
 		},
 		{
 			"id": "t4HbDi_0sc5oD1xcV",
-			"name": "詮索好き (Nosy)",
+			"name": "お節介 (Nosy)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -25496,7 +25496,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": -1
 				},
@@ -25548,7 +25548,7 @@
 		},
 		{
 			"id": "tldTdgiYUOpNc0Hmq",
-			"name": "隠蔽 (@感覚@) (Obscure)",
+			"name": "知覚されにくい (@感覚@) (Obscure)",
 			"reference": "B72,P64,PSI16",
 			"tags": [
 				"Advantage",
@@ -25627,7 +25627,7 @@
 		},
 		{
 			"id": "tfAsq381OPUDZf5yE",
-			"name": "執着 (Obsession)",
+			"name": "執念 (Obsession)",
 			"reference": "B164",
 			"local_notes": "@対象@",
 			"tags": [
@@ -25641,7 +25641,7 @@
 		},
 		{
 			"id": "tuBvIPa1ygEAxIiQ2",
-			"name": "執着 (Obsession)",
+			"name": "執念 (Obsession)",
 			"reference": "B146",
 			"local_notes": "@目標@、目標から逸れるのが賢明なときは、自制判定を行う。失敗すれば、結果にかかわらず執着を追い続ける。",
 			"tags": [
@@ -25671,7 +25671,7 @@
 		},
 		{
 			"id": "t49qcxpm53kg-OdPj",
-			"name": "不快な習慣 (Odious Personal Habit)",
+			"name": "嫌な行動 (Odious Personal Habit)",
 			"reference": "B22",
 			"local_notes": "@癖@",
 			"tags": [
@@ -25698,7 +25698,7 @@
 		},
 		{
 			"id": "td7zQlyInlQxbhJsD",
-			"name": "瀬戸際 (On the Edge)",
+			"name": "命知らず (On the Edge)",
 			"reference": "B146",
 			"local_notes": "命の危険がある状況 (燃える乗り物の操縦、歯ブラシだけを持ってギャング団全員に立ち向かうなど) では自制判定を行う。失敗すると挑戦から引き下がれない。ただし、その状況に関する成功判定や反応判定のたびに振り直せる。戦闘では、自分の手番ごとに自制判定を行う。失敗すれば、全力攻撃か、ほとんど正気とは思えない自殺的な行動をとらなければならない。",
 			"tags": [
@@ -25801,7 +25801,7 @@
 		},
 		{
 			"id": "t8WDmlXrJFZtt971A",
-			"name": "神託 (Oracle)",
+			"name": "託宣 (Oracle)",
 			"reference": "B72,P65",
 			"tags": [
 				"Advantage",
@@ -25824,7 +25824,7 @@
 		},
 		{
 			"id": "tPbL1_rekOzkM86wz",
-			"name": "過信 (Overconfidence)",
+			"name": "自信過剰 (Overconfidence)",
 			"reference": "B148",
 			"local_notes": "GMが不合理なほど慎重だと判断するたびに自制判定を行う。失敗すれば、状況に対処できるかのように押し進まなければならない！",
 			"tags": [
@@ -25898,7 +25898,7 @@
 		},
 		{
 			"id": "th9TK1Jmqg8uKe6SC",
-			"name": "平和主義: 無実の者を傷つけられない (Pacifism: Cannot Harm Innocents)",
+			"name": "平和愛好: 一般人を傷つけない (Pacifism: Cannot Harm Innocents)",
 			"reference": "B148",
 			"local_notes": "戦ってもよく、自分から喧嘩を始めてもよいが、致死的な力を使えるのは、自分に深刻な危害を加えようとしている敵に対してのみ。捕縛は、すでに死刑の危険にあるか、捕まれば自害を要求される名誉の掟がある場合を除き、「深刻な危害」ではない。無関係な者、特に「普通の人々」に怪我をさせる、またはその恐れのあることは、決して故意にしない。",
 			"tags": [
@@ -25921,7 +25921,7 @@
 		},
 		{
 			"id": "tUl2tCfZVgRF9QWYx",
-			"name": "平和主義: 殺せない (Pacifism: Cannot Kill)",
+			"name": "平和愛好: 非殺 (Pacifism: Cannot Kill)",
 			"reference": "B148",
 			"local_notes": "戦ってもよく、自分から喧嘩を始めてもよいが、他者を殺しそうなことは何もできない。これには、負傷した敵を「自力で」死ぬに任せて見捨てることも含む！仲間が殺さないよう、最善を尽くさなければならない。誰かを殺した (または死に責任を感じる) 場合は、直ちに神経衰弱に陥る。3dを振り、その日数だけ完全に沈み込んで役立たずになる。その間は、誰に対してもどんな理由でも、暴力的な行為に及ぶには意志力判定が必要。",
 			"tags": [
@@ -25944,7 +25944,7 @@
 		},
 		{
 			"id": "tV_f_75HmwzWOPhuu",
-			"name": "平和主義: 殺しを嫌う (Pacifism: Reluctant Killer)",
+			"name": "平和愛好: 積極的には殺さない (Pacifism: Reluctant Killer)",
 			"reference": "B148",
 			"local_notes": "人を殺す心の準備ができていない。顔が見える明らかな人物に対して致死的な攻撃 (ナイフや銃など) を行うときは、命中-4で、狙い撃ちができない。敵の顔が見えない場合 (マスク、暗闇、距離、背後からの攻撃)、近接戦闘を除きペナルティは-2のみ。乗り物 (人が乗っていても)、人と思えない敵 (恐ろしい・怪物的な容姿のものを含む)、実際には見えない目標 (地図上の座標やレーダー画面の輝点など) への攻撃にはペナルティがない。見分けのつく人物を殺した場合の影響は、平和主義: 殺せないと同じ。仲間が殺すのは構わず、弾薬や装填済みの武器、励ましを与えてもよい！ただし、自分では殺せない。",
 			"tags": [
@@ -25967,7 +25967,7 @@
 		},
 		{
 			"id": "thSMVzJ590v7gAD8d",
-			"name": "平和主義: 自衛のみ (Pacifism: Self-Defense Only)",
+			"name": "平和愛好: 専守防衛 (Pacifism: Self-Defense Only)",
 			"reference": "B148",
 			"local_notes": "自分や自分が面倒を見ている者を守るためにのみ戦い、必要最小限の力しか使わない (先制攻撃は禁止！)。他者が争いを始めないよう、最善を尽くさなければならない。",
 			"tags": [
@@ -25990,7 +25990,7 @@
 		},
 		{
 			"id": "t2lEvLuiVboewGE6k",
-			"name": "平和主義: 完全非暴力 (Pacifism: Total Nonviolence)",
+			"name": "平和愛好: 完全非暴力 (Pacifism: Total Nonviolence)",
 			"reference": "B148",
 			"local_notes": "いかなる理由でも、他の知的存在に手を上げない。他者の暴力的な行動も、非暴力の方法で最善を尽くして思いとどまらせなければならない。動物や蚊などの攻撃から身を守るのは自由。",
 			"tags": [
@@ -26013,7 +26013,7 @@
 		},
 		{
 			"id": "t7wwouLr2lKkU9N_5",
-			"name": "パラボラ聴覚 (Parabolic Hearing)",
+			"name": "指向性聴覚 (Parabolic Hearing)",
 			"reference": "B72,P51",
 			"tags": [
 				"Advantage",
@@ -26031,7 +26031,7 @@
 		},
 		{
 			"id": "tYWjKdrALVt_raSxk",
-			"name": "被害妄想 (Paranoia)",
+			"name": "偏執狂 (Paranoia)",
 			"reference": "B148",
 			"tags": [
 				"Disadvantage",
@@ -26194,7 +26194,7 @@
 				},
 				{
 					"id": "mUoxmoKLsuBp1hXHB",
-					"name": "好意 (Favor)",
+					"name": "貸し (Favor)",
 					"reference": "B55",
 					"cost_adj": "x0.2",
 					"disabled": true
@@ -26207,7 +26207,7 @@
 		},
 		{
 			"id": "t7a13kFVl53ZfbkrK",
-			"name": "積載量 (Payload)",
+			"name": "ペイロード (Payload)",
 			"reference": "B74",
 			"local_notes": "<script>\nif(entity.exists) {\n  measure.formatWeight(\n    self.level * entity.encumbrance.basicLift / 10,\n    entity.displayWeightUnits,\n  )\n} else {\n  \"キャラクターシートに追加されたときに積載量が計算されます\"\n}\n</script>",
 			"tags": [
@@ -26318,7 +26318,7 @@
 		},
 		{
 			"id": "tHRgrj_fBsqwVk5Gh",
-			"name": "よく通る声 (Penetrating Voice)",
+			"name": "声が通る (Penetrating Voice)",
 			"reference": "B101",
 			"tags": [
 				"Perk",
@@ -26338,7 +26338,7 @@
 		},
 		{
 			"id": "t2uxXuNNQjGUAFAd0",
-			"name": "完璧なバランス (Perfect Balance)",
+			"name": "完全平衡感覚 (Perfect Balance)",
 			"reference": "B74",
 			"tags": [
 				"Advantage",
@@ -26408,7 +26408,7 @@
 		},
 		{
 			"id": "tc74I5tb8McOGp5nr",
-			"name": "広い周辺視野 (Peripheral Vision)",
+			"name": "広視界 (Peripheral Vision)",
 			"reference": "B74,P87",
 			"tags": [
 				"Advantage",
@@ -26431,7 +26431,7 @@
 		},
 		{
 			"id": "tlgpkRwg9clnEY8eY",
-			"name": "浸透 (Permeation)",
+			"name": "物質透過 (Permeation)",
 			"reference": "B75,P66",
 			"tags": [
 				"Advantage",
@@ -26529,7 +26529,7 @@
 		},
 		{
 			"id": "tCtFPKOcm08pUJlO_",
-			"name": "人格変化 (Personality Change)",
+			"name": "人が変わる (Personality Change)",
 			"reference": "B164",
 			"local_notes": "@状況@",
 			"tags": [
@@ -26543,7 +26543,7 @@
 		},
 		{
 			"id": "tkH3Z500lfDbdUbtv",
-			"name": "幻の声 (Phantom Voices)",
+			"name": "幻聴 (Phantom Voices)",
 			"reference": "B148",
 			"local_notes": "GMがストレスのかかる状況だと判断したときは、3dを振ってよい。6以下なら声が聞こえる。GMは、恐怖判定に失敗したときやぎりぎりで成功したとき、およびストレス関連の別の不利な特徴の自制判定に失敗したときには、必ず振る。",
 			"tags": [
@@ -26579,7 +26579,7 @@
 		},
 		{
 			"id": "tPEcwivcwBjDIVWoM",
-			"name": "貫通の打撃部位 (@身体部位@) (Piercing Striker)",
+			"name": "攻撃部位・貫通 (@身体部位@) (Piercing Striker)",
 			"reference": "B88",
 			"tags": [
 				"Advantage",
@@ -26675,7 +26675,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -26693,7 +26693,7 @@
 		},
 		{
 			"id": "t9xaV_eOxA05zZ854",
-			"name": "哀れ (Pitiable)",
+			"name": "同情を誘う (Pitiable)",
 			"reference": "B22",
 			"tags": [
 				"Advantage",
@@ -26714,7 +26714,7 @@
 		},
 		{
 			"id": "txsH3nErsYg29kxhp",
-			"name": "植物への共感 (Plant Empathy)",
+			"name": "植物共感 (Plant Empathy)",
 			"reference": "B75,P48",
 			"tags": [
 				"Advantage",
@@ -26785,7 +26785,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "普通の富 (Average Wealth)"
+							"qualifier": "標準 (Average Wealth)"
 						}
 					},
 					{
@@ -26809,7 +26809,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "ゆとりのある富 (Comfortable Wealth)"
+							"qualifier": "快適 (Comfortable Wealth)"
 						}
 					},
 					{
@@ -26817,7 +26817,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "裕福 (Wealthy)"
+							"qualifier": "富裕 (Wealthy)"
 						}
 					},
 					{
@@ -26825,7 +26825,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "非常に裕福 (Very Wealthy)"
+							"qualifier": "大金持 (Very Wealthy)"
 						}
 					},
 					{
@@ -26833,7 +26833,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "超大金持ち (Filthy Rich)"
+							"qualifier": "富豪 (Filthy Rich)"
 						}
 					},
 					{
@@ -26841,7 +26841,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "億万長者 (Multimillionaire)"
+							"qualifier": "大富豪 (Multimillionaire)"
 						}
 					}
 				]
@@ -27032,7 +27032,7 @@
 		},
 		{
 			"id": "tcLpFfSmbHHdHy5Yd",
-			"name": "戦闘後の震え (Post-Combat Shakes)",
+			"name": "戦闘後硬直 (Post-Combat Shakes)",
 			"reference": "B150",
 			"local_notes": "戦闘が終わるたびに自制判定を行う。失敗すれば、3dを振り、自制判定に失敗した度合いを加えて、その結果を恐怖判定表で調べる。",
 			"tags": [
@@ -27047,7 +27047,7 @@
 		},
 		{
 			"id": "teVkdoeyqvv4QStNk",
-			"name": "力の叙任 (Power Investiture)",
+			"name": "神の代行者 (Power Investiture)",
 			"reference": "B77",
 			"tags": [
 				"Advantage",
@@ -27077,7 +27077,7 @@
 		},
 		{
 			"id": "tmpWRV6eHZjNeEvlU",
-			"name": "予知 (Precognition)",
+			"name": "未来予知 (Precognition)",
 			"reference": "B77,P68,PSI16",
 			"tags": [
 				"Advantage",
@@ -27165,7 +27165,7 @@
 		},
 		{
 			"id": "tW6G2uQN2_SbNutDC",
-			"name": "保護された感覚 (@感覚@) (Protected Sense)",
+			"name": "感覚保護 (@感覚@) (Protected Sense)",
 			"reference": "B78,P69",
 			"tags": [
 				"Advantage",
@@ -27179,7 +27179,7 @@
 		},
 		{
 			"id": "tkvBzkhf0YNP2cF5j",
-			"name": "プライドが高い (Proud)",
+			"name": "誇り高い (Proud)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -27199,7 +27199,7 @@
 		},
 		{
 			"id": "tzke5Jmdo9pGf-90h",
-			"name": "サイオニクス恐怖症 (サイオニクス、一般的) (Psionophobia (Psionics, Common))",
+			"name": "超能力恐怖症 (超能力が当たり前の世界) (Psionophobia (Psionics, Common))",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -27214,7 +27214,7 @@
 		},
 		{
 			"id": "tjNzcjeYCD6yWOYOz",
-			"name": "サイオニクス恐怖症 (サイオニクス、まれ) (Psionophobia (Psionics, Uncommon))",
+			"name": "超能力恐怖症 (超能力が知られていない世界) (Psionophobia (Psionics, Uncommon))",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -27229,7 +27229,7 @@
 		},
 		{
 			"id": "tgURwPLiRbYTB3XVZ",
-			"name": "サイオニクス恐怖症 (サイオニクス、未知) (Psionophobia (Psionics, Unknown))",
+			"name": "超能力恐怖症 (超能力が本質的に未知の世界) (Psionophobia (Psionics, Unknown))",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -27316,7 +27316,7 @@
 		},
 		{
 			"id": "t7BSlx2M5tfqA-TdE",
-			"name": "傀儡 (@仲間の集団@) (Puppet)",
+			"name": "操り人形 (@仲間の集団@) (Puppet)",
 			"reference": "B78",
 			"tags": [
 				"Advantage",
@@ -27366,7 +27366,7 @@
 		},
 		{
 			"id": "tvSAoaGDU6KEHCD_C",
-			"name": "傀儡 (@仲間または被扶養者@) (Puppet)",
+			"name": "操り人形 (@仲間または被扶養者@) (Puppet)",
 			"reference": "B78",
 			"tags": [
 				"Advantage",
@@ -27416,7 +27416,7 @@
 		},
 		{
 			"id": "tFfzQ6ETSImJHHvkX",
-			"name": "放火癖 (Pyromania)",
+			"name": "火が好き (Pyromania)",
 			"reference": "B150",
 			"local_notes": "火をつける機会があるたびに自制判定を行う",
 			"tags": [
@@ -27431,7 +27431,7 @@
 		},
 		{
 			"id": "tK3S6AFjeQgu4gPRi",
-			"name": "火恐怖症 (火) (Pyrophobia (Fire))",
+			"name": "炎恐怖症 (Pyrophobia (Fire))",
 			"reference": "B150",
 			"local_notes": "燃えているタバコでも、5ヤード以内に近づけば気になる。",
 			"tags": [
@@ -27648,7 +27648,7 @@
 		},
 		{
 			"id": "trMfToThYl9fEmPdt",
-			"name": "急速治癒 (Rapid Healing)",
+			"name": "傷の回復が早い (Rapid Healing)",
 			"reference": "B79",
 			"tags": [
 				"Advantage",
@@ -27683,7 +27683,7 @@
 		},
 		{
 			"id": "tHd6RZWGO9p5R91Vo",
-			"name": "鋭い機知 (Rapier Wit)",
+			"name": "毒舌 (Rapier Wit)",
 			"reference": "B79,P70",
 			"tags": [
 				"Advantage",
@@ -27705,7 +27705,7 @@
 		},
 		{
 			"id": "tnyT6i4xpc-zi5-m8",
-			"name": "再覚醒 (Reawakened)",
+			"name": "前世の記憶 (Reawakened)",
 			"reference": "B80",
 			"tags": [
 				"Advantage",
@@ -27719,7 +27719,7 @@
 		},
 		{
 			"id": "tfn3e0qr_rzjWJ1XH",
-			"name": "回復 (Recovery)",
+			"name": "意識の回復が早い (Recovery)",
 			"reference": "B80",
 			"local_notes": "何らかの理由で気絶している時間を決めるとき、すべての時間を60で割る",
 			"tags": [
@@ -27734,7 +27734,7 @@
 		},
 		{
 			"id": "tynHtgvWZmmNOL97D",
-			"name": "消費量の減少 (Reduced Consumption)",
+			"name": "消費が少ない (Reduced Consumption)",
 			"reference": "B80",
 			"tags": [
 				"Advantage",
@@ -27774,7 +27774,7 @@
 		},
 		{
 			"id": "tQrNIZ1kbn0I6UAZf",
-			"name": "再生 (Regeneration)",
+			"name": "HP再生 (Regeneration)",
 			"reference": "B80,P70,MA47",
 			"tags": [
 				"Advantage",
@@ -27887,7 +27887,7 @@
 		},
 		{
 			"id": "tHlUgrsld3J-_p4hW",
-			"name": "再成長 (Regrowth)",
+			"name": "部位再生 (Regrowth)",
 			"reference": "B80,P71",
 			"tags": [
 				"Advantage",
@@ -27963,7 +27963,7 @@
 		},
 		{
 			"id": "ttomMvKi4810ACGWk",
-			"name": "再プログラム可能 (Reprogrammable)",
+			"name": "プログラム書き換え可能 (Reprogrammable)",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -27977,7 +27977,7 @@
 		},
 		{
 			"id": "tJTfFdHM7YI5IZR7I",
-			"name": "抵抗 (Resistant)",
+			"name": "耐性 (Resistant)",
 			"reference": "B80,P71,MA47",
 			"tags": [
 				"Advantage",
@@ -28105,7 +28105,7 @@
 		},
 		{
 			"id": "tLE3ucdo2fjeiUTav",
-			"name": "反応が良い (Responsive)",
+			"name": "思いやり豊か (Responsive)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -28209,7 +28209,7 @@
 		},
 		{
 			"id": "tzcAVOHp3Wd0BY361",
-			"name": "とてつもない幸運 (Ridiculous Luck)",
+			"name": "ものすごい幸運 (Ridiculous Luck)",
 			"reference": "B66",
 			"local_notes": "プレイ10分につき1回使用可能",
 			"tags": [
@@ -28261,7 +28261,7 @@
 		},
 		{
 			"id": "t2aNupoayCBTTx_I3",
-			"name": "儀式の魔力 (Ritual Magery)",
+			"name": "儀式の魔法の素質 (Ritual Magery)",
 			"reference": "B66",
 			"tags": [
 				"Advantage",
@@ -28335,7 +28335,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "儀式魔術の系統 (Ritual Magic College)"
+						"qualifier": "儀式魔法の系統 (Ritual Magic College)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -28355,7 +28355,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "儀式魔術 (Ritual Magic)"
+						"qualifier": "儀式魔法 (Ritual Magic)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -28371,7 +28371,7 @@
 		},
 		{
 			"id": "tknKLIc0OqWueFpSw",
-			"name": "サディズム (Sadism)",
+			"name": "サディスト (Sadism)",
 			"reference": "B152",
 			"local_notes": "欲望を満たす機会があり、そうすべきでないと分かっているとき (例: 捕虜が無傷で解放されるべき者であるときなど) は、自制判定を行う。失敗すれば、自分を抑えられない。",
 			"tags": [
@@ -28569,7 +28569,7 @@
 		},
 		{
 			"id": "txLXo2_xfezKSblJZ",
-			"name": "暗所恐怖症 (暗闇) (Scotophobia (Darkness))",
+			"name": "暗闇恐怖症 (Scotophobia (Darkness))",
 			"reference": "B149",
 			"local_notes": "よくある恐怖だが、致命的。可能な限り地下に行くのは避けること。懐中電灯や松明に何かあったら、再点火する前に正気を失うかもしれない。",
 			"tags": [
@@ -28683,7 +28683,7 @@
 		},
 		{
 			"id": "tcC_zioiE8t5DFNZE",
-			"name": "機密取扱資格 (Security Clearance)",
+			"name": "機密取扱許可 (Security Clearance)",
 			"reference": "B82",
 			"tags": [
 				"Advantage",
@@ -28736,7 +28736,7 @@
 		},
 		{
 			"id": "tNzQ9sQCgDezHZtnk",
-			"name": "不可視視認 (See Invisible)",
+			"name": "透明が見える (See Invisible)",
 			"reference": "B83,P72,PSI17",
 			"local_notes": "@種類@",
 			"tags": [
@@ -28802,7 +28802,7 @@
 		},
 		{
 			"id": "tYdqy1uPSGI8VqvLV",
-			"name": "利己的 (Selfish)",
+			"name": "自尊心が強い (Selfish)",
 			"reference": "B153",
 			"local_notes": "はっきりした社会的な侮辱や「無視」を受けるたびに自制判定を行う。失敗すれば、短気であるかのように、その相手に食ってかかる。",
 			"tags": [
@@ -28824,7 +28824,7 @@
 		},
 		{
 			"id": "tw81RysAzky-yjNYN",
-			"name": "無私 (Selfless)",
+			"name": "私心がない (Selfless)",
 			"reference": "B153",
 			"local_notes": "自分の必要 (生存でさえ) を他人のそれより優先するには、自制判定が必要。",
 			"tags": [
@@ -28940,7 +28940,7 @@
 		},
 		{
 			"id": "tkiJQ7nfyi9aAdGHK",
-			"name": "巡り合わせ (Serendipity)",
+			"name": "都合のいい偶然 (Serendipity)",
 			"reference": "B83,P73",
 			"tags": [
 				"Advantage",
@@ -28980,7 +28980,7 @@
 		},
 		{
 			"id": "tq7qfCbN7ebIfT6-0",
-			"name": "重度の内気 (Severe Shyness)",
+			"name": "内気 (重度) (Severe Shyness)",
 			"reference": "B154",
 			"local_notes": "見知らぬ人といるととても落ち着かず、友人の間でも無口になりがち。",
 			"tags": [
@@ -29003,7 +29003,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "飲み騒ぎ (Carousing)"
+						"qualifier": "宴会 (Carousing)"
 					},
 					"amount": -2
 				},
@@ -29021,7 +29021,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": -2
 				},
@@ -29066,7 +29066,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -2
 				},
@@ -29144,7 +29144,7 @@
 		},
 		{
 			"id": "t-JV0Ff2_14mIhYjR",
-			"name": "影の姿 (Shadow Form)",
+			"name": "影の体 (Shadow Form)",
 			"reference": "B83,P73",
 			"tags": [
 				"Advantage",
@@ -29213,7 +29213,7 @@
 		},
 		{
 			"id": "tjMHjiV1IgCAp_Z3Z",
-			"name": "影の姿 (解除不可) (Shadow Form (Can't Turn Off))",
+			"name": "影の体 (解除不可) (Shadow Form (Can't Turn Off))",
 			"reference": "B153",
 			"tags": [
 				"Disadvantage",
@@ -29227,7 +29227,7 @@
 		},
 		{
 			"id": "tbxMoLvSnC5tKCiCd",
-			"name": "変身能力 (Shapeshifting)",
+			"name": "形態変更 (Shapeshifting)",
 			"reference": "B83,P74",
 			"tags": [
 				"Advantage",
@@ -29333,7 +29333,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						}
 					],
@@ -29376,7 +29376,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -29424,7 +29424,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							},
 							"modifier": -2
 						}
@@ -29473,7 +29473,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -29491,7 +29491,7 @@
 		},
 		{
 			"id": "tKw6h1n96MbPXiclO",
-			"name": "集中力が続かない (Short Attention Span)",
+			"name": "移り気 (Short Attention Span)",
 			"reference": "B153",
 			"local_notes": "何かへの関心を長時間保たなければならないとき、または気をそらすものが提示されたときは、自制判定を行う。失敗すれば、目の前の作業に自動的に失敗する。",
 			"tags": [
@@ -29695,7 +29695,7 @@
 		},
 		{
 			"id": "t9rzc542R9abkdvGx",
-			"name": "持ちネタ (Shtick)",
+			"name": "おしゃれ (Shtick)",
 			"reference": "B101,HT250,MA51",
 			"tags": [
 				"Mental",
@@ -29824,7 +29824,7 @@
 		},
 		{
 			"id": "thKwCUUe961nSwzVi",
-			"name": "愛用の装備 (Signature Gear)",
+			"name": "専用アイテム (Signature Gear)",
 			"reference": "B85",
 			"local_notes": "通常は金で買う装備については、1ポイントごとに、そのキャンペーンの平均開始資金の最大50%分の品物が手に入る (ただし現金は不可)。",
 			"tags": [
@@ -29842,7 +29842,7 @@
 		},
 		{
 			"id": "txsoBf4CKtgpHPkPK",
-			"name": "静寂 (Silence)",
+			"name": "音を立てない (Silence)",
 			"reference": "B85,P76",
 			"local_notes": "ボーナスが役立つのは、聴覚があなたを探知できる唯一の感覚である場合のみ。",
 			"tags": [
@@ -29863,13 +29863,13 @@
 			"features": [
 				{
 					"type": "conditional_modifier",
-					"situation": "完全に静止しているときの「隠密」に",
+					"situation": "完全に静止しているときの「忍び」に",
 					"amount": 2,
 					"per_level": true
 				},
 				{
 					"type": "conditional_modifier",
-					"situation": "動いているときの「隠密」に (鎧などを着ていても)",
+					"situation": "動いているときの「忍び」に (鎧などを着ていても)",
 					"amount": 1,
 					"per_level": true
 				}
@@ -29884,7 +29884,7 @@
 		},
 		{
 			"id": "tUzmcuTXRq35xQ-rB",
-			"name": "一途 (Single-Minded)",
+			"name": "一意専心 (Single-Minded)",
 			"reference": "B85",
 			"tags": [
 				"Advantage",
@@ -30033,7 +30033,7 @@
 		},
 		{
 			"id": "tMqEixhnLpc_4A1IO",
-			"name": "ぬるぬる (Slippery)",
+			"name": "すべりやすい (Slippery)",
 			"reference": "B85",
 			"tags": [
 				"Advantage",
@@ -30134,7 +30134,7 @@
 		},
 		{
 			"id": "tzRPLJ-uYrNCag55y",
-			"name": "ひったくり (Snatcher)",
+			"name": "アイテム借用 (Snatcher)",
 			"reference": "B86,P76",
 			"tags": [
 				"Advantage",
@@ -30288,7 +30288,7 @@
 		},
 		{
 			"id": "tI6dwoBoTEQ-gfy0a",
-			"name": "社交カメレオン (Social Chameleon)",
+			"name": "ゴマすり (Social Chameleon)",
 			"reference": "B86",
 			"local_notes": "階級や地位の違いによる反応ペナルティを受けない",
 			"tags": [
@@ -30330,7 +30330,7 @@
 		},
 		{
 			"id": "ti8Mwn5KC8w-uyGTH",
-			"name": "社会的評価 (Social Regard)",
+			"name": "社会的尊厳 (Social Regard)",
 			"reference": "B87",
 			"local_notes": "@種類: 恐れられる、尊敬される、崇められる@: @理由@",
 			"tags": [
@@ -30738,7 +30738,7 @@
 		},
 		{
 			"id": "tEHmRLhULzI2uyVvh",
-			"name": "水中で話せる (Speak Underwater)",
+			"name": "水中会話 (Speak Underwater)",
 			"reference": "B87,P78",
 			"tags": [
 				"Advantage",
@@ -30761,7 +30761,7 @@
 		},
 		{
 			"id": "thR91RlonCb2vGKR4",
-			"name": "動物と話せる (Speak With Animals)",
+			"name": "動物会話 (Speak With Animals)",
 			"reference": "B87,P77",
 			"tags": [
 				"Advantage",
@@ -30840,7 +30840,7 @@
 		},
 		{
 			"id": "tRN88FOkObK_Vd2nq",
-			"name": "植物と話せる (Speak With Plants)",
+			"name": "植物会話 (Speak With Plants)",
 			"reference": "B87,P77",
 			"tags": [
 				"Advantage",
@@ -30957,7 +30957,7 @@
 		},
 		{
 			"id": "tLhvHsIW2tjWozsBy",
-			"name": "霊への共感 (Spirit Empathy)",
+			"name": "精霊共感 (Spirit Empathy)",
 			"reference": "B88,P48",
 			"tags": [
 				"Advantage",
@@ -30991,7 +30991,7 @@
 		},
 		{
 			"id": "tf-edeV7wy9dhgkjk",
-			"name": "二重人格 (Split Personality)",
+			"name": "多重人格 (Split Personality)",
 			"reference": "B156",
 			"tags": [
 				"Disadvantage",
@@ -31005,7 +31005,7 @@
 		},
 		{
 			"id": "trz9QJbCgpzx7SYZt",
-			"name": "潔癖 (Squeamish)",
+			"name": "気持ち悪いものが嫌い (Squeamish)",
 			"reference": "B156",
 			"tags": [
 				"Disadvantage",
@@ -31019,7 +31019,7 @@
 		},
 		{
 			"id": "txSQyk2LjrgBcnj16",
-			"name": "堅実 (Staid)",
+			"name": "知らぬふり (Staid)",
 			"reference": "B164",
 			"tags": [
 				"Mental",
@@ -31032,7 +31032,7 @@
 		},
 		{
 			"id": "t4OoasZ2Vfb1ajrcb",
-			"name": "静電 (サイオニクス) (Static (Psi))",
+			"name": "超能力阻止 (Static (Psi))",
 			"reference": "B78",
 			"tags": [
 				"Advantage",
@@ -31091,7 +31091,7 @@
 		},
 		{
 			"id": "tOB3S5Zp06meqhgzm",
-			"name": "ストレスによる先祖返り (Stress Atavism)",
+			"name": "先祖返り (Stress Atavism)",
 			"reference": "B156",
 			"tags": [
 				"Disadvantage",
@@ -31128,7 +31128,7 @@
 		},
 		{
 			"id": "trAMmLYpE2LsOXtR2",
-			"name": "伸縮 (Stretching)",
+			"name": "伸長 (Stretching)",
 			"reference": "B88,P78",
 			"tags": [
 				"Advantage",
@@ -31187,7 +31187,7 @@
 		},
 		{
 			"id": "t8HajX_K4BDKPuUop",
-			"name": "打撃ST (Striking ST)",
+			"name": "追加攻撃体力 (Striking ST)",
 			"reference": "B88,P78",
 			"tags": [
 				"Advantage",
@@ -31290,7 +31290,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "普通の富 (Average Wealth)"
+							"qualifier": "標準 (Average Wealth)"
 						}
 					},
 					{
@@ -31314,7 +31314,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "ゆとりのある富 (Comfortable Wealth)"
+							"qualifier": "快適 (Comfortable Wealth)"
 						}
 					},
 					{
@@ -31322,7 +31322,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "裕福 (Wealthy)"
+							"qualifier": "富裕 (Wealthy)"
 						}
 					},
 					{
@@ -31330,7 +31330,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "非常に裕福 (Very Wealthy)"
+							"qualifier": "大金持 (Very Wealthy)"
 						}
 					},
 					{
@@ -31338,7 +31338,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "超大金持ち (Filthy Rich)"
+							"qualifier": "富豪 (Filthy Rich)"
 						}
 					},
 					{
@@ -31346,7 +31346,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "億万長者 (Multimillionaire)"
+							"qualifier": "大富豪 (Multimillionaire)"
 						}
 					}
 				]
@@ -31400,7 +31400,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": -2
 				},
@@ -31409,7 +31409,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": -2
 				},
@@ -31452,7 +31452,7 @@
 		},
 		{
 			"id": "tY14StY52x9ZAhC-O",
-			"name": "超低周波聴覚 (Subsonic Hearing)",
+			"name": "低周波聴覚 (Subsonic Hearing)",
 			"reference": "B89,P51",
 			"tags": [
 				"Advantage",
@@ -31475,7 +31475,7 @@
 		},
 		{
 			"id": "tOfcYZVTdsyq7yOkP",
-			"name": "超低周波発声 (Subsonic Speech)",
+			"name": "低周波会話 (Subsonic Speech)",
 			"reference": "B89,P78",
 			"tags": [
 				"Advantage",
@@ -31694,7 +31694,7 @@
 		},
 		{
 			"id": "tEJCTc_AxUtehxG1e",
-			"name": "超常的な耐久力 (Supernatural Durability)",
+			"name": "超常的継戦能力 (Supernatural Durability)",
 			"reference": "B89",
 			"tags": [
 				"Advantage",
@@ -31813,7 +31813,7 @@
 		},
 		{
 			"id": "ty-NfT6o9-IRRtEA2",
-			"name": "超敏感 (Supersensitive)",
+			"name": "テレパシー過敏 (Supersensitive)",
 			"reference": "B158",
 			"tags": [
 				"Disadvantage",
@@ -31827,7 +31827,7 @@
 		},
 		{
 			"id": "tLYJ7NUl3CYeLk0Yc",
-			"name": "影響を受けやすい (@物質@) (Susceptible)",
+			"name": "敏感 (@物質@) (Susceptible)",
 			"reference": "B158",
 			"tags": [
 				"Disadvantage",
@@ -32446,7 +32446,7 @@
 		},
 		{
 			"id": "toP7FUj_JHBeVzWWO",
-			"name": "才能 (工匠) (Talent (Artificer))",
+			"name": "才能 (天才技術者) (Talent (Artificer))",
 			"reference": "B90",
 			"tags": [
 				"Advantage",
@@ -32460,7 +32460,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "武具工 (Armoury)"
+						"qualifier": "武具屋 (Armoury)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32480,7 +32480,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "電気工 (Electrician)"
+						"qualifier": "電気技師 (Electrician)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32500,7 +32500,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "技術者 (Engineer)"
+						"qualifier": "エンジニア (Engineer)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32530,7 +32530,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "整備士 (Mechanic)"
+						"qualifier": "メカニック (Mechanic)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32540,7 +32540,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "鍛冶 (Smith)"
+						"qualifier": "鍛冶屋 (Smith)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32562,7 +32562,7 @@
 		},
 		{
 			"id": "tubKfNxOX4CgpocBj",
-			"name": "才能 (商才) (Talent (Business Acumen))",
+			"name": "才能 (商売上手) (Talent (Business Acumen))",
 			"reference": "B90",
 			"tags": [
 				"Advantage",
@@ -32586,7 +32586,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "行政 (Administration)"
+						"qualifier": "管理 (Administration)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32606,7 +32606,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "財務 (Finance)"
+						"qualifier": "財政 (Finance)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32668,7 +32668,7 @@
 		},
 		{
 			"id": "ti8Rx9Ap_ztEX-p69",
-			"name": "才能 (天賦の芸術家) (Talent (Gifted Artist))",
+			"name": "才能 (天才アーティスト) (Talent (Gifted Artist))",
 			"reference": "B90,PU3:10",
 			"tags": [
 				"Advantage",
@@ -32692,7 +32692,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "宝石細工師 (Jeweler)"
+						"qualifier": "宝石屋 (Jeweler)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32806,7 +32806,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "博物学 (Naturalist)"
+						"qualifier": "自然知識 (Naturalist)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32889,7 +32889,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "秘伝医術 (Esoteric Medicine)"
+						"qualifier": "伝統療法 (Esoteric Medicine)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32899,7 +32899,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "応急手当 (First Aid)"
+						"qualifier": "応急処置 (First Aid)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -32919,7 +32919,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "内科医 (Physician)"
+						"qualifier": "医師 (Physician)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33070,7 +33070,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "秘伝医術 (Esoteric Medicine)"
+						"qualifier": "伝統療法 (Esoteric Medicine)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33080,7 +33080,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "応急手当 (First Aid)"
+						"qualifier": "応急処置 (First Aid)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33100,7 +33100,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "内科医 (Physician)"
+						"qualifier": "医師 (Physician)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33190,7 +33190,7 @@
 		},
 		{
 			"id": "tfEs4la8BMHdZwvxF",
-			"name": "才能 (数学的才能) (Talent (Mathematical Ability))",
+			"name": "才能 (数学能力) (Talent (Mathematical Ability))",
 			"reference": "B90,PU3:12",
 			"tags": [
 				"Advantage",
@@ -33239,7 +33239,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "暗号 (Cryptography)"
+						"qualifier": "暗号学 (Cryptography)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33249,7 +33249,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "技術者 (Engineer)"
+						"qualifier": "エンジニア (Engineer)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33259,7 +33259,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "財務 (Finance)"
+						"qualifier": "財政 (Finance)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33311,7 +33311,7 @@
 		},
 		{
 			"id": "tNxhI7CrefYdy90UI",
-			"name": "才能 (音楽的才能) (Talent (Musical Ability))",
+			"name": "才能 (音楽能力) (Talent (Musical Ability))",
 			"reference": "B90,PU3:13",
 			"tags": [
 				"Advantage",
@@ -33359,7 +33359,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "楽器 (Musical Instrument)"
+						"qualifier": "楽器演奏 (Musical Instrument)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33391,7 +33391,7 @@
 		},
 		{
 			"id": "tVSvpNDA9zcfsWNA0",
-			"name": "才能 (野外の達人) (Talent (Outdoorsman))",
+			"name": "才能 (アウトドア派) (Talent (Outdoorsman))",
 			"reference": "B90,PU3:14",
 			"tags": [
 				"Advantage",
@@ -33420,7 +33420,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "迷彩 (Camouflage)"
+						"qualifier": "偽装 (Camouflage)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33450,7 +33450,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "博物学 (Naturalist)"
+						"qualifier": "自然知識 (Naturalist)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33470,7 +33470,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "サバイバル (Survival)"
+						"qualifier": "生存 (Survival)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33480,7 +33480,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "追跡 (Tracking)"
+						"qualifier": "足跡追跡 (Tracking)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33541,7 +33541,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "飲み騒ぎ (Carousing)"
+						"qualifier": "宴会 (Carousing)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33551,7 +33551,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "嘘看破 (Detect Lies)"
+						"qualifier": "嘘発見 (Detect Lies)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33571,7 +33571,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -33709,7 +33709,7 @@
 		},
 		{
 			"id": "tazU-sCQvlzBtB2X_",
-			"name": "鉤爪 (Talons)",
+			"name": "鈎爪 (Talons)",
 			"reference": "B43",
 			"tags": [
 				"Advantage",
@@ -33737,7 +33737,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -33778,7 +33778,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						},
 						{
@@ -33807,7 +33807,7 @@
 		},
 		{
 			"id": "tjN2MOvtdUmWVfR7p",
-			"name": "科学技術恐怖症/TL4以下 (機械) (Technophobia/TL4- (Machinery))",
+			"name": "機械恐怖症 (TL4以下) (Technophobia/TL4- (Machinery))",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -33822,7 +33822,7 @@
 		},
 		{
 			"id": "tjfu2CCX6y7HaRuxr",
-			"name": "科学技術恐怖症/TL5以上 (機械) (Technophobia/TL5+ (Machinery))",
+			"name": "機械恐怖症 (TL5以上) (Technophobia/TL5+ (Machinery))",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -34008,7 +34008,7 @@
 		},
 		{
 			"id": "tLVBokgcrQIUNKxpD",
-			"name": "念動力 (Telekinesis)",
+			"name": "テレキネシス (Telekinesis)",
 			"reference": "B92,P82,PSI17",
 			"tags": [
 				"Advantage",
@@ -34184,7 +34184,7 @@
 		},
 		{
 			"id": "t3G6WRrWQl6IIo5At",
-			"name": "温度制御 (Temperature Control)",
+			"name": "気温制御 (Temperature Control)",
 			"reference": "B92,P83",
 			"tags": [
 				"Advantage",
@@ -34219,7 +34219,7 @@
 		},
 		{
 			"id": "touwUIFalnae02BUl",
-			"name": "温度耐性 (Temperature Tolerance)",
+			"name": "気温の変化に強い (Temperature Tolerance)",
 			"reference": "B93",
 			"local_notes": "<script>\nif (entity.exists) {\n  var degreesHotter = 0;\n  var degreesColder = 0;\n  const hotMod = self.findActiveModifier(\"暑さ (Hot)\");\n  const coldMod = self.findActiveModifier(\"寒冷 (Cold)\");\n  const degreesHotterMod = self.findActiveModifier(\"暑い側の度数 (Degrees Hotter)\");\n  const degreesColderMod = self.findActiveModifier(\"寒い側の度数 (Degrees Colder)\");\n  if (hotMod) {\n    degreesHotter = $ht * self.level;\n  }\n  if (coldMod) {\n    degreesColder = $ht *self.level;\n  } \n  if (degreesHotterMod) {\n    degreesHotter = degreesHotterMod.level;\n  }\n  if (degreesColderMod) {\n    degreesColder = degreesColderMod.level;\n  }\n  if (degreesHotter == 0 && degreesColder == 0) {\n    degreesHotter = $ht *self.level / 2;\n    degreesColder = $ht *self.level / 2;\n  }\n  var strings = [];\n  if (degreesHotter != 0) {\n    strings.push(degreesHotter + \"°高温側\");\n  }\n  if (degreesColder != 0) {\n    strings.push(degreesColder +\"°低温側\");;\n  }\n  strings.join(\"、\")\n} else {\n  \"キャラクターシートに追加されたときに、快適温度域がどれだけ広がるかが計算されます\"\n}\n</script>",
 			"tags": [
@@ -34281,7 +34281,7 @@
 		},
 		{
 			"id": "trukZqFDEwlff1Epy",
-			"name": "時間的慣性 (Temporal Inertia)",
+			"name": "存在し続ける (Temporal Inertia)",
 			"reference": "B93",
 			"tags": [
 				"Advantage",
@@ -34308,7 +34308,7 @@
 		},
 		{
 			"id": "tJusm03XASEmePVLU",
-			"name": "怪物恐怖症 (怪物) (Teratophobia (Monsters))",
+			"name": "怪物恐怖症 (Teratophobia (Monsters))",
 			"reference": "B150",
 			"local_notes": "あらゆる「不自然な」生き物がこの恐怖を引き起こす。怪物が非常に大きい・危険に見える場合や、数が多い場合は、自制判定に-1～-4。「怪物」の定義は経験によることに注意。アメリカ先住民は象を怪物と見なすが、アフリカのピグミーは見なさない！",
 			"tags": [
@@ -34460,7 +34460,7 @@
 		},
 		{
 			"id": "tXAOOm_5NKenasI4n",
-			"name": "海洋恐怖症 (海) (Thalassophobia (Oceans))",
+			"name": "海洋恐怖症 (Thalassophobia (Oceans))",
 			"reference": "B150",
 			"local_notes": "大きな水域がすべて怖い。海の旅、さらには海上の空の旅も、基本的に不可能で、水生の怪物との遭遇も動揺を招く。",
 			"tags": [
@@ -34563,7 +34563,7 @@
 		},
 		{
 			"id": "tu0KYjUBLw84B4gKc",
-			"name": "いたずら者 (Trickster)",
+			"name": "トリックスター (Trickster)",
 			"reference": "B159",
 			"local_notes": "毎日自制判定を行う。失敗すれば、危険な相手 (熟練の戦士、危険な怪物、そこそこ有能な敵の集団など) を騙そうとしなければならない。抵抗すると、最終的に失敗するまで、1日ごとに自制判定に累積で-1を受ける！",
 			"tags": [
@@ -34578,7 +34578,7 @@
 		},
 		{
 			"id": "t2wSIEcRtmr3bOKTv",
-			"name": "13恐怖症 (数字の13) (Triskaidekaphobia (Number 13))",
+			"name": "“13”恐怖症 (Triskaidekaphobia (Number 13))",
 			"reference": "B150",
 			"local_notes": "13という数に関わるたびに自制判定を行う。13日の金曜日が絡む場合は-5！",
 			"tags": [
@@ -34624,7 +34624,7 @@
 		},
 		{
 			"id": "tqyAIJKZUTPhxkhbU",
-			"name": "嘘がつけない (Truthfulness)",
+			"name": "正直 (Truthfulness)",
 			"reference": "B159",
 			"local_notes": "不快な真実について黙っていなければならない (言わない形の嘘) ときは、自制判定を行う。実際に偽りを述べなければならない場合は-5！失敗すれば、真実を口走るか、あまりにつまずいて嘘が明らかになる。",
 			"tags": [
@@ -34639,7 +34639,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": -5
 				}
@@ -34664,7 +34664,7 @@
 		},
 		{
 			"id": "tC-1l9JaBF4XIlTdC",
-			"name": "穴掘り (@掘削移動力@) (Tunneling)",
+			"name": "トンネル移動 (@掘削移動力@) (Tunneling)",
 			"reference": "B94,P85",
 			"tags": [
 				"Advantage",
@@ -34692,7 +34692,7 @@
 		},
 		{
 			"id": "t9SRIvj3a6sg382bW",
-			"name": "超聴覚 (Ultrahearing)",
+			"name": "超音波聴覚 (Ultrahearing)",
 			"reference": "B94,P51",
 			"tags": [
 				"Advantage",
@@ -34715,7 +34715,7 @@
 		},
 		{
 			"id": "tG_kuDri0cBZLx8C6",
-			"name": "超音波発声 (Ultrasonic Speech)",
+			"name": "超音波会話 (Ultrasonic Speech)",
 			"reference": "B94,P78",
 			"tags": [
 				"Advantage",
@@ -34761,7 +34761,7 @@
 		},
 		{
 			"id": "tYnrwhhEwv7uvdomv",
-			"name": "不老 (Unaging)",
+			"name": "年をとらない (Unaging)",
 			"reference": "B95,PSI18",
 			"tags": [
 				"Advantage",
@@ -34819,7 +34819,7 @@
 		},
 		{
 			"id": "tVKcKQGhh9NHMQOvi",
-			"name": "付き合いにくい (Uncongenial)",
+			"name": "孤独好き (Uncongenial)",
 			"reference": "B165, PU6:20",
 			"tags": [
 				"Mental",
@@ -34833,7 +34833,7 @@
 		},
 		{
 			"id": "tY2QgdR2X1xCHzYW_",
-			"name": "抑えられない食欲 (@渇望@) (Uncontrollable Appetite)",
+			"name": "制御できない衝動 (@渇望@) (Uncontrollable Appetite)",
 			"reference": "B159",
 			"tags": [
 				"Disadvantage",
@@ -34920,7 +34920,7 @@
 		},
 		{
 			"id": "tEBOrSyEu9NKNQskA",
-			"name": "唯一無二 (Unique)",
+			"name": "唯一の存在 (Unique)",
 			"reference": "B160",
 			"tags": [
 				"Disadvantage",
@@ -34934,7 +34934,7 @@
 		},
 		{
 			"id": "tzd5CbgeNR-p3gtUS",
-			"name": "万能消化 (Universal Digestion)",
+			"name": "なんでも消化できる (Universal Digestion)",
 			"reference": "B95,P86",
 			"tags": [
 				"Advantage",
@@ -34957,7 +34957,7 @@
 		},
 		{
 			"id": "tOg0QlZ2HB4-28mwP",
-			"name": "不死身 (Unkillable)",
+			"name": "殺されない (Unkillable)",
 			"reference": "B95",
 			"tags": [
 				"Advantage",
@@ -35056,7 +35056,7 @@
 		},
 		{
 			"id": "t9lxfCn84bo3idpX9",
-			"name": "不運 (Unluckiness)",
+			"name": "不幸 (Unluckiness)",
 			"reference": "B160",
 			"local_notes": "プレイセッションにつき1回、GMが恣意的かつ悪意をもって、あなたに何かを失敗させる。",
 			"tags": [
@@ -35109,7 +35109,7 @@
 		},
 		{
 			"id": "tUXA93F-9g685ivxz",
-			"name": "特異な背景 (Unusual Background)",
+			"name": "特殊な背景 (Unusual Background)",
 			"reference": "B96",
 			"local_notes": "@描写@",
 			"tags": [
@@ -35150,7 +35150,7 @@
 		},
 		{
 			"id": "tFHSoGWBDirlMO6Dd",
-			"name": "吸血の噛みつき (Vampiric Bite)",
+			"name": "ヴァンパイアの噛みつき (Vampiric Bite)",
 			"reference": "B96",
 			"local_notes": "1秒ごとにHP 1+レベルごとに1を吸収する。奪ったHP 3ごとに、HP 1またはFP 1 (選択) を回復する。また、食事をせずに戦闘で噛みつける。歯 (鋭い歯) または歯 (鋭いくちばし) を、好きな方で無料で追加する。",
 			"tags": [
@@ -35169,7 +35169,7 @@
 		},
 		{
 			"id": "tDPqnU1ciDF13F4kZ",
-			"name": "多才 (Versatile)",
+			"name": "創造力がある (Versatile)",
 			"reference": "B96",
 			"tags": [
 				"Advantage",
@@ -35179,7 +35179,7 @@
 			"features": [
 				{
 					"type": "conditional_modifier",
-					"situation": "創造性や発明を要するあらゆる作業 (「芸術」技能の判定のほとんど、新しい発明のためのすべての「技術者」判定を含む) に",
+					"situation": "創造性や発明を要するあらゆる作業 (「芸術」技能の判定のほとんど、新しい発明のためのすべての「エンジニア」判定を含む) に",
 					"amount": 1
 				}
 			],
@@ -35189,7 +35189,7 @@
 		},
 		{
 			"id": "thiYf3dVd-HFdsD8d",
-			"name": "大いなる祝福 (Very Blessed)",
+			"name": "福者/大預言者 (Very Blessed)",
 			"reference": "B40",
 			"tags": [
 				"Advantage",
@@ -35277,9 +35277,9 @@
 		},
 		{
 			"id": "tOQfp3YosDgO4S3yI",
-			"name": "非常に頑健 (Very Fit)",
+			"name": "非常に健康 (Very Fit)",
 			"reference": "B55",
-			"local_notes": "FPを通常の2倍の速さで回復し、通常の半分の速さで失う (どちらも、呪文やサイオニクスで消費したFPは除く)",
+			"local_notes": "FPを通常の2倍の速さで回復し、通常の半分の速さで失う (どちらも、呪文や超能力で消費したFPは除く)",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -35298,7 +35298,7 @@
 		},
 		{
 			"id": "tAonFRmR-RtLdMP8e",
-			"name": "超急速治癒 (Very Rapid Healing)",
+			"name": "傷の回復が非常に早い (Very Rapid Healing)",
 			"reference": "B79",
 			"local_notes": "失ったHPを回復する判定で、HT判定に成功すればHP 1ではなく2回復する",
 			"tags": [
@@ -35369,7 +35369,7 @@
 		},
 		{
 			"id": "tgNjs3lrycmChMxRC",
-			"name": "非常に裕福 (Very Wealthy)",
+			"name": "大金持 (Very Wealthy)",
 			"reference": "B25, L8, DFA54, DW33",
 			"local_notes": "開始時の富は通常の20倍",
 			"tags": [
@@ -35386,7 +35386,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "普通の富 (Average Wealth)"
+							"qualifier": "標準 (Average Wealth)"
 						}
 					},
 					{
@@ -35418,7 +35418,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "ゆとりのある富 (Comfortable Wealth)"
+							"qualifier": "快適 (Comfortable Wealth)"
 						}
 					},
 					{
@@ -35426,7 +35426,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "裕福 (Wealthy)"
+							"qualifier": "富裕 (Wealthy)"
 						}
 					},
 					{
@@ -35434,7 +35434,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "超大金持ち (Filthy Rich)"
+							"qualifier": "富豪 (Filthy Rich)"
 						}
 					},
 					{
@@ -35442,7 +35442,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "億万長者 (Multimillionaire)"
+							"qualifier": "大富豪 (Multimillionaire)"
 						}
 					}
 				]
@@ -35514,7 +35514,7 @@
 		},
 		{
 			"id": "tAekR8gaF0cyRVtni",
-			"name": "視覚化 (Visualization)",
+			"name": "視覚化暗示 (Visualization)",
 			"reference": "B96,P87",
 			"tags": [
 				"Advantage",
@@ -35551,7 +35551,7 @@
 		},
 		{
 			"id": "t2vba3l0J2mCZM50M",
-			"name": "声 (Voice)",
+			"name": "美声 (Voice)",
 			"reference": "B97",
 			"tags": [
 				"Advantage",
@@ -35573,7 +35573,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "口先 (Fast-Talk)"
+						"qualifier": "言いくるめ (Fast-Talk)"
 					},
 					"amount": 2
 				},
@@ -35591,7 +35591,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "演芸 (Performance)"
+						"qualifier": "演劇 (Performance)"
 					},
 					"amount": 2
 				},
@@ -35768,17 +35768,17 @@
 							"id": "mVQCV3j1Qd8i0iIic",
 							"name": "一般的 (Common)",
 							"reference": "B161,B46",
-							"local_notes": "広い: 1つのダメージ種別 (熱傷、殴打など)、物質の分類 (金属、石、木など)、または酸、冷気、電気、火など",
+							"local_notes": "広い: 1つのダメージ種別 (焼き、叩きなど)、物質の分類 (金属、石、木など)、または酸、冷気、電気、火など",
 							"nameables": {
 								"攻撃の形態": {
 									"label": "攻撃の形態",
 									"tooltip": "あなたに追加のダメージを与える攻撃の形態。",
 									"options": [
-										"熱傷",
-										"腐食",
-										"殴打",
-										"斬撃",
-										"刺突",
+										"焼き",
+										"侵蝕",
+										"叩き",
+										"切り",
+										"刺し",
 										"貫通",
 										"毒",
 										"金属",
@@ -35804,7 +35804,7 @@
 							"id": "m0k_B7kxaUb7C7jQ_",
 							"name": "非常に一般的 (Very Common)",
 							"reference": "B161,B46",
-							"local_notes": "非常に広い: 白兵攻撃、長射程攻撃、物理攻撃、エネルギー攻撃、または1つの動力源 (魔法、サイオニクスなど)",
+							"local_notes": "非常に広い: 白兵攻撃、長射程攻撃、物理攻撃、エネルギー攻撃、または1つの動力源 (魔法、超能力など)",
 							"nameables": {
 								"攻撃の形態": {
 									"label": "攻撃の形態",
@@ -35816,7 +35816,7 @@
 										"エネルギー攻撃",
 										"気",
 										"魔法",
-										"サイオニクス"
+										"超能力"
 									],
 									"free_form": true,
 									"not_blank": true
@@ -35981,7 +35981,7 @@
 		},
 		{
 			"id": "tJQCmPgR0kwIxfELq",
-			"name": "ワープ (Warp)",
+			"name": "ワープ移動 (Warp)",
 			"reference": "B97,P88,PSI18",
 			"tags": [
 				"Advantage",
@@ -36322,7 +36322,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "喧嘩 (Brawling)"
+								"qualifier": "格闘 (Brawling)"
 							}
 						}
 					],
@@ -36415,7 +36415,7 @@
 		},
 		{
 			"id": "t55UZnC4Hxsvl7-ri",
-			"name": "裕福 (Wealthy)",
+			"name": "富裕 (Wealthy)",
 			"reference": "B25, L8, DFA54, DW33",
 			"local_notes": "開始時の富は通常の5倍",
 			"tags": [
@@ -36432,7 +36432,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "普通の富 (Average Wealth)"
+							"qualifier": "標準 (Average Wealth)"
 						}
 					},
 					{
@@ -36464,7 +36464,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "ゆとりのある富 (Comfortable Wealth)"
+							"qualifier": "快適 (Comfortable Wealth)"
 						}
 					},
 					{
@@ -36472,7 +36472,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "非常に裕福 (Very Wealthy)"
+							"qualifier": "大金持 (Very Wealthy)"
 						}
 					},
 					{
@@ -36480,7 +36480,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "超大金持ち (Filthy Rich)"
+							"qualifier": "富豪 (Filthy Rich)"
 						}
 					},
 					{
@@ -36488,7 +36488,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "億万長者 (Multimillionaire)"
+							"qualifier": "大富豪 (Multimillionaire)"
 						}
 					}
 				]
@@ -36581,7 +36581,7 @@
 		},
 		{
 			"id": "tt5ULbbh-fi4t-UMm",
-			"name": "怪異を呼ぶ体質 (Weirdness Magnet)",
+			"name": "特異点 (Weirdness Magnet)",
 			"reference": "B161",
 			"tags": [
 				"Disadvantage",
@@ -36610,7 +36610,7 @@
 		},
 		{
 			"id": "tg6F-Wf29f6BFE1oD",
-			"name": "野生の才能 (Wild Talent)",
+			"name": "万能の天才 (Wild Talent)",
 			"reference": "B99,P89,MA49",
 			"tags": [
 				"Advantage",
@@ -36680,7 +36680,7 @@
 		},
 		{
 			"id": "t8I0xw1Lj1_222aEN",
-			"name": "仕事中毒 (Workaholic)",
+			"name": "ワーカホリック (Workaholic)",
 			"reference": "B162",
 			"tags": [
 				"Disadvantage",
@@ -36706,7 +36706,7 @@
 		},
 		{
 			"id": "tX9XXLPFBvyQSpA4k",
-			"name": "異種好き (Xenophilia)",
+			"name": "異種族愛好 (Xenophilia)",
 			"reference": "B162",
 			"tags": [
 				"Disadvantage",
@@ -36721,7 +36721,7 @@
 		},
 		{
 			"id": "tretZ6xRq46CLvbPu",
-			"name": "異種恐怖症 (奇妙で未知のもの) (Xenophobia (Strange and Unknown Things))",
+			"name": "異人恐怖症 (Xenophobia (Strange and Unknown Things))",
 			"reference": "B150",
 			"local_notes": "あらゆる奇妙な状況、特に奇妙な人々に動揺する。別の種族や国籍の人々に囲まれたときは自制判定を行う。人間でない場合は-3。制御を失えば、恐怖から見知らぬ者を攻撃するかもしれない。",
 			"tags": [
@@ -36737,7 +36737,7 @@
 		},
 		{
 			"id": "tVS-zD5rFs5yhsJnJ",
-			"name": "ゼロ化 (Zeroed)",
+			"name": "無登録 (Zeroed)",
 			"reference": "B100",
 			"tags": [
 				"Advantage",

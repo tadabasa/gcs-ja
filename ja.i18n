@@ -291,7 +291,7 @@ k:" to reactions"
 v:" 反応へ"
 
 k:" to skill level due to minimum ST requirement"
-v:" 最小ST要件による技能レベルへの"
+v:" 最低体力要件による技能レベルへの"
 
 k:" to the level of "
 v:" のレベルへ "
@@ -923,7 +923,7 @@ k:"*: Changing reach requires a Ready maneuver."
 v:"*: 攻撃範囲を変更するには「準備」の行動が必要です。"
 
 k:"*: Has a retracting stock. With the stock folded, the weapon's stats change to Bulk %s, Accuracy %s, Recoil %s, and minimum ST %s. Folding or unfolding the stock takes one Ready maneuver."
-v:"*: 伸縮式銃床あり。銃床を畳むと、武器の性能は かさ %s、命中 %s、反動 %s、最小ST %s になります。銃床の展開・収納には「準備」の行動が1回必要です。"
+v:"*: 伸縮式銃床あり。銃床を畳むと、武器の性能は かさ %s、命中 %s、反動 %s、最低体力 %s になります。銃床の展開・収納には「準備」の行動が1回必要です。"
 
 k:"*From a [house rule](https://gamingballistic.com/2020/12/04/df-eastmarch-boss-fight-and-house-rules/) originating with Kevin Smyth*"
 v:"*Kevin Smyth氏発祥の[ハウスルール](https://gamingballistic.com/2020/12/04/df-eastmarch-boss-fight-and-house-rules/)より*"
@@ -1664,7 +1664,7 @@ v:"血統を追加中です。ランダム化すると、キャラクターの�
 v:"年齢、誕生日、身長、体重、目、髪、肌、利き手が新しい値に置き換わります。"
 
 k:"An armor divisor on the explosive applies to neither its collateral damage nor its fragments."
-v:"爆薬の装甲除数は、巻き添えダメージにも破片にも適用されません。"
+v:"爆薬の徹甲除数は、巻き添えダメージにも破片にも適用されません。"
 
 k:"An attack that misses an area scatters; the Scatter calculator works out how far."
 v:"範囲攻撃が外れると散らばります。散布計算機でその距離を求められます。"
@@ -1915,10 +1915,10 @@ k:"Area-effect damage does not usually decline with distance; only an attack tha
 v:"範囲ダメージは通常、距離で減衰しません。減衰するのは拡散する攻撃だけです。"
 
 k:"Armor Divisor"
-v:"装甲除数"
+v:"徹甲除数"
 
 k:"armor divisor"
-v:"装甲除数"
+v:"徹甲除数"
 
 k:"Armor DR"
 v:"防具DR"
@@ -2206,7 +2206,7 @@ k:"Bulk"
 v:"扱いやすさ"
 
 k:"bulk"
-v:"かさ (bulk)"
+v:"扱いやすさ (Bulk)"
 
 k:"Bullet-shaped"
 v:"弾丸形"
@@ -3921,7 +3921,7 @@ k:"Fragmentation"
 v:"破片"
 
 k:"Fragmentation Armor Divisor"
-v:"破片の装甲除数"
+v:"破片の徹甲除数"
 
 k:"Fragmentation Base Damage"
 v:"破片の基本ダメージ"
@@ -3939,13 +3939,13 @@ k:"Fragments hit:"
 v:"命中した破片:"
 
 k:"Frequency of Appearance"
-v:"出現頻度"
+v:"登場頻度"
 
 k:"frequency of appearance"
-v:"出現頻度"
+v:"登場頻度"
 
 k:"Frequency Roll (FR): %s"
-v:"出現頻度判定 (FR): %s"
+v:"登場判定 (FR): %s"
 
 k:"from"
 v:"から"
@@ -4080,13 +4080,13 @@ k:"Gives a weapon accuracy modifier of"
 v:"武器の命中修正を与える:"
 
 k:"Gives a weapon armor divisor modifier of"
-v:"武器の装甲除数修正を与える:"
+v:"武器の徹甲除数修正を与える:"
 
 k:"Gives a weapon block modifier of"
 v:"武器の止め修正を与える:"
 
 k:"Gives a weapon bulk modifier of"
-v:"武器のかさ修正を与える:"
+v:"武器の扱いやすさ修正を与える:"
 
 k:"Gives a weapon chamber shots modifier of"
 v:"武器の装填弾数修正を与える:"
@@ -4113,7 +4113,7 @@ k:"Gives a weapon minimum reach modifier of"
 v:"武器の最小攻撃範囲修正を与える:"
 
 k:"Gives a weapon minimum ST modifier of"
-v:"武器の最小ST修正を与える:"
+v:"武器の最低体力修正を与える:"
 
 k:"Gives a weapon non-chamber shots modifier of"
 v:"武器の薬室外の弾数修正を与える:"
@@ -5469,10 +5469,10 @@ k:"minimum reach"
 v:"最小攻撃範囲"
 
 k:"Minimum ST"
-v:"最小ST"
+v:"最低体力"
 
 k:"minimum ST"
-v:"最小ST"
+v:"最低体力"
 
 k:"Minimum Strength"
 v:"最小体力"
@@ -6836,7 +6836,7 @@ k:"Quick Filter"
 v:"クイックフィルタ"
 
 k:"Quirks"
-v:"くせ"
+v:"癖"
 
 k:"Quit"
 v:"終了"
@@ -8954,10 +8954,10 @@ k:"The value, which may be a number or a script expression"
 v:"値。数値またはスクリプト式を指定できます"
 
 k:"The weapon has a minimum ST of %v. If your ST is less than this, you will suffer a -1 to weapon skill per point of ST you lack and lose one extra FP at the end of any fight that lasts long enough to cost FP."
-v:"この武器の最小STは %v です。あなたのSTがこれより低い場合、不足するST1ポイントごとに武器技能に-1を受け、FPを消費するほど長引く戦闘の終わりに、追加でFPを1失います。"
+v:"この武器の最低体力は %v です。あなたのSTがこれより低い場合、不足するST1ポイントごとに武器技能に-1を受け、FPを消費するほど長引く戦闘の終わりに、追加でFPを1失います。"
 
 k:"The weapon has a rated ST of %v, which is used instead of the user's ST for all calculations except minimum ST."
-v:"この武器の定格STは %v で、最小ST以外のすべての計算で使用者のSTの代わりに使われます。"
+v:"この武器の定格STは %v で、最低体力以外のすべての計算で使用者のSTの代わりに使われます。"
 
 k:"The weight of all of these pieces of equipment, plus the weight of any contained equipment"
 v:"これらの装備すべての重量、加えて、任意の包含する装備の重量"
@@ -9367,7 +9367,7 @@ k:"Total points spent on disadvantages"
 v:"不利な特徴に使ったポイントの合計"
 
 k:"Total points spent on quirks"
-v:"くせに使ったポイントの合計"
+v:"癖に使ったポイントの合計"
 
 k:"Total points spent on skills"
 v:"技能に使ったポイントの合計"
@@ -9406,7 +9406,7 @@ k:"Trait Container"
 v:"特徴コンテナ"
 
 k:"trait frequency of appearance"
-v:"特徴の出現頻度"
+v:"特徴の登場頻度"
 
 k:"Trait Level"
 v:"特徴レベル"
@@ -9915,7 +9915,7 @@ k:"Weapon Accuracy"
 v:"武器の命中"
 
 k:"weapon armor divisor"
-v:"武器の装甲除数"
+v:"武器の徹甲除数"
 
 k:"weapon base damage dice"
 v:"武器の基本ダメージダイス"
@@ -9936,7 +9936,7 @@ k:"weapon damage type"
 v:"武器のダメージタイプ"
 
 k:"weapon fragmentation armor divisor"
-v:"武器の破片の装甲除数"
+v:"武器の破片の徹甲除数"
 
 k:"weapon fragmentation damage type"
 v:"武器の破片のダメージタイプ"

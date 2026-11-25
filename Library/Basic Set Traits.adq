@@ -366,7 +366,7 @@
 		},
 		{
 			"id": "ttC-ZTQ_67H2W4JnE",
-			"name": "加速度に弱い (Acceleration Weakness)",
+			"name": "加速に弱い (Acceleration Weakness)",
 			"reference": "B165",
 			"tags": [
 				"Physical",
@@ -2235,7 +2235,7 @@
 				},
 				{
 					"id": "mDp-CMUBUVvEib4lD",
-					"name": "醜悪 (Hideous)",
+					"name": "最悪 (Hideous)",
 					"reference": "B21,B202",
 					"cost_adj": "-16",
 					"features": [
@@ -2258,7 +2258,7 @@
 				},
 				{
 					"id": "mwU_PPC4K1kG2jw2D",
-					"name": "恐ろしい (Horrific)",
+					"name": "見るもおぞましい (Horrific)",
 					"reference": "B21,B202",
 					"cost_adj": "-24",
 					"features": [
@@ -2360,7 +2360,7 @@
 				},
 				{
 					"id": "mOgWxFuRVbVwqEKwT",
-					"name": "醜い (Ugly)",
+					"name": "醜悪 (Ugly)",
 					"reference": "B21",
 					"cost_adj": "-8",
 					"features": [
@@ -2374,7 +2374,7 @@
 				},
 				{
 					"id": "m2ifyKuECCiKgM-4Z",
-					"name": "魅力的でない (Unattractive)",
+					"name": "悪い (Unattractive)",
 					"reference": "B21",
 					"cost_adj": "-4",
 					"features": [
@@ -2662,7 +2662,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "無一文 (Dead Broke)"
+							"qualifier": "どん底 (Dead Broke)"
 						}
 					},
 					{
@@ -2670,7 +2670,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "貧乏 (Poor)"
+							"qualifier": "赤貧 (Poor)"
 						}
 					},
 					{
@@ -2678,7 +2678,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "苦闘 (Struggling)"
+							"qualifier": "貧乏 (Struggling)"
 						}
 					},
 					{
@@ -2721,7 +2721,7 @@
 		},
 		{
 			"id": "tOIbA7bxjknhRjYSU",
-			"name": "腰痛持ち (Bad Back)",
+			"name": "背骨が悪い (Bad Back)",
 			"reference": "B123",
 			"local_notes": "STの判定を行うたびに腰を痛め、白兵戦の攻撃・防御判定や「軽業」などの「運動」系技能の判定で17か18が出たときも、HT判定を行う",
 			"tags": [
@@ -2760,7 +2760,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "精密な操作器官がない (No Fine Manipulators)"
+							"qualifier": "手がない (No Fine Manipulators)"
 						}
 					}
 				]
@@ -2866,7 +2866,7 @@
 		},
 		{
 			"id": "tunEojd-PNzEzVNaU",
-			"name": "悪視力 (遠視) (Bad Sight (Farsighted))",
+			"name": "視力が悪い (遠視) (Bad Sight (Farsighted))",
 			"reference": "B123",
 			"tags": [
 				"Disadvantage",
@@ -2900,7 +2900,7 @@
 		},
 		{
 			"id": "txnM_WQ3Sz7eeA344",
-			"name": "悪視力 (近視) (Bad Sight (Nearsighted))",
+			"name": "視力が悪い (近視) (Bad Sight (Nearsighted))",
 			"reference": "B123",
 			"local_notes": "長射程攻撃の射程修正を計算するとき、目標までの実際の距離を2倍にする",
 			"tags": [
@@ -3460,7 +3460,7 @@
 		},
 		{
 			"id": "tPcvlsavyazeq1Qg4",
-			"name": "盲目 (Blindness)",
+			"name": "視覚障害 (Blindness)",
 			"reference": "B124",
 			"local_notes": "命中部位を狙えない",
 			"tags": [
@@ -3595,7 +3595,7 @@
 		},
 		{
 			"id": "twv_tMAxk6ZcC3sDw",
-			"name": "がに股 (Bowlegged)",
+			"name": "ガニマタ (Bowlegged)",
 			"reference": "B165",
 			"tags": [
 				"Physical",
@@ -3760,7 +3760,7 @@
 		},
 		{
 			"id": "t7yv4h1kT0itJulCu",
-			"name": "浮けない (Cannot Float)",
+			"name": "水に浮かない (Cannot Float)",
 			"reference": "B165",
 			"tags": [
 				"Physical",
@@ -3786,7 +3786,7 @@
 		},
 		{
 			"id": "toWvopVePvFQ41-bg",
-			"name": "話せない (Cannot Speak)",
+			"name": "会話できない (Cannot Speak)",
 			"reference": "B125",
 			"tags": [
 				"Disadvantage",
@@ -3802,7 +3802,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "どもり (Stuttering)"
+							"qualifier": "吃音 (Stuttering)"
 						}
 					}
 				]
@@ -3814,7 +3814,7 @@
 		},
 		{
 			"id": "tCXH-lV5N9I3M5vJP",
-			"name": "話せない (唖) (Cannot Speak (Mute))",
+			"name": "会話できない (唖) (Cannot Speak (Mute))",
 			"reference": "B125",
 			"tags": [
 				"Disadvantage",
@@ -4072,7 +4072,7 @@
 		},
 		{
 			"id": "toR2WVDUE1bxCVOps",
-			"name": "慢性痛 (Chronic Pain)",
+			"name": "慢性の痛み (Chronic Pain)",
 			"reference": "B126",
 			"tags": [
 				"Disadvantage",
@@ -4145,7 +4145,7 @@
 				},
 				{
 					"id": "Mmy64DHBN5HyrP-vq",
-					"name": "出現頻度 (Frequency of Appearance)",
+					"name": "登場頻度 (Frequency of Appearance)",
 					"children": [
 						{
 							"id": "mXlm7b0Z0g9iWGDqW",
@@ -4634,7 +4634,7 @@
 		},
 		{
 			"id": "tXnB__Om4YM2hwTL7",
-			"name": "冷血動物 (Cold-Blooded)",
+			"name": "変温動物 (Cold-Blooded)",
 			"reference": "B127",
 			"local_notes": "50度未満",
 			"tags": [
@@ -4656,7 +4656,7 @@
 		},
 		{
 			"id": "t0ro1CL8F4OznP2Iq",
-			"name": "冷血動物 (Cold-Blooded)",
+			"name": "変温動物 (Cold-Blooded)",
 			"reference": "B127",
 			"local_notes": "65度未満",
 			"tags": [
@@ -4678,7 +4678,7 @@
 		},
 		{
 			"id": "tyVBpBR5-Ca0VD1Kd",
-			"name": "色盲 (Colorblindness)",
+			"name": "色覚異常 (Colorblindness)",
 			"reference": "B127",
 			"tags": [
 				"Disadvantage",
@@ -4747,7 +4747,7 @@
 		},
 		{
 			"id": "trdRnHewvO9QjUZDJ",
-			"name": "戦闘時の硬直 (Combat Paralysis)",
+			"name": "戦闘硬直 (Combat Paralysis)",
 			"reference": "B127",
 			"local_notes": "身の危険が差し迫ったと思える状況では、HT判定を行う。戦う、逃げる、引き金を引くなどが必要になる瞬間まで振らない。HT14以上でも、13を超える出目はすべて失敗。成功すれば通常どおり行動できる。失敗すると精神的に朦朧状態になる。",
 			"tags": [
@@ -4877,7 +4877,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "無一文 (Dead Broke)"
+							"qualifier": "どん底 (Dead Broke)"
 						}
 					},
 					{
@@ -4885,7 +4885,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "貧乏 (Poor)"
+							"qualifier": "赤貧 (Poor)"
 						}
 					},
 					{
@@ -4893,7 +4893,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "苦闘 (Struggling)"
+							"qualifier": "貧乏 (Struggling)"
 						}
 					},
 					{
@@ -6019,7 +6019,7 @@
 							"id": "mTxwPrj2QOL79_Emh",
 							"name": "硬化 (Hardened)",
 							"reference": "B47",
-							"local_notes": "装甲除数を<script>self.level === 1 ? \"1段階\" : `${self.level}段階`</script>下げる: 「DR無視」→100→10→5→3→2→「除数なし」",
+							"local_notes": "徹甲除数を<script>self.level === 1 ? \"1段階\" : `${self.level}段階`</script>下げる: 「DR無視」→100→10→5→3→2→「除数なし」",
 							"cost_adj": "20%",
 							"levels": 1,
 							"disabled": true,
@@ -6201,7 +6201,7 @@
 									"id": "m82EYyrIt9oPcHoUi",
 									"name": "まれ (Rare)",
 									"reference": "H14,B46",
-									"local_notes": "非常に狭い: ドラゴンの炎、貫通する鉛、珍しい物質 (銀など) など。くせの価値しかない",
+									"local_notes": "非常に狭い: ドラゴンの炎、貫通する鉛、珍しい物質 (銀など) など。癖の価値しかない",
 									"nameables": {
 										"天敵": {
 											"label": "天敵",
@@ -6538,7 +6538,7 @@
 		},
 		{
 			"id": "tw71iZfV_lekRjlBO",
-			"name": "無一文 (Dead Broke)",
+			"name": "どん底 (Dead Broke)",
 			"reference": "B25, L8, DFA67, DW33",
 			"local_notes": "開始時の富は0",
 			"tags": [
@@ -6563,7 +6563,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "貧乏 (Poor)"
+							"qualifier": "赤貧 (Poor)"
 						}
 					},
 					{
@@ -6571,7 +6571,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "苦闘 (Struggling)"
+							"qualifier": "貧乏 (Struggling)"
 						}
 					},
 					{
@@ -6623,7 +6623,7 @@
 		},
 		{
 			"id": "txG7BeWM5kivLaWkW",
-			"name": "聾 (Deafness)",
+			"name": "聴覚障害 (Deafness)",
 			"reference": "B129",
 			"tags": [
 				"Disadvantage",
@@ -6637,7 +6637,7 @@
 		},
 		{
 			"id": "tNHz23N7hxglFkVlr",
-			"name": "負債 (Debt)",
+			"name": "借金 (Debt)",
 			"reference": "B26",
 			"tags": [
 				"Disadvantage",
@@ -7595,7 +7595,7 @@
 		},
 		{
 			"id": "tErK4cLrSt07-XLYQ",
-			"name": "目立つ特徴 (Distinctive Features)",
+			"name": "目立つ外見 (Distinctive Features)",
 			"reference": "B165",
 			"tags": [
 				"Physical",
@@ -7653,7 +7653,7 @@
 		},
 		{
 			"id": "tHa_LwEUawGsB_vO2",
-			"name": "不快な声 (Disturbing Voice)",
+			"name": "耳障りな声 (Disturbing Voice)",
 			"reference": "B132",
 			"tags": [
 				"Disadvantage",
@@ -7899,7 +7899,7 @@
 		},
 		{
 			"id": "tejcILTE2a599hIGr",
-			"name": "吸収 (Draining)",
+			"name": "HP消耗 (Draining)",
 			"reference": "B132",
 			"tags": [
 				"Disadvantage",
@@ -8112,7 +8112,7 @@
 		},
 		{
 			"id": "t1HUGl4o498iCyvrw",
-			"name": "義務 (@義務@) (Duty)",
+			"name": "使命 (@義務@) (Duty)",
 			"reference": "B133",
 			"tags": [
 				"Disadvantage",
@@ -8333,7 +8333,7 @@
 		},
 		{
 			"id": "toRWQC_wqLurdUtig",
-			"name": "電気的 (Electrical)",
+			"name": "電気式 (Electrical)",
 			"reference": "B134",
 			"tags": [
 				"Disadvantage",
@@ -8899,7 +8899,7 @@
 		},
 		{
 			"id": "tI76H2W3gXER916--",
-			"name": "てんかん (Epilepsy)",
+			"name": "痙攣発作 (Epilepsy)",
 			"reference": "B136",
 			"local_notes": "ストレスのかかる状況 (特に自分や友人の命が脅かされているとき) では、HT判定を行う。何らかの恐怖症がある場合、恐怖の対象にさらされることもストレスのかかる状況に数え、10分に1回HT判定を行う。失敗すると1d分続く発作を起こし、FPを1d失う。その間は何もできない。",
 			"tags": [
@@ -9483,7 +9483,7 @@
 		},
 		{
 			"id": "tijmxMEy4B1uAVMr9",
-			"name": "長い睡眠 (Extra Sleep)",
+			"name": "睡眠過剰 (Extra Sleep)",
 			"reference": "B136",
 			"local_notes": "一晩ぐっすり休むには、レベルごとに1時間余計な睡眠が必要 (最大4)",
 			"tags": [
@@ -9872,7 +9872,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "無一文 (Dead Broke)"
+							"qualifier": "どん底 (Dead Broke)"
 						}
 					},
 					{
@@ -9880,7 +9880,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "貧乏 (Poor)"
+							"qualifier": "赤貧 (Poor)"
 						}
 					},
 					{
@@ -9888,7 +9888,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "苦闘 (Struggling)"
+							"qualifier": "貧乏 (Struggling)"
 						}
 					},
 					{
@@ -10264,7 +10264,7 @@
 		},
 		{
 			"id": "t6RcstWi0JhHcAtg2",
-			"name": "もろい (砕けやすい) (Fragile (Brittle))",
+			"name": "脆弱 (砕けやすい) (Fragile (Brittle))",
 			"reference": "B136",
 			"tags": [
 				"Disadvantage",
@@ -10278,7 +10278,7 @@
 		},
 		{
 			"id": "tJO2EgHdCWmlOCbxW",
-			"name": "もろい (可燃性) (Fragile (Combustible))",
+			"name": "脆弱 (可燃性) (Fragile (Combustible))",
 			"reference": "B136",
 			"tags": [
 				"Disadvantage",
@@ -10292,7 +10292,7 @@
 		},
 		{
 			"id": "tgHdn0w2iT_VtYBva",
-			"name": "もろい (爆発性) (Fragile (Explosive))",
+			"name": "脆弱 (爆発性) (Fragile (Explosive))",
 			"reference": "B137",
 			"tags": [
 				"Disadvantage",
@@ -10306,7 +10306,7 @@
 		},
 		{
 			"id": "txRUty6iTw5QaXObe",
-			"name": "もろい (引火性) (Fragile (Flammable))",
+			"name": "脆弱 (引火性) (Fragile (Flammable))",
 			"reference": "B137",
 			"tags": [
 				"Disadvantage",
@@ -10320,7 +10320,7 @@
 		},
 		{
 			"id": "tnmgpRDKPeMoTM6Qu",
-			"name": "もろい (不自然) (Fragile (Unnatural))",
+			"name": "脆弱 (不自然) (Fragile (Unnatural))",
 			"reference": "B137",
 			"local_notes": "-HP以下になった場合、生き延びるためのHT判定に自動的に失敗する",
 			"tags": [
@@ -10393,7 +10393,7 @@
 		},
 		{
 			"id": "tIir5i3ZjJJyWwpxI",
-			"name": "G不耐性 (0.1G刻み) (G-Intolerance (0.1G increment))",
+			"name": "重力変化に弱い (0.1G刻み) (G-Intolerance (0.1G increment))",
 			"reference": "B137",
 			"tags": [
 				"Disadvantage",
@@ -10406,7 +10406,7 @@
 		},
 		{
 			"id": "tY2N_X_6hN1l-k1hR",
-			"name": "G不耐性 (0.05G刻み) (G-Intolerance (0.05G increment))",
+			"name": "重力変化に弱い (0.05G刻み) (G-Intolerance (0.05G increment))",
 			"reference": "B137",
 			"tags": [
 				"Disadvantage",
@@ -10831,7 +10831,7 @@
 		},
 		{
 			"id": "tx3gYRgamuFWB9JPN",
-			"name": "不器用な手 (Ham-Fisted)",
+			"name": "手先が不器用 (Ham-Fisted)",
 			"reference": "B138",
 			"tags": [
 				"Disadvantage",
@@ -11718,7 +11718,7 @@
 		},
 		{
 			"id": "tRew_hxLFtYOx0922",
-			"name": "水平姿勢 (Horizontal)",
+			"name": "爬行姿勢 (Horizontal)",
 			"reference": "B139",
 			"tags": [
 				"Disadvantage",
@@ -11732,7 +11732,7 @@
 		},
 		{
 			"id": "tiXxqmVkaGV5-ZSre",
-			"name": "ひどい二日酔い (Horrible Hangovers)",
+			"name": "二日酔いがひどい (Horrible Hangovers)",
 			"reference": "B165",
 			"tags": [
 				"Physical",
@@ -11765,7 +11765,7 @@
 		},
 		{
 			"id": "tI03ZPjKS2-0VuizZ",
-			"name": "せむし (Hunchback)",
+			"name": "猫背 (Hunchback)",
 			"reference": "B139",
 			"tags": [
 				"Disadvantage",
@@ -12297,7 +12297,7 @@
 		},
 		{
 			"id": "te2vFre2KU0dZrDgd",
-			"name": "消費量の増加 (Increased Consumption)",
+			"name": "消費が多い (Increased Consumption)",
 			"reference": "B139",
 			"tags": [
 				"Disadvantage",
@@ -12418,7 +12418,7 @@
 		},
 		{
 			"id": "tcdYImYeTL9MuZ239",
-			"name": "生命維持の強化 (極寒、0度以下) (Increased Life Support (Extreme Cold, below 0))",
+			"name": "生活条件が厳しい (極寒、0度以下) (Increased Life Support (Extreme Cold, below 0))",
 			"reference": "B139",
 			"tags": [
 				"Disadvantage",
@@ -12432,7 +12432,7 @@
 		},
 		{
 			"id": "tzeoGWGyKqnfD8BP_",
-			"name": "生命維持の強化 (極熱、200度以上) (Increased Life Support (Extreme Heat, above 200))",
+			"name": "生活条件が厳しい (極熱、200度以上) (Increased Life Support (Extreme Heat, above 200))",
 			"reference": "B139",
 			"tags": [
 				"Disadvantage",
@@ -12446,7 +12446,7 @@
 		},
 		{
 			"id": "trFSUyuFmYEmJ7RnS",
-			"name": "生命維持の強化 (大質量) (Increased Life Support (Massive))",
+			"name": "生活条件が厳しい (大質量) (Increased Life Support (Massive))",
 			"reference": "B139",
 			"tags": [
 				"Disadvantage",
@@ -12460,7 +12460,7 @@
 		},
 		{
 			"id": "tuOnuJIL5x4ORrk93",
-			"name": "生命維持の強化 (与圧) (Increased Life Support (Pressurized))",
+			"name": "生活条件が厳しい (与圧) (Increased Life Support (Pressurized))",
 			"reference": "B139",
 			"tags": [
 				"Disadvantage",
@@ -12474,7 +12474,7 @@
 		},
 		{
 			"id": "t7w2lxfWlJAUp0OUl",
-			"name": "生命維持の強化 (放射能) (Increased Life Support (Radioactive))",
+			"name": "生活条件が厳しい (放射能) (Increased Life Support (Radioactive))",
 			"reference": "B139",
 			"tags": [
 				"Disadvantage",
@@ -12684,7 +12684,7 @@
 		},
 		{
 			"id": "t-ZNx5ZaorWdo5A4p",
-			"name": "感染攻撃 (Infectious Attack)",
+			"name": "伝染性の攻撃 (Infectious Attack)",
 			"reference": "B140",
 			"tags": [
 				"Disadvantage",
@@ -20804,7 +20804,7 @@
 		},
 		{
 			"id": "te50zSn72hOlD7bsp",
-			"name": "興ざまし (Killjoy)",
+			"name": "快楽を感じない (Killjoy)",
 			"reference": "B140",
 			"tags": [
 				"Disadvantage",
@@ -20875,7 +20875,7 @@
 		},
 		{
 			"id": "tuYiQV8SE62EPDnuX",
-			"name": "ドジ (Klutz)",
+			"name": "そそっかしい (Klutz)",
 			"reference": "B141",
 			"tags": [
 				"Disadvantage",
@@ -20912,7 +20912,7 @@
 		},
 		{
 			"id": "tWxf5xaLhR2u0HTIG",
-			"name": "足が不自由 (脚の障害) (Lame (Crippled Legs))",
+			"name": "歩行障害 (脚の障害) (Lame (Crippled Legs))",
 			"reference": "B141",
 			"local_notes": "基本移動力を基本反応速度の半分 (端数切り捨て) に下げなければならない",
 			"tags": [
@@ -20943,7 +20943,7 @@
 		},
 		{
 			"id": "t913yYdCVbggpDJhW",
-			"name": "足が不自由 (脚なし) (Lame (Legless))",
+			"name": "歩行障害 (脚なし) (Lame (Legless))",
 			"reference": "B141",
 			"local_notes": "立つ、蹴る、歩くことが一切できず、基本移動力を0に下げなければならない。",
 			"tags": [
@@ -20974,7 +20974,7 @@
 		},
 		{
 			"id": "tdHCO1x1tJFdvEQfY",
-			"name": "足が不自由 (脚の欠損) (Lame (Missing Legs))",
+			"name": "歩行障害 (脚の欠損) (Lame (Missing Legs))",
 			"reference": "B141",
 			"local_notes": "松葉杖や義足を使えば、立ってゆっくり歩ける。基本移動力を2に下げなければならない。",
 			"tags": [
@@ -21005,7 +21005,7 @@
 		},
 		{
 			"id": "t_BtPkfku8hF5OeUx",
-			"name": "足が不自由 (下半身不随) (Lame (Paraplegic))",
+			"name": "歩行障害 (下半身不随) (Lame (Paraplegic))",
 			"reference": "B141",
 			"local_notes": "立つ、蹴る、歩くことが一切できず、基本移動力を0に下げなければならない。",
 			"tags": [
@@ -21524,7 +21524,7 @@
 		},
 		{
 			"id": "tOW5XqmChX0NBm1AP",
-			"name": "浅い眠り (Light Sleeper)",
+			"name": "眠りが浅い (Light Sleeper)",
 			"reference": "B142",
 			"local_notes": "寝心地の悪い場所で眠るとき、またはわずかでも物音がするときは、眠りにつくためにHT判定が必要。失敗した場合は1時間後に再挑戦できるが、1時間睡眠を逃したときの通常の影響をすべて受ける。",
 			"tags": [
@@ -22296,7 +22296,7 @@
 		},
 		{
 			"id": "t6VlhoSldlKRmJr7i",
-			"name": "整備 (Maintenance)",
+			"name": "メンテナンスが必要 (Maintenance)",
 			"reference": "B143",
 			"tags": [
 				"Disadvantage",
@@ -23428,7 +23428,7 @@
 		},
 		{
 			"id": "tel6cl0F0UBDR4oHY",
-			"name": "軽度の障害 (@身体部位@) (Minor Handicap)",
+			"name": "ささいな障害 (@身体部位@) (Minor Handicap)",
 			"reference": "B165",
 			"tags": [
 				"Physical",
@@ -23463,7 +23463,7 @@
 		},
 		{
 			"id": "tnMlqrLVW5IyncOKR",
-			"name": "指の欠損 (Missing Digit)",
+			"name": "指がない (Missing Digit)",
 			"reference": "B144",
 			"tags": [
 				"Disadvantage",
@@ -23493,7 +23493,7 @@
 		},
 		{
 			"id": "tA2kO97qZ1N0FBSi0",
-			"name": "人違いされる (Mistaken Identity)",
+			"name": "似た人がいる (Mistaken Identity)",
 			"reference": "B21",
 			"tags": [
 				"Disadvantage",
@@ -24106,7 +24106,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "無一文 (Dead Broke)"
+							"qualifier": "どん底 (Dead Broke)"
 						}
 					},
 					{
@@ -24114,7 +24114,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "貧乏 (Poor)"
+							"qualifier": "赤貧 (Poor)"
 						}
 					},
 					{
@@ -24122,7 +24122,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "苦闘 (Struggling)"
+							"qualifier": "貧乏 (Struggling)"
 						}
 					},
 					{
@@ -24287,7 +24287,7 @@
 		},
 		{
 			"id": "toAEHwADJ2LRiUbRn",
-			"name": "神経障害 (重度) (Neurological Disorder (Crippling))",
+			"name": "神経疾患 (重度) (Neurological Disorder (Crippling))",
 			"reference": "B144",
 			"tags": [
 				"Disadvantage",
@@ -24428,7 +24428,7 @@
 		},
 		{
 			"id": "tc1XFVKC5J2qshUbj",
-			"name": "神経障害 (軽度) (Neurological Disorder (Mild))",
+			"name": "神経疾患 (軽度) (Neurological Disorder (Mild))",
 			"reference": "B144",
 			"tags": [
 				"Disadvantage",
@@ -24569,7 +24569,7 @@
 		},
 		{
 			"id": "txou0zNYypZbr_rAm",
-			"name": "神経障害 (圧倒的) (Neurological Disorder (Overwhelming))",
+			"name": "神経疾患 (圧倒的) (Neurological Disorder (Overwhelming))",
 			"reference": "B144",
 			"reference_highlight": "Overwhelming",
 			"tags": [
@@ -24711,7 +24711,7 @@
 		},
 		{
 			"id": "tW7ZO9gfM4YWHhGj6",
-			"name": "神経障害 (深刻) (Neurological Disorder (Severe))",
+			"name": "神経疾患 (深刻) (Neurological Disorder (Severe))",
 			"reference": "B144",
 			"tags": [
 				"Disadvantage",
@@ -24982,7 +24982,7 @@
 		},
 		{
 			"id": "t2KMOQYYPIHD_5HTz",
-			"name": "夜盲症 (Night Blindness)",
+			"name": "夜盲 (Night Blindness)",
 			"reference": "B144",
 			"local_notes": "ほとんどの人にとって暗さによる視覚・戦闘ペナルティが-1～-4のとき、あなたのペナルティは通常の2倍か-3のうち悪い方になる。通常のペナルティが-5以下なら、完全に盲目であるかのように行動する。鋭敏な視覚を持つ場合、それは暗闇のペナルティがない状況でのみ適用される。",
 			"tags": [
@@ -25050,7 +25050,7 @@
 		},
 		{
 			"id": "tYh-5Gh0yqaf5hQXh",
-			"name": "遠近感がない (No Depth Perception)",
+			"name": "深視力欠乏 (No Depth Perception)",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25089,7 +25089,7 @@
 		},
 		{
 			"id": "tvkUum_V1i7jyVLOV",
-			"name": "精密な操作器官がない (No Fine Manipulators)",
+			"name": "手がない (No Fine Manipulators)",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25280,7 +25280,7 @@
 		},
 		{
 			"id": "tpGiLpDpY0JDjAIxw",
-			"name": "操作器官がない (No Manipulators)",
+			"name": "手足がない (No Manipulators)",
 			"reference": "B145",
 			"tags": [
 				"Disadvantage",
@@ -25306,7 +25306,7 @@
 		},
 		{
 			"id": "t5IOcaWGg4has8rt_",
-			"name": "周辺視野がない (No Peripheral Vision)",
+			"name": "側面が見えない (No Peripheral Vision)",
 			"reference": "B151",
 			"local_notes": "視野は前方の120°の扇形。マップ上では「左」と「右」のヘクスが「後方」ヘクスになり、「後方」ヘクスが3つあって、そこからの攻撃には防御できない！",
 			"tags": [
@@ -25340,7 +25340,7 @@
 		},
 		{
 			"id": "tM_NtrhGdt7J7oETM",
-			"name": "嗅覚・味覚がない (No Sense of Smell/Taste)",
+			"name": "嗅覚・味覚消失 (No Sense of Smell/Taste)",
 			"reference": "B146",
 			"tags": [
 				"Disadvantage",
@@ -25353,7 +25353,7 @@
 		},
 		{
 			"id": "t8cCgDdfgoyiXJSYc",
-			"name": "夜行性 (Nocturnal)",
+			"name": "夜の住人 (Nocturnal)",
 			"reference": "B146",
 			"tags": [
 				"Disadvantage",
@@ -25461,7 +25461,7 @@
 		},
 		{
 			"id": "tLjJdINd7_EUwXEvg",
-			"name": "無感覚 (Numb)",
+			"name": "触覚がない (Numb)",
 			"reference": "B146",
 			"tags": [
 				"Disadvantage",
@@ -25756,7 +25756,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "遠近感がない (No Depth Perception)"
+							"qualifier": "深視力欠乏 (No Depth Perception)"
 						}
 					}
 				]
@@ -25851,7 +25851,7 @@
 		},
 		{
 			"id": "t13yTTSBQSX7LOZsh",
-			"name": "太り気味 (Overweight)",
+			"name": "太りぎみ (Overweight)",
 			"reference": "B19",
 			"tags": [
 				"Physical",
@@ -26768,7 +26768,7 @@
 		},
 		{
 			"id": "t-X2ObErkLG1c_UzW",
-			"name": "貧乏 (Poor)",
+			"name": "赤貧 (Poor)",
 			"reference": "B25, L8, DFA67, DW33",
 			"local_notes": "開始時の富は通常の1/5",
 			"tags": [
@@ -26793,7 +26793,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "無一文 (Dead Broke)"
+							"qualifier": "どん底 (Dead Broke)"
 						}
 					},
 					{
@@ -26801,7 +26801,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "苦闘 (Struggling)"
+							"qualifier": "貧乏 (Struggling)"
 						}
 					},
 					{
@@ -27447,7 +27447,7 @@
 		},
 		{
 			"id": "tzwWqmPfTlsc30PLS",
-			"name": "四肢麻痺 (Quadriplegic)",
+			"name": "四肢不全 (Quadriplegic)",
 			"reference": "B150",
 			"tags": [
 				"Disadvantage",
@@ -28167,7 +28167,7 @@
 		},
 		{
 			"id": "tgWXsWk0OXNHSxVtQ",
-			"name": "嫌悪 (@一般的な物質@) (Revulsion)",
+			"name": "弱点 (@一般的な物質@) (Revulsion)",
 			"reference": "B151",
 			"tags": [
 				"Disadvantage",
@@ -28181,7 +28181,7 @@
 		},
 		{
 			"id": "tyG1vfBDY9_MtB77N",
-			"name": "嫌悪 (@時々ある物質@) (Revulsion)",
+			"name": "弱点 (@時々ある物質@) (Revulsion)",
 			"reference": "B151",
 			"tags": [
 				"Disadvantage",
@@ -28195,7 +28195,7 @@
 		},
 		{
 			"id": "tchYMAAtvKA4q4glS",
-			"name": "嫌悪 (@非常に一般的な物質@) (Revulsion)",
+			"name": "弱点 (@非常に一般的な物質@) (Revulsion)",
 			"reference": "B151",
 			"tags": [
 				"Disadvantage",
@@ -28641,7 +28641,7 @@
 		},
 		{
 			"id": "tr50dTLVYH7iPjw-8",
-			"name": "秘密の身分 (@秘密の身分@) (Secret Identity)",
+			"name": "秘密の身元 (@秘密の身分@) (Secret Identity)",
 			"reference": "B152",
 			"tags": [
 				"Disadvantage",
@@ -28774,7 +28774,7 @@
 		},
 		{
 			"id": "t9Ayzq0-Ain8oiIM8",
-			"name": "自爆 (Self-Destruct)",
+			"name": "自己崩壊 (Self-Destruct)",
 			"reference": "B153",
 			"tags": [
 				"Disadvantage",
@@ -29506,7 +29506,7 @@
 		},
 		{
 			"id": "t9nyvI3uvjJi5aqF5",
-			"name": "短命 (Short Lifespan)",
+			"name": "寿命が短い (Short Lifespan)",
 			"reference": "B154",
 			"tags": [
 				"Disadvantage",
@@ -29909,7 +29909,7 @@
 		},
 		{
 			"id": "taEdO2Q-RgdH-CiHq",
-			"name": "痩せすぎ (Skinny)",
+			"name": "やせっぽち (Skinny)",
 			"reference": "B18",
 			"tags": [
 				"Disadvantage",
@@ -29990,7 +29990,7 @@
 		},
 		{
 			"id": "tUDjEi-C-T_MPu_5E",
-			"name": "眠たがり (Sleepy)",
+			"name": "睡眠時間が長い (Sleepy)",
 			"reference": "B154",
 			"tags": [
 				"Disadvantage",
@@ -30072,7 +30072,7 @@
 		},
 		{
 			"id": "teXHpDmoSZB1Wbkzp",
-			"name": "食べるのが遅い (Slow Eater)",
+			"name": "食事が遅い (Slow Eater)",
 			"reference": "B155",
 			"local_notes": "1回の食事に約2時間かかる (ほとんどの人間は約30分)。これにより、勉強、長い作業、徒歩での移動に使える時間が1日あたり4時間半減る。",
 			"tags": [
@@ -30087,7 +30087,7 @@
 		},
 		{
 			"id": "tUOjboNmcDxrvtvu3",
-			"name": "治りが遅い (Slow Healing)",
+			"name": "傷の回復が遅い (Slow Healing)",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30309,7 +30309,7 @@
 		},
 		{
 			"id": "tzEXfvFpH9GIhQHJd",
-			"name": "性病 (Social Disease)",
+			"name": "感染症 (Social Disease)",
 			"reference": "B155",
 			"local_notes": "それを知る者は、あなたの誘惑に自動的に抵抗する",
 			"tags": [
@@ -30356,7 +30356,7 @@
 		},
 		{
 			"id": "tSSmnBdJ1f7mFMRL5",
-			"name": "社会的烙印 (@烙印@) (Social Stigma)",
+			"name": "社会的弱者 (@烙印@) (Social Stigma)",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30431,7 +30431,7 @@
 		},
 		{
 			"id": "t7U0VbIzs6SqefwLr",
-			"name": "社会的烙印 (前科) (Social Stigma (Criminal Record))",
+			"name": "社会的弱者 (重犯罪歴) (Social Stigma (Criminal Record))",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30451,7 +30451,7 @@
 		},
 		{
 			"id": "t4Rx-hn_c_WqGIuHi",
-			"name": "社会的烙印 (勘当、非相続人) (Social Stigma (Disowned, Non-heir))",
+			"name": "社会的弱者 (絶縁・相続人でない) (Social Stigma (Disowned, Non-heir))",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30471,7 +30471,7 @@
 		},
 		{
 			"id": "tVtZXW1iMP4GMuRf1",
-			"name": "社会的烙印 (勘当、のけ者) (Social Stigma (Disowned, Outcast))",
+			"name": "社会的弱者 (絶縁・のけ者) (Social Stigma (Disowned, Outcast))",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30491,7 +30491,7 @@
 		},
 		{
 			"id": "t6lZBFG82MDH9z04N",
-			"name": "社会的烙印 (破門) (Social Stigma (Excommunicated))",
+			"name": "社会的弱者 (破門) (Social Stigma (Excommunicated))",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30511,7 +30511,7 @@
 		},
 		{
 			"id": "teP_sgqvOvT8BQejA",
-			"name": "社会的烙印 (破門) (Social Stigma (Excommunicated))",
+			"name": "社会的弱者 (破門) (Social Stigma (Excommunicated))",
 			"reference": "B155",
 			"local_notes": "邪悪なオーラ",
 			"tags": [
@@ -30532,7 +30532,7 @@
 		},
 		{
 			"id": "t6Qd4xhNyE5TIkX3W",
-			"name": "社会的烙印 (無知; @技能@) (Social Stigma (Ignorant))",
+			"name": "社会的弱者 (必須の技能を知らない; @技能@) (Social Stigma (Ignorant))",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30561,7 +30561,7 @@
 		},
 		{
 			"id": "tetv_QHXXaJpFToiz",
-			"name": "社会的烙印 (軽度) (Social Stigma (Minor))",
+			"name": "社会的弱者 (未成年) (Social Stigma (Minor))",
 			"reference": "B155",
 			"local_notes": "その文化の基準では未成年。その時代・場所の「成人年齢」(通常は18歳) に達したら、この特徴を買い戻さなければならない。",
 			"tags": [
@@ -30582,7 +30582,7 @@
 		},
 		{
 			"id": "tCidFlSADk-zraK1o",
-			"name": "社会的烙印 (少数集団) (Social Stigma (Minority Group))",
+			"name": "社会的弱者 (少数派) (Social Stigma (Minority Group))",
 			"reference": "B155",
 			"local_notes": "周囲の支配的な文化から「野蛮人」や「劣った者」と見なされる少数派の一員。",
 			"tags": [
@@ -30608,7 +30608,7 @@
 		},
 		{
 			"id": "tADHt96N0YvzBBqMQ",
-			"name": "社会的烙印 (怪物) (Social Stigma (Monster))",
+			"name": "社会的弱者 (怪物) (Social Stigma (Monster))",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30637,7 +30637,7 @@
 		},
 		{
 			"id": "tkchRxKpwct0fHH7U",
-			"name": "社会的烙印 (二級市民) (Social Stigma (Second-Class Citizen))",
+			"name": "社会的弱者 (二等市民) (Social Stigma (Second-Class Citizen))",
 			"reference": "B155",
 			"local_notes": "「完全な市民」より少ない権利や特権しか持たない集団に属する。",
 			"tags": [
@@ -30658,7 +30658,7 @@
 		},
 		{
 			"id": "tENzoiBHjd1QVM1vs",
-			"name": "社会的烙印 (被支配) (Social Stigma (Subjugated))",
+			"name": "社会的弱者 (被支配種族) (Social Stigma (Subjugated))",
 			"reference": "B155",
 			"tags": [
 				"Disadvantage",
@@ -30678,7 +30678,7 @@
 		},
 		{
 			"id": "tlCuUK0YaDVALIxPZ",
-			"name": "社会的烙印 (無教育) (Social Stigma (Uneducated))",
+			"name": "社会的弱者 (教育されていない) (Social Stigma (Uneducated))",
 			"reference": "B156",
 			"tags": [
 				"Disadvantage",
@@ -30698,7 +30698,7 @@
 		},
 		{
 			"id": "tLQKF9eUQ9wM7pDRJ",
-			"name": "社会的烙印 (貴重な財産) (Social Stigma (Valuable Property))",
+			"name": "社会的弱者 (価値ある財産) (Social Stigma (Valuable Property))",
 			"reference": "B156",
 			"tags": [
 				"Disadvantage",
@@ -31273,7 +31273,7 @@
 		},
 		{
 			"id": "trgleL6LZZ7FUDMEB",
-			"name": "苦闘 (Struggling)",
+			"name": "貧乏 (Struggling)",
 			"reference": "B25, L8, DFA67, DW33",
 			"local_notes": "開始時の富は通常の1/2",
 			"tags": [
@@ -31298,7 +31298,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "無一文 (Dead Broke)"
+							"qualifier": "どん底 (Dead Broke)"
 						}
 					},
 					{
@@ -31306,7 +31306,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "貧乏 (Poor)"
+							"qualifier": "赤貧 (Poor)"
 						}
 					},
 					{
@@ -31378,7 +31378,7 @@
 		},
 		{
 			"id": "t-2sTLqD5b68AuEhY",
-			"name": "どもり (Stuttering)",
+			"name": "吃音 (Stuttering)",
 			"reference": "B157",
 			"tags": [
 				"Disadvantage",
@@ -31708,7 +31708,7 @@
 		},
 		{
 			"id": "t1iVqO3Y2rUkguVzt",
-			"name": "超常的な外見 (Supernatural Features)",
+			"name": "超常的な特性 (Supernatural Features)",
 			"reference": "B157",
 			"tags": [
 				"Disadvantage",
@@ -34324,7 +34324,7 @@
 		},
 		{
 			"id": "t4idKrZuFXq9pkIp5",
-			"name": "不治の病 (Terminally Ill)",
+			"name": "死の秒読み (Terminally Ill)",
 			"reference": "B158",
 			"tags": [
 				"Disadvantage",
@@ -34871,7 +34871,7 @@
 		},
 		{
 			"id": "tItKCGaV9UN_W1pVs",
-			"name": "虚弱 (Unfit)",
+			"name": "不健康 (Unfit)",
 			"reference": "B160",
 			"local_notes": "FPを通常の2倍の速さで失う",
 			"tags": [
@@ -34892,7 +34892,7 @@
 		},
 		{
 			"id": "tQfC-R2MzDkPIumNn",
-			"name": "治癒しない (部分的) (Unhealing (Partial))",
+			"name": "自然治癒しない (部分的) (Unhealing (Partial))",
 			"reference": "B160",
 			"tags": [
 				"Disadvantage",
@@ -34906,7 +34906,7 @@
 		},
 		{
 			"id": "tYbn-MTLMV_UnI4js",
-			"name": "治癒しない (完全) (Unhealing (Total))",
+			"name": "自然治癒しない (完全) (Unhealing (Total))",
 			"reference": "B160",
 			"tags": [
 				"Disadvantage",
@@ -35070,7 +35070,7 @@
 		},
 		{
 			"id": "t_ZUyO0Xhmi2p0Vku",
-			"name": "不自然な外見 (@描写@) (Unnatural Features)",
+			"name": "変形部位 (@描写@) (Unnatural Features)",
 			"reference": "B22",
 			"tags": [
 				"Disadvantage",
@@ -35122,7 +35122,7 @@
 		},
 		{
 			"id": "tEYEuzMtxSsWCG7uW",
-			"name": "特異な生化学 (Unusual Biochemistry)",
+			"name": "特殊な生理反応 (Unusual Biochemistry)",
 			"reference": "B160",
 			"tags": [
 				"Disadvantage",
@@ -35334,7 +35334,7 @@
 		},
 		{
 			"id": "t5g6bNO5HiThCJ7_D",
-			"name": "非常に虚弱 (Very Unfit)",
+			"name": "非常に不健康 (Very Unfit)",
 			"reference": "B160",
 			"local_notes": "FPを通常の2倍の速さで失い、通常の半分の速さでしか回復しない",
 			"tags": [
@@ -35394,7 +35394,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "無一文 (Dead Broke)"
+							"qualifier": "どん底 (Dead Broke)"
 						}
 					},
 					{
@@ -35402,7 +35402,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "貧乏 (Poor)"
+							"qualifier": "赤貧 (Poor)"
 						}
 					},
 					{
@@ -35410,7 +35410,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "苦闘 (Struggling)"
+							"qualifier": "貧乏 (Struggling)"
 						}
 					},
 					{
@@ -35693,7 +35693,7 @@
 		},
 		{
 			"id": "tgZ_USe8H3_wWhOHm",
-			"name": "弱点 (Vulnerability)",
+			"name": "弱み (Vulnerability)",
 			"reference": "B161",
 			"tags": [
 				"Disadvantage",
@@ -36293,7 +36293,7 @@
 		},
 		{
 			"id": "t43CiO3JT0jXpJP_o",
-			"name": "弱い噛みつき (Weak Bite)",
+			"name": "噛む力が弱い (Weak Bite)",
 			"reference": "B161",
 			"tags": [
 				"Animal",
@@ -36337,7 +36337,7 @@
 		},
 		{
 			"id": "tkruLIseh5plYfwvK",
-			"name": "虚弱体質 (Weakness)",
+			"name": "苦手 (Weakness)",
 			"reference": "B161",
 			"tags": [
 				"Disadvantage",
@@ -36440,7 +36440,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "無一文 (Dead Broke)"
+							"qualifier": "どん底 (Dead Broke)"
 						}
 					},
 					{
@@ -36448,7 +36448,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "貧乏 (Poor)"
+							"qualifier": "赤貧 (Poor)"
 						}
 					},
 					{
@@ -36456,7 +36456,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "苦闘 (Struggling)"
+							"qualifier": "貧乏 (Struggling)"
 						}
 					},
 					{
@@ -36693,7 +36693,7 @@
 		},
 		{
 			"id": "tAKQUtRTjZeOEbA5y",
-			"name": "負傷 (Wounded)",
+			"name": "傷 (Wounded)",
 			"reference": "B162",
 			"tags": [
 				"Disadvantage",

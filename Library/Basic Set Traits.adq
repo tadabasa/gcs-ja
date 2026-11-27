@@ -245,7 +245,7 @@
 							"selection_type": "skills_with_name",
 							"name": {
 								"compare": "is",
-								"qualifier": "曲技飛行 (Aerobatics)"
+								"qualifier": "曲芸飛行 (Aerobatics)"
 							},
 							"amount": 2
 						},
@@ -254,7 +254,7 @@
 							"selection_type": "skills_with_name",
 							"name": {
 								"compare": "is",
-								"qualifier": "自由落下 (Free Fall)"
+								"qualifier": "無重力 (Free Fall)"
 							},
 							"amount": 2
 						},
@@ -1447,7 +1447,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -1458,7 +1458,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -3404,7 +3404,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -3415,7 +3415,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -4037,7 +4037,7 @@
 		},
 		{
 			"id": "t0eVKnl-kbhJzS6cL",
-			"name": "仲間意識が強い (Chauvinistic)",
+			"name": "やや排他的 (Chauvinistic)",
 			"reference": "B163",
 			"tags": [
 				"Mental",
@@ -7119,7 +7119,7 @@
 				},
 				{
 					"id": "mwEEsdBfFfNCdaRqZ",
-					"name": "加齢 (Aging)",
+					"name": "老化 (Aging)",
 					"reference": "B130",
 					"local_notes": "この依存のために失ったHP 1ごとに2歳老ける",
 					"cost_adj": "30%",
@@ -8682,7 +8682,7 @@
 				},
 				{
 					"id": "mgms7_KVHSh5fFKdQ",
-					"name": "宇宙的 (Cosmic)",
+					"name": "宇宙パワー (Cosmic)",
 					"reference": "SU26",
 					"local_notes": "瞬間的な加速",
 					"cost_adj": "50%",
@@ -8690,7 +8690,7 @@
 				},
 				{
 					"id": "mNAbgjziq1M56eyxs",
-					"name": "宇宙的 (Cosmic)",
+					"name": "宇宙パワー (Cosmic)",
 					"reference": "SU27",
 					"local_notes": "完全な機動性",
 					"cost_adj": "50%",
@@ -13492,7 +13492,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -13503,7 +13503,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -14204,7 +14204,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -14215,7 +14215,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -14823,7 +14823,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -14834,7 +14834,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -15443,7 +15443,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -15454,7 +15454,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -16187,7 +16187,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -16198,7 +16198,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -16806,7 +16806,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -16817,7 +16817,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -17425,7 +17425,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -17436,7 +17436,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -18059,7 +18059,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -18070,7 +18070,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -18693,7 +18693,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -18704,7 +18704,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -19313,7 +19313,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -19324,7 +19324,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -20032,7 +20032,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"specialization": {
 								"compare": "is",
@@ -20043,7 +20043,7 @@
 							"type": "skill",
 							"name": {
 								"compare": "is",
-								"qualifier": "生来の攻撃 (Innate Attack)"
+								"qualifier": "特殊攻撃 (Innate Attack)"
 							},
 							"modifier": -2
 						},
@@ -21084,61 +21084,61 @@
 				},
 				{
 					"id": "mV0rSv1Gy7ewmWN9R",
-					"name": "口語 (Spoken)",
+					"name": "話し言葉 (Spoken)",
 					"reference": "B24",
-					"local_notes": "なし",
+					"local_notes": "わからない",
 					"disabled": true
 				},
 				{
 					"id": "mug1KQtWB_7W1tX4Y",
-					"name": "口語 (Spoken)",
+					"name": "話し言葉 (Spoken)",
 					"reference": "B24",
-					"local_notes": "壊れている",
+					"local_notes": "カタコト",
 					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "mgrc2vgOzAxWOZZkh",
-					"name": "口語 (Spoken)",
+					"name": "話し言葉 (Spoken)",
 					"reference": "B24",
 					"local_notes": "なまりがある",
 					"cost_adj": "2"
 				},
 				{
 					"id": "mwuNCQGVTYqtk7HoN",
-					"name": "口語 (Spoken)",
+					"name": "話し言葉 (Spoken)",
 					"reference": "B24",
-					"local_notes": "母語",
+					"local_notes": "母語レベル",
 					"cost_adj": "3",
 					"disabled": true
 				},
 				{
 					"id": "ms1sy-pok847luQ-Z",
-					"name": "文語 (Written)",
+					"name": "書き言葉 (Written)",
 					"reference": "B24",
-					"local_notes": "なし",
+					"local_notes": "わからない",
 					"disabled": true
 				},
 				{
 					"id": "mvnaY2g__eAf4A1Nq",
-					"name": "文語 (Written)",
+					"name": "書き言葉 (Written)",
 					"reference": "B24",
-					"local_notes": "壊れている",
+					"local_notes": "カタコト",
 					"cost_adj": "1",
 					"disabled": true
 				},
 				{
 					"id": "mqRs0mpk9UnRqT6OY",
-					"name": "文語 (Written)",
+					"name": "書き言葉 (Written)",
 					"reference": "B24",
 					"local_notes": "なまりがある",
 					"cost_adj": "2"
 				},
 				{
 					"id": "mHNFSyWAL4HOlu5DK",
-					"name": "文語 (Written)",
+					"name": "書き言葉 (Written)",
 					"reference": "B24",
-					"local_notes": "母語",
+					"local_notes": "母語レベル",
 					"cost_adj": "3",
 					"disabled": true
 				}
@@ -21181,31 +21181,31 @@
 				},
 				{
 					"id": "maUpNTnTimWGv3z8z",
-					"name": "口語 (Spoken)",
+					"name": "話し言葉 (Spoken)",
 					"reference": "B24",
 					"local_notes": "なまりがある",
 					"cost_adj": "1"
 				},
 				{
 					"id": "mAM1Ffabs3hlUCPX2",
-					"name": "口語 (Spoken)",
+					"name": "話し言葉 (Spoken)",
 					"reference": "B24",
-					"local_notes": "母語",
+					"local_notes": "母語レベル",
 					"cost_adj": "2",
 					"disabled": true
 				},
 				{
 					"id": "merIelQu4kHEqDjJj",
-					"name": "文語 (Written)",
+					"name": "書き言葉 (Written)",
 					"reference": "B24",
 					"local_notes": "なまりがある",
 					"cost_adj": "1"
 				},
 				{
 					"id": "mf3KU8BrE_bRFMD18",
-					"name": "文語 (Written)",
+					"name": "書き言葉 (Written)",
 					"reference": "B24",
-					"local_notes": "母語",
+					"local_notes": "母語レベル",
 					"cost_adj": "2",
 					"disabled": true
 				}
@@ -21743,7 +21743,7 @@
 			"id": "thdJ55ghf__io9AQa",
 			"name": "老化しにくい (Longevity)",
 			"reference": "B66",
-			"local_notes": "加齢判定は、出目が17か18のときのみ失敗する (修正後のHTが17以上なら18のときのみ)",
+			"local_notes": "老化判定は、出目が17か18のときのみ失敗する (修正後のHTが17以上なら18のときのみ)",
 			"tags": [
 				"Advantage",
 				"Physical"
@@ -22192,7 +22192,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "魔術論 (Thaumatology)"
+						"qualifier": "魔法学 (Thaumatology)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -23927,7 +23927,7 @@
 				},
 				{
 					"id": "m2p03g2iPMGt8yL0H",
-					"name": "宇宙的 (即席の形態用) (Cosmic (For Improvised Forms))",
+					"name": "宇宙パワー (即席の形態用) (Cosmic (For Improvised Forms))",
 					"reference": "P75",
 					"cost_adj": "50%",
 					"affects": "base_only",
@@ -24017,7 +24017,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "操艦 (Shiphandling)"
+							"qualifier": "操船 (Shiphandling)"
 						}
 					},
 					{
@@ -24025,7 +24025,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "航海術 (Seamanship)"
+							"qualifier": "船員 (Seamanship)"
 						}
 					},
 					{
@@ -24041,7 +24041,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "操船 (Boating)"
+							"qualifier": "ボート (Boating)"
 						}
 					},
 					{
@@ -24049,7 +24049,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "飛行船乗り (Airshipman)"
+							"qualifier": "飛行士 (Airshipman)"
 						}
 					},
 					{
@@ -26379,7 +26379,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "曲技飛行 (Aerobatics)"
+						"qualifier": "曲芸飛行 (Aerobatics)"
 					},
 					"amount": 1
 				},
@@ -26388,7 +26388,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "水中アクロバット (Aquabatics)"
+						"qualifier": "曲泳 (Aquabatics)"
 					},
 					"amount": 1
 				},
@@ -28345,7 +28345,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "魔術論 (Thaumatology)"
+						"qualifier": "魔法学 (Thaumatology)"
 					},
 					"amount": 1,
 					"per_level": true
@@ -29743,7 +29743,7 @@
 					"id": "mHK3e3fIPlIvwiF6U",
 					"name": "署名あり (Signed)",
 					"reference": "B24",
-					"local_notes": "壊れている",
+					"local_notes": "カタコト",
 					"cost_adj": "1",
 					"disabled": true
 				},
@@ -29759,7 +29759,7 @@
 					"id": "mm9zw5_lP97O_o2bb",
 					"name": "署名あり (Signed)",
 					"reference": "B24",
-					"local_notes": "母語",
+					"local_notes": "母語レベル",
 					"cost_adj": "3",
 					"disabled": true
 				}
@@ -29813,7 +29813,7 @@
 					"id": "mVJcpuLVjXVmqKWCA",
 					"name": "署名あり (Signed)",
 					"reference": "B24",
-					"local_notes": "母語",
+					"local_notes": "母語レベル",
 					"cost_adj": "2",
 					"disabled": true
 				}
@@ -30726,7 +30726,7 @@
 						"has": false,
 						"name": {
 							"compare": "is",
-							"qualifier": "自由落下 (Free Fall)"
+							"qualifier": "無重力 (Free Fall)"
 						}
 					}
 				]
@@ -33325,7 +33325,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "集団演技 (Group Performance)"
+						"qualifier": "団体演技指導 (Group Performance)"
 					},
 					"specialization": {
 						"compare": "is",

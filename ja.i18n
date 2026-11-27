@@ -2467,7 +2467,7 @@ k:"Clamp"
 v:"クランプ"
 
 k:"Class"
-v:"呪文タイプ"
+v:"呪文クラス"
 
 k:"Clear"
 v:"クリア"
@@ -3683,16 +3683,16 @@ k:"External PDF Viewer"
 v:"外部PDFビューア"
 
 k:"Extra effort adds 5% to the distance per -1 taken on a Will roll, or a Will-based Jumping roll if that is better, for 1 FP per attempt (B357)."
-v:"全力を出すと、意志力判定 (またはそれが有利なら意志力ベースの「ジャンプ」判定) の-1ごとに距離が5%増え、試行ごとにFP1を消費する (B357)。"
+v:"全力を出すと、意志力判定 (またはそれが有利なら意志力ベースの「跳躍」判定) の-1ごとに距離が5%増え、試行ごとにFP1を消費する (B357)。"
 
 k:"Extra effort adds 5% to the ST the distance and damage are worked out from per -1 taken on a Will roll, or a Will-based Throwing roll if that is better, for 1 FP per attempt (B357)."
-v:"全力を出すと、意志力判定 (またはそれが有利なら意志力ベースの「投擲」判定) の-1ごとに、距離とダメージの算出に使うSTが5%増え、試行ごとにFP1を消費する (B357)。"
+v:"全力を出すと、意志力判定 (またはそれが有利なら意志力ベースの「投げ」判定) の-1ごとに、距離とダメージの算出に使うSTが5%増え、試行ごとにFP1を消費する (B357)。"
 
 k:"Extra effort adds 5%% to the distance per -1 taken on the Hiking roll, made as a single Will-based Hiking roll, and %d FP to the loss when the hiker stops (B357)."
-v:"全力を出すと、「ハイキング」判定 (意志力ベースの単一の「ハイキング」判定) の-1ごとに距離が5%%増え、ハイカーが止まるときにFP %d の損失が加わる (B357)。"
+v:"全力を出すと、「行軍」判定 (意志力ベースの単一の「行軍」判定) の-1ごとに距離が5%%増え、ハイカーが止まるときにFP %d の損失が加わる (B357)。"
 
 k:"Extra effort needs the Hiking roll, which it makes a single Will-based Hiking roll at -1 per 5% of distance beyond the +20% a success gives (B357)."
-v:"全力を出すには「ハイキング」判定が必要で、成功で得られる+20%を超えた距離の5%ごとに-1の、意志力ベースの単一の「ハイキング」判定を行う (B357)。"
+v:"全力を出すには「行軍」判定が必要で、成功で得られる+20%を超えた距離の5%ごとに-1の、意志力ベースの単一の「行軍」判定を行う (B357)。"
 
 k:"Extra-Black"
 v:"エクストラブラック"
@@ -4290,7 +4290,7 @@ k:"have a casting time"
 v:"準備時間がある"
 
 k:"have a class"
-v:"呪文タイプがある"
+v:"呪文クラスがある"
 
 k:"have a contained quantity"
 v:"含有数量がある"
@@ -4893,10 +4893,10 @@ k:"Jumping Extra Effort Penalty"
 v:"ジャンプの全力ペナルティ"
 
 k:"Jumping Skill"
-v:"「ジャンプ」技能"
+v:"「跳躍」技能"
 
 k:"Jumping skill level (0 for none)"
-v:"「ジャンプ」技能レベル (なしは0)"
+v:"「跳躍」技能レベル (なしは0)"
 
 k:"Jungle"
 v:"ジャングル"
@@ -5226,7 +5226,7 @@ k:"Made a successful Acrobatics roll for a controlled fall (-5 yards)"
 v:"「軽業」判定に成功し、制御された落下をした (-5ヤード)"
 
 k:"Made a successful Hiking roll"
-v:"「ハイキング」判定に成功した"
+v:"「行軍」判定に成功した"
 
 k:"Made a successful Skating roll"
 v:"「スケート」判定に成功した"
@@ -8581,13 +8581,13 @@ k:"The explosive went off inside him"
 v:"爆薬が体内で爆発した"
 
 k:"The extra effort makes the Hiking roll a single Will-based Hiking roll at %d for the +%d%% beyond the +20%% a successful roll gives, and adds %d FP to the loss when the hiker stops. A failure leaves the day at the +20%% alone: %s. A critical failure turns the whole loss, %s FP, into HP of injury at the end of the day, and on a natural 18 a HT roll is needed as well to avoid a temporary disadvantage (B357)."
-v:"全力により、「ハイキング」判定は、成功で得られる+20%%を超える+%d%%分について、意志力ベースの単一の「ハイキング」判定 (%d) になり、ハイカーが止まるときにFP %d の損失が加わる。失敗した場合、その日は+20%%のみとなる: %s。大失敗の場合は、損失全体 (FP %s) がその日の終わりにHPの負傷に変わり、自然な18の目ではさらにHT判定に成功しないと一時的な不利な特徴を負う (B357)。"
+v:"全力により、「行軍」判定は、成功で得られる+20%%を超える+%d%%分について、意志力ベースの単一の「行軍」判定 (%d) になり、ハイカーが止まるときにFP %d の損失が加わる。失敗した場合、その日は+20%%のみとなる: %s。大失敗の場合は、損失全体 (FP %s) がその日の終わりにHPの負傷に変わり、自然な18の目ではさらにHT判定に成功しないと一時的な不利な特徴を負う (B357)。"
 
 k:"The extra effort takes a Will roll, or a Will-based Jumping roll if that is better, at %d for the +%d%% shown, and costs 1 FP whether it succeeds or fails. A failure leaves the jump as it would be without it: %s high and %s broad. A critical failure costs 1 HP of injury to a foot or leg instead and the jump fails, and on a natural 18 a HT roll is needed as well to avoid a temporary Crippled Leg (B357)."
-v:"全力には意志力判定 (またはそれが有利なら意志力ベースの「ジャンプ」判定) (%d) が必要で、表示の+%d%%を得るために、成功しても失敗してもFP1を消費する。失敗した場合、ジャンプは全力なしの結果になる: 高さ %s、幅 %s。大失敗の場合は、代わりに足または脚にHP1の負傷を受け、ジャンプは失敗する。自然な18の目ではさらにHT判定に成功しないと、一時的な「脚の使用不能」を負う (B357)。"
+v:"全力には意志力判定 (またはそれが有利なら意志力ベースの「跳躍」判定) (%d) が必要で、表示の+%d%%を得るために、成功しても失敗してもFP1を消費する。失敗した場合、ジャンプは全力なしの結果になる: 高さ %s、幅 %s。大失敗の場合は、代わりに足または脚にHP1の負傷を受け、ジャンプは失敗する。自然な18の目ではさらにHT判定に成功しないと、一時的な「脚の使用不能」を負う (B357)。"
 
 k:"The extra effort takes a Will roll, or a Will-based Throwing roll if that is better, at %d for the +%d%% ST shown, and costs 1 FP whether it succeeds or fails. A failure leaves the throw as it would be without it: %s for %s. A critical failure costs 1 HP of injury instead and the throw fails, and on a natural 18 a HT roll is needed as well to avoid a temporary disadvantage (B357)."
-v:"全力には意志力判定 (またはそれが有利なら意志力ベースの「投擲」判定) (%d) が必要で、表示のST+%d%%を得るために、成功しても失敗してもFP1を消費する。失敗した場合、投擲は全力なしの結果になる: %s、%s。大失敗の場合は、代わりにHP1の負傷を受け、投擲は失敗する。自然な18の目ではさらにHT判定に成功しないと、一時的な不利な特徴を負う (B357)。"
+v:"全力には意志力判定 (またはそれが有利なら意志力ベースの「投げ」判定) (%d) が必要で、表示のST+%d%%を得るために、成功しても失敗してもFP1を消費する。失敗した場合、投擲は全力なしの結果になる: %s、%s。大失敗の場合は、代わりにHP1の負傷を受け、投擲は失敗する。自然な18の目ではさらにHT判定に成功しないと、一時的な不利な特徴を負う (B357)。"
 
 k:"The fall is limited to the terminal velocity of %s yards/second (BX431)."
 v:"落下は終端速度 %sヤード/秒に制限される (BX431)。"
@@ -9121,7 +9121,7 @@ k:"Throwing"
 v:"投擲"
 
 k:"Throwing Art:"
-v:"「投擲術」:"
+v:"「投器術」:"
 
 k:"Throwing Extra Effort Penalty"
 v:"投擲の全力ペナルティ"
